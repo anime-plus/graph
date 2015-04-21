@@ -1,0 +1,56 @@
+fieldset {
+	border: 1px solid silver;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+label.aligned {
+	float: left;
+	position: absolute;
+	vertical-align: middle;
+	text-align: right;
+	width: 6em;
+	line-height: 1.75em;
+}
+label.aligned:after {
+	display: inline;
+	content: ': ';
+	margin-right: 0.5em;
+}
+
+fieldset .control-group div {
+	position: relative;
+	left: 6em;
+}
+.control-group div {
+	margin-left: 0.5em;
+	margin-bottom: 1em;
+}
+.control-group button,
+.control-group textarea,
+.control-group input {
+	margin-bottom: 0;
+}
+.control-group small {
+	display: block;
+	margin-top: 0;
+}
+.control-group textarea {
+	width: 80%;
+	height: 8em;
+}
+
+.alert {
+	background: whitesmoke;
+	padding: 0.5em;
+}
+.alert.info {
+	background: #adf;
+}
+.alert.error {
+	background: #f42;
+	color: white;
+}
+
+.logout {
+	float: right;
+}

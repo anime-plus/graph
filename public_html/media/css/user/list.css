@@ -1,0 +1,65 @@
+table {
+	font-size: 90%;
+}
+
+td.no-score {
+	color: #aaa;
+}
+
+th,
+td {
+	padding: 2px 2px;
+	text-align: center;
+}
+th.title,
+td.title {
+	width: 100%;
+	padding: 2px 8px;
+	text-align: left;
+}
+
+td.status i {
+	margin-top: 1px;
+}
+
+#filter-form {
+	white-space: nowrap;
+}
+
+#filter-form label,
+#filter-form input,
+#filter-form select,
+#filter-form button {
+	vertical-align: middle;
+	margin: 0 0.33em;
+}
+
+#filter-form label {
+	display: inline;
+	padding: 0;
+	margin: 0 0.5em 0 0;
+	line-height: 2em;
+}
+#filter-form #filter-title {
+	width: 30%;
+}
+#filter-form #filter-status {
+	width: 20%;
+}
+#filter-form {
+	text-align: center;
+}
+form {
+	margin: 0 0 1em 0;
+}
+
+.filter-hint {
+	display: none;
+}
+
+.higher {
+	color: #007e00;
+}
+.lower {
+	color: #b60000;
+}

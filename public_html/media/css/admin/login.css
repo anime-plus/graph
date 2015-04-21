@@ -1,0 +1,39 @@
+label.aligned {
+	float: left;
+	position: absolute;
+	vertical-align: middle;
+	text-align: right;
+	width: 6em;
+	line-height: 1.75em;
+}
+label.aligned:after {
+	display: inline;
+	content: ': ';
+	margin-right: 0.5em;
+}
+
+.control-group>div {
+	position: relative;
+	left: 6em;
+	margin-left: 0.5em;
+	margin-bottom: 1em;
+}
+.control-group button,
+.control-group textarea,
+.control-group input {
+	margin-bottom: 0;
+}
+
+.alert {
+	background: whitesmoke;
+	display: inline-block;
+	padding: 0.5em;
+}
+.alert.info {
+	background: #adf;
+}
+.alert.error {
+	background: #f42;
+	color: white;
+}
+

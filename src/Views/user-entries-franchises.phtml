@@ -1,0 +1,39 @@
+<p>
+	<a class="close"><i class="icon-close"></i></a>
+	Franchises consiting of at least two titles:
+
+	<?php if (!empty($viewContext->franchises)): ?>
+		&nbsp;(<?php echo count($viewContext->franchises) ?>)
+	<?php endif ?>
+</p>
+
+<?php if ($viewContext->isPrivate): ?>
+	<p>Can&rsquo;t show you titles from a private list.</p>
+<?php elseif (empty($viewContext->franchises)): ?>
+	<p>None!</p>
+<?php else: ?>
+	<ol class="franchises">
+		<?php foreach ($viewContext->franchises as $franchise): ?>
+			<li>
+				<?php foreach ($franchise->ownEntries as $entry): ?>
+					<a target="_blank" href="<?php echo $entry->mal_link ?>">
+						<?php echo htmlspecialchars($entry->title) ?>
+					</a>
+					<span class="details">&nbsp;
+						(<?php echo TextHelper::getNumberedMediaUnitText($viewContext->media, $viewContext->media == Media::Anime
+							? ($entry->episodes ?: $entry->finished_episodes . '+')
+							: ($entry->chapters ?: $entry->finished_chapters . '+'), true) ?>,&nbsp;
+						<?php echo $entry->score ? 'rated with ' . $entry->score : 'unrated' ?>)
+					</span><br>
+				<?php endforeach ?>
+				<span class="details">(<?php echo count($franchise->ownEntries) ?> titles,&nbsp;
+					<?php if ($franchise->meanScore): ?>
+						mean score: <?php printf('%.02f', $franchise->meanScore) ?>
+					<?php else: ?>
+						none rated
+					<?php endif ?>
+				)</span>
+			</li>
+		<?php endforeach ?>
+	</ol>
+<?php endif ?>

@@ -1,0 +1,147 @@
+.main-wrapper {
+	max-width: 800px;
+}
+#logo .sep {
+	margin-right: 0;
+}
+
+#menu-wrapper {
+	float: left;
+	position: relative;
+	width: 180px;
+	font-size: 110%;
+}
+#main {
+	margin-left: 200px;
+	max-width: 600px;
+	overflow: hidden; /* allow children to clear floats */
+}
+
+#menu {
+	padding: 30px 0 16px 0;
+	position: relative;
+	background: top right repeat-y linear-gradient(to left, #f6f6f6 0, #fff 8px);
+	background-size: 8px 100%;
+	box-shadow: -1px 0 0 #ddd inset;
+}
+#menu:before {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 16px);
+	bottom: 0;
+}
+#menu:after {
+	background: linear-gradient(to top, rgba(255, 255, 255, 0) 0, #fff 16px);
+	top: 0;
+}
+#menu:before,
+#menu:after {
+	position: absolute;
+	content: '';
+	height: 16px;
+	right: 0;
+	width: 100%;
+}
+#menu hr {
+	position: relative;
+	margin-right: 1px;
+	background: linear-gradient(to bottom, #f6f6f6 0, rgba(255, 255, 255, 0) 8px);
+	height: 4px;
+	border: 0;
+}
+#menu hr:after {
+	position: absolute;
+	background: linear-gradient(to right, #fff 0, rgba(255, 255, 255, 0) 100%);
+	top: 0;
+	width: 100%;
+	height: 4px;
+	content: '';
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 2em;
+}
+#menu ul li {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	float: right;
+	min-width: 180px;
+}
+#menu ul li a {
+	display: block;
+	color: dimgray;
+	padding: 4px 12px 4px 8px;
+	text-align: right;
+	text-decoration: none;
+	margin: 1px 0;
+}
+#menu ul li.active a {
+	background: white;
+	border-left: 3px solid #1969CB;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-radius: 2px 0 0 2px;
+	color: black;
+}
+#menu ul li:not(.active) a:focus,
+#menu ul li:not(.active) a:hover {
+	border-right: 3px solid #ddd;
+	padding-right: 9px;
+	color: black;
+	text-decoration: none;
+}
+
+#menu ul li.active i,
+#menu ul li a:focus i,
+#menu ul li a:hover i {
+	opacity: 1;
+}
+#menu span {
+	margin-right: 12px;
+}
+#menu i {
+	background-color: #888;
+	opacity: .75;
+}
+#menu .anime i {
+	background-color: #5B94DA;
+}
+#menu .manga i {
+	background-color: #EBA478;
+}
+
+
+/* small screens */
+@media (max-width: 599px), (max-device-width: 599px) {
+	#menu-wrapper {
+		width: 40px;
+	}
+	#menu ul li {
+		float: none;
+		min-width: 0;
+	}
+	#main {
+		margin-left: 60px;
+	}
+	#menu span {
+		display: none;
+	}
+}
+
+/* big screens */
+@media (min-width: 599px) and (min-device-width: 599px) {
+	#logo {
+		width: 181px; /*184px -3px for border-right*/
+		text-align: right;
+	}
+	#logo a {
+		width: 163px;
+		height: 28px;
+		background-image: url('../img/logo-header-big.png');
+	}
+}

@@ -1,0 +1,150 @@
+<div class="section types">
+	<h2>
+		Favorite types
+	</h2>
+	<div class="section-body">
+		<?php if ($viewContext->favTypes->getLargestGroupSize() == 0): ?>
+			<p>There is no information about any media type for this user.</p>
+			<p>Add a few titles and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.<br>We'll be waiting for you.</p>
+		<?php else: ?>
+			<div class="target-wrapper">
+				<div class="target"></div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="entries-wrapper">
+			</div>
+
+			<script type="text/javascript">
+				var opt =
+				{
+					chart:
+					{
+						renderTo: $('.types .target')[0],
+						type: 'pie',
+						spacingTop: 0,
+						spacingBottom: 0,
+						pieChart: true
+					},
+
+					legend:
+					{
+						enabled: true,
+						layout: 'vertical',
+						align: 'right',
+						verticalAlign: 'middle',
+						labelFormatter: function()
+						{
+							var percentages = <?php echo json_encode($viewContext->typePercentages) ?>;
+							var text = this.name;
+							text += ' - ' + this.y.toString();
+							text += ' (' + percentages[this.type] + '%)';
+							return text;
+						},
+						x: -40,
+						symbolPadding: 8,
+						itemMarginTop: 4,
+						itemMarginBottom: 4,
+						borderWidth: 0
+					},
+
+					xAxis:
+					{
+						labels:
+						{
+							enabled: false
+						},
+						title:
+						{
+							text: 'Types',
+							margin: 15
+						},
+					},
+
+					yAxis:
+					{
+						title:
+						{
+							text: 'Mean score'
+						}
+					},
+
+					tooltip:
+					{
+						formatter: function()
+						{
+							var text;
+							if (this.key == '?')
+							{
+								text = 'Titles of unknown type: ';
+							} else
+							{
+								text = this.key + ': ';
+							}
+							if (this.y > 0)
+							{
+								text += this.y;
+							} else
+							{
+								text += 'none!';
+							}
+							return text;
+						}
+					},
+
+					series:
+					[
+						{
+							name: 'types',
+							data: <?php echo json_encode(array_values(array_map(function($type) use ($viewContext)
+							{
+								return
+								[
+									'name' => ucfirst(MediaType::toString($type, $viewContext->media)),
+									'y' => $viewContext->favTypes->getGroupSize($type),
+									'type' => $type
+								];
+							}, $viewContext->favTypes->getGroupsKeys(AbstractDistribution::IGNORE_NULL_KEY | AbstractDistribution::IGNORE_EMPTY_GROUPS)))) ?>,
+							point:
+							{
+								events:
+								{
+									click: function(e)
+									{
+										console.log(this);
+										toggleEntries($('.types .entries-wrapper'), {'sender': 'type', 'filter-param': this.type});
+									}
+								}
+							}
+						}
+					],
+
+					plotOptions:
+					{
+						pie:
+						{
+							point:
+							{
+								events:
+								{
+									legendItemClick: function()
+									{
+										return false;
+									}
+								}
+							},
+							dataLabels:
+							{
+								enabled: false
+							},
+							showInLegend: true,
+							size: '100%',
+						}
+					}
+				};
+
+				new Highcharts.Chart(opt);
+			</script>
+		<?php endif ?>
+	</div>
+</div>

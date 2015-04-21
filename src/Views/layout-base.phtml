@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=1280,maximum-scale=1" />
+<meta charset="UTF-8" />
+<?php
+if (isset($viewContext->meta->noIndex)) {
+?>
+<meta name="robots" content="noindex,nofollow" />
+<?php
+}
+?>
+<title><?php echo isset($viewContext->meta->title) ? $viewContext->meta->title : Config::$title . ' &#8212; An extension of your myanimelist.net profile'; ?></title>
+<meta property="og:url" content="<?php echo UrlHelper::currentUrl(); ?>" />
+<meta property="og:site_name" content="<?php echo Config::$title; ?>" />
+<meta property="og:title" content="<?php echo Config::$title; ?>" />
+<?php
+if (isset($viewContext->meta->description)) {
+?>
+<meta property="og:description" content="<?php echo $viewContext->meta->description; ?>" />
+<?php
+}
+?>
+<meta property="og:image" content="<?php echo UrlHelper::absoluteUrl('/media/img/logo-fb.png'); ?>" />
+<?php
+if (isset($viewContext->meta->description)) {
+?>
+<meta name="description" content="<?php echo $viewContext->meta->description ?>" />
+<?php
+}
+?>
+<link type="image/png" rel="shortcut icon" href="<?php echo UrlHelper::absoluteUrl('/image/16.png'); ?>" />
+<?php
+if (isset($viewContext->meta->styles)) {
+    foreach ($viewContext->meta->styles as $style) {
+?>
+<link type="text/css" rel="stylesheet" href="<?php echo UrlHelper::absoluteUrl($style, ['date' => date('Ymd')]); ?>" />
+<?php 
+    }
+}
+
+if (isset($viewContext->meta->scripts)) {
+    foreach ($viewContext->meta->scripts as $script) {
+?>
+<script src="<?php echo UrlHelper::absoluteUrl($script, ['date' => date('Ymd')]); ?>"></script>
+<?php
+    }
+}
+?>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/all.js#xfbml=1";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
+<div id="notice-wrapper">
+<div id="no-script" class="notice">JavaScript is disabled. Consider enabling it to get positive user experience.</div>
+<script>$('#no-script').hide();</script>
+<?php
+if (Config::$noticeMessage) {
+?>
+<div id="notice-message" class="notice"><?php echo Config::$noticeMessage; ?></div>
+<?php
+}
+?>
+</div>
+<?php
+if (!$viewContext->headerDisabled) {
+?>
+<div id="header">
+<div class="main-wrapper">
+<form action="<?php echo IndexControllerSearchModule::url(); ?>" method="post" class="waitable search">
+<div id="logo">
+<a href="<?php echo IndexControllerIndexModule::url(); ?>"><span><?php echo Config::$title; ?></span></a>
+<div class="sep"></div>
+</div>
+<?php
+    if (isset($viewContext->module)) {
+?>
+<input type="hidden" name="module" value="<?php echo $viewContext->module ?>"/>
+<?php
+}
+
+if (isset($viewContext->media)) {
+?>
+<input type="hidden" name="media" value="<?php echo $viewContext->media ?>" />
+<?php
+}
+?>
+<div class="control-group input-append">
+<input type="search" name="user-name" placeholder="Your MAL username">
+<button type="submit" name="submit" value="search" class="btn" data-tooltip="Search"><i class="icon-search"></i></button>
+</div>
+<div id="top-nav">
+<div class="fb-like" data-href="https://www.facebook.com/anime.sc" data-width="47" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+<a href="<?php echo IndexControllerGlobalsModule::url(); ?>" class="waitable">Global statistics</a>
+<div class="sep"></div>
+<a href="<?php echo IndexControllerAboutModule::url(); ?>" class="waitable">About</a>
+</div>
+<div class="clear"></div>
+</form>
+</div>
+</div>
+<?php
+}
+?>
+<div class="main-wrapper">
+<?php
+if (isset($viewContext->userMenu)) {
+?>
+<div id="menu-wrapper">
+<div id="menu">
+<?php
+self::renderFile('user-menu', $viewContext);
+?>
+</div>
+</div>
+<?php
+}
+?>
+<div id="main">
+<?php
+self::renderView();
+?>
+</div>
+<div class="clear"></div>
+</div>
+<div id="glider">
+<div>
+<div class="target"></div>
+<p>loading...</p>
+</div>
+</div>
+<span id="preloader"></span>
+<?php
+if (Config::$googleAnalyticsEnabled) {
+?>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-10479642-15','auto');ga('send','pageview');</script>
+<?php
+}
+?>
+</body>
+</html>

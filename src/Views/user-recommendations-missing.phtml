@@ -1,0 +1,65 @@
+<div class="section missing">
+	<h2>
+		Missing titles
+	</h2>
+	<p class="undelete-msg">There are <strong>0</strong> hidden recommendations. <a href="#" class="undelete-trigger">Show them</a></p>
+	<div class="section-body">
+		<?php if ($viewContext->private): ?>
+			<p>Same as above&hellip;</p>
+		<?php elseif (empty($viewContext->franchises)): ?>
+			<p>Yay! No missing relations!</p>
+		<?php else: ?>
+			<table>
+				<thead>
+					<tr>
+						<th class="subject">You've <?php echo $viewContext->media == Media::Anime ? 'watched' : 'read' ?> this&hellip;</th>
+						<th class="proposed">&hellip;so you might want to check this:</th>
+					</tr>
+				</thead>
+				<?php foreach ($viewContext->franchises as $franchise): ?>
+					<tbody>
+						<tr>
+							<td class="subject">
+								<ul>
+									<?php foreach ($franchise->ownEntries as $entry): ?>
+										<li>
+											<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>">
+												<?php if ($entry->status == UserListStatus::Planned): ?>
+													<i data-tooltip="Planned" class="left icon-status-planned"></i>
+												<?php elseif ($entry->publishing_status == MediaStatus::NotYetPublished): ?>
+													<i data-tooltip="Not yet <?php echo $viewContext->media == Media::Anime ? 'aired' : 'published' ?>" class="left icon-not-yet-aired"></i>
+												<?php else: ?>
+													<i class="left icon-empty"></i>
+												<?php endif ?>
+												<?php echo htmlspecialchars($entry->title) ?>
+											</a>
+										</li>
+									<?php endforeach ?>
+								</ul>
+							</td>
+							<td class="proposed">
+								<ul>
+									<?php foreach ($franchise->allEntries as $entry): ?>
+										<li data-id="<?php printf('%s%d', Media::toString($entry->media), $entry->mal_id) ?>">
+											<a href="#" class="delete-trigger">
+												<i data-tooltip="Hide this recommendation" class="right icon-small-close"></i>
+											</a>
+											<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>">
+												<?php if ($entry->publishing_status == MediaStatus::NotYetPublished): ?>
+													<i data-tooltip="Not yet <?php echo $viewContext->media == Media::Anime ? 'aired' : 'published' ?>" class="left icon-not-yet-aired"></i>
+												<?php else: ?>
+													<i class="left icon-empty"></i>
+												<?php endif ?>
+												<?php echo htmlspecialchars($entry->title) ?>
+											</a>
+										</li>
+									<?php endforeach ?>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+				<?php endforeach ?>
+			</table>
+		<?php endif ?>
+	</div>
+</div>

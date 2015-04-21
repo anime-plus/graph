@@ -1,0 +1,21 @@
+{
+    "media": "A",
+    "order": 17,
+    "wiki-title": "High mean score",
+    "wiki-desc": "Related to mean anime score. Instead of calling people retarded, we give them an award for treating 8/10 as a *meh* rating.",
+    "achievements":
+    [
+        {
+            "threshold": "8.5-10",
+            "id": "score-anime-ilovethem",
+            "level": "10/10! EVERYTHING!",
+            "title": "I love Chinese cartoons",
+            "desc": "Mean anime score higher than 8.5. How about using the whole scale and re-rating stuff? That could make you look less like a fanboy...",
+            "tooltip": "Mean score: {subject}"
+        }
+    ],
+    "requirement":
+    {
+        "type": "mean-score"
+    }
+}

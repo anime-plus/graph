@@ -1,0 +1,22 @@
+<form action="<?php echo AdminControllerLoginModule::url() ?>" method="post">
+	<input type="text" name="user" value="admin" style="display: none">
+
+	<div class="control-group">
+		<label class="aligned" for="password">Password</label>
+		<div>
+			<div>
+				<input type="password" name="password">
+			</div>
+
+			<?php if (!empty($viewContext->entered)): ?>
+				<p class="alert error">Wrong password.</p>
+			<?php endif ?>
+		</div>
+	</div>
+
+	<div class="control-group">
+		<div>
+			<button class="btn" type="submit">Log in</button>
+		</div>
+	</div>
+</form>

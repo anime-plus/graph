@@ -1,0 +1,256 @@
+<div class="section">
+	<h2>Global statistics</h2>
+	<div class="section-body">
+
+		<div class="mini-section">
+			<div class="left">
+				<p class="big-number">
+					<span class="desc">Anime entries:</span>
+					<span class="value"><?php echo $viewContext->mediaCount[Media::Anime] ?></span>
+				</p>
+			</div>
+
+			<div class="right">
+				<p class="big-number">
+					<span class="desc">Manga entries:</span>
+					<span class="value"><?php echo $viewContext->mediaCount[Media::Manga] ?></span>
+				</p>
+			</div>
+		</div>
+
+		<div class="mini-section">
+			<div class="left">
+				<p class="big-number">
+					<span class="desc">Users:</span>
+					<span class="value"><?php echo $viewContext->userCount ?></span>
+				</p>
+			</div>
+
+			<div class="right">
+				<p class="big-number">
+					<span class="desc">Queued users:</span>
+					<span class="value"><?php echo $viewContext->queuedUserCount ?></span>
+				</p>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<?php foreach (Media::getconstList() as $media): ?>
+			<div class="section <?php echo Media::toString($media) ?>-rating-dist">
+				<h2><?php echo ucfirst(Media::toString($media)) ?> rating distribution</h2>
+				<?php $ratingDistribution = $viewContext->ratingDistribution[$media] ?>
+				<div class="section-body">
+					<ul class="infobox">
+						<li>
+							<div>
+								<div data-tooltip="Average count of rated titles per user">
+									<span class="prefix">Rated per user</span>
+									<span class="subject"><?php printf('%d', floor($ratingDistribution->getRatedCount() / max(1, $viewContext->userCount))) ?></span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<span class="prefix">Total unrated</span>
+								<span class="subject"><?php printf('%.02f', $ratingDistribution->getUnratedCount() * 100.0 / max(1, $ratingDistribution->getRatedCount() + $ratingDistribution->getUnratedCount())) ?>%</span>
+							</div>
+						</li>
+						<li>
+							<div>
+								<span class="prefix">Mean rating</span>
+								<span class="subject"><?php printf('%.02f', $ratingDistribution->getMeanScore()) ?></span>
+							</div>
+						</li>
+					</ul>
+
+					<div class="target-wrapper">
+						<div class="target"></div>
+						<div class="clear"></div>
+					</div>
+
+					<script type="text/javascript">
+						var opt =
+						{
+							chart:
+							{
+								renderTo: $('.<?php echo Media::toString($media) ?>-rating-dist .target')[0],
+								type: 'bar',
+								marginRight: 35
+							},
+
+							xAxis:
+							{
+								categories: <?php echo json_encode(array_values($ratingDistribution->getGroupsKeys(AbstractDistribution::IGNORE_NULL_KEY))) ?>,
+								title:
+								{
+									text: 'Rating'
+								}
+							},
+
+							yAxis:
+							{
+								title:
+								{
+									text: 'Count',
+									margin: 15
+								}
+							},
+
+							tooltip:
+							{
+								formatter: function()
+								{
+									var text;
+									if (this.x == '-')
+									{
+										text = 'Unrated titles: ';
+									}
+									else
+									{
+										text = 'Titles rated with ' + this.x + ': ' + this.y;
+									}
+									var percent = this.y * 100.0 / <?php echo max(1, $ratingDistribution->getRatedCount()) ?>;
+									text += ' (' + (Math.round(percent * 100.0) / 100.0) + '%)';
+									return text;
+								}
+							},
+
+							series:
+							[
+								{
+									data: <?php echo json_encode(array_values($ratingDistribution->getGroupsSizes(AbstractDistribution::IGNORE_NULL_KEY))) ?>
+								}
+							]
+						};
+
+						new Highcharts.Chart(opt);
+					</script>
+				</div>
+			</div>
+		<?php endforeach ?>
+
+		<div class="section queue-sizes">
+			<h2>Queue size through time</h2>
+			<div class="section-body">
+				<div class="target-wrapper">
+					<div class="target"></div>
+					<div class="clear"></div>
+				</div>
+
+				<script type="text/javascript">
+					var queueSizes = <?php echo json_encode($viewContext->queueSizes) ?>;
+
+					var opt =
+					{
+						chart:
+						{
+							renderTo: $('.queue-sizes .target')[0],
+							type: 'line',
+							marginTop: 10
+						},
+
+						xAxis:
+						{
+							title:
+							{
+								text: 'Hours ago',
+								margin: 15
+							},
+							tickInterval: 4 * (60 / 5),
+							labels:
+							{
+								formatter: function()
+								{
+									return Math.round((Object.keys(queueSizes).length - this.value) * 5 / 60);
+								}
+							}
+						},
+
+						yAxis:
+						[
+							{
+								min: 0,
+								title:
+								{
+									text: 'User queue size'
+								}
+							},
+							{
+								min: 0,
+								title:
+								{
+									text: 'Media queue size',
+									style:
+									{
+										color: Highcharts.theme.colors[1]
+									}
+								},
+								labels:
+								{
+									style:
+									{
+										color: Highcharts.theme.colors[1]
+									}
+								},
+								gridLineWidth: 0,
+								minorGridLineWidth: 0,
+								opposite: true
+							}
+						],
+
+						tooltip:
+						{
+							shared: true,
+							formatter: function()
+							{
+								console.log(this);
+								var d = this.points[0].point.key;
+								var text = d.getFullYear() + '-' +
+									lpad(d.getMonth() + 1, 2) + '-' +
+									lpad(d.getDate(), 2) + ' ' +
+									lpad(d.getHours(), 2) + ':' +
+									lpad(d.getMinutes(), 2) + ':' +
+									lpad(d.getSeconds(), 2);
+								return 'Queue size at ' + text + ': users - ' + this.points[0].y + ', media - ' + this.points[1].y;
+							}
+						},
+
+						series:
+						[
+							{
+								lineWidth: 1.25,
+								yAxis: 0,
+								name: 'User queue size',
+								data: $.map(queueSizes, function(a, b)
+								{
+									return {y: a[0], key: new Date(Date.parse(b))};
+								}),
+								marker:
+								{
+									enabled: false
+								}
+							},
+
+							{
+								lineWidth: 1.5,
+								yAxis: 1,
+								name: 'Media queue size',
+								data: $.map(queueSizes, function(a, b)
+								{
+									return {y: a[1], key: new Date(Date.parse(b))};
+								}),
+								marker:
+								{
+									enabled: false
+								}
+							}
+						]
+					};
+
+					new Highcharts.Chart(opt);
+				</script>
+			</div>
+		</div>
+	</div>
+</div>

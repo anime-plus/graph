@@ -1,0 +1,63 @@
+img.achi {
+	float: right;
+	padding: 0 0 0 0.5em;
+	position: relative;
+	z-index: 3;
+}
+img.achi.entries-trigger {
+	cursor: pointer;
+}
+img.achi.entries-trigger:hover {
+	opacity: 0.85;
+}
+
+p.level {
+	float: right;
+	margin: 0.3em 0 0 0;
+	font-size: 8pt;
+	color: gray;
+}
+p.desc {
+	margin: 0;
+	padding: 0.5em 0;
+}
+
+.progress-wrapper {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+	opacity: 0.5;
+}
+	.progress-wrapper:hover {
+		opacity: 1;
+	}
+	.progress {
+		background: #ddd;
+	}
+	.progress .bar {
+		background: #2D7DE0;
+		height: 3px;
+	}
+
+h3 {
+	text-align: left;
+	margin-bottom: 0;
+}
+.achi-entry h3,
+.achi-entry h3:after,
+.achi-entry h3:before {
+	box-shadow: none;
+	border: 0;
+	background: 0;
+}
+.achi-entry {
+	margin-bottom: 3em;
+}
+.achi-entry.hidden {
+	display: none;
+}
+
+.previous-msg {
+	text-align: center;
+	padding-bottom: 0.5em;
+}

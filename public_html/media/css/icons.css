@@ -1,0 +1,29 @@
+[class^='icon-'],
+[class*=' icon-'] {
+	display: inline-block;
+	vertical-align: text-top;
+	line-height: 16px;
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-image: url('../img/icons.png');
+}
+
+.icon-empty             { background: none; }
+.icon-status-finished   { background-position: 0 0; }
+.icon-status-dropped    { background-position: -17px 0; }
+.icon-status-completing { background-position: -34px 0; }
+.icon-status-onhold     { background-position: -51px 0; }
+.icon-status-planned    { background-position: -68px 0; }
+.icon-search            { background-position: -85px 0; }
+.icon-not-yet-aired     { background-position: 0 -17px; }
+.icon-small-close       { background-position: -17px -17px; }
+.icon-menu-profile      { background-position: -102px 0; width: 20px; height: 20px; }
+.icon-menu-list         { background-position: -123px 0; width: 20px; height: 20px; }
+.icon-menu-ratings      { background-position: -144px 0; width: 20px; height: 20px; }
+.icon-menu-history      { background-position: -165px 0; width: 20px; height: 20px; }
+.icon-menu-favorites    { background-position: -102px -21px; width: 20px; height: 20px; }
+.icon-menu-recommended  { background-position: -123px -21px; width: 20px; height: 20px; }
+.icon-menu-achievements { background-position: -144px -21px; width: 20px; height: 20px; }
+.icon-close { background-position: -186px 0; width: 24px; height: 24px; margin: 0; }

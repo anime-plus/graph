@@ -1,0 +1,43 @@
+<nav>
+	<ul>
+		<?php if ($viewContext->module == 'UserControllerProfileModule'): ?>
+			<li class="active">
+		<?php else: ?>
+			<li>
+		<?php endif ?>
+			<a class="waitable" href="<?php echo UserControllerProfileModule::url($viewContext->user->name) ?>">
+				<span><?php echo UserControllerProfileModule::getText($viewContext, null) ?></span>
+				<i title="<?php echo UserControllerProfileModule::getText($viewContext, null) ?>" class="icon-menu-profile"></i>
+			</a>
+		</li>
+	</ul>
+	<div class="clear"></div>
+</nav>
+
+<?php foreach (Media::getConstList() as $media): ?>
+	<hr>
+	<nav class="<?php echo Media::toString($media) ?>">
+		<ul>
+			<?php foreach (UserController::getAvailableModules() as $module): ?>
+				<?php if (in_array($media, $module::getMediaAvailability())): ?>
+					<?php if ($viewContext->module == $module and $viewContext->media == $media): ?>
+						<li class="active">
+					<?php else: ?>
+						<li>
+					<?php endif ?>
+						<a class="waitable" href="<?php echo $module::url($viewContext->user->name, $media) ?>">
+							<span><?php echo $module::getText($viewContext, $media) ?></span>
+							<i title="<?php echo $module::getText($viewContext, $media) ?>" class="icon-menu-<?php $x = explode(' ', strtolower($module::getText($viewContext, $media))); echo end($x) ?>"></i>
+						</a>
+					</li>
+				<?php endif ?>
+			<?php endforeach ?>
+		</ul>
+	</nav>
+	<div class="clear"></div>
+<?php endforeach ?>
+
+<input type="hidden" id="user-id" value="<?php echo $viewContext->user->id ?>">
+<input type="hidden" id="user-name" value="<?php echo $viewContext->user->name ?>">
+<input type="hidden" id="media" value="<?php echo Media::toString($viewContext->media) ?>">
+<input type="hidden" id="processed" value="<?php echo date('c', strtotime($viewContext->user->processed)) ?>">

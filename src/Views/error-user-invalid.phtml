@@ -1,0 +1,23 @@
+<h1>Invalid user name</h1>
+
+<p>Your search was invalid for breaking one of following rules:</p>
+
+<ul>
+<li>user name must be 2 to 16 characters long,</li>
+<li>user name can only contain letters, numbers, dashes and underscores.</li>
+</ul>
+
+<p>Examples of valid search queries:</p>
+
+<ul>
+	<li><a href="<?php echo UserControllerProfileModule::url('fri') ?>">fri</a></li>
+	<li><a href="<?php echo UserControllerProfileModule::url('rr-') ?>">rr-</a></li>
+</ul>
+
+<p>Examples of invalid search queries:</p>
+
+<ul>
+	<li>nick containing spaces</li>
+	<li>NickThatIsWayTooLong</li>
+	<li>BadChars( ´ω`)</li>
+</ul>

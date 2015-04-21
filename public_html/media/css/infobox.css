@@ -1,0 +1,8 @@
+.target-wrapper { width: 79%; }
+ul.infobox { float: right; width: 20%; max-width: 20%; overflow: hidden; list-style-type: none; text-align: center; display: table; padding: 0; margin: 0; }
+ul.infobox li { margin-bottom: 1em; display: table-row; }
+ul.infobox li>div { display: table-cell; vertical-align: middle; }
+ul.infobox li span.prefix { display: block; margin: 0; }
+ul.infobox li span.prefix:after { content: ':'; }
+ul.infobox li span.subject { display: inline-block; margin: 0.1em auto; font-size: 1.75em; }
+ul.infobox li span.suffix { display: block; padding: 0; }

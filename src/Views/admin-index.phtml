@@ -1,0 +1,130 @@
+<?php if (!empty($viewContext->message)): ?>
+	<p class="alert <?php echo $viewContext->messageType ?>"><?php echo $viewContext->message ?></p>
+<?php endif ?>
+
+<div class="right">
+<a class="btn logout" href="<?php echo AdminControllerLogoutModule::url() ?>">Get me outta here</a>
+</div>
+<h1><a href="<?php echo AdminControllerIndexModule::url() ?>">Admin panel!</a></h1>
+
+<p>Just don’t do stupid things. Useful links:</p>
+<ul>
+	<li><a target="_blank" href="http://myanimelist.net/forum/?topicid=140439">Recent anime DB removals and merges</a></li>
+	<li><a target="_blank" href="http://myanimelist.net/forum/?topicid=60908">Recent manga DB removals and merges</a></li>
+</ul>
+
+<form class="aligned" action="<?php echo AdminControllerProcessorModule::url() ?>" method="post">
+	<fieldset>
+		<legend>Media refreshment center</legend>
+		<input type="hidden" name="sender" value="media"/>
+
+		<div class="control-group">
+			<label class="aligned">Media ID</label>
+			<div>
+				<input type="text" name="model-ids"/>
+				<small>(commas and ranges are OK, example: <code>A1-A5,M7,M8</code>)</small>
+			</div>
+		</div>
+
+		<div class="control-group">
+			<div>
+				<label>You can also paste some plain text garbage below:</label><br>
+				<textarea rows="5" name="ids"></textarea>
+				<button class="btn" id="btn-guess-links">Guess links</button>
+				<button class="btn" id="btn-guess-anime">Guess anime</button>
+				<button class="btn" id="btn-guess-manga">Guess manga</button>
+			</div>
+		</div>
+
+		<div class="control-group">
+			<div>
+				<button class="btn btn-success" type="submit" name="action" value="refresh">Refresh</button>
+				<button class="btn btn-success" type="submit" name="action" value="reset-franchise">Reset franchise</button>
+				<button class="btn btn-success" type="submit" name="action" value="remove">Remove from DB</button>
+			</div>
+		</div>
+	</fieldset>
+</form>
+
+<form class="aligned" action="<?php echo AdminControllerProcessorModule::url() ?>" name="user-manip" method="post">
+	<fieldset>
+		<legend>User manipulation center</legend>
+		<input type="hidden" name="sender" value="user"/>
+
+		<div class="control-group">
+			<label class="aligned">Name</label>
+			<div>
+				<input type="text" name="model-ids"/>
+			</div>
+		</div>
+
+		<div class="control-group">
+			<div>
+				<button class="btn btn-success" type="submit" name="action" value="refresh">Refresh</button>
+				<button class="btn btn-success" type="submit" name="action" value="wipe-cache">Wipe cache</button>
+				<br/>
+				<button class="btn btn-success" type="submit" name="action" value="unban">Unban</button>
+				<button class="btn btn-success" type="submit" name="action" value="soft-ban">Ban for updating</button>
+				<button class="btn btn-success" type="submit" name="action" value="hard-ban">Ban completely</button>
+			</div>
+		</div>
+	</fieldset>
+</form>
+
+<form class="aligned" action="<?php echo AdminControllerMiscModule::url() ?>" method="post">
+	<div class="control-group">
+		<div>
+			<button class="btn btn-success" type="submit" name="action" value="wipe-cache">Wipe cache</button>
+		</div>
+	</div>
+</form>
+
+<script type="text/javascript">
+	var timeout = null;
+	$('.btn-danger').click(function(e)
+	{
+		if (!confirm('Are you sure?'))
+		{
+			e.preventDefault();
+		}
+	});
+
+	$('#btn-guess-links').click(function(e)
+	{
+		e.preventDefault();
+		var text = $('textarea[name=\'ids\']').val();
+		var regex = /\/(anime|manga)[.\/].*?(\d+)/g;
+		var ids = [];
+		while ((match = regex.exec(text)) != null)
+		{
+			var model = match[1];
+			var id = match[2];
+			var symb = model == 'anime' ? 'A' : 'M';
+			symb += id;
+			if (ids.lastIndexOf(symb) == -1)
+			{
+				ids.push(symb);
+			}
+		}
+		$(this).parents('fieldset').find('input[name=\'model-ids\']').val(ids.join(','));
+	});
+
+	$('#btn-guess-anime, #btn-guess-manga').click(function(e)
+	{
+		e.preventDefault();
+		var text = $('textarea[name=\'ids\']').val();
+		var regex = /(\d+)/g;
+		var ids = [];
+		while ((match = regex.exec(text)) != null)
+		{
+			var id = match[1];
+			var symb = $(this).attr('id') == 'btn-guess-anime' ? 'A' : 'M';
+			symb += id;
+			if (ids.lastIndexOf(symb) == -1)
+			{
+				ids.push(symb);
+			}
+		}
+		$(this).parents('fieldset').find('input[name=\'model-ids\']').val(ids.join(','));
+	});
+</script>

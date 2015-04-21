@@ -1,0 +1,147 @@
+<div class="section decades">
+	<h2>
+		Favorite years
+	</h2>
+	<div class="section-body">
+		<?php if ($viewContext->favYears->getLargestGroupSize() == 0): ?>
+			<p>There is no information about any completion dates for this user.</p>
+			<p>Add a few titles and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.<br>We'll be waiting for you.</p>
+		<?php else: ?>
+			<p class="toggle-decades-msg"><a href="#">Toggle decades/years visibility</a></p>
+
+			<div class="target-wrapper">
+				<div class="target"></div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="entries-wrapper">
+			</div>
+
+			<script type="text/javascript">
+				var opt =
+				{
+					chart:
+					{
+						renderTo: $('.decades .target')[0],
+						type: 'line',
+						marginTop: 8
+					},
+
+					xAxis:
+					{
+						categories: <?php echo json_encode(array_reverse($viewContext->favYears->getGroupsKeys(AbstractDistribution::IGNORE_NULL_KEY))) ?>,
+						labels:
+						{
+							enabled: false
+						},
+						title:
+						{
+							text: 'Years and decades',
+							margin: 15
+						},
+						<?php $json = [];
+							$i = 0;
+							foreach ($viewContext->favDecades->getGroupsKeys(AbstractDistribution::IGNORE_NULL_KEY) as $decade)
+							{
+								$band = [
+									'from' => $decade - 0.5,
+									'to' => $decade + 9.5,
+									'label' => ['text' => $decade . 's'],
+									'zIndex' => 3,
+								];
+								if ($i ++ % 2 == 0)
+								{
+									$band['color'] = 'rgba(200, 230, 255, 0.2)';
+								}
+								$json []= $band;
+							} ?>
+						plotBands: <?php echo json_encode($json) ?>
+					},
+
+					yAxis:
+					{
+						title:
+						{
+							text: 'Mean score'
+						}
+					},
+
+					tooltip:
+					{
+						formatter: function()
+						{
+							var text = 'Mean score of titles from ';
+							if (this.series.name == 'decades')
+							{
+								text += Math.floor(this.x / 10) * 10;
+								text += 's';
+							}
+							else
+							{
+								text += this.x;
+							}
+							text += ': ';
+							if (this.y == 0)
+							{
+								text += 'unrated!';
+							}
+							else
+							{
+								text += Math.round(this.y * 100) / 100.0;
+							}
+							return text;
+						}
+					},
+
+					series:
+					[
+						{
+							name: 'years',
+							data: <?php echo json_encode(array_reverse(array_map(function($year) use ($viewContext)
+							{
+								return [$year, $viewContext->yearScores[$year]];
+							}, $viewContext->favYears->getGroupsKeys(AbstractDistribution::IGNORE_NULL_KEY)))) ?>,
+							point:
+							{
+								events:
+								{
+									click: function(e)
+									{
+										toggleEntries($('.decades .entries-wrapper'), {'sender': 'year', 'filter-param': this.category});
+									}
+								}
+							}
+						},
+						{
+							name: 'decades',
+							data: <?php echo json_encode(array_reverse(array_map(function($decade) use ($viewContext)
+							{
+								return [$decade + 4.5, $viewContext->decadeScores[$decade]];
+							}, $viewContext->favDecades->getGroupsKeys(AbstractDistribution::IGNORE_NULL_KEY | AbstractDistribution::IGNORE_EMPTY_GROUPS)))) ?>,
+							point:
+							{
+								events:
+								{
+									click: function(e)
+									{
+										toggleEntries($('.decades .entries-wrapper'), {'sender': 'decade', 'filter-param': Math.floor(this.category / 10) * 10});
+									}
+								}
+							}
+						}
+					],
+
+					plotOptions:
+					{
+						column:
+						{
+							pointWidth: 17
+						}
+					}
+				};
+
+				var decadesChart = new Highcharts.Chart(opt);
+			</script>
+		<?php endif ?>
+	</div>
+</div>
