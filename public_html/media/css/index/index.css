@@ -1,0 +1,152 @@
+.main-wrapper {
+	max-width: 700px;
+}
+
+#start {
+	background: #f6f6f6;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 0 5px #aaa inset;
+	text-align: center;
+	padding: 1.5em;
+}
+
+#start:before {
+	background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5em;
+	content: '';
+	display: block;
+	height: 100%;
+	z-index: 2;
+}
+#start:after {
+	background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 5em;
+	content: '';
+	display: block;
+	height: 100%;
+	z-index: 2;
+}
+
+#start span,
+#start label {
+	line-height: 30px;
+	vertical-align: middle;
+	margin: 0 1em;
+}
+#start span {
+	font-size: 90%;
+	white-space: pre;
+}
+
+footer {
+	text-align: center;
+	color: silver;
+	margin-top: 1em;
+	font-size: 95%;
+}
+footer a {
+	color: silver;
+}
+footer a:hover,
+footer a:focus {
+	color: gray;
+	text-decoration: none;
+}
+
+#showcase {
+	height: 20em;
+	margin-bottom: 4em;
+	position: relative;
+	overflow: hidden;
+}
+
+#showcase nav {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	width: 205px;
+}
+#showcase nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#showcase nav li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+#showcase nav li:not(:last-of-type) {
+	margin-bottom: 2em;
+}
+#showcase nav li a {
+	text-decoration: none;
+	display: inline-block;
+	color: #aaa;
+}
+#showcase nav li.active a span,
+#showcase nav li:hover a span {
+	color: #1969CB;
+}
+#showcase nav li.active i[class*='icon'],
+#showcase nav li:hover i[class*='icon'] {
+	background-color: #1969CB;
+}
+
+#showcase .tab-wrapper {
+	margin-left: 205px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#showcase .tab {
+	display: none;
+	text-align: center;
+}
+#showcase .tab img {
+	max-width: 80%;
+}
+#showcase .tab img.screenshot {
+	margin: 0 auto;
+	max-height: 15em;
+}
+
+#showcase .tab:first-child {
+	display: block;
+}
+#showcase .tab p {
+	font-size: 110%;
+	width: 85%;
+	margin: 1em auto 0 auto;
+}
+
+#showcase i[class^='icon-'] {
+	line-height: 32px;
+	width: 32px;
+	height: 32px;
+	background-color: #aaa;
+	float: left;
+	margin-top: 4px;
+	margin-right: 8px;
+}
+#showcase nav span {
+	text-decoration: none;
+	line-height: 20px;
+	width: 165px;
+	float: left;
+	display: inline-block;
+}
+.icon-mg           { background-position: 0px -42px; }
+.icon-suggestions  { background-position: -33px -42px; }
+.icon-achievements { background-position: -66px -42px; }
+.icon-globals      { background-position: -99px -42px; }

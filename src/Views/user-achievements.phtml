@@ -1,0 +1,76 @@
+<div class="section achi">
+	<h2>
+		Achievements
+	</h2>
+	<?php if ($viewContext->hiddenCount > 0): ?>
+		<p class="previous-msg">There are <strong><?php echo $viewContext->hiddenCount ?></strong> achievements from previous levels. <a href="#">Show them</a></p>
+	<?php endif ?>
+	<div class="section-body">
+		<?php if (empty($viewContext->achievements)): ?>
+			<p>No achievements yet! Better get to <?php echo $viewContext->media == Media::Manga ? 'reading' : 'watching' ?>.</p>
+		<?php else: ?>
+			<?php foreach ($viewContext->achievements as $ach): ?>
+				<div class="achi-entry<?php if ($ach->hidden) echo ' hidden' ?>">
+					<?php if (!empty($ach->path)): ?>
+						<img class="achi<?php if (!empty($ach->entries)): ?> entries-trigger<?php endif ?>" alt="<?php echo $ach->title ?>" src="<?php echo UrlHelper::absoluteUrl('/media/img/ach/' . $ach->path) ?>">
+					<?php endif ?>
+					<?php if (!empty($ach->level)): ?>
+						<p class="level"><?php echo $ach->level ?></p>
+					<?php endif ?>
+					<h3>
+						<?php echo $ach->title ?>
+					</h3>
+					<?php if (isset($ach->progress)): ?>
+						<?php if (isset($ach->tooltip)): ?>
+							<div class="progress-wrapper" data-tooltip="<?php echo TextHelper::replaceTokens($ach->tooltip, (array) $ach) ?>">
+						<?php elseif ($ach->hidden and $ach->level): ?>
+							<div class="progress-wrapper" data-tooltip="Previous level">
+						<?php elseif (!empty($ach->next->thresholdLeft)): ?>
+							<div class="progress-wrapper" data-tooltip="Got <?php echo $ach->subject ?>, next level at <?php echo $ach->next->thresholdLeft ?>">
+						<?php else: ?>
+							<div class="progress-wrapper" data-tooltip="Maximum level!">
+						<?php endif ?>
+							<div class="progress">
+								<div class="bar" style="width: <?php echo $ach->progress ?>%"></div>
+							</div>
+						</div>
+					<?php endif ?>
+
+					<?php if (!empty($ach->desc)): ?>
+						<p class="desc"><?php echo $ach->desc ?></p>
+					<?php endif ?>
+
+					<div class="clear"></div>
+
+					<?php if (!empty($ach->entries)): ?>
+						<div class="entries-wrapper singular">
+							<p>
+								<a class="close"><i class="icon-close"></i></a>
+								<?php if ($viewContext->private): ?>
+									Can&rsquo;t show you titles from a private list.</p>
+								<?php else: ?>
+									Awarded for
+									&nbsp;<?php echo $viewContext->media == Media::Manga ? 'reading' : 'watching' ?> these:
+									&nbsp;(<?php echo count($ach->entries) ?>)
+								<?php endif ?>
+							</p>
+							<?php if (!$viewContext->private): ?>
+								<ul>
+									<?php foreach ($ach->entries as $e): ?>
+										<li>
+											<a target="_blank" href="<?php echo $e->mal_link ?>">
+												<?php echo htmlspecialchars($e->title) ?>
+											</a>
+										</li>
+									<?php endforeach ?>
+								</ul>
+							<?php endif ?>
+						</div>
+					<?php endif ?>
+
+					<div class="clear"></div>
+				</div>
+			<?php endforeach ?>
+		<?php endif ?>
+	</div>
+</div>

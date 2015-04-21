@@ -1,0 +1,20 @@
+{
+    "media": "M",
+    "order": 18,
+    "wiki-title": "Low mean score",
+    "achievements":
+    [
+        {
+            "threshold": "3-5",
+            "id": "score-manga-critic",
+            "level": "Not worth my time",
+            "title": "Professional Critic",
+            "desc": "Mean manga score below 5. Watch out, we got a critic over here.",
+            "tooltip": "Mean score: {subject}"
+        }
+    ],
+    "requirement":
+    {
+        "type": "mean-score"
+    }
+}

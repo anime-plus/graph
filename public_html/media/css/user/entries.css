@@ -1,0 +1,23 @@
+.entries-wrapper {
+	display: none;
+	font-size: 90%;
+}
+.entries-wrapper ul {
+	margin: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 2em;
+}
+.entries-wrapper .close {
+	float: right;
+	cursor: pointer;
+	padding: 0.5em 0 0.5em 0.5em;
+}
+.entries-wrapper span.details {
+	color: silver;
+	margin-left: 0.5em;
+	font-size: 92.5%;
+}
+.entries-wrapper p {
+	margin: 0.5em 0 0.5em 0.5em;
+}

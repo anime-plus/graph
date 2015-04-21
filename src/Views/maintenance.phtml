@@ -1,0 +1,6 @@
+<div style="text-align: center">
+	<img src="<?php echo UrlHelper::absoluteUrl('/media/img/logo-huge.png') ?>" alt="<?php echo Config::$title; ?>">
+	<?php foreach ((array) Config::$maintenanceMessage as $message): ?>
+		<p><?php echo $message ?></p>
+	<?php endforeach ?>
+</div>

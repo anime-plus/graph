@@ -1,0 +1,34 @@
+<p>
+	<a class="close"><i class="icon-close"></i></a>
+	<?php echo ucfirst(Media::toString($viewContext->media)) ?> from &bdquo;
+		<a target="_blank" href="http://myanimelist.net/<?php echo Media::toString($viewContext->media) ?>.php?genre%5b%5d=<?php echo $viewContext->filterParam ?>">
+			<?php echo $viewContext->genreName ?>
+		</a>
+	&rdquo; genre:
+
+	<?php if (!empty($viewContext->entries)): ?>
+		&nbsp;(<?php echo count($viewContext->entries) ?>
+		<?php if (!$viewContext->meanScore): ?>
+			, none rated
+		<?php else: ?>
+			, mean score: <?php echo sprintf('%.02f', $viewContext->meanScore) ?>
+		<?php endif ?>)
+	<?php endif ?>
+</p>
+
+<?php if ($viewContext->isPrivate): ?>
+	<p>Can&rsquo;t show you titles from a private list.</p>
+<?php elseif (empty($viewContext->entries)): ?>
+	<p>None!</p>
+<?php else: ?>
+	<ul>
+		<?php foreach ($viewContext->entries as $entry): ?>
+			<li>
+				<a target="_blank" href="<?php echo $entry->mal_link ?>">
+					<?php echo htmlspecialchars($entry->title) ?>
+				</a>
+				<span class="details">&nbsp;(<?php echo $entry->score ? 'rated with ' . $entry->score : 'unrated' ?>)</span>
+			</li>
+		<?php endforeach ?>
+	</ul>
+<?php endif ?>

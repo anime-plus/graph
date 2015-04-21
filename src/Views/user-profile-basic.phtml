@@ -1,0 +1,89 @@
+<div class="section basic">
+	<div id="profile-details"
+		data-date="<?php echo date('c', strtotime($viewContext->user->processed)) ?>"
+		data-ban-state="<?php echo BanHelper::getUserBanState($viewContext->user->name) ?>"
+		data-queue-min-wait="<?php echo Config::$userQueueMinWait ?>"
+		data-queue-add-url="<?php echo UserControllerQueueAddModule::url($viewContext->user->name) ?>"
+		data-queue-pos-url="<?php echo UserControllerQueuePositionModule::url($viewContext->user->name) ?>">
+	</div>
+
+	<h2>
+		<!-- use AJAXes because page gets cached and we want fresh info -->
+		<span class="updated" data-tooltip="Time of last data update">
+			<!--<?php echo date('M d, H:i', strtotime($viewContext->user->processed)) ?> UTC-->
+		</span>
+
+		<a target="_blank" href="http://myanimelist.net/profile/<?php echo $viewContext->user->name ?>">
+			<?php echo $viewContext->user->name ?>
+		</a>&rsquo;s profile
+
+		<span class="queue-pos" data-tooltip="Position in queue">
+		</span>
+		<span class="clear"></span><!-- fix for small pages -->
+	</h2>
+
+	<div class="section-body">
+		<div class="right user-pic">
+			<a target="_blank" href="http://myanimelist.net/profile/<?php echo $viewContext->user->name ?>">
+			<?php if (empty($viewContext->user->picture_url)): ?>
+				<img class="profile unavailable" alt="No profile picture" src="<?php echo UrlHelper::absoluteUrl('/media/img/pixel.gif') ?>">
+			<?php else: ?>
+				<img class="profile" alt="<?php echo $viewContext->user->name ?>&rsquo;s profile picture" src="<?php echo UrlHelper::absoluteUrl('/media/img/pixel.gif') ?>" style="background-image: url('<?php echo $viewContext->user->picture_url ?>')">
+			<?php endif ?>
+			</a>
+		</div>
+
+		<div class="left">
+			<div class="mini-section list-views">
+				<p class="big-number">
+					<span class="desc">List views:</span>
+					<span class="value"><?php echo $viewContext->user->anime_views + $viewContext->user->manga_views ?></span>
+				</p>
+
+				<div class="bar">
+					<div class="filled" style="width: <?php echo $viewContext->user->anime_views * 100.0 / max(1, $viewContext->user->anime_views + $viewContext->user->manga_views) ?>%"></div>
+				</div>
+
+				<p class="small-number">
+					<span class="anime">
+						<?php echo $viewContext->user->anime_views ?> anime
+					</span>,&nbsp;
+					<span class="manga">
+						<?php echo $viewContext->user->manga_views ?> manga
+					</span>
+				</p>
+			</div>
+
+			<div class="mini-section">
+				<div class="years">
+					<p class="big-number">
+						<span class="desc">Years on MAL:</span>
+						<span class="value">
+							<?php if ($viewContext->yearsOnMal): ?>
+								<?php echo TextHelper::floorDecimal($viewContext->yearsOnMal, 1) ?>
+							<?php else: ?>
+								unknown
+							<?php endif ?>
+						</span>
+					</p>
+				</div>
+
+				<div class="mal-links">
+					<a target="_blank" href="http://myanimelist.net/profile/<?php echo $viewContext->user->name ?>">
+						Visit MAL profile
+					</a>
+					<br>
+					<a target="_blank" href="http://myanimelist.net/animelist/<?php echo $viewContext->user->name ?><?php if (Config::$sendReferrer) echo '&amp;sclick=1'; ?>">
+						Anime list on MAL
+					</a>
+					<br>
+					<a target="_blank" href="http://myanimelist.net/mangalist/<?php echo $viewContext->user->name ?><?php if (Config::$sendReferrer) echo '&amp;sclick=1'; ?>">
+						Manga list on MAL
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+</div>

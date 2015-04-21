@@ -1,0 +1,3 @@
+[submodule "lib/redbean"]
+    path = lib/redbean
+    url = https://github.com/gabordemooij/redbean/

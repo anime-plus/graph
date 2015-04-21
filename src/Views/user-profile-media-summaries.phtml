@@ -1,0 +1,72 @@
+<?php foreach (Media::getConstList() as $media): ?>
+<div class="section <?php echo Media::toString($media) ?>-summary">
+	<h2>
+		<?php echo ucfirst(Media::toString($media)) ?> summary
+	</h2>
+	<div class="section-body">
+		<div class="left mini-section">
+			<p class="big-number">
+				<span class="desc">Completed:</span>
+				<span class="value"><?php echo $viewContext->finished[$media] ?></span>
+			</p>
+
+			<div class="bar">
+				<div class="filled" style="width: <?php echo $viewContext->finished[$media] * 100.0 / max(1, Model_Media::getCount($media)) ?>%"></div>
+			</div>
+
+			<?php printf('%.02f', $viewContext->finished[$media] * 100.0 / max(1, Model_Media::getCount($media))) ?>% of all <?php echo Media::toString($media) ?>
+		</div>
+
+		<div class="right mini-section">
+			<p class="big-number">
+				<span class="desc">Mean score:</span>
+				<span class="value"><?php printf('%.02f', $viewContext->meanUserScore[$media]) ?></span>
+			</p>
+
+			<div class="bar">
+				<div class="filled" style="width: <?php echo $viewContext->meanUserScore[$media] * 100.0 / 10.0 ?>%"></div>
+				<div class="tick" style="left: <?php echo $viewContext->meanGlobalScore[$media] * 100.0 / 10.0 ?>%"></div>
+			</div>
+
+			<?php printf('%.02f', abs($viewContext->meanUserScore[$media] - $viewContext->meanGlobalScore[$media])) ?>&nbsp;
+			<?php echo $viewContext->meanUserScore[$media] > $viewContext->meanGlobalScore[$media] ? 'higher' : 'lower' ?>&nbsp;
+			than global mean
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="left mini-section">
+			<p class="big-number">
+				<span class="desc">Franchises:</span>
+				<span class="value"><?php echo $viewContext->franchiseCount[$media] ?></span>
+			</p>
+			<a href="javascript:toggleEntries($('.<?php echo Media::toString($media) ?>-summary .entries-wrapper'), {'sender': 'franchises', 'media': '<?php echo $media ?>'})">
+				Click to show full list
+			</a>
+		</div>
+
+		<div class="right mini-section">
+			<p class="big-number">
+				<span class="desc"><?php echo ucfirst(TextHelper::getMediaUnitText($media, true)) ?>:</span>
+				<span class="value">
+					<?php if ($media == Media::Anime): ?>
+						<?php echo $viewContext->episodes ?>
+					<?php elseif ($media == Media::Manga): ?>
+						<?php echo $viewContext->chapters ?>
+					<?php endif ?>
+				</span>
+			</p>
+			<?php if ($viewContext->mismatchedCount[$media]): ?>
+				<a href="javascript:toggleEntries($('.<?php echo Media::toString($media) ?>-summary .entries-wrapper'), {'sender': 'mismatches', 'media': '<?php echo $media ?>'})">
+					<?php printf('Found %d %s', $viewContext->mismatchedCount[$media], $viewContext->mismatchedCount[$media] > 1 ? 'mismatches' : 'mismatch') ?>
+				</a>
+			<?php endif ?>
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="entries-wrapper">
+		</div>
+	</div>
+</div>
+<?php endforeach ?>

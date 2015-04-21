@@ -1,0 +1,59 @@
+<div class="section genres">
+	<h2>
+		Favorite genres
+	</h2>
+	<div class="section-body">
+		<?php if ($viewContext->favGenres->getLargestGroupSize() == 0): ?>
+			<p>Looks like there are no known genres for this user.</p>
+			<p>Add a few titles and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.<br>We'll be waiting for you.</p>
+		<?php else: ?>
+			<div class="scrollable">
+				<table class="tablesorter">
+					<thead>
+						<tr>
+							<th class="ord">#</th>
+							<th class="title">Name</th>
+							<th class="count" data-tooltip="Count of titles from given genre.">C</th>
+							<th class="mean" data-tooltip="Mean score of given genre.">M</th>
+							<th class="value" data-tooltip="Weighted score of given genre.">W</th>
+							<th class="time">Time</th>
+						</tr>
+					</thead>
+					<tbody>
+						<?php $i = 1 ?>
+						<?php foreach ($viewContext->favGenres->getGroupsKeys() as $genre): ?>
+							<?php $entries = $viewContext->favGenres->getGroupEntries($genre) ?>
+							<tr>
+								<td class="ord"><?php echo $i ++ ?></td>
+								<td class="title">
+									<a class="entries-trigger" data-sender="genre" data-id="<?php echo $genre->mal_id ?>" href="#">
+										<?php echo htmlspecialchars(ucfirst($genre->name)) ?>
+									</a>
+								</td>
+								<td class="count"><?php printf('%d', count($entries)) ?></td>
+								<td class="mean">
+									<?php if ($viewContext->genreScores[$genre->mal_id] == 0): ?>
+										-
+									<?php else: ?>
+										<?php printf('%.02f', $viewContext->genreScores[$genre->mal_id]) ?>
+									<?php endif ?>
+								</td>
+								<td class="value"><?php printf('%.02f', $viewContext->genreValues[$genre->mal_id]) ?></td>
+								<td class="time"><?php printf('%.02f', $viewContext->genreTimeSpent[$genre->mal_id] / 60.0) ?>h</td>
+							</tr>
+						<?php endforeach ?>
+						<tr class="entries-wrapper-row">
+							<td colspan="6">
+								<div class="entries-wrapper">
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<div class="clear"></div>
+			</div>
+
+		<?php endif ?>
+	</div>
+</div>

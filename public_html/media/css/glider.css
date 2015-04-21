@@ -1,0 +1,35 @@
+#glider {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: none;
+	z-index: 99;
+}
+#glider>div {
+	top: 200px;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 0 0 0.5em 1em white;
+	background-color: white;
+	width: 96px;
+}
+#glider .target {
+	background-image: url('../img/glider.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 96px;
+	height: 96px;
+}
+#glider p {
+	margin-bottom: 0;
+	display: block;
+}
+#glider:after {
+	content: ''; /* fix for rendering resized box on IE */
+}
+#preloader {
+	background: url('../img/glider.png');
+}

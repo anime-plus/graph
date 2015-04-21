@@ -1,0 +1,98 @@
+<div class="section list">
+	<h2>
+		<?php echo ucfirst(Media::toString($viewContext->media)) ?> list
+		<span class="filter-hint">&nbsp;(<span class="filter-hint-shown"></span> of <span class="filter-hint-total"></span>)</span>
+	</h2>
+	<div class="section-body">
+		<?php if (count($viewContext->list) == 0): ?>
+			<p>Sadly, <?php echo $viewContext->user->name ?>&rsquo;s <?php echo Media::toString($viewContext->media) ?> list is empty.<br>
+			If this is your list, add (and rate) something and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.</p>
+		<?php elseif ($viewContext->private): ?>
+			<p>Sadly, <?php echo Media::toString($viewContext->media) ?> list of this user is private.</p>
+			<p>If this is your list, you can <a target="_blank" href="http://myanimelist.net/editprofile.php?go=listpreferences">click here</a> and change your privacy settings to make it visible.</p>
+		<?php else: ?>
+
+			<form id="filter-form">
+				<label for="filter-title">Filter:</label>
+				<input type="text" name="filter-title" id="filter-title" placeholder="Title&hellip;"/>
+				<select name="filter-status" id="filter-status">
+					<option value="">All</option>
+					<option value="<?php echo UserListStatus::Completing ?>"><?php echo $viewContext->media == Media::Anime ? 'Watching' : 'Reading' ?></option>
+					<option value="<?php echo UserListStatus::Finished ?>">Completed</option>
+					<option value="<?php echo UserListStatus::OnHold ?>">On-hold</option>
+					<option value="<?php echo UserListStatus::Dropped ?>">Dropped</option>
+					<option value="<?php echo UserListStatus::Planned ?>">Plan to <?php echo $viewContext->media == Media::Anime ? 'watch' : 'read' ?></option>
+				</select>
+				<button class="btn" type="reset" name="filter-clear" id="filter-clear">Reset</button>
+				<div class="clear"></div>
+			</form>
+
+			<table class="tablesorter">
+				<thead>
+					<tr>
+						<th class="status" data-tooltip="Status">S</th>
+						<th class="title">Title</th>
+						<th class="score" data-tooltip="Rating">R</th>
+						<th class="diff" data-tooltip="Difference = user&rsquo;s score - average score on MAL">Diff</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<?php $k = 1 ?>
+					<?php foreach ($viewContext->list as $mixedUserMedia): ?>
+						<tr>
+							<td class="status status-<?php echo $mixedUserMedia->status ?>"></td>
+
+							<td class="title" data-sorter="<?php echo htmlspecialchars($mixedUserMedia->title) ?>">
+								<a target="_blank" href="<?php echo $mixedUserMedia->mal_link ?>">
+									<?php echo htmlspecialchars($mixedUserMedia->title) ?>
+								</a>
+							</td>
+
+							<td class="score" data-sorter="<?php echo $mixedUserMedia->score ?>">
+								<?php echo $mixedUserMedia->score ?: '-' ?>
+							</td>
+
+							<?php $diff = sprintf('%.02f', $mixedUserMedia->score - $mixedUserMedia->average_score) ?>
+							<?php if (!$mixedUserMedia->score): ?>
+								<?php $diff = '-' ?>
+							<?php endif ?>
+							<?php if ($diff{0} != '-' and $diff != '0.00'): ?>
+								<?php $diff = '+' . $diff ?>
+							<?php endif ?>
+							<td class="diff" data-sorter="<?php echo $diff == '-' ? '-10' : $diff ?>">
+								<?php if ($diff{0} == '-'): ?>
+									<span class="lower"><?php echo $diff ?></span>
+								<?php elseif ($diff{0} == '+'): ?>
+									<span class="higher"><?php echo $diff ?></span>
+								<?php else: ?>
+									<span class="equal"><?php echo $diff ?></span>
+								<?php endif ?>
+							</td>
+						</tr>
+					<?php endforeach ?>
+				</tbody>
+			</table>
+		<?php endif ?>
+
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+	/* add some attributes to cells - we do it here to save output html size */
+	<?php $icons = [
+		UserListStatus::Planned => [4, 'status-planned'],
+		UserListStatus::Dropped => [5, 'status-dropped'],
+		UserListStatus::Completing => [1, 'status-completing'],
+		UserListStatus::OnHold => [3, 'status-onhold'],
+		UserListStatus::Finished => [2, 'status-finished']];
+	?>
+	<?php foreach ($icons as $status => $info): ?>
+		$('.status-<?php echo $status ?>').attr({
+			'data-tooltip': '<?php echo ucfirst(UserListStatus::toString($status)) ?>',
+			'data-sorter': <?php echo $info[0] ?>}
+		).append($('<i class="icon-<?php echo $info[1] ?>"/>'));
+	<?php endforeach ?>
+</script>

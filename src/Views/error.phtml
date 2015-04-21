@@ -1,0 +1,22 @@
+<h1>Unhandled exception</h1>
+<p>Basically, this means trouble. You shouldn't see this.</p>
+
+<hr>
+<p><?php echo $viewContext->exception->getMessage() ?> at <?php echo $viewContext->exception->getFile() ?>:<?php echo $viewContext->exception->getLine() ?></p>
+<?php $backtrace = $viewContext->exception->getTrace() ?>
+<ul>
+	<?php foreach ($backtrace as $k => $b): ?>
+		<li><?php
+			printf
+			(
+				'#%d %s%s(%s) called at [%s:%d]',
+				$k,
+				empty($b['type']) ? '' : $b['class'] . $b['type'],
+				$b['function'],
+				'...', //join(', ', array_map(function($x) { return @json_encode($x); }, empty($b['args']) ? array() : $b['args'])),
+				empty($b['file']) ? '[anonymous function]' : $b['file'],
+				isset($b['line']) ? $b['line'] : null
+			);
+		?></li>
+	<?php endforeach ?>
+</ul>

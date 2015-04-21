@@ -1,0 +1,170 @@
+<div class="section rating-length-dist">
+	<h2>
+		Ratings vs. <?php echo TextHelper::getMediaUnitText($viewContext->media) ?> count
+	</h2>
+	<div class="section-body">
+		<?php if ($viewContext->lengthDistribution->getLargestGroupSize() == 0): ?>
+			<p>There is no information about any titles for this user.</p>
+			<p>Add a few titles and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.<br>We'll be waiting for you.</p>
+		<?php else: ?>
+			<ul class="infobox">
+				<li>
+					<div>
+						<?php $scores = array_map(function($entries) { return RatingDistribution::fromEntries($entries)->getMeanScore(); }, $viewContext->lengthDistribution->getGroupsEntries()) ?>
+						<?php $key = array_search(max($scores), $scores) ?>
+						<span class="prefix">Highest mean</span>
+						<span class="subject"><?php printf('%.2f', $scores[$key]) ?></span>
+					</div>
+				</li>
+
+				<li>
+					<div>
+						<?php $key = $viewContext->lengthDistribution->getLargestGroupKey() ?>
+						<?php list($num, $txt) = explode(' ', TextHelper::getNumberedMediaUnitText($viewContext->media, $key)) ?>
+						<span class="prefix">Most common</span>
+						<span class="subject"><?php echo $num ?></span>
+						<span class="suffix"><?php echo $txt ?></span>
+					</div>
+				</li>
+			</ul>
+
+			<div class="target-wrapper">
+				<div class="target"></div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="entries-wrapper">
+			</div>
+
+			<script type="text/javascript">
+				var opt =
+				{
+					chart:
+					{
+						renderTo: $('.rating-length-dist .target')[0],
+						type: 'line',
+						marginTop: 15
+					},
+
+					xAxis:
+					{
+						categories: <?php echo json_encode(array_values($viewContext->lengthDistribution->getGroupsKeys())) ?>,
+						labels:
+						{
+							rotation: -45,
+							align: 'right'
+						},
+						title:
+						{
+							text: '<?php echo ucfirst(TextHelper::getMediaUnitText($viewContext->media, false)) ?> count',
+							margin: 15
+						}
+					},
+
+					yAxis:
+					[
+						{
+							opposite: true,
+							title:
+							{
+								text: 'Mean score',
+								margin: 10,
+								style:
+								{
+									color: Highcharts.theme.colors[1]
+								}
+							},
+							labels:
+							{
+								style:
+								{
+									color: Highcharts.theme.colors[1]
+								}
+							}
+						},
+						{
+							title:
+							{
+								text: 'Title count',
+								margin: 10,
+							},
+							gridLineWidth: 0,
+							minorGridLineWidth: 0
+						}
+					],
+
+					tooltip:
+					{
+						shared: true,
+						formatter: function()
+						{
+							var text;
+							if (this.x == '?')
+							{
+								text = 'Mean score for titles of unknown length: ';
+							}
+							else
+							{
+								text = 'Mean score for titles ' + this.x;
+								<?php if ($viewContext->media == Media::Anime): ?>
+									text += ' ep. long';
+									if (this.x == '1')
+									{
+										text += ' (w/o movies)';
+									}
+								<?php else: ?>
+									text += ' ch. long';
+								<?php endif ?>
+								text += ': ';
+							}
+							if (this.points[1].y > 0)
+							{
+								text += this.points[1].y.toFixed(2);
+							}
+							else
+							{
+								text += 'unrated!';
+							}
+							text += ' (total: ' + this.points[0].y + ')';
+							return text;
+						}
+					},
+
+					series:
+					[
+						{
+							type: 'column',
+							data: <?php echo json_encode(array_values($viewContext->lengthDistribution->getGroupsSizes())) ?>,
+							yAxis: 1,
+							point:
+							{
+								events:
+								{
+									click: function(e)
+									{
+										toggleEntries($('.rating-length-dist .entries-wrapper'), {'sender': 'length', 'filter-param': this.category});
+									}
+								}
+							}
+						},
+						{
+							data: <?php echo json_encode(array_values($scores)) ?>,
+							point:
+							{
+								events:
+								{
+									click: function(e)
+									{
+										toggleEntries($('.rating-length-dist .entries-wrapper'), {'sender': 'length', 'filter-param': this.category});
+									}
+								}
+							}
+						}
+					]
+				};
+
+				new Highcharts.Chart(opt);
+			</script>
+		<?php endif ?>
+	</div>
+</div>

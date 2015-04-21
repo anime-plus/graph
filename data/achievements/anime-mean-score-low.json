@@ -1,0 +1,20 @@
+{
+    "media": "A",
+    "order": 18,
+    "wiki-title": "Low mean score",
+    "achievements":
+    [
+        {
+            "threshold": "3-5",
+            "id": "score-anime-suffering",
+            "level": "My eyes! It hurts!",
+            "title": "Watching anime is suffering",
+            "desc": "Mean anime score lower than 5. Someone has to counterweigh the fanboys, right?",
+            "tooltip": "Mean score: {subject}"
+        }
+    ],
+    "requirement":
+    {
+        "type": "mean-score"
+    }
+}

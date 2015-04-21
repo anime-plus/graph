@@ -1,0 +1,43 @@
+.left {
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+.right {
+	width: 50%;
+	text-align: center;
+	float: right;
+}
+
+.mini-section {
+	margin-bottom: 2.5em;
+}
+p.big-number span.desc {
+	font-size: 110%;
+	vertical-align: middle;
+}
+p.big-number span.value {
+	font-size: 150%;
+	padding-left: 1em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.bar {
+	background: #eee;
+	height: 3px;
+	width: 12em;
+	margin: 0.5em auto;
+	position: relative;
+}
+.bar .filled {
+	background: #5B94DA;
+	height: 3px;
+}
+.bar .tick {
+	position: absolute;
+	width: 1px;
+	height: 9px;
+	top: -3px;
+	background: black;
+}

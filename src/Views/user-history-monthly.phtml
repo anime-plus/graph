@@ -1,0 +1,103 @@
+<div class="section history-monthly">
+	<h2>
+		Completion by month
+	</h2>
+	<div class="section-body">
+		<?php if (empty($viewContext->monthlyHistoryGroups)): ?>
+			<p>No <?php echo Media::toString($viewContext->media) ?> you've completed has its completion date specified.<br>
+			This graph won&rsquo;t work without this data.</p>
+		<?php else: ?>
+			<?php $shortMonthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] ?>
+			<?php $longMonthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'] ?>
+			<table>
+				<thead>
+					<tr>
+						<th></th>
+						<?php foreach ($shortMonthNames as $monthName): ?>
+							<th>
+								<?php echo $monthName ?>
+							</th>
+						<?php endforeach ?>
+					</tr>
+				</thead>
+				<tbody>
+					<?php foreach ($viewContext->monthlyHistoryGroups as $year => $yearGroup): ?>
+						<tr>
+							<th>
+								<?php echo $year ?>
+							</th>
+							<?php foreach (range(1, 12) as $month): ?>
+								<?php $class = ($year == date('Y') and $month == date('m')) ? 'box-cell now' : 'box-cell' ?>
+								<?php $entries = isset($yearGroup[$month]) ? $yearGroup[$month] : [] ?>
+								<?php if (count($entries)): ?>
+									<td class="<?php echo $class ?> entries-trigger" data-key="<?php printf('month-%04d-%02d', $year, $month) ?>" data-tooltip="<?php printf('%s completed in %s %s: %d', ucfirst(Media::toString($viewContext->media)), $longMonthNames[$month - 1], $year, count($entries)) ?>">
+								<?php else: ?>
+									<td class="<?php echo $class ?>">
+								<?php endif ?>
+									<div class="box-wrapper">
+										<div class="box" style="opacity: <?php printf('%.02f', count($entries) / max(1, $viewContext->monthlyHistoryMax)) ?>">
+										</div>
+									</div>
+								</td>
+							<?php endforeach ?>
+						</tr>
+					<?php endforeach ?>
+				</tbody>
+			</table>
+
+			<?php if (!empty($viewContext->monthlyHistoryUnknownEntries)): ?>
+				<p class="unknown">Also, there are <a class="entries-trigger" href="#" data-key="month-unknown"><?php printf('%d %s', count($viewContext->monthlyHistoryUnknownEntries), count($viewContext->monthlyHistoryUnknownEntries) > 1 ? 'titles' : 'title') ?></a> with unknown completion date specified.</p>
+			<?php endif ?>
+			<div class="clear"></div>
+
+			<div class="entries-wrapper">
+				<?php foreach ($viewContext->monthlyHistoryGroups as $year => $yearGroup): ?>
+					<?php foreach ($yearGroup as $month => $entries): ?>
+						<div class="entries-sub-wrapper" id="<?php printf('month-%04d-%02d', $year, $month) ?>">
+							<p>
+								<a class="close"><i class="icon-close"></i></a>
+								<?php printf('%s completed in %s %s: (%d)', ucfirst(Media::toString($viewContext->media)), $longMonthNames[$month - 1], $year, count($entries)) ?>
+							</p>
+							<?php if ($viewContext->isPrivate): ?>
+								<p>Can&rsquo;t show you titles from a private list.</p>
+							<?php elseif (empty($entries)): ?>
+								<p>None!</p>
+							<?php else: ?>
+								<ul>
+									<?php foreach ($entries as $entry): ?>
+										<li>
+											<a target="_blank" href="<?php echo $entry->mal_link ?>">
+												<?php echo htmlspecialchars($entry->title) ?>
+											</a>
+											<span class="details">&nbsp;(<?php echo $entry->score ? 'rated with ' . $entry->score : 'unrated' ?>)</span>
+										</li>
+									<?php endforeach ?>
+								</ul>
+							<?php endif ?>
+						</div>
+					<?php endforeach ?>
+				<?php endforeach ?>
+				<?php if (!empty($viewContext->monthlyHistoryUnknownEntries)): ?>
+					<?php $entries = $viewContext->monthlyHistoryUnknownEntries ?>
+					<div class="entries-sub-wrapper" id="month-unknown">
+						<p>
+							<a class="close"><i class="icon-close"></i></a>
+							<?php printf('%s with unknown completion date: (%d)', ucfirst(Media::toString($viewContext->media)), count($entries)) ?>
+						</p>
+						<ul>
+							<?php foreach ($entries as $entry): ?>
+								<li>
+									<a target="_blank" href="<?php echo $entry->mal_link ?>">
+										<?php echo htmlspecialchars($entry->title) ?>
+									</a>
+									<span class="details">&nbsp;(<?php echo $entry->score ? 'rated with ' . $entry->score : 'unrated' ?>)</span>
+								</li>
+							<?php endforeach ?>
+						</ul>
+					</div>
+				<?php endif ?>
+			</div>
+
+		<?php endif ?>
+	</div>
+</div>

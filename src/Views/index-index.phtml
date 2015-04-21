@@ -1,0 +1,44 @@
+<div id="showcase">
+<nav>
+<ul>
+<li><a href="javascript:void(0);"><i class="icon-mg"></i><span>View numerous stats for <strong>anime and manga</strong></span></a></li>
+<li><a href="javascript:void(0);"><i class="icon-suggestions"></i><span>Get personalized <strong>recommendations</strong></span></a></li>
+<li><a href="javascript:void(0);"><i class="icon-achievements"></i><span>Earn <strong>achievements</strong> based on your list</span></a></li>
+<li><a href="javascript:void(0);"><i class="icon-globals"></i><span>Compare your data with <strong>global stats</strong></span></a></li>
+</ul>
+</nav>
+<div class="tab-wrapper">
+<div class="tab">
+<img src="<?php echo UrlHelper::absoluteUrl('/media/img/logo-huge.png'); ?>" alt="<?php echo Config::$title; ?>" class="screenshot" />
+<p><strong><?php echo Config::$title; ?></strong> is an extension of your myanimelist.net profile, showing you various stats about your anime and manga.</p>
+</div>
+<div class="tab">
+<img src="<?php echo UrlHelper::absoluteUrl('/media/img/showcase-2.png'); ?>" alt="Recommendations" class="screenshot" />
+<p>Get recommendations based on your ratings and check related titles you might have missed.</p>
+</div>
+<div class="tab">
+<img src="<?php echo UrlHelper::absoluteUrl('/media/img/showcase-3.png'); ?>" alt="Achievements" class="screenshot" />
+<p>Doing something big, like watching 100 mecha anime, will earn you a badge. All your friends will envy you!</p>
+</div>
+<div class="tab">
+<img src="<?php echo UrlHelper::absoluteUrl('/media/img/showcase-4.png'); ?>" alt="Global statistics" class="screenshot" />
+<p>See how your mean score compares to other users', check how many more manga is there for you to read.</p>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div id="start">
+<form action="<?php echo IndexControllerSearchModule::url(); ?>" method="post" class="waitable search">
+<div class="control-group">
+<label for="mp-search">Start here:</label>
+<input type="search" name="user-name" id="mp-search" placeholder="Your MAL username" />
+<span>or <a href="<?php echo UserControllerProfileModule::url('Deividas'); ?>">load an example profile</a>.</span>
+</div>
+</form>
+</div>
+<footer>
+<ul class="horizontal">
+<li><a href="<?php echo IndexControllerGlobalsModule::url(); ?>" class="waitable">Global statistics</a></li>
+<li><a href="<?php echo IndexControllerAboutModule::url(); ?>" class="waitable">About</a></li>
+</ul>
+</footer>

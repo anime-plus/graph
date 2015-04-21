@@ -1,0 +1,124 @@
+.updated,
+.queue-pos {
+	position: absolute;
+	font-size: 65%;
+	padding-top: 0.25em;
+}
+.updated {
+	left: 0;
+}
+.queue-pos {
+	right: 0;
+}
+.updated span,
+.queue-pos span {
+	opacity: .25;
+	padding: 3px 6px;
+	display: inline-block;
+	margin-top: 2px;
+}
+.updated a,
+.queue-pos a {
+	opacity: .8;
+	padding: 3px 6px;
+	margin-top: 2px;
+	display: inline-block;
+	border-radius: 4px;
+	-webkit-animation: update-button-animation 2s infinite;
+	-ms-animation: update-button-animation 2s infinite;
+	-o-animation: update-button-animation 2s infinite;
+	animation: update-button-animation 2s infinite;
+}
+
+@-webkit-keyframes update-button-animation
+{
+	0% { background: none; }
+	20% { background: rgba(45, 125, 224, .3); }
+	100% { background: none; }
+}
+@-o-keyframes update-button-animation
+{
+	0% { background: none; }
+	20% { background: rgba(45, 125, 224, .3); }
+	100% { background: none; }
+}
+@-ms-keyframes update-button-animation
+{
+	0% { background: none; }
+	20% { background: rgba(45, 125, 224, .3); }
+	100% { background: none; }
+}
+@keyframes update-button-animation
+{
+	0% { background: none; }
+	20% { background: rgba(45, 125, 224, .3); }
+	100% { background: none; }
+}
+
+
+.list-views .suffix {
+	margin-left: 0.67em;
+	color: gray;
+}
+
+.friends ul,
+.basic ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.friends a {
+	position: relative;
+	font-size: 120%;
+	line-height: 1.75em;
+}
+.friends ul li {
+	overflow: hidden;
+	display: block;
+	text-overflow: ellipsis;
+	float: left;
+	text-align: center;
+	width: 50%;
+}
+
+.user-pic {
+	width: 40%;
+	float: right;
+}
+.user-pic a {
+	font-size: 0;
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+}
+.user-pic img {
+	box-shadow: 0 0 2px rgba(96,96,96,0.5) inset;
+	border-radius: 4px;
+	padding: 0;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.6);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+}
+.user-pic img.unavailable {
+	background-image: url('../../img/anon.png');
+}
+
+.friends {
+	margin-bottom: 2.5em;
+}
+.list-views .bar {
+	background: #EBA478;
+}
+.list-views .anime {
+	color: #5B94DA;
+}
+.list-views .manga {
+	color: #EBA478;
+}
+
+ol li {
+	margin-bottom: 1em;
+}

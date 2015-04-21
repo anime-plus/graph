@@ -1,0 +1,44 @@
+.decades .target-wrapper {
+	width: 100%;
+}
+.decades .target {
+	height: 300px;
+	width: 100%;
+}
+
+.types .target-wrapper {
+	width: 100%;
+}
+.types .target {
+	height: 220px;
+}
+
+table {
+	font-size: 90%;
+}
+table .title {
+	width: 100%;
+}
+table .ord {
+	text-align: center;
+}
+table .mean, table .time, table .count {
+	text-align: right;
+}
+table.tablesorter thead th:first-child {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+span.info {
+	font-size: 7pt;
+	color: gray;
+}
+
+tr.entries-wrapper-row td {
+	background: none !important;
+}
+
+.toggle-decades-msg {
+	text-align: center;
+}

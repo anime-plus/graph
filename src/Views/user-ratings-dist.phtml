@@ -1,0 +1,167 @@
+<div class="section rating-dist">
+	<h2>
+		Rating distribution
+	</h2>
+	<div class="section-body">
+		<?php if ($viewContext->ratingDistribution->getLargestGroupSize() == 0): ?>
+			<p>There is no information about any titles for this user.</p>
+			<p>Add a few titles and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.<br>We'll be waiting for you.</p>
+		<?php else: ?>
+			<ul class="infobox">
+				<li>
+					<div>
+						<span class="prefix">Total rated</span>
+						<span class="subject"><?php printf('%d', $viewContext->ratingDistribution->getRatedCount()) ?></span>
+					</div>
+				</li>
+				<li>
+					<div>
+						<span class="prefix">Mean score</span>
+						<span class="subject"><?php printf('%.02f', $viewContext->ratingDistribution->getMeanScore()) ?></span>
+					</div>
+				</li>
+				<li>
+					<div>
+						<span class="prefix">Std dev.</span>
+						<span class="subject"><?php printf('%.02f', $viewContext->ratingDistribution->getStandardDeviation()) ?></span>
+					</div>
+				</li>
+				<li>
+					<div>
+						<a class="btn export-trigger" href="#">Export</a>
+					</div>
+				</li>
+			</ul>
+
+			<div class="target-wrapper">
+				<div class="target"></div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="entries-wrapper">
+			</div>
+
+			<div class="popup-wrapper">
+				<div class="export popup">
+					<div class="header">
+						<a class="close"><i class="icon-close"></i></a>
+						<h2>Image export</h2>
+					</div>
+					<div class="body">
+						<div class="custom-theme">
+							<p><br>Choose element to edit:</p>
+							<form>
+								<?php $options = [
+									'bar1' => 'Bar gradient - left',
+									'bar2' => 'Bar gradient - right',
+									'line1' => 'Line gradient - left',
+									'line2' => 'Line gradient - right',
+									'back' => 'Background',
+									'font1' => 'Text I - numbers',
+									'font2' => 'Text II - labels and %',
+									'title' => 'Title',
+									'logo' => 'Icon',
+								]; ?>
+								<select class="color" name="color">
+									<?php foreach ($options as $key => $text): ?>
+										<option value="<?php echo $key ?>"><?php echo $text ?></option>
+									<?php endforeach ?>
+								</select>
+								<div class="colorpicker"></div>
+							</form>
+						</div>
+						<div class="body-wrapper">
+							<p>You can export your rating distribution as an image, which updates along with your profile. How about putting it on <a target="_blank" href="http://myanimelist.net/editprofile.php">your MAL profile</a>?</p>
+							<div class="combo-wrapper">
+								<p>Layout:</p>
+								<select class="type" name="type"></select>
+								<p>Theme:</p>
+								<select class="theme" name="theme"></select>
+								<div class="clear"></div>
+							</div>
+							<textarea readonly="readonly" name="bbcode"><?php
+								?>[url=<?php echo UserControllerProfileModule::url($viewContext->user->name, $viewContext->media) ?>]<?php
+								?>[img]<?php echo UserControllerExportModule::url($viewContext->user->name, $viewContext->media, 'type=1') ?><?php
+								?>[/img]<?php
+								?>[/url]<?php
+							?></textarea>
+							<div class="preview">
+								<p>Preview (may be scaled):</p>
+								<img alt="Preview" src="<?php echo UrlHelper::absoluteUrl('/media/img/pixel.gif') ?>">
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				var opt =
+				{
+					chart:
+					{
+						renderTo: $('.rating-dist .target')[0],
+						type: 'bar',
+						marginRight: 35
+					},
+
+					xAxis:
+					{
+						categories: <?php echo json_encode(array_map(function($x) { return $x == 0 ? '-' : $x; }, array_values($viewContext->ratingDistribution->getGroupsKeys()))) ?>,
+						title:
+						{
+							text: 'Rating'
+						}
+					},
+
+					yAxis:
+					{
+						title:
+						{
+							text: 'Count',
+							margin: 15
+						}
+					},
+
+					tooltip:
+					{
+						formatter: function()
+						{
+							var text;
+							if (this.x == '-')
+							{
+								text = 'Unrated titles: ' + this.y;
+							}
+							else
+							{
+								text = 'Titles rated with ' + this.x + ': ' + this.y;
+							}
+							var percent = this.y * 100.0 / <?php echo max(1, $viewContext->ratingDistribution->getTotalSize()) ?>;
+							text = text + ' (' + (Math.round(percent * 100.0) / 100.0) + '%)';
+							return text;
+						}
+					},
+
+					series:
+					[
+						{
+							data: <?php echo json_encode(array_values($viewContext->ratingDistribution->getGroupsSizes())) ?>,
+							point:
+							{
+								events:
+								{
+									click: function(e)
+									{
+										toggleEntries($('.rating-dist .entries-wrapper'), {'sender': 'ratings', 'filter-param': this.category});
+									}
+								}
+							}
+						}
+					]
+				};
+
+				new Highcharts.Chart(opt);
+			</script>
+		<?php endif ?>
+	</div>
+</div>

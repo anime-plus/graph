@@ -1,0 +1,61 @@
+.history-daily .target {
+	height: 20em;
+}
+ul.infobox {
+	height: 17.5em;
+}
+
+.history-monthly p.unknown {
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+}
+.history-monthly table {
+	empty-cells: show;
+	border-spacing: 2px;
+	margin: 0 auto;
+}
+.history-monthly table th {
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+}
+.history-monthly table thead th {
+	padding-bottom: 8px;
+}
+.history-monthly table th:first-child {
+	text-align: right;
+	padding-right: 16px;
+}
+.history-monthly table {
+	width: 100%;
+	table-layout: fixed;
+}
+.history-monthly table .box-cell {
+	padding: 0;
+}
+.history-monthly thead th {
+	width: 7.7%;
+	overflow: hidden;
+}
+.history-monthly table .box {
+	height: 2em;
+	background: #1969CB;
+}
+.history-monthly table .box-wrapper {
+	position: relative;
+	z-index: 1;
+}
+.history-monthly table .box-cell.entries-trigger:hover .box-wrapper {
+	margin: -1px;
+	border: 1px solid white;
+	outline: 1px solid black;
+	cursor: pointer;
+	z-index: 3;
+}
+.history-monthly table .box-cell.now .box-wrapper {
+	margin: -1px;
+	border: 1px solid white;
+	outline: 1px solid #ED561B;
+	z-index: 2;
+}

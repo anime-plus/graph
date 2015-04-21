@@ -1,0 +1,58 @@
+<div class="section original">
+	<h2>Recommendations</h2>
+	<div class="section-body">
+		<?php if ($viewContext->private): ?>
+			<p>Since <?php echo $viewContext->user->name ?>&rsquo;s <?php echo Media::toString($viewContext->media) ?> list is marked as private, we can&rsquo;t reveal its contents by showing recommendations. If this is your list, click <a target="_blank" href="http://myanimelist.net/editprofile.php?go=listpreferences">here</a> to change privacy settings.</p>
+		<?php elseif (empty($viewContext->newRecommendations)): ?>
+			<p>Sorry, no new recommendations. Hey, this shouldn&rsquo;t have happened!</p>
+		<?php else: ?>
+			<ul>
+				<?php foreach ($viewContext->newRecommendations as $entry): ?>
+					<li>
+						<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>">
+							<img src="<?php echo $entry->picture_url ?>" alt="<?php echo htmlspecialchars($entry->title) ?>">
+						</a>
+
+						<div class="details-wrapper">
+							<div class="header">
+								<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>">
+									<?php echo htmlspecialchars($entry->title) ?>
+								</a>
+							</div>
+
+							<?php $genres = implode(', ', array_map(function($x) { return $x->name; }, $entry->genres)) ?>
+							<div class="genres details" title="<?php echo $genres ?>">
+								<?php echo $genres ?>
+							</div>
+
+							<div class="type details">
+								<?php $localSize = 0 ?>
+								<?php if ($entry->media == Media::Anime): ?>
+									<?php if ($entry->sub_type != AnimeMediaType::Movie): ?>
+										<?php echo TextHelper::getNumberedMediaUnitText($viewContext->media, $localSize = $entry->episodes, true) ?>
+									<?php else: ?>
+										<?php echo ucfirst(MediaType::toString($entry->sub_type, $entry->media)) ?>
+									<?php endif ?>
+								<?php elseif ($entry->media == Media::Manga): ?>
+									<?php echo TextHelper::getNumberedMediaUnitText($viewContext->media, $localSize = $entry->chapters, true) ?>
+								<?php endif ?>
+
+								<?php if ($localSize > 0 and !empty($entry->franchiseSize) and $localSize != $entry->franchiseSize): ?>
+									&nbsp;(<?php echo $entry->franchiseSize ?> in franchise)
+								<?php endif ?>
+							</div>
+
+							<div class="season details">
+								<?php echo ucfirst($entry->getSeason()) ?>
+							</div>
+
+							<!--<?php printf('%.02f', $entry->hypothetical_score) ?>-->
+						</div>
+
+						<div class="clear"></div>
+					</li>
+				<?php endforeach ?>
+			</ul>
+		<?php endif ?>
+	</div>
+</div>

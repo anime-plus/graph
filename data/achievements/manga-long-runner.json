@@ -1,0 +1,390 @@
+{
+    "media": "M",
+    "order": 13,
+    "wiki-title": "Long runner",
+    "wiki-desc": "Given for completing at least 15 manga that are 20+ volumes long.",
+    "achievements":
+    [
+        {
+            "threshold": "15+",
+            "id": "long-runner-manga",
+            "level": "Infinite stamina",
+            "title": "Long runner",
+            "desc": "The best stories can't be told in less than 20 volumes."
+        }
+    ],
+    "requirement":
+    {
+        "type": "given-titles",
+        "titles":
+        [
+            "M3",     #20th Century Boys
+            "M9",     #Tsubasa: RESERVoir CHRoNiCLE
+            "M11",    #Naruto
+            "M14",    #Groove Adventure Rave
+            "M15",    #Mahou Sensei Negima!
+            "M17",    #Kareshi Kanojo no Jijou
+            "M19",    #GetBackers
+            "M20",    #Hikaru no Go
+            "M22",    #Rurouni Kenshin
+            "M23",    #Ranma ½
+            "M25",    #Fullmetal Alchemist
+            "M28",    #Nana
+            "M40",    #Black Cat
+            "M42",    #Dragon Ball
+            "M43",    #Eyeshield 21
+            "M47",    #Katekyo Hitman Reborn!
+            "M49",    #Prince of Tennis
+            "M50",    #Shaman King
+            "M51",    #Slam Dunk
+            "M52",    #Whistle!
+            "M54",    #Yu-Gi-Oh!
+            "M57",    #Hanazakari no Kimi-tachi e
+            "M73",    #Tenjou Tenge
+            "M74",    #Air Gear
+            "M79",    #Sora wa Akai Kawa no Hotori
+            "M102",   #Fruits Basket
+            "M105",   #Kekkaishi
+            "M136",   #Recca no Honoo
+            "M145",   #Beck
+            "M150",   #Western Shotgun
+            "M152",   #Boys Be ...
+            "M153",   #Boys Be II
+            "M159",   #Brave Story -Shinsetsu-
+            "M160",   #School Rumble
+            "M167",   #Chronicles of the Cursed Sword
+            "M191",   #Zipang
+            "M201",   #Kidou Keisatsu Patlabor
+            "M214",   #Mobile Suit Gundam: The Origin
+            "M219",   #Alive: Saishuu Shinkateki Shounen
+            "M301",   #Dragon Hunter
+            "M303",   #Dragon Knights
+            "M304",   #Urusei Yatsura
+            "M320",   #Gakuen Alice
+            "M336",   #Great Teacher Onizuka
+            "M355",   #Harlem Beat
+            "M375",   #Initial D
+            "M393",   #Kindaichi Shounen no Jikenbo: File Series
+            "M407",   #Life
+            "M416",   #Sidooh
+            "M419",   #Nodame Cantabile
+            "M424",   #Kaibutsu Oujo
+            "M445",   #Shonan Junai Gumi
+            "M448",   #Tenshi Kinryouku
+            "M497",   #Rebirth
+            "M513",   #Samurai Deeper Kyo
+            "M564",   #Gantz
+            "M580",   #Yureka
+            "M583",   #Claymore
+            "M634",   #Beniiro Hero
+            "M653",   #Yakitate!! Japan
+            "M655",   #Boku no Chikyuu wo Mamotte
+            "M658",   #Blade of the Immortal
+            "M661",   #Sayonara Zetsubou Sensei
+            "M662",   #3x3 Eyes
+            "M674",   #Majin Tantei Nougami Neuro
+            "M676",   #InuYasha
+            "M695",   #Excel Saga
+            "M706",   #Violinist of Hamelin
+            "M715",   #Fate/stay night
+            "M728",   #Astro Boy
+            "M730",   #Open Sesame
+            "M732",   #Psychometrer Eiji
+            "M792",   #City Hunter
+            "M840",   #Bowling King
+            "M843",   #Curry naru Shokutaku
+            "M845",   #Happy!
+            "M853",   #Yawara! A Fashionable Judo Girl
+            "M868",   #Karakuri Circus
+            "M869",   #Konjiki no Gash Bell!!
+            "M871",   #Dragon Quest: Dai no Daibouken
+            "M877",   #Hana Yori Dango
+            "M904",   #Lone Wolf and Cub
+            "M908",   #Soul Eater
+            "M915",   #Rookies
+            "M922",   #Houshin Engi
+            "M943",   #Clover
+            "M962",   #Tenshi na Konamaiki
+            "M963",   #Musashi #9
+            "M974",   #Basara
+            "M997",   #Parfait Tic!
+            "M1013",  #Touch
+            "M1014",  #H2
+            "M1032",  #Doraemon
+            "M1044",  #Jigoku Sensei Nube
+            "M1045",  #Saint Seiya
+            "M1046",  #Saint Seiya Episode G
+            "M1047",  #Saint Seiya: The Lost Canvas - Meiou Shinwa
+            "M1076",  #Ares
+            "M1079",  #Goong
+            "M1085",  #Hot Blooded Woman
+            "M1087",  #Love Junkies
+            "M1100",  #Tekken Chinmi
+            "M1148",  #Souten no Ken
+            "M1149",  #Hokuto no Ken
+            "M1156",  #Inubaka
+            "M1208",  #Silver Diamond
+            "M1294",  #Dear Boys
+            "M1297",  #Iryuu: Team Medical Dragon
+            "M1303",  #Ashita no Joe
+            "M1332",  #Swan
+            "M1361",  #PPOI!
+            "M1414",  #SKET Dance
+            "M1428",  #Katte ni Kaizou
+            "M1454",  #NOW
+            "M1503",  #Project ARMS
+            "M1505",  #Bobobo-bo Bo-bobo
+            "M1512",  #Angel Heart
+            "M1603",  #Sakura Diaries
+            "M1631",  #Kenyuu Densetsu Yaiba
+            "M1639",  #Cyborg 009
+            "M1653",  #Faeries' Landing
+            "M1675",  #Tantei Gakuen Q
+            "M1694",  #Sensei!
+            "M1706",  #JoJo's Bizarre Adventure Part 7: Steel Ball Run
+            "M1741",  #Worst
+            "M1748",  #Tokimeki Tonight
+            "M1754",  #Over Rev
+            "M1772",  #Tenma no Ketsuzoku
+            "M1773",  #Iron Wok Jan
+            "M1789",  #Captain Tsubasa
+            "M1869",  #Ryuuroden
+            "M1910",  #Those Who Hunt Elves
+            "M1982",  #Koori no Mamono no Monogatari
+            "M2156",  #Kaguya Hime
+            "M2435",  #Crayon Shin-chan
+            "M2459",  #Komatta Toki ni wa Hoshi ni Kike
+            "M2845",  #Kinnikuman
+            "M2977",  #Change Guy
+            "M3036",  #Toritsu Mizushou!
+            "M3074",  #Shakugan no Shana
+            "M3084",  #Pyuu to Fuku! Jaguar
+            "M3146",  #O~i! Ryoma
+            "M3147",  #Mr. Fullswing
+            "M3254",  #Tetsuwan Birdy II
+            "M3286",  #Koukou Tekken-den Tough
+            "M3287",  #Tough
+            "M3335",  #A Book of Dreams
+            "M3483",  #Sangokushi
+            "M3523",  #Itazura na Kiss
+            "M3533",  #Air Master
+            "M3537",  #Yankee-kun to Megane-chan
+            "M3604",  #Yuke!! Nangoku Ice Hockey Bu
+            "M3713",  #Bartender
+            "M3741",  #Lord
+            "M3752",  #Wild 7
+            "M3822",  #Ghost Sweeper Mikami
+            "M3829",  #Iketeru Futari
+            "M3965",  #Area 88
+            "M4010",  #Ginga Densetsu Weed
+            "M4031",  #Shana oh Yoshitsune
+            "M4167",  #Mad Bull 34
+            "M4202",  #Material Puzzle
+            "M4211",  #Nina Jalhae
+            "M4222",  #Shoot!
+            "M4254",  #Ii Hito
+            "M4269",  #Godhand Teru
+            "M4444",  #Rokudenashi Blues
+            "M4610",  #Eden's Bowy
+            "M4614",  #Saru Lock
+            "M4845",  #Koucha Ouji
+            "M5157",  #Baki: The Search of our Strongest Hero
+            "M5186",  #Love Catalogue
+            "M5227",  #Higanjima
+            "M5254",  #Sakigake!! Otokojuku
+            "M5326",  #Hana no Asuka Gumi!
+            "M5393",  #Choujin Locke
+            "M5450",  #Zero no Tsukaima
+            "M5451",  #Kinnikuman: Ultimate Muscle
+            "M5540",  #Kotaro Makaritoru!
+            "M5586",  #Shura No Mon
+            "M5602",  #Wild Life
+            "M5630",  #Kurosagi: The Black Swindler
+            "M5651",  #Crows
+            "M5654",  #Mirage of Blaze
+            "M5663",  #Dragon Quest: Emblem of Roto
+            "M5664",  #Nurarihyon no Mago
+            "M5711",  #Firefighter! Daigo of Fire Company M
+            "M5843",  #Lady Victorian
+            "M5877",  #Onikirimaru
+            "M5907",  #Yugo
+            "M5909",  #Seito Shokun!
+            "M5949",  #Crystal Dragon
+            "M5997",  #Winning Ticket
+            "M6812",  #Kyou Kara Ore Wa!!
+            "M6827",  #Dear Boys Act II
+            "M6969",  #Shin Gumiho
+            "M7075",  #Karate Shoukoushi Kohinata Minoru
+            "M7200",  #Dan Doh!!
+            "M7329",  #Oyama! Kiko no Suke
+            "M7448",  #Pygmalio
+            "M7482",  #Rainbow: Nisha Rokubou no Shichinin
+            "M7519",  #Kami nomi zo Shiru Sekai
+            "M7634",  #Highschool! Kimengumi
+            "M7636",  #Hareluya II Boy
+            "M7747",  #Ushio to Tora
+            "M7760",  #Hanma Baki
+            "M7842",  #Azumi
+            "M8094",  #Shin Tekken Chinmi
+            "M8144",  #Sora no Otoshimono
+            "M8218",  #Shanimuni GO
+            "M8341",  #Code:Breaker
+            "M8418",  #Hakushaku to Yousei
+            "M8483",  #Kimi no Iru Machi
+            "M8756",  #Shin Kotaro Makaritoru!
+            "M8846",  #Hello Harinezumi
+            "M9044",  #Full Ahead! Coco
+            "M9394",  #Shiroi Senshi Yamato
+            "M9405",  #Dragon Zakura
+            "M9418",  #Udauda Yatteru Hima wa Nee!
+            "M9546",  #Capeta
+            "M9711",  #Bakuman.
+            "M9771",  #Player Kill
+            "M9823",  #Kaze no Tairiku
+            "M9855",  #Bari Bari Densetsu
+            "M9872",  #Aji Ichi Monme
+            "M10010", #Beelzebub
+            "M10054", #Tsurikichi Sanpei
+            "M10076", #Kaibutsu-kun
+            "M10259", #Fantasista
+            "M10354", #Wangan Midnight
+            "M10611", #Salaryman Kintaro
+            "M10685", #Yongbi Bulpae
+            "M10718", #New Jungle King Tar-chan
+            "M10724", #Magical Taruruuto-kun
+            "M10774", #Sooyojeon
+            "M10978", #Major
+            "M11102", #Go and Go
+            "M11190", #Ore wa Teppei
+            "M11300", #Lupin III Y
+            "M11327", #One Outs
+            "M11353", #Kunimitsu no Matsuri
+            "M11425", #Grappler Baki
+            "M11437", #Shinyaku "Kyojin no Hoshi" Hanagata
+            "M11493", #Jin
+            "M11559", #Aries
+            "M11588", #Celestial Zone
+            "M11643", #Kattobi Itto
+            "M11917", #Shiro no Fiorentina
+            "M12086", #Dr. Koto Shinryoujo
+            "M12094", #Be-Bop-Highschool
+            "M12471", #Doraemon Long Stories
+            "M12523", #F
+            "M12530", #Osu!! Karate Bu
+            "M12549", #Fourteen
+            "M12586", #Eden no Ori
+            "M12587", #Yaou
+            "M12647", #Akujo Seisho
+            "M12854", #Toaru Majutsu no Index
+            "M12855", #Tokkyuu!!
+            "M12873", #Yume no Ishibumi
+            "M12933", #Ja Ja Uma Grooming UP!
+            "M13168", #Tetsuya - Jansei to Yobareta Otoko
+            "M13192", #Sazae-San
+            "M13253", #Kaji Ryuusuke no Gi
+            "M13495", #Saiunkoku Monogatari
+            "M13668", #Souten Kouro
+            "M13949", #Medaka Box
+            "M14066", #Guin Saga
+            "M14231", #Ring ni Kakero
+            "M14232", #Ring ni Kakero 2
+            "M14430", #Desire
+            "M14582", #Gamaran
+            "M14775", #Shouta no Sushi
+            "M14796", #Monaco no Sorae
+            "M14844", #Murder License Kiba
+            "M15301", #Naoko
+            "M15426", #Kenji
+            "M15632", #Comic Party Comic Anthology
+            "M15892", #Sukeban Deka
+            "M16032", #Papa Told Me
+            "M16290", #Aegis in the Dark
+            "M16323", #Tokyo Daigaku Monogatari
+            "M16328", #Kaze no Sylphid
+            "M16502", #Seikimatatsu Leader Den Takeshi!
+            "M16963", #Nozomi Witches
+            "M17007", #Love in the Mask
+            "M17026", #Gallery Fake
+            "M17838", #Kamui-Den Dai 2 Bu
+            "M17839", #The Legend of Kamui
+            "M18020", #Dokaben: Pro Yakyuu-hen
+            "M18071", #Silent Service
+            "M18419", #Good Morning Keijiro
+            "M18579", #The Star
+            "M18666", #Saikyou! Toritsu Aoizaka Koukou Yakyuubu
+            "M19156", #Countach
+            "M19292", #Ginga Sengoku Gunyuuden Rai
+            "M19334", #I Will Be Cinderella
+            "M19414", #Shibai Taroka
+            "M19485", #Shounen Shikou
+            "M19634", #Kaiouki
+            "M19635", #Offside
+            "M19640", #Chameleon
+            "M19687", #Arakure Knight
+            "M19880", #Koi Monogatari
+            "M20030", #Musashi no Ken
+            "M20361", #Tokkou Tennyo
+            "M20395", #Gin no Jeek
+            "M20869", #Slayers Special
+            "M21252", #Oretachi no Field
+            "M21308", #Shizukanaru Don: Yakuza Side Story
+            "M21481", #Double Hard
+            "M21932", #Madonna
+            "M22520", #Dorabase: Doraemon Super Baseball Gaiden
+            "M22910", #Kobo-chan
+            "M23010", #Dokudami-sou
+            "M23234", #Kinnikuman II Sei: Kyuukyoku no Chojin Tag Hen
+            "M23308", #Urayasu Tekkin Kazoku
+            "M23322", #Tensai Bakabon
+            "M23443", #Ganso! Urayasu Tekkin Kazoku
+            "M23467", #Akatsuki!! Otokojuku - Seishen yo, Taishi no Dake
+            "M23740", #The Bullet Saint
+            "M23774", #Ganbare Genki
+            "M23902", #Touring Express
+            "M24033", #Osomatsu-kun
+            "M24426", #Shakotan★Boogie
+            "M24476", #Super Doctor K
+            "M25497", #Sanshirou²
+            "M25613", #Kyou & Ippei series
+            "M25741", #Omakase! Peace Denki-Ten
+            "M26146", #Makoto-chan
+            "M26949", #Kyoushirou 2030
+            "M27137", #Monkey Turn
+            "M27171", #Eleven
+            "M27715", #Namiki Bashidoori: Aoba Jitenshaten
+            "M27953", #Human Crossing
+            "M28224", #Hai Akko Desu
+            "M28407", #Jingi
+            "M28445", #Jotei
+            "M28955", #Aitsu to Lullaby
+            "M29455", #Korogashi Ryouta
+            "M29619", #Uramiya Honpo
+            "M29911", #Bad Boys
+            "M30005", #Ero☆Shota
+            "M30841", #Tatakau Heroine Ryoujoku: Toukiryoujoku
+            "M30887", #Kanbayashi & Kirika series
+            "M31701", #Toushin Engi
+            "M33091", #Itoshi no Ellie
+            "M33131", #Ganba! Fly High
+            "M37379", #Shoku King
+            "M37789", #Alfheim no Kishi
+            "M39745", #Majutsushi Orphen
+            "M42043", #Manga Michi
+            "M42913", #Kaze Densetsu Bukkomi no Taku
+            "M43145", #Ryuu - Ron
+            "M43479", #The Chef - Shinshou
+            "M43857", #Buttobi Itto
+            "M44017", #Wataru Ga Pyun!
+            "M44449", #Taishi Kakka no Ryourinin
+            "M46486", #Tetsujin 28-gou
+            "M48775", #Massugu ni Ikou.
+            "M49993", #Ganbare! Kickers
+            "M50219", #Xi You Ji
+            "M50545", #Bats & Terry
+            "M51917", #Hoshi no Kirby: Dedede de Pupupu na Monogatari
+            "M52815", #Sukeban Keiji
+            "M54163", #Gekka no Kishi
+            "M56459"  #Kaze Hikaru: Koshien
+        ]
+    }
+}

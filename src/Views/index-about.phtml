@@ -1,0 +1,27 @@
+<div class="section">
+	<h2>About</h2>
+	<div class="section-body">
+		<p><strong><?php echo Config::$title; ?></strong> is an extension of your <a target="_blank" href="http://myanimelist.net">myanimelist.net</a> profile, showing you various information about your anime and manga.</p>
+	</div>
+</div>
+
+<div class="section">
+	<h2>Privacy</h2>
+	<div class="section-body">
+		<p><strong><?php echo Config::$title; ?></strong> downloads and stores publicly available data related to your myanimelist.net account, which are: profile information (username, join date, etc.), lists, activity history (episodes watched and chapters read) from the last month.</p>
+
+		<p>The content of private lists will be hidden. If you still feel insecure, you can ask us to block your profile from being displayed here by sending an email at <?php echo TextHelper::mailJavaScript(Config::$mail) ?>.</p>
+	</div>
+</div>
+
+<div class="section">
+	<h2>Contact and external links</h2>
+	<div class="section-body">
+		<p>You can send us an email at <?php echo TextHelper::mailJavaScript(Config::$mail) ?>, or find more info at:</p>
+		<ul>
+			<li><a target="_blank" href="http://myanimelist.net/clubs.php?cid=67199">Club</a></li>
+            <li><a target="_blank" href="https://github.com/animesc/graph/blob/master/achievements.md">List of achievements</a></li>
+            <li><a target="_blank" href="https://github.com/animesc/graph">Source code</a></li>
+		</ul>
+	</div>
+</div>
