@@ -267,7 +267,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![manga-mystery-3](http://graph.anime.sc/media/img/ach/manga-mystery-3.png)</td><td>**Collecting the pieces**<div>Sometimes the smallest bit of information can turn the whole case around.</div></td>
 </tr>
 <tr>
-<td>![manga-mystery-4](http://graph.anime.sc/media/img/ach/manga-mystery-4.png)</td><td>**Raw intuition**<div>Investigative skills honed up. You know the answers just by looking at mere shards of data.</div></td>
+<td>![manga-mystery-4](http://graph.anime.sc/media/img/ach/manga-mystery-4.png)</td><td>**Raw intuition**<div>Investigative skills honed up. You know the answers just by looking at mere shards of</div><div>data.</div></td>
 </tr>
 </table>&nbsp;
 
@@ -285,7 +285,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![manga-romance-3](http://graph.anime.sc/media/img/ach/manga-romance-3.png)</td><td>**Breaking the chains**<div>With love, nothing is impossible. You just have to let someone break you free of restrictions.</div></td>
 </tr>
 <tr>
-<td>![manga-romance-4](http://graph.anime.sc/media/img/ach/manga-romance-4.gif)</td><td>**Heart that never stops beating**<div>When I see you, my kokoro goes doki-doki and the sekai starts to spin around. How could I live without you?</div></td>
+<td>![manga-romance-4](http://graph.anime.sc/media/img/ach/manga-romance-4.gif)</td><td>**Heart that never stops beating**<div>When I see you, my kokoro goes doki-doki and the sekai starts to spin around. How could I</div><div>live without you?</div></td>
 </tr>
 </table>&nbsp;
 
