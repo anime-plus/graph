@@ -282,10 +282,10 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![manga-romance-2](http://graph.anime.sc/media/img/ach/manga-romance-2.png)</td><td>**Love me or die**<div>Yandere is a form of love too. A rather extreme one, but still!</div></td>
 </tr>
 <tr>
-<td>![manga-romance-3](http://graph.anime.sc/media/img/ach/manga-romance-3.png)</td><td>**Breaking the chains**<div>With love, nothing is impossible. You just have to let someone break you free of restrictions.</div></td>
+<td>![manga-romance-3](http://graph.anime.sc/media/img/ach/manga-romance-3.png)</td><td>**Breaking the chains**<div>With love, nothing is impossible. You just have to let someone break you free of</div><div>restrictions.</div></td>
 </tr>
 <tr>
-<td>![manga-romance-4](http://graph.anime.sc/media/img/ach/manga-romance-4.gif)</td><td>**Heart that never stops beating**<div>When I see you, my kokoro goes doki-doki and the sekai starts to spin around. How could I</div><div>live without you?</div></td>
+<td>![manga-romance-4](http://graph.anime.sc/media/img/ach/manga-romance-4.gif)</td><td>**Heart that never stops beating**<div>When I see you, my kokoro goes doki-doki and the sekai starts to spin around. How could</div><div>I live without you?</div></td>
 </tr>
 </table>&nbsp;
 
