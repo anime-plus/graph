@@ -19,7 +19,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![anime-mahoushoujo-3](http://graph.anime.sc/media/img/ach/anime-mahoushoujo-3.png)</td><td>**Too magical to comprehend**<div>Watched so many mahou shoujo anime that you sparkle occasionally.</div></td>
 </tr>
 <tr>
-<td>![anime-mahoushoujo-4](http://graph.anime.sc/media/img/ach/anime-mahoushoujo-4.png)</td><td>**Are you a wizard?**<div>All limiters removed. You can call yourself a god, a wizard, or whatever you wish. You set</div><div>the rules.</div></td>
+<td>![anime-mahoushoujo-4](http://graph.anime.sc/media/img/ach/anime-mahoushoujo-4.png)</td><td>**Are you a wizard?**<div>All limiters removed. You can call yourself a god, a wizard, or whatever you wish. You</div><div>set the rules.</div></td>
 </tr>
 </table>&nbsp;
 
