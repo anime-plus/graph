@@ -101,7 +101,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![anime-historical-3](http://graph.anime.sc/media/img/ach/anime-historical-3.png)</td><td>**Archaeologist**<div>You have learned that sometimes going further just isn't worth it. And yet you try.</div></td>
 </tr>
 <tr>
-<td>![anime-historical-4](http://graph.anime.sc/media/img/ach/anime-historical-4.png)</td><td>**Time machine**<div>Kids these days are boring. You'd rather watch something heartwarming about siblings catching fireflies.</div></td>
+<td>![anime-historical-4](http://graph.anime.sc/media/img/ach/anime-historical-4.png)</td><td>**Time machine**<div>Kids these days are boring. You'd rather watch something heartwarming about siblings</div><div>catching fireflies.</div></td>
 </tr>
 </table>&nbsp;
 
@@ -119,7 +119,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 
 <table>
 <tr>
-<td>![nodrop-anime](http://graph.anime.sc/media/img/ach/nodrop-anime.png)</td><td>**Completionist**<div>You've managed to survive watching so many anime without dropping any of them. You masochist.</div></td>
+<td>![nodrop-anime](http://graph.anime.sc/media/img/ach/nodrop-anime.png)</td><td>**Completionist**<div>You've managed to survive watching so many anime without dropping any of them.</div><div>You masochist.</div></td>
 </tr>
 </table>&nbsp;
 
@@ -146,7 +146,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 
 <table>
 <tr>
-<td>![score-anime-ilovethem](http://graph.anime.sc/media/img/ach/score-anime-ilovethem.png)</td><td>**I love Chinese cartoons**<div>Mean anime score higher than 8.5. How about using the whole scale and re-rating stuff? That could make you look less like a fanboy...</div></td>
+<td>![score-anime-ilovethem](http://graph.anime.sc/media/img/ach/score-anime-ilovethem.png)</td><td>**I love Chinese cartoons**<div>Mean anime score higher than 8.5. How about using the whole scale and re-rating stuff?</div><div>That could make you look less like a fanboy...</div></td>
 </tr>
 <tr>
 <td>![score-anime-suffering](http://graph.anime.sc/media/img/ach/score-anime-suffering.png)</td><td>**Watching anime is suffering**<div>Mean anime score lower than 5. Someone has to counterweigh the fanboys, right?</div></td>
@@ -161,10 +161,10 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 
 <table>
 <tr>
-<td>![numbers-anime-100](http://graph.anime.sc/media/img/ach/numbers-anime-100.png)</td><td>**The first step**<div>Watched 100 anime. Congratulations, you broke the magical number. Take a breath now, it will only get more difficult.</div></td>
+<td>![numbers-anime-100](http://graph.anime.sc/media/img/ach/numbers-anime-100.png)</td><td>**The first step**<div>Watched 100 anime. Congratulations, you broke the magical number. Take a breath now, it</div><div>will only get more difficult.</div></td>
 </tr>
 <tr>
-<td>![numbers-anime-200](http://graph.anime.sc/media/img/ach/numbers-anime-200.png)</td><td>**Casual watcher**<div>Watched 200 anime. You're used to seeing character's eyes bigger than their nose. If they have any nose.</div></td>
+<td>![numbers-anime-200](http://graph.anime.sc/media/img/ach/numbers-anime-200.png)</td><td>**Casual watcher**<div>Watched 200 anime. You're used to seeing character's eyes bigger than their nose. If they</div><div>have any nose.</div></td>
 </tr>
 <tr>
 <td>![numbers-anime-300](http://graph.anime.sc/media/img/ach/numbers-anime-300.png)</td><td>**A millionaire**<div>Watched 300 anime. You DID buy all of them, right?</div></td>
@@ -173,7 +173,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![numbers-anime-400](http://graph.anime.sc/media/img/ach/numbers-anime-400.png)</td><td>**Bragging rights**<div>Watched 400 anime. That's... a lot. You can be proud of yourself, that's for sure.</div></td>
 </tr>
 <tr>
-<td>![numbers-anime-500](http://graph.anime.sc/media/img/ach/numbers-anime-500.png)</td><td>**A lot of free time**<div>Watched 500 anime. Now pause, take a breath and stretch a bit. Remember not to sit too close to the screen.</div></td>
+<td>![numbers-anime-500](http://graph.anime.sc/media/img/ach/numbers-anime-500.png)</td><td>**A lot of free time**<div>Watched 500 anime. Now pause, take a breath and stretch a bit. Remember not to sit too</div><div>close to the screen.</div></td>
 </tr>
 <tr>
 <td>![numbers-anime-750](http://graph.anime.sc/media/img/ach/numbers-anime-750.gif)</td><td>**Not even my final form**<div>Watched 750 anime. Your power level is way above others'. The only way is up.</div></td>
@@ -188,10 +188,10 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![numbers-anime-2500](http://graph.anime.sc/media/img/ach/numbers-anime-2500.png)</td><td>**The Maniac**<div>Watched 2500 anime. Is this healthy? You should contact your doctor.</div></td>
 </tr>
 <tr>
-<td>![numbers-anime-5000](http://graph.anime.sc/media/img/ach/numbers-anime-5000.png)</td><td>**The Legend**<div>Watched 5000 anime. You're one of the chosen ones. You don't even have to brag, since everyone heard about you.</div></td>
+<td>![numbers-anime-5000](http://graph.anime.sc/media/img/ach/numbers-anime-5000.png)</td><td>**The Legend**<div>Watched 5000 anime. You're one of the chosen ones. You don't even have to brag, since</div><div>everyone heard about you.</div></td>
 </tr>
 <tr>
-<td>![numbers-anime-7500](http://graph.anime.sc/media/img/ach/numbers-anime-7500.png)</td><td>**Database Breaker**<div>Watched 7.5 &times; 10&sup3; anime. Are you having fun, breaking all the rules? By the way, since when do we have that many anime in the database?!</div></td>
+<td>![numbers-anime-7500](http://graph.anime.sc/media/img/ach/numbers-anime-7500.png)</td><td>**Database Breaker**<div>Watched 7.5 &times; 10&sup3; anime. Are you having fun, breaking all the rules? By the way, since</div><div>when do we have that many anime in the database?!</div></td>
 </tr>
 <tr>
 <td>![numbers-anime-10000](http://graph.anime.sc/media/img/ach/numbers-anime-10000.png)</td><td>**This is it**<div>Watched 10000 anime. There is no higher level. You can stop now. Everyone, go home.</div></td>
