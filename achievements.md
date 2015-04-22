@@ -161,7 +161,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 
 <table>
 <tr>
-<td>![numbers-anime-100](http://graph.anime.sc/media/img/ach/numbers-anime-100.png)</td><td>**The first step**<div>Watched 100 anime. Congratulations, you broke the magical number. Take a breath now, it</div><div>will only get more difficult.</div></td>
+<td>![numbers-anime-100](http://graph.anime.sc/media/img/ach/numbers-anime-100.png)</td><td>**The first step**<div>Watched 100 anime. Congratulations, you broke the magical number. Take a breath now,</div><div>it will only get more difficult.</div></td>
 </tr>
 <tr>
 <td>![numbers-anime-200](http://graph.anime.sc/media/img/ach/numbers-anime-200.png)</td><td>**Casual watcher**<div>Watched 200 anime. You're used to seeing character's eyes bigger than their nose. If</div><div>they have any nose.</div></td>
