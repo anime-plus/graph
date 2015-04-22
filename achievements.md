@@ -59,7 +59,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![anime-mecha-1](http://graph.anime.sc/media/img/ach/anime-mecha-1.png)</td><td>**Me? PILOT this thing?!**<div>A secret organization wants you to pilot a huge mecha. Can you do it?</div></td>
 </tr>
 <tr>
-<td>![anime-mecha-2](http://graph.anime.sc/media/img/ach/anime-mecha-2.png)</td><td>**Engineer**<div>After watching over 40 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us.</div></td>
+<td>![anime-mecha-2](http://graph.anime.sc/media/img/ach/anime-mecha-2.png)</td><td>**Engineer**<div>After watching over 40 mecha anime you should be able to build your own mobile suit.</div><div>Remember not to kill the rest of us.</div></td>
 </tr>
 <tr>
 <td>![anime-mecha-3](http://graph.anime.sc/media/img/ach/anime-mecha-3.png)</td><td>**Mechazawa**<div>Having watched over 60 mecha anime, you've probably became a robot already. Nice job,</div><div>hero.</div></td>
@@ -77,7 +77,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![anime-romance-1](http://graph.anime.sc/media/img/ach/anime-romance-1.png)</td><td>**Stalker**<div>I'll stalk you so hard you won't notice me for 24 episodes. Why don't you love me yet?</div></td>
 </tr>
 <tr>
-<td>![anime-romance-2](http://graph.anime.sc/media/img/ach/anime-romance-2.png)</td><td>**Unrequited love**<div>If you won't confess, they'll never know how you feel. But don't bother if you're the best girl - these never win.</div></td>
+<td>![anime-romance-2](http://graph.anime.sc/media/img/ach/anime-romance-2.png)</td><td>**Unrequited love**<div>If you won't confess, they'll never know how you feel. But don't bother if you're the best</div><div>girl - these never win.</div></td>
 </tr>
 <tr>
 <td>![anime-romance-3](http://graph.anime.sc/media/img/ach/anime-romance-3.png)</td><td>**Sparkles and bubbles**<div>Every time you two get close you feel butterflies in your stomach. Now kiss.</div></td>
