@@ -37,7 +37,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![anime-sliceoflife-3](http://graph.anime.sc/media/img/ach/anime-sliceoflife-3.png)</td><td>**Enjoying life**<div>Found the equilibrium between boring and interesting.</div></td>
 </tr>
 <tr>
-<td>![anime-sliceoflife-4](http://graph.anime.sc/media/img/ach/anime-sliceoflife-4.png)</td><td>**Prima Undine**<div>Awarded Ph.D. degree in sliceoflife-ology. You can teach others how to stay calm and take it easy.</div></td>
+<td>![anime-sliceoflife-4](http://graph.anime.sc/media/img/ach/anime-sliceoflife-4.png)</td><td>**Prima Undine**<div>Awarded Ph.D. degree in sliceoflife-ology. You can teach others how to stay calm and</div><div>take it easy.</div></td>
 </tr>
 </table>&nbsp;
 
@@ -62,10 +62,10 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![anime-mecha-2](http://graph.anime.sc/media/img/ach/anime-mecha-2.png)</td><td>**Engineer**<div>After watching over 40 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us.</div></td>
 </tr>
 <tr>
-<td>![anime-mecha-3](http://graph.anime.sc/media/img/ach/anime-mecha-3.png)</td><td>**Mechazawa**<div>Having watched over 60 mecha anime, you've probably became a robot already. Nice job, hero.</div></td>
+<td>![anime-mecha-3](http://graph.anime.sc/media/img/ach/anime-mecha-3.png)</td><td>**Mechazawa**<div>Having watched over 60 mecha anime, you've probably became a robot already. Nice job,</div><div>hero.</div></td>
 </tr>
 <tr>
-<td>![anime-mecha-4](http://graph.anime.sc/media/img/ach/anime-mecha-4.png)</td><td>**Pierce the HEAVENS!**<div>Do the impossible. See the invisible. ROW ROW FIGHT THE POWAH! You just sang that in your head, didn't you?</div></td>
+<td>![anime-mecha-4](http://graph.anime.sc/media/img/ach/anime-mecha-4.png)</td><td>**Pierce the HEAVENS!**<div>Do the impossible. See the invisible. ROW ROW FIGHT THE POWAH! You just sang that</div><div>in your head, didn't you?</div></td>
 </tr>
 </table>&nbsp;
 
