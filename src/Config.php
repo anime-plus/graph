@@ -57,7 +57,7 @@ class Config extends Singleton
 	public static function doInit()
 	{
 		$dataRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'data', '']);
-		$htmlRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'public_html']);
+		$htmlRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'public']);
 
 		self::$version = '20150422';
         self::$title = 'graph.anime.sc';
