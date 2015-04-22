@@ -4,7 +4,7 @@ class Database extends Singleton
 {
 	public static function doInit()
 	{
-		include implode(DIRECTORY_SEPARATOR, [__DIR__, '..', 'lib', 'redbean', 'RedBean', 'redbean.inc.php']);
+		include implode(DIRECTORY_SEPARATOR, [__DIR__, '..', 'library', 'redbean', 'RedBean', 'redbean.inc.php']);
 		ReflectionHelper::loadClasses(__DIR__ . DIRECTORY_SEPARATOR . 'Models');
 		self::loadDatabase('media.sqlite');
 	}
