@@ -357,19 +357,19 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![numbers-manga-100](http://graph.anime.sc/media/img/ach/numbers-manga-100.png)</td><td>**Casual reader**<div>Read 100 manga. Looks like reading doesn't hurt.</div></td>
 </tr>
 <tr>
-<td>![numbers-manga-200](http://graph.anime.sc/media/img/ach/numbers-manga-200.gif)</td><td>**Bookworm**<div>Read 200 manga. Sitting in your comfortable chair, reading favorite Korean comics. This is bliss.</div></td>
+<td>![numbers-manga-200](http://graph.anime.sc/media/img/ach/numbers-manga-200.gif)</td><td>**Bookworm**<div>Read 200 manga. Sitting in your comfortable chair, reading favorite Korean comics.</div><div>This is bliss.</div></td>
 </tr>
 <tr>
-<td>![numbers-manga-300](http://graph.anime.sc/media/img/ach/numbers-manga-300.png)</td><td>**Dat scent**<div>Read 300 manga. There's nothing better than the smell of freshly opened book. Or a PDF.</div></td>
+<td>![numbers-manga-300](http://graph.anime.sc/media/img/ach/numbers-manga-300.png)</td><td>**Dat scent**<div>Read 300 manga. There's nothing better than the smell of freshly opened book. Or</div><div>a PDF.</div></td>
 </tr>
 <tr>
-<td>![numbers-manga-400](http://graph.anime.sc/media/img/ach/numbers-manga-400.png)</td><td>**Where do I put these?**<div>Read 400 manga. Consider investing in another bookshelf, or you'll be swimming in books soon.</div></td>
+<td>![numbers-manga-400](http://graph.anime.sc/media/img/ach/numbers-manga-400.png)</td><td>**Where do I put these?**<div>Read 400 manga. Consider investing in another bookshelf, or you'll be swimming in</div><div>books soon.</div></td>
 </tr>
 <tr>
-<td>![numbers-manga-500](http://graph.anime.sc/media/img/ach/numbers-manga-500.png)</td><td>**Half a grand**<div>Read 500 manga. Now think of what kind of person you'd be if you didn't start reading manga then. On that particular day...</div></td>
+<td>![numbers-manga-500](http://graph.anime.sc/media/img/ach/numbers-manga-500.png)</td><td>**Half a grand**<div>Read 500 manga. Now think of what kind of person you'd be if you didn't start reading</div><div>manga then. On that particular day...</div></td>
 </tr>
 <tr>
-<td>![numbers-manga-750](http://graph.anime.sc/media/img/ach/numbers-manga-750.png)</td><td>**Read or die**<div>Read 750 manga. You managed to make a bow out of paper, but remember that cellulose fibers don't work well as a bulletproof shield.</div></td>
+<td>![numbers-manga-750](http://graph.anime.sc/media/img/ach/numbers-manga-750.png)</td><td>**Read or die**<div>Read 750 manga. You managed to make a bow out of paper, but remember that</div><div>cellulose fibers don't work well as a bulletproof shield.</div></td>
 </tr>
 <tr>
 <td>![numbers-manga-1000](http://graph.anime.sc/media/img/ach/numbers-manga-1000.png)</td><td>**Librarian**<div>Read 1000 manga. You work with books, right? Right?</div></td>
@@ -378,15 +378,15 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![numbers-manga-1500](http://graph.anime.sc/media/img/ach/numbers-manga-1500.png)</td><td>**The floor is books**<div>Read 1500 manga. Sleeping on books must be pretty... hard?</div></td>
 </tr>
 <tr>
-<td>![numbers-manga-2500](http://graph.anime.sc/media/img/ach/numbers-manga-2500.png)</td><td>**Still not enough**<div>Read 2500 manga. In search for the perfect story you've read six lifetimes worth of words. Did you find it?</div></td>
+<td>![numbers-manga-2500](http://graph.anime.sc/media/img/ach/numbers-manga-2500.png)</td><td>**Still not enough**<div>Read 2500 manga. In search for the perfect story you've read six lifetimes worth of</div><div>words. Did you find it?</div></td>
 </tr>
 <tr>
-<td>![numbers-manga-5000](http://graph.anime.sc/media/img/ach/numbers-manga-5000.png)</td><td>**Sleep deprivation**<div>Read 5000 manga. Think of all the mangakas and writers that couldn't sleep just to make this moment happen.</div></td>
+<td>![numbers-manga-5000](http://graph.anime.sc/media/img/ach/numbers-manga-5000.png)</td><td>**Sleep deprivation**<div>Read 5000 manga. Think of all the mangakas and writers that couldn't sleep just to</div><div>make this moment happen.</div></td>
 </tr>
 <tr>
 <td>![numbers-manga-7500](http://graph.anime.sc/media/img/ach/numbers-manga-7500.png)</td><td>**Reincarnation**<div>Read 7500 manga. How, exactly? This is not possible for normal humans.</div></td>
 </tr>
 <tr>
-<td>![numbers-manga-10000](http://graph.anime.sc/media/img/ach/numbers-manga-10000.png)</td><td>**I've seen it all**<div>Read 10000 manga. Ten. Thousand. Manga. An average user's list is shorter than your list of titles starting with "A" alone.</div></td>
+<td>![numbers-manga-10000](http://graph.anime.sc/media/img/ach/numbers-manga-10000.png)</td><td>**I've seen it all**<div>Read 10000 manga. Ten. Thousand. Manga. An average user's list is shorter than</div><div>your list of titles starting with "A" alone.</div></td>
 </tr>
 </table>&nbsp;
