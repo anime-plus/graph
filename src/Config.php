@@ -59,7 +59,7 @@ class Config extends Singleton
 		$dataRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'data', '']);
 		$htmlRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'public']);
 
-		self::$version = '20150422';
+		self::$version = '20150423';
         self::$title = 'graph.anime.sc';
 		self::$mail = 'hello@anime.sc';
 
@@ -118,7 +118,7 @@ class Config extends Singleton
 		self::$googleAnalyticsEnabled = true;
 		self::$adminPassword = '';
 		self::$maintenanceMessage = null;
-		self::$noticeMessage = null;
+		self::$noticeMessage = '<a href="http://myanimelist.net/clubs.php?cid=67199" target="_blank">JOIN OUR CLUB SENPAI!</a>';
 		self::$sendReferrer = true;
 		self::$enforcedDomain = null;
 	}

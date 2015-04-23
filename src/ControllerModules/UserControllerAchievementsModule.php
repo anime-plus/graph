@@ -118,6 +118,20 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                 
                 return [count($entriesOwned), $entriesOwned];
             },
+            'pervert' => function($groupData) use ($viewContext, $listFinished)
+            {
+                $entriesTotal = count($listFinished);
+                
+                $entriesEcchi = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(9, $listFinished));
+                $entriesEcchi = count($entriesEcchi);
+                
+                $entriesHentai = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(12, $listFinished));
+                $entriesHentai = count($entriesHentai);
+                
+                $score = 100 / $entriesTotal * ($entriesEcchi + $entriesHentai);
+                
+                return [$score, null];
+            },
             'finished-titles' => function($groupData) use ($listFinished)
             {
                 return [count($listFinished), null];
