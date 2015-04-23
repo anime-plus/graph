@@ -128,7 +128,11 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                 $entriesHentai = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(12, $listFinished));
                 $entriesHentai = count($entriesHentai);
                 
-                $score = 100 / $entriesTotal * ($entriesEcchi + $entriesHentai);
+                $score = 100 / $entriesTotal * ($entriesEcchi + $entriesHentai * 2);
+                
+                if ($score > 100) {
+                    $score = 100;
+                }
                 
                 return [$score, null];
             },
