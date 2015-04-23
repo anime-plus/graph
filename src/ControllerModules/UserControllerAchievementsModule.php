@@ -122,19 +122,23 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
             {
                 $entriesTotal = count($listFinished);
                 
-                $entriesEcchi = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(9, $listFinished));
-                $entriesEcchi = count($entriesEcchi);
-                
-                $entriesHentai = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(12, $listFinished));
-                $entriesHentai = count($entriesHentai);
-                
-                $score = 100 / $entriesTotal * ($entriesEcchi + $entriesHentai * 2);
-                
-                if ($score > 100) {
-                    $score = 100;
+                if ($entriesTotal > 0) {
+                    $entriesEcchi = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(9, $listFinished));
+                    $entriesEcchi = count($entriesEcchi);
+                    
+                    $entriesHentai = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(12, $listFinished));
+                    $entriesHentai = count($entriesHentai);
+                    
+                    $score = 100 / $entriesTotal * ($entriesEcchi + $entriesHentai * 2);
+                    
+                    if ($score > 100) {
+                        $score = 100;
+                    }
+                    
+                    return [$score, null];
                 }
                 
-                return [$score, null];
+                return [0, null];
             },
             'finished-titles' => function($groupData) use ($listFinished)
             {
