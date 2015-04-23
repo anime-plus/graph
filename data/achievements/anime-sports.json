@@ -1,0 +1,42 @@
+{
+    "media": "A",
+    "order": 9,
+    "wiki-title": "Sports",
+    "wiki-desc": "Awarded for watching sports anime.",
+    "achievements":
+    [
+        {
+            "threshold": "25-39",
+            "id": "anime-sports-1",
+            "level": "Sports: level 1",
+            "title": "Knockout!",
+            "desc": "You've held your own in the ring, time to go all the way."
+        },
+        {
+            "threshold": "40-59",
+            "id": "anime-sports-2",
+            "level": "Sports: level 2",
+            "title": "Get your head in the game",
+            "desc": "The odds are against you, time to get in the zone."
+        },
+        {
+            "threshold": "60-99",
+            "id": "anime-sports-3",
+            "level": "Sports: level 3",
+            "title": "Welcome to the Big Leagues",
+            "desc": "There's no stopping you, just one final push."
+        },
+        {
+            "threshold": "100+",
+            "id": "anime-sports-4",
+            "level": "Sports: level MAX",
+            "title": "Olympian",
+            "desc": "First across the finish line, great job!"
+        }
+    ],
+    "requirement":
+    {
+        "type": "genre-titles",
+        "genre": 30
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "media": "A",
+    "order": 53,
+    "wiki-title": "",
+    "wiki-desc": "",
+    "achievements":
+    [
+        {
+            "threshold": "25-49.99",
+            "id": "anime-pervert-1",
+            "level": "\"Plot\"",
+            "title": "I watch anime only for the plot...",
+            "desc": "It's not your fault that there is so much fan service... Right?",
+            "tooltip": "{subject}% pervert"
+        }
+    ],
+    "requirement":
+    {
+        "type": "pervert"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "media": "A",
+    "order": 55,
+    "wiki-title": "",
+    "wiki-desc": "",
+    "achievements":
+    [
+        {
+            "threshold": "75-100",
+            "id": "anime-pervert-3",
+            "level": "Pervert",
+            "title": "Hentai Overlord",
+            "desc": "No use denying it! You know what you are...",
+            "tooltip": "{subject}% pervert"
+        }
+    ],
+    "requirement":
+    {
+        "type": "pervert"
+    }
+}
