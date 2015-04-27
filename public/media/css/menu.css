@@ -114,34 +114,3 @@
 #menu .manga i {
 	background-color: #EBA478;
 }
-
-
-/* small screens */
-@media (max-width: 599px), (max-device-width: 599px) {
-	#menu-wrapper {
-		width: 40px;
-	}
-	#menu ul li {
-		float: none;
-		min-width: 0;
-	}
-	#main {
-		margin-left: 60px;
-	}
-	#menu span {
-		display: none;
-	}
-}
-
-/* big screens */
-@media (min-width: 599px) and (min-device-width: 599px) {
-	#logo {
-		width: 181px; /*184px -3px for border-right*/
-		text-align: right;
-	}
-	#logo a {
-		width: 163px;
-		height: 28px;
-		background-image: url('../img/logo-header-big.png');
-	}
-}
