@@ -1,3 +1,13 @@
+html {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+* {
+    max-height: 1000000px;
+}
+
 /* base, fonts etc */
 body {
     overflow-y: scroll;
@@ -7,6 +17,7 @@ body {
     background-color: white;
     font-family: 'Open Sans', 'Verdana', 'Dejavu sans', sans-serif;
     font-size: 11pt;
+    -webkit-tap-highlight-color: transparent;
 }
 
 h1, h2, h3 {

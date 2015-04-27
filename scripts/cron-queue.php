@@ -44,13 +44,15 @@ function processQueue($queue, $count, $maxAttempts, $logger, $callback)
 		}
 		else
 		{
-			$queue->dequeue();
-			$enqueueAtStart = $queueItem->attempts < $maxAttempts;
-			if ($enqueueAtStart)
-				$queueItem->attempts ++;
-			else
-				$queueItem->attempts = 0;
-			$queue->enqueue($queueItem, $enqueueAtStart);
+            $queue->dequeue();
+            
+            $enqueueAtStart = $queueItem->attempts < $maxAttempts;
+            
+            if ($enqueueAtStart) {
+                $queueItem->attempts ++;
+                
+                $queue->enqueue($queueItem, $enqueueAtStart);
+            }
 		}
 
 		++ $processed;
