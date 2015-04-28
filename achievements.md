@@ -113,7 +113,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![anime-slice-of-life-1](http://graph.anime.sc/image/achievement/anime-slice-of-life-1.png)</td><td>**Normal high school boy**<div>Got started into the furious ride with slice-of-life anime.</div></td>
 </tr>
 <tr>
-<td>![anime-slice-of-life-2](http://graph.anime.sc/image/achievement/anime-slice-of-life-2.png)</td><td>**cute &times; ( girls + things )**<div>Didn't get bored of watching cute girls doing cute things. As if that's possible.</div></td>
+<td>![anime-slice-of-life-2](http://graph.anime.sc/image/achievement/anime-slice-of-life-2.png)</td><td>**cute × ( girls + things )**<div>Didn't get bored of watching cute girls doing cute things. As if that's possible.</div></td>
 </tr>
 <tr>
 <td>![anime-slice-of-life-3](http://graph.anime.sc/image/achievement/anime-slice-of-life-3.png)</td><td>**Enjoying life**<div>Found the equilibrium between boring and interesting.</div></td>
@@ -260,7 +260,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![anime-completed-5000](http://graph.anime.sc/image/achievement/anime-completed-5000.png)</td><td>**The Legend**<div>Watched 5000 anime. You're one of the chosen ones. You don't even have to brag, since</div><div>everyone heard about you.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-7500](http://graph.anime.sc/image/achievement/anime-completed-7500.png)</td><td>**Database Breaker**<div>Watched 7.5 &times; 10&sup3; anime. Are you having fun, breaking all the rules? By the way, since</div><div>when do we have that many anime in the database?!</div></td>
+<td>![anime-completed-7500](http://graph.anime.sc/image/achievement/anime-completed-7500.png)</td><td>**Database Breaker**<div>Watched 7.5 × 10³ anime. Are you having fun, breaking all the rules? By the way, since</div><div>when do we have that many anime in the database?!</div></td>
 </tr>
 <tr>
 <td>![anime-completed-10000](http://graph.anime.sc/image/achievement/anime-completed-10000.png)</td><td>**This is it**<div>Watched 10000 anime. There is no higher level. You can stop now. Everyone, go home.</div></td>
