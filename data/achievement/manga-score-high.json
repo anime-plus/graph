@@ -1,0 +1,19 @@
+{
+    "media": "M",
+    "order": 101,
+    "achievements":
+    [
+        {
+            "threshold": "8.5-10",
+            "id": "manga-score-high",
+            "level": "Dat plot",
+            "title": "So good I can't handle it",
+            "desc": "Mean manga score above 8.5. Looks like you only pick the best titles to read.",
+            "tooltip": "Mean score: {subject}"
+        }
+    ],
+    "requirement":
+    {
+        "type": "mean-score"
+    }
+}

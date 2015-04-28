@@ -1,0 +1,18 @@
+{
+    "media": "M",
+    "order": 50,
+    "achievements":
+    [
+        {
+            "threshold": "10+",
+            "id": "manga-pre-1980",
+            "level": "Pre-1980 manga",
+            "title": "At the end of the galaxy",
+            "desc": "Your never-ending journey for the most forgotten comic books has finally paid off."
+        }
+    ],
+    "requirement":
+    {
+        "type": "old-titles"
+    }
+}

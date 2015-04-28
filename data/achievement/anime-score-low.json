@@ -1,0 +1,19 @@
+{
+    "media": "A",
+    "order": 102,
+    "achievements":
+    [
+        {
+            "threshold": "3-5",
+            "id": "anime-score-low",
+            "level": "My eyes! It hurts!",
+            "title": "Watching anime is suffering",
+            "desc": "Mean anime score lower than 5. Someone has to counterweigh the fanboys, right?",
+            "tooltip": "Mean score: {subject}"
+        }
+    ],
+    "requirement":
+    {
+        "type": "mean-score"
+    }
+}

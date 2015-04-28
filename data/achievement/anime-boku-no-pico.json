@@ -1,0 +1,25 @@
+{
+    "media": "A",
+    "order": 52,
+    "achievements":
+    [
+        {
+            "threshold": "3+",
+            "id": "anime-boku-no-pico",
+            "level": "It's just an ice cream",
+            "title": "Feels... weird, man",
+            "desc": "Watched Boku no Pico. This is what you get when you follow /a/'s recommendations."
+        }
+    ],
+    "requirement":
+    {
+        "type": "given-titles",
+        "titles":
+        [
+            "A1639",  #Boku no Pico
+            "A5391",  #Pico to Chico
+            "A4866",  #Pico x CoCo x Chico
+            "A6546"   #Pico: My Little Summer Story
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "media": "M",
+    "order": 103,
+    "achievements":
+    [
+        {
+            "threshold": "0-2.99",
+            "id": "manga-score-very-low",
+            "level": "Lowest of the low",
+            "title": "Best I can do is 2",
+            "desc": "Mean manga score below 3. Aren't you a bit too harsh?",
+            "tooltip": "Mean score: {subject}"
+        }
+    ],
+    "requirement":
+    {
+        "type": "mean-score"
+    }
+}
