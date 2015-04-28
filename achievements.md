@@ -187,7 +187,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Perversion
->Are you a pervert? Use this formula: 100 &divide; completed &times; ( ecchi &times; 2 + hentai &times; 4 ). 25% - level 1, 50% - level 2, 75% - level 3. 
+>Are you a pervert? Find out: 100 &divide; number of completed anime &times; ( number of completed ecchi anime &times; 2 + number of completed hentai anime &times; 4 ). 25% - level 1, 50% - level 2, 75% - level 3. 
 
 <table>
 <tr>
