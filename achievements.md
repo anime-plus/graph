@@ -1,8 +1,8 @@
 All genre-based achievements have four levels. Max level images for these are similar to each other - black background, white glow, and a simple symbol at the center. Count-based badges have 12 levels, and score-based have three pseudo-levels. There are some other special badges awarded for achieving something big. In total, we have over 80 images that make you want to read more manga or watch more anime. Or so we think.
 
-If you're curious about titles that count towards certain badges, read [these files](https://github.com/animesc/graph/tree/master/data/achievements), but note that some genre-based achievements have their title list generated automatically from genres on myanimelist.net. These can also have additional titles added manually, to fill up genre holes left by myanimelist.net (e.g. sequel to a historical anime isn't tagged as such).
+If you're curious about titles that count towards certain badges, read [these files](https://github.com/animesc/graph/tree/master/data/achievement), but note that some genre-based achievements have their title list generated automatically from genres on myanimelist.net. These can also have additional titles added manually, to fill up genre holes left by myanimelist.net (e.g. sequel to a historical anime isn't tagged as such).
 
-Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60 for level 3 and 100 for the maximum level. Manga thresholds (and anime-mahoushoujo) are 15, 30, 50 and 80. The romance badges have increased thresholds, since this genre tag is ubiquitous.
+Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60 for level 3 and 100 for the maximum level. Manga thresholds (and anime mahou shoujo) are 15, 30, 50 and 80. The romance badges have increased thresholds, since this genre tag is ubiquitous.
 
 ##Anime achievements
 ###GAR
@@ -187,7 +187,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Perversion
->Are you a pervert? Find out: 100 &divide; number of completed anime &times; ( number of completed ecchi anime &times; 2 + number of completed hentai anime &times; 4 ). 25% - level 1, 50% - level 2, 75% - level 3. 
+>Are you a pervert? Find out: `100 ÷ number of completed anime × ( number of completed ecchi anime × 2 + number of completed hentai anime × 4 )`. 25% - level 1, 50% - level 2, 75% - level 3. 
 
 <table>
 <tr>
