@@ -134,7 +134,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 <td>![anime-space-2](http://graph.anime.sc/image/achievement/anime-space-2.png)</td><td>**The Earth looks so small from up here**<div>You're finally outside the atmosphere, but there's still a lot to explore.</div></td>
 </tr>
 <tr>
-<td>![anime-space-3](http://graph.anime.sc/image/achievement/anime-space-3.png)</td><td>**Interstellar traveler**<div>You've traveled vast interstellar distances and seen many galaxies in your way.</div></td>
+<td>![anime-space-3](http://graph.anime.sc/image/achievement/anime-space-3.gif)</td><td>**Interstellar traveler**<div>You've traveled vast interstellar distances and seen many galaxies in your way.</div></td>
 </tr>
 <tr>
 <td>![anime-space-4](http://graph.anime.sc/image/achievement/anime-space-4.png)</td><td>**Emperor of the Universe**<div>You're the ruler of the whole universe. There's no one with more power than you.</div></td>
@@ -187,7 +187,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Perversion
->Are you a pervert? Use this formula: `100 &divide; completed &times; ( ecchi &times; 2 + hentai &times; 4 )`. 25% for level 1, 50% for level 2 and 75% for the maximum level. 
+>Are you a pervert? Use this formula: 100 &divide; completed &times; ( ecchi &times; 2 + hentai &times; 4 ). 25% - level 1, 50% - level 2, 75% - level 3. 
 
 <table>
 <tr>
