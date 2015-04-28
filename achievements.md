@@ -74,16 +74,16 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 
 <table>
 <tr>
-<td>![anime-mystery-1](http://graph.anime.sc/image/achievement/anime-mystery-1.png)</td><td>**Growing suspicions**<div>It's suspicious because nothing looks suspicious, and if it looks suspicious from the start it's obviously suspicious.</div></td>
+<td>![anime-mystery-1](http://graph.anime.sc/image/achievement/anime-mystery-1.png)</td><td>**Growing suspicions**<div>It's suspicious because nothing looks suspicious, and if it looks suspicious from the</div><div>start it's obviously suspicious.</div></td>
 </tr>
 <tr>
 <td>![anime-mystery-2](http://graph.anime.sc/image/achievement/anime-mystery-2.png)</td><td>**Detective's assistant**<div>Now it's your business to know what other people don't know too.</div></td>
 </tr>
 <tr>
-<td>![anime-mystery-3](http://graph.anime.sc/image/achievement/anime-mystery-3.png)</td><td>**Genius detective**<div>You're already a genius at unraveling mysteries... but how is it possible that everywhere you go someone ends up dead?</div></td>
+<td>![anime-mystery-3](http://graph.anime.sc/image/achievement/anime-mystery-3.png)</td><td>**Genius detective**<div>You're already a genius at unraveling mysteries... but how is it possible that</div><div>everywhere you go someone ends up dead?</div></td>
 </tr>
 <tr>
-<td>![anime-mystery-4](http://graph.anime.sc/image/achievement/anime-mystery-4.png)</td><td>**Golden Truth**<div>You can solve any mystery by now. The path to the Golden Land has already been revealed to you.</div></td>
+<td>![anime-mystery-4](http://graph.anime.sc/image/achievement/anime-mystery-4.png)</td><td>**Golden Truth**<div>You can solve any mystery by now. The path to the Golden Land has already been</div><div>revealed to you.</div></td>
 </tr>
 </table>&nbsp;
 
