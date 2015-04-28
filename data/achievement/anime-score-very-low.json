@@ -1,0 +1,19 @@
+{
+    "media": "A",
+    "order": 103,
+    "achievements":
+    [
+        {
+            "threshold": "0-2.99",
+            "id": "anime-score-very-low",
+            "level": "0/10. Play next one",
+            "title": "Less than three",
+            "desc": "Mean anime score lower than 3. Is it hate, or is it love?",
+            "tooltip": "Mean score: {subject}"
+        }
+    ],
+    "requirement":
+    {
+        "type": "mean-score"
+    }
+}

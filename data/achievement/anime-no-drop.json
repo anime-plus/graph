@@ -1,0 +1,18 @@
+{
+    "media": "A",
+    "order": 100,
+    "achievements":
+    [
+        {
+            "threshold": "50+",
+            "id": "anime-no-drop",
+            "level": "I'll endure anything",
+            "title": "Completionist",
+            "desc": "You've managed to survive watching so many anime without dropping any of them. You masochist."
+        }
+    ],
+    "requirement":
+    {
+        "type": "no-drop"
+    }
+}

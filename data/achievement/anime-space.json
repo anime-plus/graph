@@ -1,0 +1,40 @@
+{
+    "media": "A",
+    "order": 8,
+    "achievements":
+    [
+        {
+            "threshold": "25-39",
+            "id": "anime-space-1",
+            "level": "Space: level 1",
+            "title": "3... 2... 1... Liftoff!",
+            "desc": "You've taken one small step for man, not such a giant leap for mankind."
+        },
+        {
+            "threshold": "40-59",
+            "id": "anime-space-2",
+            "level": "Space: level 2",
+            "title": "The Earth looks so small from up here",
+            "desc": "You're finally outside the atmosphere, but there's still a lot to explore."
+        },
+        {
+            "threshold": "60-99",
+            "id": "anime-space-3",
+            "level": "Space: level 3",
+            "title": "Interstellar traveler",
+            "desc": "You've traveled vast interstellar distances and seen many galaxies in your way."
+        },
+        {
+            "threshold": "100+",
+            "id": "anime-space-4",
+            "level": "Space: level MAX",
+            "title": "Emperor of the Universe",
+            "desc": "You're the ruler of the whole universe. There's no one with more power than you."
+        }
+    ],
+    "requirement":
+    {
+        "type": "genre-titles",
+        "genre": 29
+    }
+}

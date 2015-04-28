@@ -42,7 +42,9 @@ class Config extends Singleton
 	static $globalsCachePath;
 	static $userQueueSizesPath;
 	static $mediaDirectory;
+    static $imageDirectory;
 	static $mediaUrl;
+    static $imageUrl;
 	static $baseUrl;
 	static $googleAnalyticsEnabled;
 	static $adminPassword;
@@ -59,7 +61,7 @@ class Config extends Singleton
 		$dataRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'data', '']);
 		$htmlRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'public']);
 
-		self::$version = '20150423';
+		self::$version = '20150428';
         self::$title = 'graph.anime.sc';
 		self::$mail = 'hello@anime.sc';
 
@@ -101,7 +103,7 @@ class Config extends Singleton
 		self::$bannedGenresForRecsListPath = $dataRootDir . 'recs-banned-genres.lst';
 		self::$bannedFranchiseCouplingListPath = $dataRootDir . 'banned-franchise-coupling.lst';
 		self::$staticRecommendationListPath = $dataRootDir . 'static-recommendations.lst';
-		self::$achievementsDefinitionsDirectory = $dataRootDir . 'achievements';
+		self::$achievementsDefinitionsDirectory = $dataRootDir . 'achievement';
 
 		self::$maxLogSize = 1024 * 1024;
 		self::$keepOldLogs = false;
@@ -110,7 +112,9 @@ class Config extends Singleton
 		self::$userQueueSizesPath = $dataRootDir . 'queue-sizes.json';
 
 		self::$mediaDirectory = $htmlRootDir . DIRECTORY_SEPARATOR . 'media';
+        self::$imageDirectory = $htmlRootDir . DIRECTORY_SEPARATOR . 'image';
 		self::$mediaUrl = '/media/';
+        self::$imageUrl = '/image/';
 		self::$baseUrl = isset($_SERVER['HTTP_HOST'])
 			? 'http://' . $_SERVER['HTTP_HOST'] . '/'
 			: 'http://graph.anime.sc/';

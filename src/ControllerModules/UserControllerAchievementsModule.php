@@ -37,15 +37,11 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
     public static function getAchievementsDefinitions()
     {
         $dir = Config::$achievementsDefinitionsDirectory;
-        $imgFiles = scandir(Config::$mediaDirectory . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'ach');
+        $imgFiles = scandir(Config::$imageDirectory . DIRECTORY_SEPARATOR . 'achievement');
         $definitions = array_fill_keys(Media::getConstList(), []);
         
         foreach (glob($dir . DIRECTORY_SEPARATOR . '*.json') as $file) {
             $definition = TextHelper::loadJson($file);
-            
-            if ($definition->{'wiki-title'} === null) {
-                $definition->{'wiki-title'} = 'Unknown group';
-            }
             
             $prevAch = null;
             

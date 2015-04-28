@@ -1,0 +1,18 @@
+{
+    "media": "M",
+    "order": 100,
+    "achievements":
+    [
+        {
+        "threshold": "50+",
+        "id": "manga-no-drop",
+        "level": "and it still hurts",
+        "title": "I've seen some sh**",
+        "desc": "Despite seemingly endless suffering, you've never dropped any manga. That's impressive."
+        }
+    ],
+    "requirement":
+    {
+        "type": "no-drop"
+    }
+}

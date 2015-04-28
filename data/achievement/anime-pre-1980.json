@@ -1,0 +1,18 @@
+{
+    "media": "A",
+    "order": 50,
+    "achievements":
+    [
+        {
+            "threshold": "10+",
+            "id": "anime-pre-1980",
+            "level": "Pre-1980 anime",
+            "title": "VHS master race",
+            "desc": "You overwrote my cartoons with The Karate Kid?! MOOOM!"
+        }
+    ],
+    "requirement":
+    {
+        "type": "old-titles"
+    }
+}
