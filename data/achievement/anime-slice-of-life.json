@@ -1,6 +1,6 @@
 {
     "media": "A",
-    "order": 7,
+    "order": 8,
     "achievements":
     [
         {
@@ -14,7 +14,7 @@
             "threshold": "40-59",
             "id": "anime-slice-of-life-2",
             "level": "Slice of Life: level 2",
-            "title": "cute &times; ( girls + things )",
+            "title": "cute × ( girls + things )",
             "desc": "Didn't get bored of watching cute girls doing cute things. As if that's possible."
         },
         {
