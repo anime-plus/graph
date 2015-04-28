@@ -5,6 +5,24 @@ If you're curious about titles that count towards certain badges, read [these fi
 Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60 for level 3 and 100 for the maximum level. Manga thresholds (and anime mahou shoujo) are 15, 30, 50 and 80. The romance badges have increased thresholds, since this genre tag is ubiquitous.
 
 ##Anime achievements
+###Dementia/Psychological
+>Awarded for watching dementia/psychological anime.
+
+<table>
+<tr>
+<td>![anime-dementia-psychological-1](http://graph.anime.sc/image/achievement/anime-dementia-psychological-1.png)</td><td>**What exactly did I just watch?**<div>You discovered a whole new world of weird. Keep on watching.</div></td>
+</tr>
+<tr>
+<td>![anime-dementia-psychological-2](http://graph.anime.sc/image/achievement/anime-dementia-psychological-2.png)</td><td>**My mind is full of fu&ast;&ast;**<div>Your attempt to wrap your mind around this failed completely.</div></td>
+</tr>
+<tr>
+<td>![anime-dementia-psychological-3](http://graph.anime.sc/image/achievement/anime-dementia-psychological-3.png)</td><td>**Is this the real life?**<div>It has become hard to distinguish between reality and fiction.</div></td>
+</tr>
+<tr>
+<td>![anime-dementia-psychological-4](http://graph.anime.sc/image/achievement/anime-dementia-psychological-4.gif)</td><td>**「 Ｗｉｒｅｄ Ｓｏｕｎｄ 」**<div>You've seen too much. You've transcended humanity and operate on another level now.</div></td>
+</tr>
+</table>&nbsp;
+
 ###GAR
 >Awarded for watching anime containing manly men doing manly things.
 
