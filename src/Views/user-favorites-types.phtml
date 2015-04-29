@@ -96,7 +96,7 @@
 					[
 						{
 							name: 'types',
-							data: <?php echo json_encode(array_values(array_map(function($type) use ($viewContext)
+							data: <?php $array = array_values(array_map(function($type) use ($viewContext)
 							{
 								return
 								[
@@ -104,7 +104,13 @@
 									'y' => $viewContext->favTypes->getGroupSize($type),
 									'type' => $type
 								];
-							}, $viewContext->favTypes->getGroupsKeys(AbstractDistribution::IGNORE_NULL_KEY | AbstractDistribution::IGNORE_EMPTY_GROUPS)))) ?>,
+							}, $viewContext->favTypes->getGroupsKeys(AbstractDistribution::IGNORE_NULL_KEY | AbstractDistribution::IGNORE_EMPTY_GROUPS)));
+                            
+                            usort($array, function($a, $b) {
+                                return $b['y'] - $a['y'];
+                            });
+                            
+                            echo json_encode($array); ?>,
 							point:
 							{
 								events:
