@@ -5,8 +5,8 @@ If you're curious about titles that count towards certain badges, read [these fi
 Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60 for level 3 and 100 for the maximum level. Manga thresholds (and anime mahou shoujo) are 15, 30, 50 and 80. The romance badges have increased thresholds (40, 70, 100 and 150), since this genre tag is ubiquitous.
 
 ##Anime achievements
-###Dementia/Psychological
->Awarded for watching dementia/psychological anime.
+###Dementia and Psychological
+>Awarded for watching dementia or psychological anime.
 
 <table>
 <tr>
