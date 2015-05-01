@@ -38,7 +38,7 @@ AutoLoader::init();
 spl_autoload_register(['AutoLoader', 'load']);
 
 date_default_timezone_set('UTC');
-ini_set('memory_limit', '512M');
+ini_set('memory_limit', '1024M');
 ErrorHandler::init();
 Database::init();
 
