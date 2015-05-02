@@ -1,0 +1,19 @@
+{
+    "media": "M",
+    "order": 53,
+    "achievements":
+    [
+        {
+            "threshold": "50-74.99",
+            "id": "manga-pervert-2",
+            "level": "Naughty",
+            "title": "We need a blood donor here",
+            "desc": "Even if I die from blood loss, I just can't stop...",
+            "tooltip": "{subject}% pervert"
+        }
+    ],
+    "requirement":
+    {
+        "type": "pervert"
+    }
+}

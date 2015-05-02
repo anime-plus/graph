@@ -1,0 +1,19 @@
+{
+    "media": "M",
+    "order": 52,
+    "achievements":
+    [
+        {
+            "threshold": "25-49.99",
+            "id": "manga-pervert-1",
+            "level": "Eek!",
+            "title": "I peek just a little",
+            "desc": "Wait a minute, this wasn't the men's bath?",
+            "tooltip": "{subject}% pervert"
+        }
+    ],
+    "requirement":
+    {
+        "type": "pervert"
+    }
+}
