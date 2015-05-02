@@ -412,6 +412,21 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </tr>
 </table>&nbsp;
 
+###Perversion
+>Are you a pervert? Find out: 100 ÷ *manga completed* × (*ecchi manga completed* × 2 + *hentai manga completed* × 4). 25% - fan service lover, 50% - naughty, 75% - pervert.
+
+<table>
+<tr>
+<td>![manga-pervert-1](http://graph.anime.sc/image/achievement/manga-pervert-1.png)</td><td>**I peek just a little**<div>Wait a minute, this wasn't the men's bath? </div></td>
+</tr>
+<tr>
+<td>![manga-pervert-2](http://graph.anime.sc/image/achievement/manga-pervert-2.png)</td><td>**We need a blood donor here**<div>Even if I die from blood loss, I just can't stop...</div></td>
+</tr>
+<tr>
+<td>![manga-pervert-3](http://graph.anime.sc/image/achievement/manga-pervert-3.png)</td><td>**Ero-sennin**<div>What do you mean that I am a pervert? I am THE pervert!</div></td>
+</tr>
+</table>&nbsp;
+
 ###No drop
 >Exactly the same as its anime counterpart. 50+ completed, zero dropped.
 

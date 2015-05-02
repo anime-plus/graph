@@ -1,0 +1,19 @@
+{
+    "media": "M",
+    "order": 54,
+    "achievements":
+    [
+        {
+            "threshold": "75-100",
+            "id": "manga-pervert-3",
+            "level": "Pervert",
+            "title": "Ero-sennin",
+            "desc": "What do you mean that I am a pervert? I am THE pervert!",
+            "tooltip": "{subject}% pervert"
+        }
+    ],
+    "requirement":
+    {
+        "type": "pervert"
+    }
+}
