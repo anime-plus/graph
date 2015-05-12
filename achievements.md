@@ -6,7 +6,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 
 ##Anime achievements
 ###Dementia and Psychological
->Awarded for watching dementia or psychological anime.
+Awarded for watching dementia or psychological anime.
 
 <table>
 <tr>
@@ -24,7 +24,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###GAR
->Awarded for watching anime containing manly men doing manly things.
+Awarded for watching anime containing manly men doing manly things.
 
 <table>
 <tr><td>![anime-gar-1](http://graph.anime.sc/image/achievement/anime-gar-1.png)</td><td>**So manly I can't breathe**<div>Watching all those men made you feel like a little girl... and you liked it.</div></td></tr>
@@ -34,7 +34,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Historical
->Awarded for watching anime set way in the past (e.g. Edo period, WWII).
+Awarded for watching anime set way in the past (e.g. Edo period, WWII).
 
 <table>
 <tr>
@@ -52,7 +52,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Mahou Shoujo
->Awarded for watching anime with magical girls. And transformations. Yeah.
+Awarded for watching anime with magical girls. And transformations. Yeah.
 
 <table>
 <tr>
@@ -70,7 +70,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Mecha
->Awarded for watching anime with humongous robots, mobile suits, etc.
+Awarded for watching anime with humongous robots, mobile suits, etc.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Mystery
->Awarded for watching anime with mysterious events, maybe some detective stuff.
+Awarded for watching anime with mysterious events, maybe some detective stuff.
 
 <table>
 <tr>
@@ -106,7 +106,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Romance
->Awarded for watching shy/dense people getting close to each other, or having no idea what love is.
+Awarded for watching shy/dense people getting close to each other, or having no idea what love is.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Slice of Life
->Awarded for watching anime portraying daily life of a group of people. It *can* be entertaining.
+Awarded for watching anime portraying daily life of a group of people. It *can* be entertaining.
 
 <table>
 <tr>
@@ -142,7 +142,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Space
->Awarded for watching space anime.
+Awarded for watching space anime.
 
 <table>
 <tr>
@@ -160,7 +160,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Sports
->Awarded for watching sports anime.
+Awarded for watching sports anime.
 
 <table>
 <tr>
@@ -178,7 +178,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Old anime
->Awarded for watching 10+ old anime - that is, titles that finished airing in 1980 at most.
+Awarded for watching 10+ old anime - that is, titles that finished airing in 1980 at most.
 
 <table>
 <tr>
@@ -187,7 +187,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Long runner
->Special achievement given for completing 15 or more series 150+ episodes long.
+Special achievement given for completing 15 or more series 150+ episodes long.
 
 <table>
 <tr>
@@ -196,7 +196,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Boku no Pico
->This is worthy having a dedicated achievement. One level. Is it the highest, or the lowest possible level a person can achieve? You decide.
+This is worthy having a dedicated achievement. One level. Is it the highest, or the lowest possible level a person can achieve? You decide.
 
 <table>
 <tr>
@@ -205,7 +205,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Perversion
->Are you a pervert? Find out: 100 ÷ *anime completed* × (*ecchi anime completed* × 2 + *hentai anime completed* × 4). 25% - "plot" lover, 50% - naughty, 75% - pervert.
+Are you a pervert? Find out: 100 ÷ *anime completed* × (*ecchi anime completed* × 2 + *hentai anime completed* × 4). 25% - "plot" lover, 50% - naughty, 75% - pervert.
 
 <table>
 <tr>
@@ -220,7 +220,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###No drop
->You will get it if your stats are 50+ completed and zero dropped. Pretty hard to obtain and very easy to lose.
+You will get it if your stats are 50+ completed and zero dropped. Pretty hard to obtain and very easy to lose.
 
 <table>
 <tr>
@@ -229,7 +229,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Mean score
->Related to mean anime score. Instead of calling people retarded, we give them an award for treating 8/10 as a *meh* rating.
+Related to mean anime score. Instead of calling people retarded, we give them an award for treating 8/10 as a *meh* rating.
 
 <table>
 <tr>
@@ -244,7 +244,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Total number completed
->Self-explanatory. Level thresholds designed in a way that, uh, I don't remember. No living being should be able to get to 10k.
+Self-explanatory. Level thresholds designed in a way that, uh, I don't remember. No living being should be able to get to 10k.
 
 <table>
 <tr>
@@ -287,7 +287,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 
 ##Manga achievements
 ###Horror
->Horrors in anime are a joke, but at least in manga they're somewhat decent.
+Horrors in anime are a joke, but at least in manga they're somewhat decent.
 
 <table>
 <tr>
@@ -305,7 +305,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Mahou Shoujo
->Awarded for reading manga about magical girls, because seeing them animated on TV isn't enough.
+Awarded for reading manga about magical girls, because seeing them animated on TV isn't enough.
 
 <table>
 <tr>
@@ -323,7 +323,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Mystery
->Awarded for reading manga with mysterious events, maybe some detective stuff.
+Awarded for reading manga with mysterious events, maybe some detective stuff.
 
 <table>
 <tr>
@@ -341,7 +341,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Romance
->Lovey-dovey stuff in printed media. You read a lot of them, we give you a medal for it. Simple.
+Lovey-dovey stuff in printed media. You read a lot of them, we give you a medal for it. Simple.
 
 <table>
 <tr>
@@ -359,7 +359,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Sports
->Awarded for reading... well... sports manga. That wasn't particularly hard to figure out, eh?
+Awarded for reading... well... sports manga. That wasn't particularly hard to figure out, eh?
 
 <table>
 <tr>
@@ -377,7 +377,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Vampires and Demons
->The tags on myanimelist.net may be somewhat lacking for this one, but hopefully it will reward you for reading vampire or demons manga.
+The tags on myanimelist.net may be somewhat lacking for this one, but hopefully it will reward you for reading vampire or demons manga.
 
 <table>
 <tr>
@@ -395,7 +395,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Old manga
->Awarded for completing over 10 old manga (published before 1980).
+Awarded for completing over 10 old manga (published before 1980).
 
 <table>
 <tr>
@@ -404,7 +404,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Long runner
->Given for completing at least 15 manga that are 20+ volumes long.
+Given for completing at least 15 manga that are 20+ volumes long.
 
 <table>
 <tr>
@@ -413,7 +413,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Perversion
->Are you a pervert? Find out: 100 ÷ *manga completed* × (*ecchi manga completed* × 2 + *hentai manga completed* × 4). 25% - fan service lover, 50% - naughty, 75% - pervert.
+Are you a pervert? Find out: 100 ÷ *manga completed* × (*ecchi manga completed* × 2 + *hentai manga completed* × 4). 25% - fan service lover, 50% - naughty, 75% - pervert.
 
 <table>
 <tr>
@@ -428,7 +428,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###No drop
->Exactly the same as its anime counterpart. 50+ completed, zero dropped.
+Exactly the same as its anime counterpart. 50+ completed, zero dropped.
 
 <table>
 <tr>
@@ -437,7 +437,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Mean score
->Related to mean manga score. Three thresholds, just like for anime.
+Related to mean manga score. Three thresholds, just like for anime.
 
 <table>
 <tr>
@@ -452,7 +452,7 @@ Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60
 </table>&nbsp;
 
 ###Total number completed
->Basically, the same thing as anime... but for manga.
+Basically, the same thing as anime... but for manga.
 
 <table>
 <tr>
