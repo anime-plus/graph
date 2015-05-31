@@ -84,7 +84,6 @@ class UserControllerEntriesModule extends AbstractUserControllerModule
 					default:
 						throw new BadMediaException();
 				}
-				$viewContext->genreName = R::getAll('SELECT * FROM ' . $table . ' WHERE mal_id = ?', [$filterParam])[0]['name'];
 				$computeMeanScore = true;
 				break;
 
@@ -93,7 +92,6 @@ class UserControllerEntriesModule extends AbstractUserControllerModule
 					UserMediaFilter::nonPlanned(),
 					UserMediaFilter::genre($filterParam, $list)
 				);
-				$viewContext->genreName = R::getAll('SELECT * FROM mediagenre WHERE mal_id = ?', [$filterParam])[0]['name'];
 				$computeMeanScore = true;
 				break;
 
