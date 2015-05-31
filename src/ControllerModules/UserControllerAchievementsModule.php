@@ -116,22 +116,23 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
             },
             'pervert' => function($groupData) use ($viewContext, $listFinished)
             {
-                $entriesTotal = count($listFinished);
+                $entriesTotalCount = count($listFinished);
                 
-                if ($entriesTotal > 0) {
+                if ($entriesTotalCount > 0) {
                     $entriesEcchi = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(9, $listFinished));
-                    $entriesEcchi = count($entriesEcchi);
                     
                     $entriesHentai = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(12, $listFinished));
-                    $entriesHentai = count($entriesHentai);
                     
-                    $score = 100 / $entriesTotal * ($entriesEcchi * 2 + $entriesHentai * 4);
+                    $score = 100 / $entriesTotalCount * (count($entriesEcchi) * 2 + count($entriesHentai) * 4);
                     
                     if ($score > 100) {
                         $score = 100;
                     }
                     
-                    return [$score, null];
+                    $entries = array_merge($entriesEcchi, $entriesHentai);
+                    $entries = array_intersect_key($entries, array_unique(array_map(function($e) { return $e->media . $e->mal_id; }, $entries)));
+                    
+                    return [$score, $entries];
                 }
                 
                 return [0, null];
