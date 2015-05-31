@@ -204,7 +204,7 @@ This is worthy having a dedicated achievement. One level. Is it the highest, or 
 </tr>
 </table>&nbsp;
 
-###Perversion
+###Pervert
 Are you a pervert? Find out: 100 ÷ *anime completed* × (*ecchi anime completed* × 2 + *hentai anime completed* × 4). 25% - "plot" lover, 50% - naughty, 75% - pervert.
 
 <table>
@@ -412,7 +412,7 @@ Given for completing at least 15 manga that are 20+ volumes long.
 </tr>
 </table>&nbsp;
 
-###Perversion
+###Pervert
 Are you a pervert? Find out: 100 ÷ *manga completed* × (*ecchi manga completed* × 2 + *hentai manga completed* × 4). 25% - fan service lover, 50% - naughty, 75% - pervert.
 
 <table>
