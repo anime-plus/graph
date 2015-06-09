@@ -1,0 +1,40 @@
+{
+    "media": "M",
+    "order": 7,
+    "achievements":
+    [
+        {
+            "threshold": "15-29",
+            "id": "manga-yaoi-shounen-ai-1",
+            "level": "Level 1 fujoshi",
+            "title": "Inner fujoshi awakened",
+            "desc": "I was just taking a peek in this manga I accidentally found... and surprisingly liked it."
+        },
+        {
+            "threshold": "30-49",
+            "id": "manga-yaoi-shounen-ai-2",
+            "level": "Level 2 fujoshi",
+            "title": "Not a day without BL",
+            "desc": "It's already too late to stop and turn back, just remember to watch your back while reading."
+        },
+        {
+            "threshold": "50-79",
+            "id": "manga-yaoi-shounen-ai-3",
+            "level": "Level 3 fujoshi",
+            "title": "Yaoi detector",
+            "desc": "I don't care! I ship it!"
+        },
+        {
+            "threshold": "80+",
+            "id": "manga-yaoi-shounen-ai-4",
+            "level": "Yaoi/Shounen Ai: level MAX",
+            "title": "Full Fledged Fujoshi",
+            "desc": "Yaoi isn't just a genre to you anymore, it's a way of life."
+        }
+    ],
+    "requirement":
+    {
+        "type": "genre-titles",
+        "genre": [28, 33]
+    }
+}

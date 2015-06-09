@@ -394,6 +394,24 @@ The tags on myanimelist.net may be somewhat lacking for this one, but hopefully 
 </tr>
 </table>&nbsp;
 
+###Yaoi and Shounen Ai
+Awarded for reading yaoi or shounen ai manga.
+
+<table>
+<tr>
+<td>![manga-yaoi-shounen-ai-1](http://graph.anime.sc/image/achievement/manga-yaoi-shounen-ai-1.gif)</td><td>**Inner fujoshi awakened**<div>I was just taking a peek in this manga I accidentally found... and surprisingly liked it.</div></td>
+</tr>
+<tr>
+<td>![manga-yaoi-shounen-ai-2](http://graph.anime.sc/image/achievement/manga-yaoi-shounen-ai-2.png)</td><td>**Not a day without BL**<div>It's already too late to stop and turn back, just remember to watch your back while reading.</div></td>
+</tr>
+<tr>
+<td>![manga-yaoi-shounen-ai-3](http://graph.anime.sc/image/achievement/manga-yaoi-shounen-ai-3.png)</td><td>**Yaoi detector**<div>I don't care! I ship it!</div></td>
+</tr>
+<tr>
+<td>![manga-yaoi-shounen-ai-4](http://graph.anime.sc/image/achievement/manga-yaoi-shounen-ai-4.png)</td><td>**Full Fledged Fujoshi**<div>Yaoi isn't just a genre to you anymore, it's a way of life.</div></td>
+</tr>
+</table>&nbsp;
+
 ###Old manga
 Awarded for completing over 10 old manga (published before 1980).
 
