@@ -53,35 +53,35 @@ class UserSubProcessorHistory extends UserSubProcessor
 			{
 				$second -= intval($matches[1]);
 			}
-			elseif (preg_match('/(\d*) minutes? ago/', $dateString, $matches))
+			elseif (preg_match('/(\d*) minutes? ago/i', $dateString, $matches))
 			{
 				$second -= intval($matches[1]) * 60;
 			}
-			elseif (preg_match('/(\d*) hours? ago/', $dateString, $matches))
+			elseif (preg_match('/(\d*) hours? ago/i', $dateString, $matches))
 			{
 				$minute -= intval($matches[1]) * 60;
 			}
-			elseif (preg_match('/Today, (\d*):(\d\d) (AM|PM)/', $dateString, $matches))
+			elseif (preg_match('/Today, (\d*):(\d\d) (AM|PM)/i', $dateString, $matches))
 			{
 				$hour = intval($matches[1]);
 				$minute = intval($matches[2]);
 				$hour += ($matches[3] == 'PM' and $hour != 12) ? 12 : 0;
 			}
-			elseif (preg_match('/Yesterday, (\d*):(\d\d) (AM|PM)/', $dateString, $matches))
+			elseif (preg_match('/Yesterday, (\d*):(\d\d) (AM|PM)/i', $dateString, $matches))
 			{
 				$hour = intval($matches[1]);
 				$minute = intval($matches[2]);
 				$hour += ($matches[3] == 'PM' and $hour != 12) ? 12 : 0;
 				$hour -= 24;
 			}
-			elseif (preg_match('/(\d\d)-(\d\d)-(\d\d), (\d*):(\d\d) (AM|PM)/', $dateString, $matches))
+			elseif (preg_match('/([a-z]+) (\d*), (\d*):(\d\d) (AM|PM)/i', $dateString, $matches))
 			{
-				$year = intval($matches[3]) + 2000;
-				$month = intval($matches[1]);
+				$month = date_parse($matches[1]);
+                $month = intval($month['month']);
 				$day = intval($matches[2]);
-				$hour = intval($matches[4]);
-				$minute = intval($matches[5]);
-				$hour += ($matches[6] == 'PM' and $hour != 12) ? 12 : 0;
+				$hour = intval($matches[3]);
+				$minute = intval($matches[4]);
+				$hour += ($matches[5] == 'PM' and $hour != 12) ? 12 : 0;
 			}
 			$timestamp = mktime($hour, $minute, $second, $month, $day, $year);
 			date_default_timezone_set('UTC');
