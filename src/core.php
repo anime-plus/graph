@@ -41,11 +41,4 @@ date_default_timezone_set('UTC');
 ini_set('memory_limit', '1024M');
 ErrorHandler::init();
 Database::init();
-
-$localCore = __DIR__ . DIRECTORY_SEPARATOR . 'local.php';
-
-if (file_exists($localCore)) {
-    include $localCore;
-}
-
 BenchmarkHelper::init();
