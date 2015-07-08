@@ -60,8 +60,8 @@ class Config extends Singleton
         $dataRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'data', '']);
         $htmlRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'public']);
         
-        self::$title = 'graph.anime.sc';
-        self::$mail = 'hello@anime.sc';
+        self::$title = 'graph.anime.plus';
+        self::$mail = 'hello@anime.plus';
         
         self::$cronInterval = 5;
         self::$usersPerCronRun = 10;
@@ -113,7 +113,7 @@ class Config extends Singleton
         self::$imageDirectory = $htmlRootDir . DIRECTORY_SEPARATOR . 'image';
         self::$mediaUrl = '/media/';
         self::$imageUrl = '/image/';
-        self::$baseUrl = isset($_SERVER['HTTP_HOST']) ? 'http://' . $_SERVER['HTTP_HOST'] . '/' : 'http://graph.anime.sc/';
+        self::$baseUrl = isset($_SERVER['HTTP_HOST']) ? 'http://' . $_SERVER['HTTP_HOST'] . '/' : 'http://graph.anime.plus/';
         self::$googleAnalyticsEnabled = true;
         self::$adminPassword = '';
         self::$maintenanceMessage = null;
