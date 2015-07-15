@@ -4,8 +4,8 @@ class MangaMediaType extends MediaType
 	const Unknown = 0;
 	const Manga = 1;
 	const Novel = 2;
-	const OneShot = 3;
-	const Doujin = 4;
+	const Oneshot = 3;
+	const Doujinshi = 4;
 	const Manhwa = 5;
 	const Manhua = 6;
 	const OEL = 7;
@@ -18,10 +18,10 @@ class MangaMediaType extends MediaType
 				return 'manga';
 			case self::Novel:
 				return 'novel';
-			case self::OneShot:
-				return 'one shot';
-			case self::Doujin:
-				return 'doujin';
+			case self::Oneshot:
+				return 'one-shot';
+			case self::Doujinshi:
+				return 'doujinshi';
 			case self::Manhwa:
 				return 'manhwa';
 			case self::Manhua:
