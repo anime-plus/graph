@@ -17,20 +17,20 @@ class MediaSubProcessorBasic extends MediaSubProcessor
 		//sub type
 		$malSubType = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[starts-with(text(), \'Type\')]/following-sibling::node()[self::text()]')));
 		$subType = Strings::makeEnum($malSubType, [
-			'tv'       => AnimeMediaType::TV,
-			'ova'      => AnimeMediaType::OVA,
-			'movie'    => AnimeMediaType::Movie,
-			'special'  => AnimeMediaType::Special,
-			'ona'      => AnimeMediaType::ONA,
-			'music'    => AnimeMediaType::Music,
-			'manga'    => MangaMediaType::Manga,
-			'novel'    => MangaMediaType::Novel,
-			'one shot' => MangaMediaType::OneShot,
-			'doujin'   => MangaMediaType::Doujin,
-			'manhwa'   => MangaMediaType::Manhwa,
-			'manhua'   => MangaMediaType::Manhua,
-			'oel'      => MangaMediaType::OEL,
-			''         => $this->media == Media::Manga ? MangaMediaType::Unknown : AnimeMediaType::Unknown,
+			'tv'        => AnimeMediaType::TV,
+			'ova'       => AnimeMediaType::OVA,
+			'movie'     => AnimeMediaType::Movie,
+			'special'   => AnimeMediaType::Special,
+			'ona'       => AnimeMediaType::ONA,
+			'music'     => AnimeMediaType::Music,
+			'manga'     => MangaMediaType::Manga,
+			'novel'     => MangaMediaType::Novel,
+			'one-shot'  => MangaMediaType::Oneshot,
+			'doujinshi' => MangaMediaType::Doujinshi,
+			'manhwa'    => MangaMediaType::Manhwa,
+			'manhua'    => MangaMediaType::Manhua,
+			'oel'       => MangaMediaType::OEL,
+			''          => $this->media == Media::Manga ? MangaMediaType::Unknown : AnimeMediaType::Unknown,
 		], null);
 		if ($subType === null)
 			throw new BadProcessorDocumentException($doc, 'empty sub type');
