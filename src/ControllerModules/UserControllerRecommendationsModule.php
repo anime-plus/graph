@@ -284,6 +284,17 @@ class RecommendationsEngine
         
         return $franchises;
     }
+    
+    public function getMissingTitlesCount($franchises)
+    {
+        $count = 0;
+        
+        foreach ($franchises as $franchise) {
+            $count += count($franchise->allEntries);
+        }
+        
+        return $count;
+    }
 }
 
 class UserControllerRecommendationsModule extends AbstractUserControllerModule
@@ -318,9 +329,10 @@ class UserControllerRecommendationsModule extends AbstractUserControllerModule
         $list = $viewContext->user->getMixedUserMedia($viewContext->media);
         $recsEngine = new RecommendationsEngine($viewContext->media, $list);
         
-        $goal = 10;
+        $goal = 20;
         $viewContext->newRecommendations = $recsEngine->getNewRecommendations($goal);
         $viewContext->franchises = $recsEngine->getMissingTitles();
+        $viewContext->missingTitlesCount = $recsEngine->getMissingTitlesCount($viewContext->franchises);
         $viewContext->private = $viewContext->user->isUserMediaPrivate($viewContext->media);
     }
 }
