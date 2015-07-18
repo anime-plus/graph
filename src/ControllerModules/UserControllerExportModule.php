@@ -7,7 +7,7 @@ class UserControllerExportModule extends AbstractUserControllerModule
 
 	public static function getUrlParts()
 	{
-		return ['export'];
+		return ['e'];
 	}
 
 	public static function url()
@@ -17,7 +17,7 @@ class UserControllerExportModule extends AbstractUserControllerModule
 		$media = array_shift($args);
 		$settings = array_shift($args);
 
-		$url = '/export/' . $userName . '/' . base64_encode($settings) . '/image.png';
+		$url = '/e/' . $userName . '/' . base64_encode($settings) . '.png';
 		return UrlHelper::absoluteUrl($url);
 	}
 
@@ -39,15 +39,15 @@ class UserControllerExportModule extends AbstractUserControllerModule
 	const IMAGE_TYPE_MANGA = 2;
 	const IMAGE_TYPE_ANIME_MANGA = 3;
 
-	const COLOR_BARS1 = 'bar1';
-	const COLOR_BARS2 = 'bar2';
-	const COLOR_BAR_GUIDES1 = 'line1';
-	const COLOR_BAR_GUIDES2 = 'line2';
-	const COLOR_BACKGROUND  = 'back';
-	const COLOR_FONT_DARK = 'font1';
-	const COLOR_FONT_LIGHT = 'font2';
-	const COLOR_TITLE = 'title';
-	const COLOR_LOGO = 'logo';
+	const COLOR_BARS1 = 1;
+	const COLOR_BARS2 = 2;
+	const COLOR_BAR_GUIDES1 = 3;
+	const COLOR_BAR_GUIDES2 = 4;
+	const COLOR_BACKGROUND  = 5;
+	const COLOR_FONT_DARK = 6;
+	const COLOR_FONT_LIGHT = 7;
+	const COLOR_TITLE = 8;
+	const COLOR_LOGO = 9;
 
 	private static function mixColors($c1, $c2, $r)
 	{
@@ -318,8 +318,8 @@ class UserControllerExportModule extends AbstractUserControllerModule
 
 		//get input data from GET
 		$userSettings = !empty($_GET['settings']) ? json_decode(base64_decode($_GET['settings']), true) : [];
-		$imageType = !empty($userSettings['type'])
-			? $userSettings['type']
+		$imageType = !empty($userSettings[0])
+			? $userSettings[0]
 			: null;
 		if (!in_array($imageType, [self::IMAGE_TYPE_ANIME, self::IMAGE_TYPE_MANGA, self::IMAGE_TYPE_ANIME_MANGA]))
 		{
