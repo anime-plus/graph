@@ -52,15 +52,15 @@
 							<p><br>Choose element to edit:</p>
 							<form>
 								<?php $options = [
-									'bar1' => 'Bar gradient - left',
-									'bar2' => 'Bar gradient - right',
-									'line1' => 'Line gradient - left',
-									'line2' => 'Line gradient - right',
-									'back' => 'Background',
-									'font1' => 'Text I - numbers',
-									'font2' => 'Text II - labels and %',
-									'title' => 'Title',
-									'logo' => 'Icon',
+									1 => 'Bar gradient - left',
+									2 => 'Bar gradient - right',
+									3 => 'Line gradient - left',
+									4 => 'Line gradient - right',
+									5 => 'Background',
+									6 => 'Text I - numbers',
+									7 => 'Text II - labels and %',
+									8 => 'Title',
+									9 => 'Icon',
 								]; ?>
 								<select class="color" name="color">
 									<?php foreach ($options as $key => $text): ?>
@@ -81,7 +81,7 @@
 							</div>
 							<textarea readonly="readonly" name="bbcode"><?php
 								?>[url=<?php echo UserControllerProfileModule::url($viewContext->user->name, $viewContext->media) ?>]<?php
-								?>[img]<?php echo UserControllerExportModule::url($viewContext->user->name, $viewContext->media, 'type=1') ?><?php
+								?>[img]<?php echo UserControllerExportModule::url($viewContext->user->name, $viewContext->media, '0=1') ?><?php
 								?>[/img]<?php
 								?>[/url]<?php
 							?></textarea>

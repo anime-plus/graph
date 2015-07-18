@@ -38,14 +38,14 @@ $(function()
 		{
 			var textarea = $(this).parents('.export').find('textarea');
 			var type = $(this).find('option:selected').data('type');
-			updateParams({type: type});
+			updateParams({0: type});
 			updatePreview($(this).parents('.export'));
 		});
 	});
 
 	function resetParams()
 	{
-		_params = {type: _params.type};
+		_params = {0: _params[0]};
 	}
 
 	function updateParams(params)
@@ -55,22 +55,22 @@ $(function()
 			_params[k] = params[k];
 
 		var newText = btoa(JSON.stringify(_params)).replace(/=/g, '');
-		textarea.val(textarea.val().replace(/\/([^\/]*)(?=\/[^\/]*\.png)/, '/' + newText));
+		textarea.val(textarea.val().replace(/\/([^\/]*)(?=\.png)/, '/' + newText));
 		return _params;
 	}
 
-	var defaultParams = { 'bar1': 'a4c0f4', 'bar2': '13459a', 'line1': 'f8fafe', 'line2': 'eff2f8', 'back': 'ffffff', 'font1': '000000', 'font2': 'aaaaaa', 'title': '577fc2', 'logo': '577fc2' };
+	var defaultParams = { 1: 'a4c0f4', 2: '13459a', 3: 'f8fafe', 4: 'eff2f8', 5: 'ffffff', 6: '000000', 7: 'aaaaaa', 8: '577fc2', 9: '577fc2' };
 
 	/* prepare theme selecton */
 	var themes =
 	[
 		{ 'params': { }, 'name': 'Blue (default)' },
-		{ 'params': { 'bar1': '00ffaaaa', 'bar2': '00ee6677', 'line1': 'c0ffaaaa', 'line2': 'c0ee6677', 'back': 'ffffffff', 'font1': '20442233', 'font2': '85aa4444', 'title': '00cc5566', 'logo': '00cc5566' }, 'name': 'Pink' },
-		{ 'params': { 'bar1': '0044ff44', 'bar2': '00008800', 'line1': 'dd44ff44', 'line2': 'dd00aa00', 'back': 'ffffffff', 'font1': '20227722', 'font2': '90227722', 'title': '00227722', 'logo': '00227722' }, 'name': 'Green' },
-		{ 'params': { 'bar1': '00eecc05', 'bar2': '00dd2200', 'line1': 'aaffdd00', 'line2': 'aaff0000', 'back': 'ffffffff', 'font1': '20220700', 'font2': '90220700', 'title': '00220700', 'logo': '00220700' }, 'name': 'Flame (yellow + red)' },
-		{ 'params': { 'bar1': 'aa000000', 'bar2': '33000000', 'line1': 'ff000000', 'line2': 'dd000000', 'back': 'ffffffff', 'font1': '20000000', 'font2': '90000000', 'title': '20000000', 'logo': '20000000' }, 'name': 'Gray' },
-		{ 'params': { 'bar1': '0084a0d4', 'bar2': '0003359a', 'line1': '00446084', 'line2': '0001156a', 'back': '00000000', 'font1': '00779fe2', 'font2': '50779fe2', 'title': '00779fe2', 'logo': '00779fe2' }, 'name': 'unBlue (blue on black)' },
-		{ 'params': { 'bar1': '0044ff44', 'bar2': '00008800', 'line1': '00004400', 'line2': '00008800', 'back': '00000000', 'font1': '2044ff44', 'font2': '00008800', 'title': '0033aa33', 'logo': '0033aa33' }, 'name': 'Matrix (green on black)' },
+		{ 'params': { 1: '00ffaaaa', 2: '00ee6677', 3: 'c0ffaaaa', 4: 'c0ee6677', 5: 'ffffffff', 6: '20442233', 7: '85aa4444', 8: '00cc5566', 9: '00cc5566' }, 'name': 'Pink' },
+		{ 'params': { 1: '0044ff44', 2: '00008800', 3: 'dd44ff44', 4: 'dd00aa00', 5: 'ffffffff', 6: '20227722', 7: '90227722', 8: '00227722', 9: '00227722' }, 'name': 'Green' },
+		{ 'params': { 1: '00eecc05', 2: '00dd2200', 3: 'aaffdd00', 4: 'aaff0000', 5: 'ffffffff', 6: '20220700', 7: '90220700', 8: '00220700', 9: '00220700' }, 'name': 'Flame (yellow + red)' },
+		{ 'params': { 1: 'aa000000', 2: '33000000', 3: 'ff000000', 4: 'dd000000', 5: 'ffffffff', 6: '20000000', 7: '90000000', 8: '20000000', 9: '20000000' }, 'name': 'Gray' },
+		{ 'params': { 1: '0084a0d4', 2: '0003359a', 3: '00446084', 4: '0001156a', 5: '00000000', 6: '00779fe2', 7: '50779fe2', 8: '00779fe2', 9: '00779fe2' }, 'name': 'unBlue (blue on black)' },
+		{ 'params': { 1: '0044ff44', 2: '00008800', 3: '00004400', 4: '00008800', 5: '00000000', 6: '2044ff44', 7: '00008800', 8: '0033aa33', 9: '0033aa33' }, 'name': 'Matrix (green on black)' },
 		{ 'params': { }, 'name': 'Custom' },
 	];
 
@@ -151,5 +151,5 @@ $(function()
 		e.preventDefault();
 	});
 
-	updateParams({type: 1});
+	updateParams({0: 1});
 });
