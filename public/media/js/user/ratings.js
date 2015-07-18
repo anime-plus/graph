@@ -55,7 +55,7 @@ $(function()
 			_params[k] = params[k];
 
 		var newText = btoa(JSON.stringify(_params)).replace(/=/g, '');
-		textarea.val(textarea.val().replace(/\/([^\/]*)(?=\.png)/, '/' + newText));
+		textarea.val(textarea.val().replace(/\/([^\/]*)(?=\/[^\/]*\.png)/, '/' + newText));
 		return _params;
 	}
 

@@ -7,7 +7,7 @@ class UserControllerExportModule extends AbstractUserControllerModule
 
 	public static function getUrlParts()
 	{
-		return ['e'];
+		return ['export'];
 	}
 
 	public static function url()
@@ -17,7 +17,7 @@ class UserControllerExportModule extends AbstractUserControllerModule
 		$media = array_shift($args);
 		$settings = array_shift($args);
 
-		$url = '/e/' . $userName . '/' . base64_encode($settings) . '.png';
+		$url = '/export/' . $userName . '/' . base64_encode($settings) . '/image.png';
 		return UrlHelper::absoluteUrl($url);
 	}
 
