@@ -19,7 +19,7 @@ class IndexControllerSearchModule extends AbstractControllerModule
 		if (empty($userName))
 		{
 			$viewContext->layoutName = null;
-			$url = IndexControllerIndexModule::url(rName);
+			$url = IndexControllerIndexModule::url();
 			HttpHeadersHelper::setCurrentHeader('Location', $url);
 			return;
 		}
