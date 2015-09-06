@@ -5,6 +5,7 @@ If you're curious about titles that count towards certain badges, read [these fi
 Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60 for level 3 and 100 for the maximum level. Manga thresholds (and anime mahou shoujo) are 15, 30, 50 and 80. The romance badges have increased thresholds (40, 70, 100 and 150), since this genre tag is ubiquitous.
 
 ##Anime achievements
+
 ###Dementia and Psychological
 Awarded for watching dementia or psychological anime.
 
@@ -205,7 +206,7 @@ This is worthy having a dedicated achievement. One level. Is it the highest, or 
 </table>&nbsp;
 
 ###Pervert
-Are you a pervert? Find out: 100 ÷ *anime completed* × (*ecchi anime completed* × 2 + *hentai anime completed* × 4). 25% - "plot" lover, 50% - naughty, 75% - pervert.
+Are you a pervert? Find out: 100 ÷ *anime completed* × (*ecchi anime completed* × 2 + *hentai anime completed* × 4)
 
 <table>
 <tr>
@@ -286,6 +287,7 @@ Self-explanatory. Level thresholds designed in a way that, uh, I don't remember.
 </table>&nbsp;
 
 ##Manga achievements
+
 ###Horror
 Horrors in anime are a joke, but at least in manga they're somewhat decent.
 
@@ -412,6 +414,24 @@ Awarded for reading yaoi or shounen ai manga.
 </tr>
 </table>&nbsp;
 
+###Yuri and Shoujo Ai
+Awarded for reading yuri or shoujo ai manga.
+
+<table>
+<tr>
+<td>![manga-yuri-shoujo-ai-1](http://graph.anime.plus/image/achievement/manga-yuri-shoujo-ai-1.png)</td><td>**But that's forbidden love**<div>Cute girls doing cute things... right?</div></td>
+</tr>
+<tr>
+<td>![manga-yuri-shoujo-ai-2](http://graph.anime.plus/image/achievement/manga-yuri-shoujo-ai-2.png)</td><td>**I kissed a girl...**<div>...and I liked it!</div></td>
+</tr>
+<tr>
+<td>![manga-yuri-shoujo-ai-3](http://graph.anime.plus/image/achievement/manga-yuri-shoujo-ai-3.png)</td><td>**All female school**<div>There are only girls here to love... but I don't mind it.</div></td>
+</tr>
+<tr>
+<td>![manga-yuri-shoujo-ai-4](http://graph.anime.plus/image/achievement/manga-yuri-shoujo-ai-4.png)</td><td>**Lily**<div>You feel it everywhere.</div></td>
+</tr>
+</table>&nbsp;
+
 ###Old manga
 Awarded for completing over 10 old manga (published before 1980).
 
@@ -431,7 +451,7 @@ Given for completing at least 15 manga that are 20+ volumes long.
 </table>&nbsp;
 
 ###Pervert
-Are you a pervert? Find out: 100 ÷ *manga completed* × (*ecchi manga completed* × 2 + *hentai manga completed* × 4). 25% - fan service lover, 50% - naughty, 75% - pervert.
+Are you a pervert? Find out: 100 ÷ *manga completed* × (*ecchi manga completed* × 2 + *hentai manga completed* × 4)
 
 <table>
 <tr>
