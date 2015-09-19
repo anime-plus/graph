@@ -32,6 +32,20 @@ class MediaSubProcessorGenres extends MediaSubProcessor
             ];
         }
         
+        foreach ($xpath->query('//span[starts-with(text(), \'Genres\')]/../a') as $node) {
+            preg_match('/=([0-9]+)/', $node->getAttribute('href'), $matches);
+            
+            $genreIdMal = Strings::makeInteger($matches[1]);
+            
+            $genreName = Strings::removeSpaces($node->textContent);
+            
+            $data[] = [
+                'media_id' => $context->media->id,
+                'mal_id' => $genreIdMal,
+                'name' => $genreName
+            ];
+        }
+        
         Database::insert('mediagenre', $data);
     }
 }
