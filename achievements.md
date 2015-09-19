@@ -156,7 +156,7 @@ Awarded for watching space anime.
 <td>![anime-space-3](http://graph.anime.plus/image/achievement/anime-space-3.gif)</td><td>**Interstellar traveler**<div>You've traveled vast interstellar distances and seen many galaxies in your way.</div></td>
 </tr>
 <tr>
-<td>![anime-space-4](http://graph.anime.plus/image/achievement/anime-space-4.png)</td><td>**Emperor of the Universe**<div>You're the ruler of the whole universe. There's no one with more power than you.</div></td>
+<td>![anime-space-4](http://graph.anime.plus/image/achievement/anime-space-4.png)</td><td>**Emperor of the Universe**<div>You're the ruler of the whole Universe. There's no one with more power than you.</div></td>
 </tr>
 </table>&nbsp;
 
