@@ -332,7 +332,7 @@ class UserControllerExportModule extends AbstractUserControllerModule
 		$settings->fontSizeNormal = 9;
 		$settings->fontSizeBig = 10.5;
 		$settings->barWidth = 220;
-		$settings->barHeight = 13;
+		$settings->barHeight = 11;
 		$settings->barPadding = 1;
 		$settings->colors =
 		[
