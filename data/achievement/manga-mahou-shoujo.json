@@ -50,11 +50,11 @@
             "M172",   #Corrector Yui
             "M18411", #Corrector Yui
             "M18412", #Corrector Yui Ver.2
-            "M1661",  #Cutey Honey
-            "M1661",  #Cutey Honey Flash
-            "M1661",  #Cutey Honey ‘90
-            "M1661",  #Cutey Honey aGoGo!
-            "M1661",  #Cutey Honey Tennyo Densetsu
+            "M7658",  #Cutey Honey
+            "M16941", #Cutie Honey
+            "M16942", #Cutie Honey a Go Go!
+            "M75723", #Cutie Honey Tai Devilman Lady
+            "M19619", #Cutie Honey: Tennyo Densetsu
             "M9987",  #Dai Mahou Touge
             "M23986", #Daisuki desu!! Mahou Tenshi Kosumasu
             "M10027", #Demashitaa! Powerpuff Girls Z
@@ -62,9 +62,11 @@
             "M25923", #Eiga Futari wa Precure Max Heart
             "M18046", #Esper Mami
             "M9795",  #Fancy Lala
-            "M3526",  #Fate/kaleid liner Prisma Illya
-            "M13856", #Fate/kaleid liner Prisma Illya 2wei!
-            "M36131", #Fate/kaleid liner Prisma Illya drei!
+            "M3526",  #Fate/kaleid liner Prisma☆Illya
+            "M91809", #Fate/kaleid liner Prisma☆Illya
+            "M13856", #Fate/kaleid liner Prisma☆Illya 2wei!
+            "M36131", #Fate/kaleid liner Prisma☆Illya 3rei!!
+            "M20548", #Fate/stay night x Magical Girl Lyrical Nanoha
             "M3230",  #Figure 17
             "M25927", #Fresh Precure!
             "M8",     #Full Moon wo Sagashite
@@ -78,6 +80,7 @@
             "M4998",  #Hime-chan no Ribbon
             "M21406", #Himitsu no Akko-chan
             "M87835", #Honey VS
+            "M88133", #Houkago no Pleiades: Prism Palette
             "M1607",  #Itsudatte My Santa!
             "M19898", #Jewelpet
             "M32391", #Kaitou Tenshi Twin Angel
@@ -92,15 +95,19 @@
             "M20088", #Lilpri
             "M119",   #Magic Knight Rayearth
             "M697",   #Magic Knight Rayearth II
-            "M14238", #Magical Girl Lyrical Nanoha ViVid
             "M11189", #Magical Nyan Nyan Taruto
             "M24087", #Mahochu-!
             "M9882",  #Mahou no Tenshi Creamy Mami
+            "M23223", #Magical Girl Lyrical Nanoha
             "M13268", #Mahou Senki Lyrical Nanoha Force
-            "M24295", #Mahou Shoujo Kazumi Magica - The Innocent Malice
-            "M3236",  #Mahou Shoujo Lyrical Nanoha As
+            "M56719", #Mahou Senki Lyrical Nanoha Force Dimension
+            "M24295", #Mahou Shoujo Kazumi★Magica: The Innocent Malice
+            "M3236",  #Mahou Shoujo Lyrical Nanoha A's
             "M1231",  #Mahou Shoujo Lyrical Nanoha StrikerS THE COMICS
-            "M16872", #Mahou Shoujo Lyrical Nanoha Movie 1st the Comics
+            "M14238", #Mahou Shoujo Lyrical Nanoha ViVid
+            "M63891", #Mahou Shoujo Lyrical Nanoha ViVid LIFE
+            "M16872", #Mahou Shoujo Lyrical Nanoha: Movie 1st the Comics
+            "M50595", #Mahou Shoujo Lyrical Nanoha: The Movie 2nd A's - Tribute Comics
             "M24457", #Mahou Shoujo Madoka Magica
             "M27861", #Mahou Shoujo Madoka Magica (novel)
             "M28961", #Mahou Shoujo Madoka Magica: Anthology
@@ -136,6 +143,7 @@
             "M505",   #S to M no Sekai
             "M13921", #Saint October
             "M508",   #Saint Tail
+            "M37599", #Senki Zesshou Symphogear: Meteoroid-falling, burning, and disappear, then...
             "M1763",  #Shadow Lady
             "M2902",  #Shin Kankaku Iyashikei Mahou Shoujo Behoimi-chan
             "M772",   #Shoujo Kakumei Utena

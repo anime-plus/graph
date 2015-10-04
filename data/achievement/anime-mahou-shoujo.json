@@ -65,6 +65,7 @@
             "A6496",  #Cutey Honey Flash: The Movie
             "A2288",  #Cyberteam in Akihabara
             "A2289",  #Cyberteam in Akihabara: 2011 Summer Vacation
+            "A2723",  #D4 Princess
             "A933",   #Dai Mahou Touge
             "A1841",  #Dai Mahou Touge Omake
             "A1221",  #Demashitaa! Powerpuff Girls Z
@@ -88,10 +89,12 @@
             "A604",   #Fancy Lala
             "A15883", #Fantasista Doll
             "A14829", #Fate/kaleid liner Prisma☆Illya
-            "A20509", #Fate/kaleid liner Prisma☆Illya 2wei!
             "A27525", #Fate/kaleid liner Prisma☆Illya 2wei Herz!
+            "A31056", #Fate/kaleid liner Prisma☆Illya 2wei Herz! Specials
+            "A20509", #Fate/kaleid liner Prisma☆Illya 2wei!
             "A26057", #Fate/kaleid liner Prisma☆Illya 2wei! OVA
             "A25011", #Fate/kaleid liner Prisma☆Illya 2wei! Specials
+            "A31706", #Fate/kaleid liner Prisma☆Illya 3rei!!
             "A19109", #Fate/kaleid liner Prisma☆Illya Specials
             "A18851", #Fate/kaleid liner Prisma☆Illya: Undoukai de Dance!
             "A1126",  #Figure 17
@@ -139,8 +142,8 @@
             "A3839",  #Himitsu no Akko-chan 3
             "A12971", #Himitsu no Akko-chan: Umi da! Obake da!! Natsu matsuri
             "A9911",  #Houkago no Pleiades
-            "A10710", #Houkago no Pleiades: Manner Movie
             "A17919", #Houkago no Pleiades (TV)
+            "A10710", #Houkago no Pleiades: Manner Movie
             "A588",   #Itsudatte My Santa!
             "A6008",  #Jewelpet
             "A8217",  #Jewelpet Tinkle
@@ -203,12 +206,12 @@
             "A76",    #Mahou Shoujo Lyrical Nanoha
             "A77",    #Mahou Shoujo Lyrical Nanoha A's
             "A1915",  #Mahou Shoujo Lyrical Nanoha StrikerS
+            "A25939", #Mahou Shoujo Lyrical Nanoha ViVid
+            "A31137", #Mahou Shoujo Lyrical Nanoha ViVid: Special Program
             "A12101", #Mahou Shoujo Lyrical Nanoha: Lyrical Toy Box
             "A4985",  #Mahou Shoujo Lyrical Nanoha: The Movie 1st
             "A10153", #Mahou Shoujo Lyrical Nanoha: The Movie 2nd A's
             "A17947", #Mahou Shoujo Lyrical Nanoha: The Movie 3rd Reflection
-            "A25939", #Mahou Shoujo Lyrical Nanoha ViVid
-            "A31137", #Mahou Shoujo Lyrical Nanoha ViVid: Special Program
             "A9756",  #Mahou Shoujo Madoka Magica
             "A11977", #Mahou Shoujo Madoka Magica Movie 1: Hajimari no Monogatari
             "A11979", #Mahou Shoujo Madoka Magica Movie 2: Eien no Monogatari
@@ -328,10 +331,10 @@
             "A1882",  #Sasami: Mahou Shoujo Club 2
             "A3328",  #School Days: Magical Heart Kokoro-chan
             "A18047", #Seiyuu Deka
-            "A11751", #Senki Zesshou Symphogear: Meteoroid-Falling Burning and Disappear Then...
-            "A15793", #Senki Zesshou Symphogear G: In the Distance That Day When the Star Became Music
-            "A20843", #Senki Zesshou Symphogear G: In the Distance That Day When the Star Became Music... OVA
-            "A21573", #Senki Zesshou Symphogear 3
+            "A11751", #Senki Zesshou Symphogear: Meteoroid-Falling, Burning, and Disappear, Then...
+            "A15793", #Senki Zesshou Symphogear G: In the Distance, That Day, When the Star Became Music...
+            "A20843", #Senki Zesshou Symphogear G: In the Distance, That Day, When the Star Became Music... Specials
+            "A21573", #Senki Zesshou Symphogear GX: Believe in Justice and Hold a Determination to Fist.
             "A3301",  #Septem Charm Magical Kanan
             "A4489",  #Septem Charm Magical Kanan: SP Summer Camp
             "A355",   #Shakugan no Shana
@@ -396,7 +399,7 @@
             "A16656", #Zettai Junpaku: Mahou Shoujo
             "A4038",  #Zettai Karen Children
             "A9127",  #Zettai Karen Children Gentei Kaikin!! OVA Chou Sakidori Special!!
-            "A7754",  #Zettai Karen Children OVA: Aitazousei! Ubawareta Mirai?
+            "A7745",  #Zettai Karen Children OVA: Aitazousei! Ubawareta Mirai?
             "A5849"   #Zettai Karen Children Recap
         ]
     }
