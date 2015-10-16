@@ -34,26 +34,6 @@
 		</div>
 
 		<div class="left">
-			<div class="mini-section list-views">
-				<p class="big-number">
-					<span class="desc">List views:</span>
-					<span class="value"><?php echo $viewContext->user->anime_views + $viewContext->user->manga_views ?></span>
-				</p>
-
-				<div class="bar">
-					<div class="filled" style="width: <?php echo $viewContext->user->anime_views * 100.0 / max(1, $viewContext->user->anime_views + $viewContext->user->manga_views) ?>%"></div>
-				</div>
-
-				<p class="small-number">
-					<span class="anime">
-						<?php echo $viewContext->user->anime_views ?> anime
-					</span>,&nbsp;
-					<span class="manga">
-						<?php echo $viewContext->user->manga_views ?> manga
-					</span>
-				</p>
-			</div>
-
 			<div class="mini-section">
 				<div class="years">
 					<p class="big-number">
