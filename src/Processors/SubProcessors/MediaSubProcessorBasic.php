@@ -9,7 +9,7 @@ class MediaSubProcessorBasic extends MediaSubProcessor
         
         $xpath = new DOMXPath($dom);
         
-        if ($xpath->query('//div[@class = \'badresult\']')->length >= 1) {
+        if ($xpath->query('//h1[text() = \'404 Not Found\']')->length >= 1) {
             throw new BadProcessorKeyException($context->key);
         }
         
