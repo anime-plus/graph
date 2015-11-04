@@ -18,7 +18,7 @@ class Strings
 		$subject = str_replace(',', '', $subject);
 		$subject = str_replace('.', '', $subject);
 		$subject = str_replace(' ', '', $subject);
-		$subject = ltrim($subject, '#');
+		$subject = trim(trim($subject), '#');
 		$subject = intval($subject);
 		return $subject;
 	}
@@ -28,14 +28,6 @@ class Strings
 		$subject = str_replace(' ', '', $subject);
 		$subject = floatval($subject);
 		return $subject;
-	}
-
-	public static function extractInteger($subject)
-	{
-		preg_match('/\d+/', $subject, $matches);
-		if (!$matches)
-			return 0;
-		return intval($matches[0]);
 	}
 
 	public static function makeDate($str)

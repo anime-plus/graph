@@ -13,7 +13,7 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             throw new BadProcessorKeyException($context->key);
         }
         
-        $title = Strings::removeSpaces(self::getNodeValue($xpath, '//h1//span[@itemprop = \'name\']'));
+        $title = Strings::removeSpaces(self::getNodeValue($xpath, '//h1//span'));
         
         if (empty($title)) {
             throw new BadProcessorDocumentException($document, 'empty title');
@@ -46,11 +46,11 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             throw new BadProcessorDocumentException($document, 'empty sub type');
         }
         
-        $image = self::getNodeValue($xpath, '//td[@class = \'borderClass\']//img', null, 'src');
+        $image = self::getNodeValue($xpath, '//meta[@property = \'og:image\']', null, 'content');
         
         $score = Strings::makeFloat(self::getNodeValue($xpath, '//span[@itemprop = \'ratingValue\']'));
         
-        $scoredByUsers = Strings::extractInteger(self::getNodeValue($xpath, '//span[@itemprop = \'ratingCount\']'));
+        $scoredByUsers = Strings::makeInteger(self::getNodeValue($xpath, '//span[@itemprop = \'ratingCount\']'));
         
         $ranked = Strings::makeInteger(self::getNodeValue($xpath, '//span[starts-with(text(), \'Ranked\')]/following-sibling::node()[self::text()]'));
         
