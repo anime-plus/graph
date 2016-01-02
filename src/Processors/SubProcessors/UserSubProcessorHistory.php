@@ -83,6 +83,16 @@ class UserSubProcessorHistory extends UserSubProcessor
 				$minute = intval($matches[4]);
 				$hour += ($matches[5] == 'PM' and $hour != 12) ? 12 : 0;
 			}
+			elseif (preg_match('/([a-z]+) (\d*), (\d*) (\d*):(\d\d) (AM|PM)/i', $dateString, $matches))
+			{
+				$month = date_parse($matches[1]);
+                $month = intval($month['month']);
+				$day = intval($matches[2]);
+                $year = intval($matches[3]);
+				$hour = intval($matches[4]);
+				$minute = intval($matches[5]);
+				$hour += ($matches[6] == 'PM' and $hour != 12) ? 12 : 0;
+			}
 			$timestamp = mktime($hour, $minute, $second, $month, $day, $year);
 			date_default_timezone_set('UTC');
 
