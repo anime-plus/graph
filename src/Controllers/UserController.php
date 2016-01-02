@@ -67,9 +67,13 @@ class UserController extends AbstractController
         $user = R::findOne('user', 'LOWER(name) = LOWER(?)', [$controllerContext->userName]);
         if (empty($user)) {
             if (!isset($_GET['referral']) || $_GET['referral'] !== 'search') {
-                $uri = IndexControllerIndexModule::url();
+                $controllerContext->cache->bypass(true);
                 
-                HttpHeadersHelper::setCurrentHeader('Location', $uri);
+                $viewContext->userName = $controllerContext->userName;
+                
+                $viewContext->viewName = 'error-user-not-found';
+                
+                $viewContext->meta->title = 'User not found &#8212; ' . Config::$title;
                 
                 return;
             }
