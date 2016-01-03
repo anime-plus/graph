@@ -35,7 +35,7 @@ class UserSubProcessorHistory extends UserSubProcessor
             
             $idMal = intval($matches[0]);
             
-            $progress = Strings::makeInteger($node->childNodes->item(0)->lastChild->nodeValue);
+            $progress = Strings::makeInteger($node->childNodes->item(0)->getElementsByTagName('strong')->item(0)->nodeValue);
             
             if (isset($document->headers['Date'])) {
                 date_default_timezone_set('UTC');
