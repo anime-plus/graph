@@ -19,7 +19,6 @@ class AnimeProcessor extends AbstractProcessor
 		$subProcessors = [];
 		$subProcessors []= new MediaSubProcessorBasic(Media::Anime);
 		$subProcessors []= new MediaSubProcessorGenres(Media::Anime);
-		$subProcessors []= new MediaSubProcessorTags(Media::Anime);
 		$subProcessors []= new MediaSubProcessorRelations(Media::Anime);
 		$subProcessors []= new MediaSubProcessorFranchises(Media::Anime);
 		$subProcessors []= new MediaSubProcessorRecommendations(Media::Anime);
@@ -33,7 +32,6 @@ class AnimeProcessor extends AbstractProcessor
 		if ($context->exception instanceof BadProcessorKeyException)
 		{
 			Database::delete('mediagenre', ['media_id' => $context->media->id]);
-			Database::delete('mediatag', ['media_id' => $context->media->id]);
 			Database::delete('mediarelation', ['media_id' => $context->media->id]);
 			Database::delete('mediarec', ['media_id' => $context->media->id]);
 			Database::delete('animeproducer', ['media_id' => $context->media->id]);

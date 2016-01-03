@@ -113,15 +113,7 @@ try
 		name VARCHAR(30)
 	)');
 	R::exec('CREATE INDEX IF NOT EXISTS idx_mediagenre_media_id ON mediagenre (media_id)');
-
-	R::exec('CREATE TABLE IF NOT EXISTS mediatag (
-		id INTEGER PRIMARY KEY,
-		media_id INTEGER,
-		name INTEGER,
-		count VARCHAR(30)
-	)');
-	R::exec('CREATE INDEX IF NOT EXISTS idx_mediatag_media_id ON mediatag (media_id)');
-
+    
 	R::exec('CREATE TABLE IF NOT EXISTS mediarelation (
 		id INTEGER PRIMARY KEY,
 		media_id INTEGER,
