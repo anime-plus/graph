@@ -15,12 +15,12 @@ class MediaSubProcessorRecommendations extends MediaSubProcessor
         
         $data = [];
         
-        foreach ($xpath->query('//h2[text()[contains(., \'Recommendations\')]]/following-sibling::node()[@class=\'borderClass\']') as $node) {
+        foreach ($xpath->query('//h2[text()[contains(., \'Recommendations\')]]/following-sibling::node()[@class = \'borderClass\']') as $node) {
             preg_match('#/([0-9]+)/#', self::getNodeValue($xpath, './/strong/..', $node, 'href'), $matches);
             
             $idMal = Strings::makeInteger($matches[1]);
             
-            $count = 1 + Strings::makeInteger(self::getNodeValue($xpath, './/div[@class=\'spaceit\']//strong', $node));
+            $count = 1 + Strings::makeInteger(self::getNodeValue($xpath, './/div[@class = \'spaceit\']//strong', $node));
             
             $data[] = [
                 'media_id' => $context->media->id,

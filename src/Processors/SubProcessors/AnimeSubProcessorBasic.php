@@ -13,7 +13,7 @@ class AnimeSubProcessorBasic extends MediaSubProcessor
 		$xpath = new DOMXPath($dom);
 
 		//duration
-		preg_match_all('/([0-9]+)/', self::getNodeValue($xpath, '//span[starts-with(text(), \'Duration\')]/following-sibling::node()[self::text()]'), $matches);
+		preg_match_all('#([0-9]+)#', self::getNodeValue($xpath, '//span[text() = \'Duration:\']/following-sibling::node()[self::text()]'), $matches);
 		array_reverse($matches);
 		$duration = 0;
 		foreach($matches[0] as $r)
@@ -23,7 +23,7 @@ class AnimeSubProcessorBasic extends MediaSubProcessor
 		}
 
 		//episode count
-		preg_match_all('/([0-9]+|Unknown)/', self::getNodeValue($xpath, '//span[starts-with(text(), \'Episodes\')]/following-sibling::node()[self::text()]'), $matches);
+		preg_match_all('#([0-9]+|Unknown)#', self::getNodeValue($xpath, '//span[text() = \'Episodes:\']/following-sibling::node()[self::text()]'), $matches);
 		$episodeCount = Strings::makeInteger($matches[0][0]);
 
 		$media = &$context->media;

@@ -13,21 +13,21 @@ class MangaSubProcessorBasic extends MediaSubProcessor
 		$xpath = new DOMXPath($dom);
 
 		//chapter count
-		preg_match_all('/([0-9]+|Unknown)/', self::getNodeValue($xpath, '//span[starts-with(text(), \'Chapter\')]/following-sibling::node()[self::text()]'), $matches);
+		preg_match_all('#([0-9]+|Unknown)#', self::getNodeValue($xpath, '//span[text() = \'Chapters:\']/following-sibling::node()[self::text()]'), $matches);
 		$chapterCount = Strings::makeInteger($matches[0][0]);
 
 		//volume count
-		preg_match_all('/([0-9]+|Unknown)/', self::getNodeValue($xpath, '//span[starts-with(text(), \'Volume\')]/following-sibling::node()[self::text()]'), $matches);
+		preg_match_all('#([0-9]+|Unknown)#', self::getNodeValue($xpath, '//span[text() = \'Volumes:\']/following-sibling::node()[self::text()]'), $matches);
 		$volumeCount = Strings::makeInteger($matches[0][0]);
 
 		//serialization
 		$serializationMalId = null;
 		$serializationName = null;
-		$q = $xpath->query('//span[starts-with(text(), \'Serialization\')]/../a');
+		$q = $xpath->query('//span[text() = \'Serialization:\']/../a');
 		if ($q->length > 0)
 		{
 			$node = $q->item(0);
-			preg_match('#\/magazine\/([0-9]+)$#', $node->getAttribute('href'), $matches);
+			preg_match('#/magazine/([0-9]+)$#', $node->getAttribute('href'), $matches);
 			$serializationMalId = Strings::makeInteger($matches[1]);
 			$serializationName = Strings::removeSpaces($q->item(0)->nodeValue);
 		}

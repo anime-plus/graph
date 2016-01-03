@@ -23,8 +23,8 @@ class MangaSubProcessorAuthors extends MediaSubProcessor
         
         $data = [];
         
-        foreach ($xpath->query('//span[starts-with(text(), \'Authors\')]/../a') as $node) {
-            if (!preg_match('#\/people\/([0-9]+)\/#', $node->getAttribute('href'), $matches)) {
+        foreach ($xpath->query('//span[text() = \'Authors:\']/../a') as $node) {
+            if (!preg_match('#/people/([0-9]+)/#', $node->getAttribute('href'), $matches)) {
                 continue;
             }
             

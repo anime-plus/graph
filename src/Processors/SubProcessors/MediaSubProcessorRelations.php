@@ -15,7 +15,7 @@ class MediaSubProcessorRelations extends MediaSubProcessor
         
         $data = [];
         
-        foreach ($xpath->query('//table[@class=\'anime_detail_related_anime\']/tr') as $node) {
+        foreach ($xpath->query('//table[@class = \'anime_detail_related_anime\']/tr') as $node) {
             $typeMal = strtolower(Strings::removeSpaces($node->childNodes[0]->textContent));
             
             $type = Strings::makeEnum($typeMal, [
