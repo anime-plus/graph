@@ -13,7 +13,13 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             throw new BadProcessorKeyException($context->key);
         }
         
-        $title = Strings::removeSpaces(self::getNodeValue($xpath, '//h1//span'));
+        $title = self::getNodeValue($xpath, '//img[@itemprop = \'image\']', null, 'alt');
+        
+        if ($title === null) {
+            $title = self::getNodeValue($xpath, '//h1//span');
+        }
+        
+        $title = Strings::removeSpaces($title);
         
         if (empty($title)) {
             throw new BadProcessorDocumentException($document, 'empty title');
