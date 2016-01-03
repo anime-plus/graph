@@ -19,7 +19,7 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             throw new BadProcessorDocumentException($document, 'empty title');
         }
         
-        $typeMal = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[starts-with(text(), \'Type\')]/following-sibling::node()[self::text()]')));
+        $typeMal = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/following-sibling::node()[self::text()]')));
         
         $type = Strings::makeEnum(
             $typeMal,
@@ -50,17 +50,25 @@ class MediaSubProcessorBasic extends MediaSubProcessor
         
         $score = Strings::makeFloat(self::getNodeValue($xpath, '//span[@itemprop = \'ratingValue\']'));
         
+        if (!$score) {
+            $score = Strings::makeFloat(self::getNodeValue($xpath, '//span[text() = \'Score:\']/following-sibling::node()[self::text()]'));
+        }
+        
         $scoredByUsers = Strings::makeInteger(self::getNodeValue($xpath, '//span[@itemprop = \'ratingCount\']'));
         
-        $ranked = Strings::makeInteger(self::getNodeValue($xpath, '//span[starts-with(text(), \'Ranked\')]/following-sibling::node()[self::text()]'));
+        if (!$scoredByUsers) {
+            $scoredByUsers = Strings::extractInteger(self::getNodeValue($xpath, '//small[starts-with(text(), \'(scored by\')]'));
+        }
         
-        $popularity = Strings::makeInteger(self::getNodeValue($xpath, '//span[starts-with(text(), \'Popularity\')]/following-sibling::node()[self::text()]'));
+        $ranked = Strings::makeInteger(self::getNodeValue($xpath, '//span[text() = \'Ranked:\']/following-sibling::node()[self::text()]'));
         
-        $members = Strings::makeInteger(self::getNodeValue($xpath, '//span[starts-with(text(), \'Members\')]/following-sibling::node()[self::text()]'));
+        $popularity = Strings::makeInteger(self::getNodeValue($xpath, '//span[text() = \'Popularity:\']/following-sibling::node()[self::text()]'));
         
-        $favorites = Strings::makeInteger(self::getNodeValue($xpath, '//span[starts-with(text(), \'Favorites\')]/following-sibling::node()[self::text()]'));
+        $members = Strings::makeInteger(self::getNodeValue($xpath, '//span[text() = \'Members:\']/following-sibling::node()[self::text()]'));
         
-        $statusMal = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[starts-with(text(), \'Status\')]/following-sibling::node()[self::text()]')));
+        $favorites = Strings::makeInteger(self::getNodeValue($xpath, '//span[text() = \'Favorites:\']/following-sibling::node()[self::text()]'));
+        
+        $statusMal = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Status:\']/following-sibling::node()[self::text()]')));
         
         $status = Strings::makeEnum(
             $statusMal,
@@ -79,7 +87,7 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             throw new BadProcessorDocumentException($document, 'unknown status: ' . $malStatus);
         }
         
-        $publishedString = Strings::removeSpaces(self::getNodeValue($xpath, '//span[starts-with(text(), \'Aired\') or starts-with(text(), \'Published\')]/following-sibling::node()[self::text()]'));
+        $publishedString = Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Aired:\' or text() = \'Published:\']/following-sibling::node()[self::text()]'));
         
         $position = strrpos($publishedString, ' to ');
         

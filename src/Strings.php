@@ -15,13 +15,17 @@ class Strings
 
 	public static function makeInteger($subject)
 	{
-		$subject = str_replace(',', '', $subject);
-		$subject = str_replace('.', '', $subject);
-		$subject = str_replace(' ', '', $subject);
-		$subject = trim(trim($subject), '#');
-		$subject = intval($subject);
-		return $subject;
+		return (int) trim(trim(str_replace([',', '.', ' '], '', $subject)), '#');
 	}
+    
+    public static function extractInteger($subject)
+    {
+        if (!preg_match('#[0-9]+#', $subject, $matches)) {
+            return 0;
+        }
+        
+        return (int) $matches[0];
+    }
 
 	public static function makeFloat($subject)
 	{
