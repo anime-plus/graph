@@ -25,7 +25,9 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             throw new BadProcessorDocumentException($document, 'empty title');
         }
         
-        $typeMal = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/following-sibling::node()[self::text()]')));
+        $typeMal = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/../a')));
+        
+        var_dump($typeMal);
         
         $type = Strings::makeEnum(
             $typeMal,
@@ -42,7 +44,6 @@ class MediaSubProcessorBasic extends MediaSubProcessor
                 'doujinshi' => MangaMediaType::Doujinshi,
                 'manhwa' => MangaMediaType::Manhwa,
                 'manhua' => MangaMediaType::Manhua,
-                'oel' => MangaMediaType::OEL,
                 'unknown' => $this->media == Media::Manga ? MangaMediaType::Unknown : AnimeMediaType::Unknown
             ],
             null

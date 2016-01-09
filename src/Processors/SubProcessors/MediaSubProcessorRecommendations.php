@@ -15,7 +15,7 @@ class MediaSubProcessorRecommendations extends MediaSubProcessor
         
         $data = [];
         
-        foreach ($xpath->query('//h2[text()[contains(., \'Recommendations\')]]/following-sibling::node()[@class = \'borderClass\']') as $node) {
+        foreach ($xpath->query('//div[@class = \'borderClass\']') as $node) {
             preg_match('#/([0-9]+)/#', self::getNodeValue($xpath, './/strong/..', $node, 'href'), $matches);
             
             $idMal = Strings::makeInteger($matches[1]);
