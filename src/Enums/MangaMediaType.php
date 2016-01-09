@@ -8,7 +8,6 @@ class MangaMediaType extends MediaType
 	const Doujinshi = 4;
 	const Manhwa = 5;
 	const Manhua = 6;
-	const OEL = 7;
 
 	public static function toString($type, $media = null)
 	{
@@ -26,8 +25,6 @@ class MangaMediaType extends MediaType
 				return 'manhwa';
 			case self::Manhua:
 				return 'manhua';
-			case self::OEL:
-				return 'OEL';
 			default:
 				return 'unknown';
 		}
