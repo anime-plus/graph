@@ -3,14 +3,16 @@ class TextHelper
 {
 	const TIME_MINUTES = 1;
 	const TIME_HOURS = 2;
-
+    
 	public static function loadJson($path, $fetchAsArray = false)
 	{
-		$contents = file_get_contents($path);
-		$contents = preg_replace('/#(.*)$/m', '', $contents);
-		return json_decode($contents, $fetchAsArray);
+		$content = file_get_contents($path);
+        
+		$content = preg_replace(['#//(.*)$#m', '#\#(.*)$#m'], '', $content);
+        
+		return json_decode($content, $fetchAsArray);
 	}
-
+    
 	public static function loadSimpleList($path)
 	{
 		$contents = file_get_contents($path);
