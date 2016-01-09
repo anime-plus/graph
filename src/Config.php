@@ -99,7 +99,7 @@ class Config extends Singleton
         self::$bannedGenresListPath = $dataRootDir . 'banned-genres.lst';
         self::$bannedCreatorsListPath = $dataRootDir . 'banned-creators.lst';
         self::$bannedGenresForRecsListPath = $dataRootDir . 'recs-banned-genres.lst';
-        self::$bannedFranchiseCouplingListPath = $dataRootDir . 'banned-franchise-coupling.lst';
+        self::$bannedFranchiseCouplingListPath = $dataRootDir . 'banned-franchise-coupling.json';
         self::$staticRecommendationListPath = $dataRootDir . 'static-recommendations.lst';
         self::$achievementsDefinitionsDirectory = $dataRootDir . 'achievement';
         

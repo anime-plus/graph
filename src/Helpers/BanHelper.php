@@ -26,46 +26,9 @@ class BanHelper extends Singleton
 		self::$bannedGenres = TextHelper::loadSimpleList(Config::$bannedGenresListPath);
 		self::$bannedCreators = TextHelper::loadSimpleList(Config::$bannedCreatorsListPath);
 		self::$bannedGenresForRecs = TextHelper::loadSimpleList(Config::$bannedGenresForRecsListPath);
-		self::$bannedFranchiseCoupling = self::loadBannedFranchiseCoupling();
+		self::$bannedFranchiseCoupling = TextHelper::loadJson(Config::$bannedFranchiseCouplingListPath, true);
 	}
-
-	private static function loadBannedFranchiseCoupling()
-	{
-		$lines = TextHelper::loadSimpleList(Config::$bannedFranchiseCouplingListPath);
-		$lines []= '---';
-		$groups = [];
-
-		$reset = true;
-		$key = 0;
-		$group = [];
-		foreach ($lines as $line)
-		{
-			if (preg_match('/^-+$/', $line))
-			{
-				if (!empty($group))
-				{
-					$groups[$key] = $group;
-					++ $key;
-				}
-				$group = [];
-				continue;
-			}
-			$group []= $line;
-		}
-
-		$ret = [];
-		foreach ($groups as $group)
-		{
-			foreach ($group as $key)
-			{
-				$ret[$key] = array_combine($group, array_fill(0, count($group), true));
-				unset($ret[$key][$key]);
-			}
-		}
-
-		return $ret;
-	}
-
+    
 	public static function getUserBanState($userName)
 	{
 		return isset(self::$bannedUsers[strtolower($userName)])
@@ -106,12 +69,18 @@ class BanHelper extends Singleton
 	{
 		return in_array($media . $genreId, self::$bannedGenresForRecs);
 	}
-
-	public static function isFranchiseCouplingBanned($media1, $malId1, $media2, $malId2)
+    
+	public static function isFranchiseCouplingBanned($media1, $idMal1, $media2, $idMal2)
 	{
-		$key1 = $media1 . $malId1;
-		$key2 = $media2 . $malId2;
-		return isset(self::$bannedFranchiseCoupling[$key1][$key2]);
+        $key1 = $media1 . $idMal1;
+        
+		$key2 = $media2 . $idMal2;
+        
+        if (isset(self::$bannedFranchiseCoupling[$key2]) && in_array($key1, self::$bannedFranchiseCoupling[$key2])) {
+            return true;
+        }
+        
+		return false;
 	}
 }
 
