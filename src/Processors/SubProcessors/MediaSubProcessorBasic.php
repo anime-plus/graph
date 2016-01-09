@@ -27,8 +27,6 @@ class MediaSubProcessorBasic extends MediaSubProcessor
         
         $typeMal = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/../a')));
         
-        var_dump($typeMal);
-        
         $type = Strings::makeEnum(
             $typeMal,
             [
