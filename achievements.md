@@ -168,6 +168,24 @@ Awarded for watching sports anime.
 </tr>
 </table>&nbsp;
 
+###Boku no Pico
+This is worthy having a dedicated achievement. One level. Is it the highest, or the lowest possible level a person can achieve? You decide.
+
+<table>
+<tr>
+<td>![anime-boku-no-pico](http://graph.anime.plus/image/achievement/anime-boku-no-pico.png)</td><td>**Feels... weird, man**<div>Watched Boku no Pico. This is what you get when you follow /a/'s recommendations.</div></td>
+</tr>
+</table>&nbsp;
+
+###Studio Ghibli
+Awarded for watching 15 or more anime from Studio Ghibli. 
+
+<table>
+<tr>
+<td>![anime-studio-ghibli](http://graph.anime.plus/image/achievement/anime-studio-ghibli.png)</td><td>**Memories**<div>Once you've seen them, you can never forget them.</div></td>
+</tr>
+</table>&nbsp;
+
 ###Old anime
 Awarded for watching 10+ old anime - that is, titles that finished airing in 1980 at most.
 
@@ -186,15 +204,6 @@ Special achievement given for completing 15 or more series 150+ episodes long.
 </tr>
 </table>&nbsp;
 
-###Boku no Pico
-This is worthy having a dedicated achievement. One level. Is it the highest, or the lowest possible level a person can achieve? You decide.
-
-<table>
-<tr>
-<td>![anime-boku-no-pico](http://graph.anime.plus/image/achievement/anime-boku-no-pico.png)</td><td>**Feels... weird, man**<div>Watched Boku no Pico. This is what you get when you follow /a/'s recommendations.</div></td>
-</tr>
-</table>&nbsp;
-
 ###Pervert
 Are you a pervert? Find out: 100 ÷ *anime completed* × (*ecchi anime completed* × 2 + *hentai anime completed* × 4)
 
@@ -210,15 +219,6 @@ Are you a pervert? Find out: 100 ÷ *anime completed* × (*ecchi anime completed
 </tr>
 </table>&nbsp;
 
-###No drop
-You will get it if your stats are 50+ completed and zero dropped. Pretty hard to obtain and very easy to lose.
-
-<table>
-<tr>
-<td>![anime-no-drop](http://graph.anime.plus/image/achievement/anime-no-drop.png)</td><td>**Completionist**<div>You've managed to survive watching so many anime without dropping any of them.</div><div>You masochist.</div></td>
-</tr>
-</table>&nbsp;
-
 ###Mean score
 Related to mean anime score. Instead of calling people retarded, we give them an award for treating 8/10 as a *meh* rating.
 
@@ -231,6 +231,15 @@ Related to mean anime score. Instead of calling people retarded, we give them an
 </tr>
 <tr>
 <td>![anime-score-very-low](http://graph.anime.plus/image/achievement/anime-score-very-low.png)</td><td>**Less than three**<div>Mean anime score lower than 3. Is it hate, or is it love?</div></td>
+</tr>
+</table>&nbsp;
+
+###No drop
+You will get it if your stats are 50+ completed and zero dropped. Pretty hard to obtain and very easy to lose.
+
+<table>
+<tr>
+<td>![anime-no-drop](http://graph.anime.plus/image/achievement/anime-no-drop.png)</td><td>**Completionist**<div>You've managed to survive watching so many anime without dropping any of them.</div><div>You masochist.</div></td>
 </tr>
 </table>&nbsp;
 
@@ -455,15 +464,6 @@ Are you a pervert? Find out: 100 ÷ *manga completed* × (*ecchi manga completed
 </tr>
 </table>&nbsp;
 
-###No drop
-Exactly the same as its anime counterpart. 50+ completed, zero dropped.
-
-<table>
-<tr>
-<td>![manga-no-drop](http://graph.anime.plus/image/achievement/manga-no-drop.gif)</td><td>**I've seen some sh&ast;&ast;**<div>Despite seemingly endless suffering, you've never dropped any manga. That's impressive.</div></td>
-</tr>
-</table>&nbsp;
-
 ###Mean score
 Related to mean manga score. Three thresholds, just like for anime.
 
@@ -476,6 +476,15 @@ Related to mean manga score. Three thresholds, just like for anime.
 </tr>
 <tr>
 <td>![manga-score-very-low](http://graph.anime.plus/image/achievement/manga-score-very-low.png)</td><td>**Best I can do is 2**<div>Mean manga score below 3. Aren't you a bit too harsh?</div></td>
+</tr>
+</table>&nbsp;
+
+###No drop
+Exactly the same as its anime counterpart. 50+ completed, zero dropped.
+
+<table>
+<tr>
+<td>![manga-no-drop](http://graph.anime.plus/image/achievement/manga-no-drop.gif)</td><td>**I've seen some sh&ast;&ast;**<div>Despite seemingly endless suffering, you've never dropped any manga. That's impressive.</div></td>
 </tr>
 </table>&nbsp;
 
