@@ -182,7 +182,7 @@ Awarded for watching 15 or more anime from Studio Ghibli.
 
 <table>
 <tr>
-<td>![anime-studio-ghibli](http://graph.anime.plus/image/achievement/anime-studio-ghibli.png)</td><td>**Memories**<div>Once you've seen them, you can never forget them.</div></td>
+<td>![anime-studio-ghibli](http://graph.anime.plus/image/achievement/anime-studio-ghibli.gif)</td><td>**Memories**<div>Once you've seen them, you can never forget them.</div></td>
 </tr>
 </table>&nbsp;
 
