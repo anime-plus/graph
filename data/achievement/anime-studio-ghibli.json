@@ -1,0 +1,42 @@
+{
+    "media": "A",
+    "order": 202,
+    "achievements":
+    [
+        {
+            "threshold": "15+",
+            "id": "anime-studio-ghibli",
+            "level": "Studio Ghibli",
+            "title": "Memories",
+            "desc": "Once you've seen them, you can never forget them."
+        }
+    ],
+    "requirement":
+    {
+        "type": "given-titles",
+        "titles":
+        [
+            "A2890",  //Gake no Ue no Ponyo
+            "A1829",  //Gedo Senki
+            "A1030",  //Heisei Tanuki Gassen Ponpoko
+            "A578",   //Hotaru no Haka
+            "A431",   //Howl no Ugoku Shiro
+            "A16664", //Kaguya-hime no Monogatari
+            "A7711",  //Karigurashi no Arrietty
+            "A16662", //Kaze Tachinu
+            "A10029", //Kokurikozaka kara
+            "A416",   //Kurenai no Buta
+            "A512",   //Majo no Takkyuubin
+            "A585",   //Mimi wo Sumaseba
+            "A164",   //Mononoke Hime
+            "A597",   //Neko no Ongaeshi
+            "A199",   //Sen to Chihiro no Kamikakushi
+            "A513",   //Tenkuu no Shiro Laputa
+            "A523",   //Tonari no Totoro
+            "A415",   //Tonari no Yamada-kun
+            "A21557", //Omoide no Marnie
+            "A1029",  //Omoide Poroporo
+            "A743"    //Umi ga Kikoeru
+        ]
+    }
+}
