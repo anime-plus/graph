@@ -210,6 +210,31 @@
     [
         "A9627"   //Kakko Kawaii Sengen!
     ],
+    "A13863": //Arve Rezzle: Kikaijikake no Yousei-tachi
+    [
+        "A14347", //Ryo
+        "A14349", //Little Witch Academia
+        "A14353"  //Death Billiards
+    ],
+    "A14347": //Ryo
+    [
+        "A13863", //Arve Rezzle: Kikaijikake no Yousei-tachi
+        "A14349", //Little Witch Academia
+        "A14353"  //Death Billiards
+    ],
+    "A14349": //Little Witch Academia
+    [
+        "A13863", //Arve Rezzle: Kikaijikake no Yousei-tachi
+        "A14347", //Ryo
+        "A14353"  //Death Billiards
+    ],
+
+    "A14353": //Death Billiards
+    [
+        "A13863", //Arve Rezzle: Kikaijikake no Yousei-tachi
+        "A14347", //Ryo
+        "A14349"  //Little Witch Academia
+    ],
     "A15125": //Teekyuu
     [
         "A19297"  //Ketsuekigata-kun! Featuring Yuri & Nasuno
