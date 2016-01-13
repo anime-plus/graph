@@ -18,7 +18,7 @@ class UserSubProcessorProfile extends UserSubProcessor
         
         $xpath = new DOMXPath($dom);
         
-        if ($xpath->query('//h1[text() = \'404 Not Found\']')->length >= 1) {
+        if ($xpath->query('//div[@class = \'error404\']')->length >= 1) {
             throw new BadProcessorKeyException($context->key);
         }
         
