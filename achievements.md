@@ -24,6 +24,16 @@ Awarded for watching dementia or psychological anime.
 </tr>
 </table>&nbsp;
 
+###GAR
+Awarded for watching anime containing manly men doing manly things.
+
+<table>
+<tr><td>![anime-gar-1](http://graph.anime.plus/image/achievement/anime-gar-1.png)</td><td>**So manly I can't breathe**<div>Watching all those men made you feel like a little girl... and you liked it.</div></td></tr>
+<tr><td>![anime-gar-2](http://graph.anime.plus/image/achievement/anime-gar-2.png)</td><td>**Testosterone storm**<div>Your body has adapted into GAR anime. You can hear your muscles growing.</div></td></tr>
+<tr><td>![anime-gar-3](http://graph.anime.plus/image/achievement/anime-gar-3.png)</td><td>**You are already man**<div>Resistance is futile. People are simply no match for you.</div></td></tr>
+<tr><td>![anime-gar-4](http://graph.anime.plus/image/achievement/anime-gar-4.png)</td><td>**Alpha Male**<div>You aren't made out of testosterone. Testosterone is made out of you.</div></td></tr>
+</table>&nbsp;
+
 ###Historical
 Awarded for watching anime set way in the past (e.g. Edo period, WWII).
 
