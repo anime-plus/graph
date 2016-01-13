@@ -9,43 +9,39 @@ class MediaSubProcessorBasic extends MediaSubProcessor
         
         $xpath = new DOMXPath($dom);
         
-        if ($xpath->query('//h1[text() = \'404 Not Found\']')->length >= 1) {
+        if ($xpath->query('//div[@class = \'error404\']')->length >= 1) {
             throw new BadProcessorKeyException($context->key);
         }
         
-        $title = self::getNodeValue($xpath, '//img[@itemprop = \'image\']', null, 'alt');
+        $title = self::getNodeValue($xpath, '//meta[@property = \'og:title\']', null, 'content');
         
         if ($title === null) {
-            $title = self::getNodeValue($xpath, '//h1//span');
+            throw new BadProcessorDocumentException($document, 'empty title');
         }
         
         $title = Strings::removeSpaces($title);
         
-        if (empty($title)) {
+        if ($title === '') {
             throw new BadProcessorDocumentException($document, 'empty title');
         }
         
-        $typeMal = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/../a')));
+        $type = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/../a')));
         
-        $type = Strings::makeEnum(
-            $typeMal,
-            [
-                'tv' => AnimeMediaType::TV,
-                'ova' => AnimeMediaType::OVA,
-                'movie' => AnimeMediaType::Movie,
-                'special' => AnimeMediaType::Special,
-                'ona' => AnimeMediaType::ONA,
-                'music' => AnimeMediaType::Music,
-                'manga' => MangaMediaType::Manga,
-                'novel' => MangaMediaType::Novel,
-                'one-shot' => MangaMediaType::Oneshot,
-                'doujinshi' => MangaMediaType::Doujinshi,
-                'manhwa' => MangaMediaType::Manhwa,
-                'manhua' => MangaMediaType::Manhua,
-                'unknown' => $this->media == Media::Manga ? MangaMediaType::Unknown : AnimeMediaType::Unknown
-            ],
-            null
-        );
+        $type = Strings::makeEnum($type, [
+            'tv' => AnimeMediaType::TV,
+            'ova' => AnimeMediaType::OVA,
+            'movie' => AnimeMediaType::Movie,
+            'special' => AnimeMediaType::Special,
+            'ona' => AnimeMediaType::ONA,
+            'music' => AnimeMediaType::Music,
+            'manga' => MangaMediaType::Manga,
+            'novel' => MangaMediaType::Novel,
+            'one-shot' => MangaMediaType::Oneshot,
+            'doujinshi' => MangaMediaType::Doujinshi,
+            'manhwa' => MangaMediaType::Manhwa,
+            'manhua' => MangaMediaType::Manhua,
+            'unknown' => $this->media == Media::Manga ? MangaMediaType::Unknown : AnimeMediaType::Unknown
+        ], null);
         
         if ($type === null) {
             throw new BadProcessorDocumentException($document, 'empty sub type');
@@ -73,37 +69,33 @@ class MediaSubProcessorBasic extends MediaSubProcessor
         
         $favorites = Strings::makeInteger(self::getNodeValue($xpath, '//span[text() = \'Favorites:\']/following-sibling::node()[self::text()]'));
         
-        $statusMal = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Status:\']/following-sibling::node()[self::text()]')));
+        $status = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Status:\']/following-sibling::node()[self::text()]')));
         
-        $status = Strings::makeEnum(
-            $statusMal,
-            [
-                'not yet published' => MediaStatus::NotYetPublished,
-                'not yet aired' => MediaStatus::NotYetPublished,
-                'publishing' => MediaStatus::Publishing,
-                'currently airing' => MediaStatus::Publishing,
-                'finished' => MediaStatus::Finished,
-                'finished airing' => MediaStatus::Finished
-            ],
-            null
-        );
+        $status = Strings::makeEnum($status, [
+            'not yet published' => MediaStatus::NotYetPublished,
+            'not yet aired' => MediaStatus::NotYetPublished,
+            'publishing' => MediaStatus::Publishing,
+            'currently airing' => MediaStatus::Publishing,
+            'finished' => MediaStatus::Finished,
+            'finished airing' => MediaStatus::Finished
+        ], null);
         
         if ($status === null) {
             throw new BadProcessorDocumentException($document, 'unknown status: ' . $malStatus);
         }
         
-        $publishedString = Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Aired:\' or text() = \'Published:\']/following-sibling::node()[self::text()]'));
+        $published = Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Aired:\' or text() = \'Published:\']/following-sibling::node()[self::text()]'));
         
-        $position = strrpos($publishedString, ' to ');
+        $position = strrpos($published, ' to ');
         
         if ($position !== false) {
-            $publishedFrom = Strings::makeDate(substr($publishedString, 0, $position));
+            $publishedFrom = Strings::makeDate(substr($published, 0, $position));
             
-            $publishedTo = Strings::makeDate(substr($publishedString, $position + 4));
+            $publishedTo = Strings::makeDate(substr($published, $position + 4));
         } else {
-            $publishedFrom = Strings::makeDate($publishedString);
+            $publishedFrom = Strings::makeDate($published);
             
-            $publishedTo = Strings::makeDate($publishedString);
+            $publishedTo = Strings::makeDate($published);
         }
         
         $media = &$context->media;
