@@ -66,6 +66,14 @@
             "A12113", //Berserk: Ougon Jidaihen II - Doldrey Kouryaku
             "A12115", //Berserk: Ougon Jidaihen III - Kourin
             "A1269",  //Bio Hunter
+            "A1520",  //Black Jack
+            "A2214",  //Black Jack 21
+            "A1373",  //Black Jack Specials
+            "A2213",  //Black Jack TV
+            "A4071",  //Black Jack TV: Lost Episodes
+            "A1521",  //Black Jack the Movie
+            "A1983",  //Black Jack: Futari no Kuroi Isha
+            "A6246",  //Black Jack: Sora kara Kita Kodomo
             "A889",   //Black Lagoon
             "A4901",  //Black Lagoon: Roberta's Blood Trail
             "A1519",  //Black Lagoon: The Second Barrage
@@ -148,6 +156,7 @@
             "A3015",  //Ginga Eiyuu Densetsu Gaiden: Ougon no Tsubasa
             "A3665",  //Ginga Eiyuu Densetsu Gaiden: Rasen Meikyuu
             "A3371",  //Ginga Eiyuu Densetsu Gaiden: Senoku no Hoshi Senoku no Hikari
+            "A3907",  //Ginga Sengoku Gunyuuden Rai
             "A4039",  //Golgo 13
             "A1761",  //Golgo 13: Queen Bee
             "A1760",  //Golgo 13: The Professional
@@ -158,7 +167,9 @@
             "A4385",  //Great Mazinger tai Getter Robo
             "A4386",  //Great Mazinger tai Getter Robo G: Kuuchuu Dai-Gekitotsu
             "A245",   //Great Teacher Onizuka
+            "A31467", //Grendizer Giga
             "A3481",  //Grendizer: Getter Robo G - Great Mazinger Kessen! Daikaijuu
+            "A5041",  //Guin Saga
             "A1706",  //Gun Frontier
             "A411",   //Gun x Sword
             "A267",   //Gungrave
@@ -204,6 +215,9 @@
             "A15735", //Jormungand: Perfect Order - First Stage Soushuuhen
             "A617",   //Juubee Ninpuuchou
             "A618",   //Juubee Ninpuuchou: Ryuuhougyoku-hen
+            "A24439", //Kekkai Sensen
+            "A30915", //Kekkai Sensen: Soresaemo Saitei de Saikou na Hibi
+            "A32574", //Kekkai Sensen: Ousama no Restaurant no Ousama
             "A12031", //Kingdom
             "A17389", //Kingdom 2nd Season
             "A825",   //King of Fighters: Another Day
@@ -252,6 +266,7 @@
             "A1879",  //Midnight Eye: Gokuu
             "A1880",  //Midnight Eye: Gokuu II
             "A96",    //Mobile Fighter G Gundam
+            "A32534", //Monkey King: Hero Is Back
             "A6946",  //Mudazumo Naki Kaikaku: The Legend of Koizumi
             "A6030",  //Needless
             "A8935",  //Nekketsu Uchuujin
@@ -283,6 +298,7 @@
             "A2698",  //Sanctuary
             "A400",   //Seihou Bukyou Outlaw Star
             "A4650",  //Seihou Bukyou Outlaw Star Pilot
+            "A3882",  //Seijuuki Cyguard
             "A5355",  //Sengoku Basara
             "A23201", //Sengoku Basara: Judge End
             "A6581",  //Sengoku Basara: Setonai no Gekitotsu! Hi wo Fuku Umi no Daiyousai - Fugaku!!
@@ -302,6 +318,12 @@
             "A3398",  //Shin Hurricane Polymar
             "A5485",  //Shin Mazinger Shougeki! Z-Hen
             "A1913",  //Shonan Junai Gumi!
+            "A2161",  //Skull Man
+            "A170",   //Slam Dunk
+            "A1764",  //Slam Dunk Movie
+            "A2499",  //Slam Dunk: Hoero Basketman-damashii Hanamichi to Rukawa no Atsuki Natsu
+            "A2498",  //Slam Dunk: Shouhoku Saidai no Kiki Moero Sakuragi Hanamichi
+            "A1861",  //Slam Dunk: Zenkoku Seiha Da Sakuragi Hanamichi
             "A2582",  //Soukou Kihei Votoms
             "A2584",  //Soukou Kihei Votoms: Big Battle
             "A8017",  //Soukou Kihei Votoms: Gen-ei Hen
@@ -381,6 +403,7 @@
             "A1745",  //Wild 7 Another Bouryaku Unga
             "A6918",  //Wolverine
             "A1107",  //Youjuu Toshi
+            "A30740", //Young Black Jack
             "A3325",  //Yuusha Exkaiser
             "A890",   //Yuusha-Ou GaoGaiGar
             "A1382",  //Yuusha-Ou GaoGaiGar Final
