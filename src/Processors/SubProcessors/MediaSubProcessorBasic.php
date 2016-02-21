@@ -27,6 +27,8 @@ class MediaSubProcessorBasic extends MediaSubProcessor
         
         $type = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/../a')));
         
+        $typeUnknown = $this->media === Media::Manga ? MangaMediaType::Unknown : AnimeMediaType::Unknown;
+        
         $type = Strings::makeEnum($type, [
             'tv' => AnimeMediaType::TV,
             'ova' => AnimeMediaType::OVA,
@@ -39,13 +41,8 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             'one-shot' => MangaMediaType::Oneshot,
             'doujinshi' => MangaMediaType::Doujinshi,
             'manhwa' => MangaMediaType::Manhwa,
-            'manhua' => MangaMediaType::Manhua,
-            'unknown' => $this->media == Media::Manga ? MangaMediaType::Unknown : AnimeMediaType::Unknown
-        ], null);
-        
-        if ($type === null) {
-            throw new BadProcessorDocumentException($document, 'empty sub type');
-        }
+            'manhua' => MangaMediaType::Manhua
+        ], $typeUnknown);
         
         $image = self::getNodeValue($xpath, '//meta[@property = \'og:image\']', null, 'content');
         

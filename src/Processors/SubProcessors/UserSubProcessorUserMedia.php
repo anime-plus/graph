@@ -10,8 +10,8 @@ class UserSubProcessorUserMedia extends UserSubProcessor
 	{
 		return
 		[
-			self::URL_ANIMELIST => 'http://myanimelist.net/animelist/' . $userName . '&status=8',
-			self::URL_MANGALIST => 'http://myanimelist.net/mangalist/' . $userName . '&status=8',
+			self::URL_ANIMELIST => 'http://myanimelist.net/animelist/' . $userName . '?status=8',
+			self::URL_MANGALIST => 'http://myanimelist.net/mangalist/' . $userName . '?status=8',
 			self::URL_ANIMEINFO => 'http://myanimelist.net/malappinfo.php?u=' . $userName . '&status=all&type=anime',
 			self::URL_MANGAINFO => 'http://myanimelist.net/malappinfo.php?u=' . $userName . '&status=all&type=manga',
 		];
@@ -22,13 +22,12 @@ class UserSubProcessorUserMedia extends UserSubProcessor
 		Database::delete('usermedia', ['user_id' => $context->user->id]);
 
 		$context->user->cool = false;
-		foreach (Media::getConstList() as $media)
-		{
-			$key = $media == Media::Anime
-				? self::URL_ANIMELIST
-				: self::URL_MANGALIST;
-			$isPrivate = strpos($documents[$key]->content, 'This list has been made private by the owner') !== false;
-
+        
+        foreach (Media::getConstList() as $media) {
+            $key = $media === Media::Anime ? self::URL_ANIMELIST : self::URL_MANGALIST;
+            
+            $isPrivate = $documents[$key]->content === '403';
+            
 			$key = $media == Media::Anime
 				? self::URL_ANIMEINFO
 				: self::URL_MANGAINFO;

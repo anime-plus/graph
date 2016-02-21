@@ -41,20 +41,21 @@ abstract class AbstractProcessor
 			}
 
 			$documents = Downloader::downloadMulti($urls);
-			foreach ($documents as $document)
-			{
-				if ($document->code == 403)
-					throw new DownloadFailureException($document->url, '403 Access Denied');
-
-				if (empty($document->content))
-					throw new DownloadFailureException($document->url, 'Empty document');
-
-				//別ハックは、	Another hack
-				//私は静かに	makes me
-				//泣きます		quietly weep
-				$document->content = '<?xml encoding="utf-8" ?'.'>' . $document->content;
-			}
-
+            
+            foreach ($documents as $document) {
+                if ($document->code === 403) {
+                    $document->content = '403';
+                    
+                    continue;
+                }
+                
+                if (empty($document->content)) {
+                    throw new DownloadFailureException($document->url, 'Empty document');
+                }
+                
+                $document->content = '<?xml encoding="utf-8"?>' . $document->content;
+            }
+            
 			$f = function() use ($subProcessors, $context, $urlMap, $documents)
 			{
 				foreach ($subProcessors as $subProcessor)
