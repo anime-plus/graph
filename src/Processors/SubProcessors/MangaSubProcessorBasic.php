@@ -27,7 +27,7 @@ class MangaSubProcessorBasic extends MediaSubProcessor
 		if ($q->length > 0)
 		{
 			$node = $q->item(0);
-			preg_match('#/magazine/([0-9]+)$#', $node->getAttribute('href'), $matches);
+			preg_match('#/magazine/([0-9]+)/#', $node->getAttribute('href'), $matches);
 			$serializationMalId = Strings::makeInteger($matches[1]);
 			$serializationName = Strings::removeSpaces($q->item(0)->nodeValue);
 		}
