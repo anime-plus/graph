@@ -4,9 +4,7 @@
 			Favorite authors
 		<?php elseif ($viewContext->media == Media::Anime): ?>
 			Favorite studios
-		<?php else: ?>
-			<?php continue ?>
-		<?php endif ?>
+		<?php endif; ?>
 	</h2>
 	<div class="section-body">
 		<?php if ($viewContext->favCreators->getLargestGroupSize() == 0): ?>
