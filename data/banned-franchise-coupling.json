@@ -8,41 +8,85 @@
         "A9170",  //Kimi ga Nozomu Eien: Gundam Parody
         "A28149"  //Nihon Animator Mihonichi
     ],
+    "A3444":  //The Ultraman
+    [
+        "A28149"  //Nihon Animator Mihonichi
+    ],
+    "A3785":  //Evangelion: 3.0 You Can (Not) Redo
+    [
+        "A28149"  //Nihon Animator Mihonichi
+    ],
+    "A9170":  //Kimi ga Nozomu Eien: Gundam Parody
+    [
+        "A80"     //Mobile Suit Gundam
+    ],
+    "A28149": //Nihon Animator Mihonichi
+    [
+        "A30",    //Neon Genesis Evangelion
+        "A80",    //Mobile Suit Gundam
+        "A3444",  //The Ultraman
+        "A3785"   //Evangelion: 3.0 You Can (Not) Redo
+    ],
+    
+    
+    
+    
     "A143":   //Kannazuki no Miko
     [
         "A1810"   //Kyoushirou to Towa no Sora
     ],
-    "A235":   //Detective Conan
+    "A1810":  //Kyoushirou to Towa no Sora
     [
-        "A6115"   //Lupin III vs. Detective Conan
+        "A143"    //Kannazuki no Miko
     ],
-    "A289":   //Comic Party
-    [
-        "A472"    //To Heart
-    ],
-    "A338":   //Rose of Versailles
-    [
-        "A29820"  //Channel 5.5 4th Season
-    ],
-    "A938":   //Shin Getter Robo tai Neo Getter Robo
-    [
-        "A12885"  //Dynamic Super Robots Soushingekki
-    ],
-    "A1341":  //Violence Jack: Harlem Bomber-hen
-    [
-        "A2692"   //CB Chara Go Nagai World
-    ],
+    
+    
+    
+    
     "A1412":  //Lupin III
     [
         "A6115"   //Lupin III vs. Detective Conan
     ],
-    "A1698":  //Nodame Cantabile
+    
+    
+    
+    
+    "A289":   //Comic Party
     [
-        "A29823"  //Channel 5.5 3rd Season
+        "A472"    //To Heart
     ],
-    "A1810":  //Kyoushirou to Towa no Sora
+    
+    
+    
+    
+    "A338":   //Rose of Versailles
     [
-        "A143"    //Kannazuki no Miko
+        "A29820"  //Channel 5.5 4th Season
+    ],
+    "A29820": //Channel 5.5 4th Season
+    [
+        "A338"    //Rose of Versailles
+    ],
+    
+    
+    
+    
+    "A938":   //Shin Getter Robo tai Neo Getter Robo
+    [
+        "A12885"  //Dynamic Super Robots Soushingekki
+    ],
+    "A12885": //Dynamic Super Robots Soushingekki
+    [
+        "A938"    //Shin Getter Robo tai Neo Getter Robo
+    ],
+    
+    
+    
+    
+    "A956":   //Daikuu Maryuu Gaiking
+    [
+        "A10954", //Toei Robot Girls
+        "A19799"  //Robot Girls Z
     ],
     "A1845":  //Gaiking: Legend of Daiku-Maryu
     [
@@ -52,14 +96,42 @@
     [
         "A10954"  //Toei Robot Girls
     ],
-    "A2076":  //Kindaichi Shounen no Jikenbo (TV)
+    "A3932":  //Magne Robo Gakeen
     [
-        "A29821"  //Channel 5.5
+        "A10954"  //Toei Robot Girls
+    ],
+    "A6970":  //Choujin Sentai Baratack
+    [
+        "A10954"  //Toei Robot Girls
+    ],
+    "A10954": //Toei Robot Girls
+    [
+        "A1845",  //Gaiking: Legend of Daiku-Maryu
+        "A1986",  //Wakusei Robo Danguard Ace
+        "A3932",  //Magne Robo Gakeen
+        "A6970",  //Choujin Sentai Baratack
+        "A19799"  //Robot Girls Z
+    ],
+    "A19799": //Robot Girls Z
+    [
+        "A956",   //Daikuu Maryuu Gaiking
+        "A1985",  //UFO Robo Grendizer
+        "A2253",  //Mazinger Z
+        "A5658",  //Great Mazinger
+        "A10954"  //Toei Robot Girls
+    ],
+    
+    
+    
+    
+    "A1341":  //Violence Jack: Harlem Bomber-hen
+    [
+        "A2692"   //CB Chara Go Nagai World
     ],
     "A2252":  //Devilman
     [
         "A2692",  //CB Chara Go Nagai World
-        "A31050"  //Cyborg 009 vs. Devilman
+        "A31050"  //Cyborg 009 VS Devilman
     ],
     "A2253":  //Mazinger Z
     [
@@ -68,11 +140,7 @@
     "A2355":  //Devilman: Yochou Sirene-hen
     [
         "A2692",  //CB Chara Go Nagai World
-        "A31050"  //Cyborg 009 vs. Devilman
-    ],
-    "A2598":  //Juusenki L-Gaim
-    [
-        "A19279"  //Pony Metal U-GAIM Promotion Film
+        "A31050"  //Cyborg 009 VS Devilman
     ],
     "A2692":  //CB Chara Go Nagai World
     [
@@ -81,26 +149,91 @@
         "A2253",  //Mazinger Z
         "A2355"   //Devilman: Yochou Sirene-hen
     ],
+    "A3898":  //Mazinger Z tai Devilman
+    [
+        "A2252",  //Devilman
+        "A31050"  //Cyborg 009 VS Devilman
+    ],
+    "A31050": //Cyborg 009 VS Devilman
+    [
+        "A2252"   //Devilman
+    ],
+    
+    
+    
+    
+    "A1698":  //Nodame Cantabile
+    [
+        "A29823"  //Channel 5.5 3rd Season
+    ],
+    "A29823": //Channel 5.5 3rd Season
+    [
+        "A1698"   //Nodame Cantabile
+    ],
+    
+    
+    
+    
+    "A2076":  //Kindaichi Shounen no Jikenbo (TV)
+    [
+        "A29821"  //Channel 5.5
+    ],
+    "A29821": //Channel 5.5
+    [
+        "A2076"   //Kindaichi Shounen no Jikenbo (TV)
+    ],
+    
+    
+    
+    
+    "A2598":  //Juusenki L-Gaim
+    [
+        "A19279"  //Pony Metal U-GAIM Promotion Film
+    ],
+    "A19279": //Pony Metal U-GAIM Promotion Film
+    [
+        "A2598"   //Juusenki L-Gaim
+    ],
+    
+    
+    
+    
     "A3008":  //Time Bokan Series: Yatterman
     [
         "A31699"  //Good Morning!!! Doronjo
     ],
-    "A3444":  //The Ultraman
+    "A18365": //Mazinger ZIP!
     [
-        "A28149"  //Nihon Animator Mihonichi
+        "A31517", //Ninja-tai Gatchaman ZIP!
+        "A31699"  //Good Morning!!! Doronjo
     ],
-    "A3785":  //Evangelion: 3.0 You Can (Not) Redo
+    "A31517": //Ninja-tai Gatchaman ZIP!
     [
-        "A28149"  //Nihon Animator Mihonichi
+        "A18365", //Mazinger ZIP!
+        "A31699"  //Good Morning!!! Doronjo
     ],
-    "A3932":  //Magne Robo Gakeen
+    "A31699": //Good Morning!!! Doronjo
     [
-        "A10954"  //Toei Robot Girls
+        "A3008",  //Time Bokan Series: Yatterman
+        "A18365", //Mazinger ZIP!
+        "A31517"  //Ninja-tai Gatchaman ZIP!
     ],
-    "A4690":  //Cyborg 009 (1979)
+    
+    
+    
+    
+    "A4385":  //Great Mazinger tai Getter Robo
     [
-        "A31050"  //Cyborg 009 vs. Devilman
+        "A3579"   //Getter Robo
     ],
+    "A4386":  //Great Mazinger tai Getter Robo G: Kuuchuu Dai-Gekitotsu
+    [
+        "A4486"   //Getter Robo G
+    ],
+    
+    
+    
+    
     "A4918":  //xxxHOLiC Shunmuki
     [
         "A4938"   //Tsubasa: Shunraiki
@@ -109,59 +242,69 @@
     [
         "A4918"   //xxxHOLiC Shunmuki
     ],
+    
+    
+    
+    
     "A5081":  //Bakemonogatari
     [
         "A30514"  //Nisekoimonogatari
     ],
-    "A6115":  //Lupin III vs. Detective Conan
+    "A18897": //Nisekoi
     [
-        "A235"    //Detective Conan
+        "A30514"  //Nisekoimonogatari
     ],
+    "A30514": //Nisekoimonogatari
+    [
+        "A5081",  //Bakemonogatari
+        "A18897"  //Nisekoi
+    ],
+    
+    
+    
+    
     "A6566":  //It's a Rumic World: 50th Anniversary Weekly★Shonen Sunday
     [
         "A210",   //Ranma_½
         "A249",   //InuYasha
         "A1293"   //Urusei Yatsura
     ],
-    "A6970":  //Choujin Sentai Baratack
-    [
-        "A10954"  //Toei Robot Girls
-    ],
-    "A7261":  //Mameshiba
-    [
-        "A19261"  //Gintama x Mameshiba
-    ],
-    "A9170":  //Kimi ga Nozomu Eien: Gundam Parody
-    [
-        "A80"     //Mobile Suit Gundam
-    ],
+    
+    
+    
+    
     "A9312":  //Mofuku Tsuma
     [
         "A10443"  //Birei Okami Mie
-    ],
-    "A9627":  //Kakko Kawaii Sengen!
-    [
-        "A13677"  //Ao no Exorcist Movie Special
     ],
     "A10443": //Birei Okami Mie
     [
         "A9312"   //Mofuku Tsuma
     ],
-    "A10954": //Toei Robot Girls
-    [
-        "A1845",  //Gaiking: Legend of Daiku-Maryu
-        "A1986",  //Wakusei Robo Danguard Ace
-        "A3932",  //Magne Robo Gakeen
-        "A6970"   //Choujin Sentai Baratack
-    ],
-    "A11981": //Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari
+    
+    
+    
+    
+    "A11597": //Nisemonogatari
     [
         "A23831"  //Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari - Magica Quartet x Nisioisin
     ],
-    "A12885": //Dynamic Super Robots Soushingekki
+    "A23831": //Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari - Magica Quartet x Nisioisin
     [
-        "A938"    //Shin Getter Robo tai Neo Getter Robo
+        "A11597"  //Nisemonogatari
     ],
+    
+    
+    
+    
+    "A13677": //Ao no Exorcist Movie Special
+    [
+        "A9627"   //Kakko Kawaii Sengen!
+    ],
+    
+    
+    
+    
     "A13259": //Kyoto Animation: Ajisai-hen
     [
         "A13309", //Kyoto Animation: Hoshi-hen
@@ -205,43 +348,6 @@
         "A17813", //Kyoto Animation: Megane-hen
         "A17815", //Kyoto Animation: Kasa-hen
         "A17819"  //Kyoto Animation: Suiei-hen
-    ],
-    "A13677": //Ao no Exorcist Movie Special
-    [
-        "A9627"   //Kakko Kawaii Sengen!
-    ],
-    "A13863": //Arve Rezzle: Kikaijikake no Yousei-tachi
-    [
-        "A14347", //Ryo
-        "A14349", //Little Witch Academia
-        "A14353"  //Death Billiards
-    ],
-    "A14347": //Ryo
-    [
-        "A13863", //Arve Rezzle: Kikaijikake no Yousei-tachi
-        "A14349", //Little Witch Academia
-        "A14353"  //Death Billiards
-    ],
-    "A14349": //Little Witch Academia
-    [
-        "A13863", //Arve Rezzle: Kikaijikake no Yousei-tachi
-        "A14347", //Ryo
-        "A14353"  //Death Billiards
-    ],
-
-    "A14353": //Death Billiards
-    [
-        "A13863", //Arve Rezzle: Kikaijikake no Yousei-tachi
-        "A14347", //Ryo
-        "A14349"  //Little Witch Academia
-    ],
-    "A15125": //Teekyuu
-    [
-        "A19297"  //Ketsuekigata-kun! Featuring Yuri & Nasuno
-    ],
-    "A17187": //Ghost in the Shell: Arise - Border:1 Ghost Pain
-    [
-        "A29822"  //Channel 5.5 2nd Season
     ],
     "A17791": //Kyoto Animation: Ikitaku Naru Omise-hen
     [
@@ -298,78 +404,66 @@
         "A17813", //Kyoto Animation: Megane-hen
         "A17815"  //Kyoto Animation: Kasa-hen
     ],
-    "A18365": //Mazinger ZIP!
+    
+    
+    
+    
+    "A13863": //Arve Rezzle: Kikaijikake no Yousei-tachi
     [
-        "A31517", //Ninja-tai Gatchaman ZIP!
-        "A31699"  //Good Morning!!! Doronjo
+        "A14347", //Ryo
+        "A14349", //Little Witch Academia
+        "A14353"  //Death Billiards
     ],
-    "A18897": //Nisekoi
+    "A14347": //Ryo
     [
-        "A30514"  //Nisekoimonogatari
+        "A13863", //Arve Rezzle: Kikaijikake no Yousei-tachi
+        "A14349", //Little Witch Academia
+        "A14353"  //Death Billiards
     ],
-    "A19261": //Gintama x Mameshiba
+    "A14349": //Little Witch Academia
     [
-        "A7261",  //Mameshiba
-        "A15335"  //Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare
+        "A13863", //Arve Rezzle: Kikaijikake no Yousei-tachi
+        "A14347", //Ryo
+        "A14353"  //Death Billiards
     ],
-    "A19279": //Pony Metal U-GAIM Promotion Film
+    "A14353": //Death Billiards
     [
-        "A2598"   //Juusenki L-Gaim
+        "A13863", //Arve Rezzle: Kikaijikake no Yousei-tachi
+        "A14347", //Ryo
+        "A14349"  //Little Witch Academia
+    ],
+    
+    
+    
+    
+    "A15125": //Teekyuu
+    [
+        "A19297"  //Ketsuekigata-kun! Featuring Yuri & Nasuno
     ],
     "A19297": //Ketsuekigata-kun! Featuring Yuri & Nasuno
     [
         "A15125"  //Teekyuu
     ],
-    "A23831": //Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari - Magica Quartet x Nisioisin
+    
+    
+    
+    
+    "A17187": //Ghost in the Shell: Arise - Border:1 Ghost Pain
     [
-        "A11981"  //Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari
-    ],
-    "A28149": //Nihon Animator Mihonichi
-    [
-        "A30",    //Neon Genesis Evangelion
-        "A80",    //Mobile Suit Gundam
-        "A3444",  //The Ultraman
-        "A3785"   //Evangelion: 3.0 You Can (Not) Redo
-    ],
-    "A29820": //Channel 5.5 4th Season
-    [
-        "A338"    //Rose of Versailles
-    ],
-    "A29821": //Channel 5.5
-    [
-        "A2076"   //Kindaichi Shounen no Jikenbo (TV)
+        "A29822"  //Channel 5.5 2nd Season
     ],
     "A29822": //Channel 5.5 2nd Season
     [
         "A17187"  //Ghost in the Shell: Arise - Border:1 Ghost Pain
     ],
-    "A29823": //Channel 5.5 3rd Season
-    [
-        "A1698"   //Nodame Cantabile
-    ],
-    "A30514": //Nisekoimonogatari
-    [
-        "A5081",  //Bakemonogatari
-        "A18897"  //Nisekoi
-    ],
-    "A31050": //Cyborg 009 vs. Devilman
-    [
-        "A2252",  //Devilman
-        "A4690"   //Cyborg 009 (1979)
-    ],
-    "A31517": //Ninja-tai Gatchaman ZIP!
-    [
-        "A18365", //Mazinger ZIP!
-        "A31517"  //Ninja-tai Gatchaman ZIP!
-    ],
-    "A31699": //Good Morning!!! Doronjo
-    [
-        "A3008",  //Time Bokan Series: Yatterman
-        "A18365", //Mazinger ZIP!
-        "A31517"  //Ninja-tai Gatchaman ZIP!
-    ],
     
     
+    
+    
+    "A19261": //Gintama x Mameshiba
+    [
+        "A15335"  //Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare
+    ],
     
     
     
@@ -388,6 +482,10 @@
         "M16010", //K-Dash
         "M32037"  //Drug & Drop
     ],
+    
+    
+    
+    
     "M13":    //One Piece
     [
         "M881",   //Cross Epoch
@@ -397,10 +495,6 @@
     [
         "M881",   //Cross Epoch
         "M94865"  //Chou Kochikame
-    ],
-    "M85":    //Azumanga Daioh
-    [
-        "M29937"  //Bara Manga Daioh
     ],
     "M438":   //Lupin III
     [
@@ -419,22 +513,9 @@
     [
         "M94865"  //Chou Kochikame
     ],
-    "M1474":  //Devilman
-    [
-        "M26751", //Devilman vs Getter Robo
-        "M95091"  //Cyborg 009 VS Devilman - Breakdown
-    ],
     "M1505":  //Bobobo-bo Bo-bobo
     [
         "M94865"  //Chou Kochikame
-    ],
-    "M1551":  //Getter Robo
-    [
-        "M26751"  //Devilman vs Getter Robo
-    ],
-    "M1639":  //Cyborg 009
-    [
-        "M95091"  //Cyborg 009 VS Devilman - Breakdown
     ],
     "M2845":  //Kinnikuman
     [
@@ -448,35 +529,6 @@
     [
         "M25146"  //One Piece x Toriko
     ],
-    "M8876":  //Slayers
-    [
-        "M16124", //Maburaho VS Slayers!? - Dragon All Stars Gekitouhen
-        "M20870"  //Slayers VS Orphen
-    ],
-    "M11926": //Jump Super Stars
-    [
-        "M11",    //Naruto
-        "M13",    //One Piece
-        "M42",    //Dragon Ball
-        "M43",    //Eyeshield 21
-        "M45",    //Ichigo 100%
-        "M796",   //Dr. Slump
-        "M1505"   //Bobobo-bo Bo-bobo
-    ],
-    "M16124": //Maburaho VS Slayers!? - Dragon All Stars Gekitouhen
-    [
-        "M120",   //Maburaho
-        "M8876"   //Slayers
-    ],
-    "M20870": //Slayers VS Orphen
-    [
-        "M8876",  //Slayers
-        "M39745"  //Majutsushi Orphen Hagure Tabi
-    ],
-    "M24294": //Ao Haru Ride
-    [
-        "M52389"  //Ore Ride!!
-    ],
     "M25146": //One Piece x Toriko
     [
         "M13",    //One Piece
@@ -485,49 +537,6 @@
     "M26123": //Taizou Mote King Saga
     [
         "M94865"  //Chou Kochikame
-    ],
-    "M26751": //Devilman vs Getter Robo
-    [
-        "M1474",  //Devilman
-        "M1551"   //Getter Robo
-    ],
-    "M29937": //Bara Manga Daioh
-    [
-        "M85",    //Azumanga Daioh
-        "M371"    //Ichigo Mashimaro
-    ],
-    "M31499": //Nisekoi
-    [
-        "M58193", //Ore Koi!!
-        "M47000"  //Nisekyuu!!
-    ],
-    "M35243": //Haikyuu!!
-    [
-        "M47000"  //Nisekyuu!!
-    ],
-    "M36933": //Ore Monogatari!!
-    [
-        "M52389", //Ore Ride!!
-        "M58193"  //Ore Koi!!
-    ],
-    "M39745": //Majutsushi Orphen Hagure Tabi
-    [
-        "M20870"  //Slayers VS Orphen
-    ],
-    "M47000": //Nisekyuu!!
-    [
-        "M31499", //Nisekoi
-        "M35243"  //Haikyuu!!
-    ],
-    "M52389": //Ore Ride!!
-    [
-        "M24294", //Ao Haru Ride
-        "M36933"  //Ore Monogatari!!
-    ],
-    "M58193": //Ore Koi!!
-    [
-        "M31499", //Nisekoi
-        "M36933"  //Ore Monogatari!!
     ],
     "M94865": //Chou Kochikame
     [
@@ -541,13 +550,123 @@
         "M26123", //Taizou Mote King Saga
         "M95746"  //Maison de Penguin
     ],
+    "M95746": //Maison de Penguin
+    [
+        "M94865"  //Chou Kochikame
+    ],
+    
+    
+    
+    
+    "M85":    //Azumanga Daioh
+    [
+        "M29937"  //Bara Manga Daioh
+    ],
+    "M29937": //Bara Manga Daioh
+    [
+        "M85",    //Azumanga Daioh
+        "M371"    //Ichigo Mashimaro
+    ],
+    
+    
+    
+    
+    "M1474":  //Devilman
+    [
+        "M26751", //Devilman vs Getter Robo
+        "M95091"  //Cyborg 009 VS Devilman - Breakdown
+    ],
+    "M1551":  //Getter Robo
+    [
+        "M26751"  //Devilman vs Getter Robo
+    ],
+    "M1639":  //Cyborg 009
+    [
+        "M95091"  //Cyborg 009 VS Devilman - Breakdown
+    ],
+    "M26751": //Devilman vs Getter Robo
+    [
+        "M1474",  //Devilman
+        "M1551"   //Getter Robo
+    ],
     "M95091": //Cyborg 009 VS Devilman - Breakdown
     [
         "M1474",  //Devilman
         "M1639"   //Cyborg 009
     ],
-    "M95746": //Maison de Penguin
+    
+    
+    
+    
+    "M8876":  //Slayers
     [
-        "M94865"  //Chou Kochikame
+        "M16124", //Maburaho VS Slayers!? - Dragon All Stars Gekitouhen
+        "M20870"  //Slayers VS Orphen
+    ],
+    "M16124": //Maburaho VS Slayers!? - Dragon All Stars Gekitouhen
+    [
+        "M120",   //Maburaho
+        "M8876"   //Slayers
+    ],
+    "M20870": //Slayers VS Orphen
+    [
+        "M8876",  //Slayers
+        "M39745"  //Majutsushi Orphen Hagure Tabi
+    ],
+    "M39745": //Majutsushi Orphen Hagure Tabi
+    [
+        "M20870"  //Slayers VS Orphen
+    ],
+    
+    
+    
+    
+    "M11926": //Jump Super Stars
+    [
+        "M11",    //Naruto
+        "M13",    //One Piece
+        "M42",    //Dragon Ball
+        "M43",    //Eyeshield 21
+        "M45",    //Ichigo 100%
+        "M796",   //Dr. Slump
+        "M1505"   //Bobobo-bo Bo-bobo
+    ],
+    
+    
+    
+    
+    "M24294": //Ao Haru Ride
+    [
+        "M52389"  //Ore Ride!!
+    ],
+    "M31499": //Nisekoi
+    [
+        "M58193", //Ore Koi!!
+        "M47000"  //Nisekyuu!!
+    ],
+    "M35243": //Haikyuu!!
+    [
+        "M47000"  //Nisekyuu!!
+    ],
+
+    "M47000": //Nisekyuu!!
+    [
+        "M31499", //Nisekoi
+        "M35243"  //Haikyuu!!
+    ],
+    "M36933": //Ore Monogatari!!
+    [
+        "M52389", //Ore Ride!!
+        "M58193"  //Ore Koi!!
+    ],
+    "M52389": //Ore Ride!!
+    [
+        "M24294", //Ao Haru Ride
+        "M36933"  //Ore Monogatari!!
+    ],
+    "M58193": //Ore Koi!!
+    [
+        "M31499", //Nisekoi
+        "M36933"  //Ore Monogatari!!
     ]
 }
