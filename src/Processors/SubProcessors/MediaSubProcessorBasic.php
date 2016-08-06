@@ -27,6 +27,10 @@ class MediaSubProcessorBasic extends MediaSubProcessor
         
         $type = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/../a')));
         
+        if ($type === '') {
+            $type = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/following-sibling::node()[self::text()]')));
+        }
+        
         $typeUnknown = $this->media === Media::Manga ? MangaMediaType::Unknown : AnimeMediaType::Unknown;
         
         $type = Strings::makeEnum($type, [
