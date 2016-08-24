@@ -6,7 +6,7 @@ class UserSubProcessorHistory extends UserSubProcessor
     public function getURLs($username)
     {
         return [
-            self::URL_HISTORY => 'http://myanimelist.net/history/' . $username
+            self::URL_HISTORY => 'https://myanimelist.net/history/' . $username
         ];
     }
     

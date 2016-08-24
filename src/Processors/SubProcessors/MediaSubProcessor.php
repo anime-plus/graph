@@ -18,8 +18,8 @@ abstract class MediaSubProcessor extends AbstractSubProcessor
 
 		return
 		[
-			self::URL_MEDIA => 'http://myanimelist.net/' . $infix . '/' . $id,
-			self::URL_RECS => 'http://myanimelist.net/' . $infix . '/' . $id . '/dummy/userrecs',
+			self::URL_MEDIA => 'https://myanimelist.net/' . $infix . '/' . $id,
+			self::URL_RECS => 'https://myanimelist.net/' . $infix . '/' . $id . '/dummy/userrecs',
 		];
 	}
 }

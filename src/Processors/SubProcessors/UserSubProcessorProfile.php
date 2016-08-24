@@ -6,7 +6,7 @@ class UserSubProcessorProfile extends UserSubProcessor
     public function getURLs($name)
     {
         return [
-            self::URL_PROFILE => 'http://myanimelist.net/profile/' . $name
+            self::URL_PROFILE => 'https://myanimelist.net/profile/' . $name
         ];
     }
 

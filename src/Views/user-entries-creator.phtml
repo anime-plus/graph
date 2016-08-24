@@ -2,7 +2,7 @@
     <a class="close">
         <i class="icon-close"></i>
     </a>
-    <?php echo ucfirst(Media::toString($viewContext->media)); ?> from <a href="<?php if ($viewContext->media == Media::Manga): ?><?php echo 'http://myanimelist.net/people/' . $viewContext->filterParam . '/'; ?><?php else: ?><?php echo 'http://myanimelist.net/anime.php?p=' . $viewContext->filterParam; ?><?php endif; ?>" target="_blank">the <?php if ($viewContext->media == Media::Manga): ?>author<?php else: ?>studio<?php endif; ?></a><?php if (!empty($viewContext->entries)): ?> (<?php echo count($viewContext->entries); ?>, <?php if (!$viewContext->meanScore): ?>none rated<?php else: ?>mean score: <?php echo sprintf('%.02f', $viewContext->meanScore); ?><?php endif; ?>)<?php endif; ?>:
+    <?php echo ucfirst(Media::toString($viewContext->media)); ?> from <a href="<?php if ($viewContext->media == Media::Manga): ?><?php echo 'http://myanimelist.net/people/' . $viewContext->filterParam; ?><?php else: ?><?php echo 'http://myanimelist.net/anime/producer/' . $viewContext->filterParam; ?><?php endif; ?>" target="_blank">the <?php if ($viewContext->media == Media::Manga): ?>author<?php else: ?>studio<?php endif; ?></a><?php if (!empty($viewContext->entries)): ?> (<?php echo count($viewContext->entries); ?>, <?php if (!$viewContext->meanScore): ?>none rated<?php else: ?>mean score: <?php echo sprintf('%.02f', $viewContext->meanScore); ?><?php endif; ?>)<?php endif; ?>:
 </p>
 <?php if ($viewContext->isPrivate): ?>
     <p>Can&#39;t show you titles from a private list.</p>
