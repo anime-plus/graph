@@ -10,10 +10,10 @@ class UserSubProcessorUserMedia extends UserSubProcessor
 	{
 		return
 		[
-			self::URL_ANIMELIST => 'http://myanimelist.net/animelist/' . $userName . '?status=8',
-			self::URL_MANGALIST => 'http://myanimelist.net/mangalist/' . $userName . '?status=8',
-			self::URL_ANIMEINFO => 'http://myanimelist.net/malappinfo.php?u=' . $userName . '&status=all&type=anime',
-			self::URL_MANGAINFO => 'http://myanimelist.net/malappinfo.php?u=' . $userName . '&status=all&type=manga',
+			self::URL_ANIMELIST => 'https://myanimelist.net/animelist/' . $userName . '?status=8',
+			self::URL_MANGALIST => 'https://myanimelist.net/mangalist/' . $userName . '?status=8',
+			self::URL_ANIMEINFO => 'https://myanimelist.net/malappinfo.php?u=' . $userName . '&status=all&type=anime',
+			self::URL_MANGAINFO => 'https://myanimelist.net/malappinfo.php?u=' . $userName . '&status=all&type=manga',
 		];
 	}
 

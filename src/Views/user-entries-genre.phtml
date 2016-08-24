@@ -1,7 +1,7 @@
 <p>
 	<a class="close"><i class="icon-close"></i></a>
 	<?php echo ucfirst(Media::toString($viewContext->media)) ?> from&nbsp;
-		<a target="_blank" href="http://myanimelist.net/<?php echo Media::toString($viewContext->media) ?>.php?genre%5b%5d=<?php echo $viewContext->filterParam ?>">the genre</a>:
+		<a target="_blank" href="http://myanimelist.net/<?php echo Media::toString($viewContext->media) ?>/genre/<?php echo $viewContext->filterParam ?>">the genre</a>:
         
 	<?php if (!empty($viewContext->entries)): ?>
 		&nbsp;(<?php echo count($viewContext->entries) ?>

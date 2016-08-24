@@ -7,7 +7,7 @@ class UserSubProcessorFriends extends UserSubProcessor
 	{
 		return
 		[
-			self::URL_FRIENDS => 'http://myanimelist.net/profile/' . $userName . '/friends',
+			self::URL_FRIENDS => 'https://myanimelist.net/profile/' . $userName . '/friends',
 		];
 	}
 
