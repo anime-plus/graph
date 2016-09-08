@@ -37,6 +37,8 @@
         "type": "given-titles",
         "titles":
         [
+            "A32998", //91 Days
+            "A33964", //91 Days Recap
             "A8216",  //Aa Harimanada
             "A22831", //Abarenbou Rikishi!! Matsutarou
             "A1292",  //Afro Samurai
@@ -47,11 +49,6 @@
             "A2356",  //Amon: Devilman Mokushiroku
             "A1488",  //Area 88
             "A284",   //Area 88 (TV)
-            "A1762",  //Arslan Senki
-            "A28249", //Arslan Senki (TV)
-            "A31821", //Arslan Senki (TV) 2nd Season
-            "A30953", //Arslan Senki (TV) Specials
-            "A31128", //Arslan Senki (TV): Dakkan no Yaiba
             "A2402",  //Ashita no Joe
             "A2920",  //Ashita no Joe (Movie)
             "A2921",  //Ashita no Joe 2
@@ -59,6 +56,7 @@
             "A19973", //Ashita no Joe Pilots
             "A2251",  //Baccano!
             "A3901",  //Baccano! Specials
+            "A33566", //Baki
             "A1468",  //Baoh Raihousha
             "A67",    //Basilisk: Kouga Ninpou Chou
             "A404",   //Bastard!!: Ankoku no Hakai Kami
@@ -67,6 +65,7 @@
             "A9513",  //Beelzebub
             "A9120",  //Beelzebub: Hirotta Akachan wa Daimaou!?
             "A33",    //Berserk
+            "A32379", //Berserk (2016)
             "A10218", //Berserk: Ougon Jidaihen I - Haou no Tamago
             "A12113", //Berserk: Ougon Jidaihen II - Doldrey Kouryaku
             "A12115", //Berserk: Ougon Jidaihen III - Kourin
@@ -78,6 +77,7 @@
             "A4071",  //Black Jack TV: Lost Episodes
             "A1521",  //Black Jack the Movie
             "A1983",  //Black Jack: Futari no Kuroi Isha
+            "A10055", //Black Jack: Heian Sento
             "A6246",  //Black Jack: Sora kara Kita Kodomo
             "A889",   //Black Lagoon
             "A4901",  //Black Lagoon: Roberta's Blood Trail
@@ -89,6 +89,7 @@
             "A3389",  //Bus Gamer
             "A17269", //Captain Harlock
             "A978",   //Change!! Getter Robo: Sekai Saigo no Hi
+            "A2881",  //Chinmoku no Kantai
             "A2341",  //Choujin Densetsu Urotsukidouji
             "A2360",  //Choujin Densetsu Urotsukidouji 2
             "A2345",  //Choujin Densetsu Urotsukidouji 5: Kanketsu-hen
@@ -114,6 +115,7 @@
             "A5",     //Cowboy Bebop: Tengoku no Tobira
             "A4037",  //Cowboy Bebop: Yose Atsume Blues
             "A1153",  //Crying Freeman
+            "A31050", //Cyborg 009 VS Devilman
             "A18795", //Dagram vs. Round-Facer
             "A6721",  //Dark Side Cat
             "A1178",  //Detonator Orgun
@@ -125,6 +127,8 @@
             "A2355",  //Devilman: Yochou Sirene-hen
             "A2318",  //Dog Soldier
             "A5593",  //Dogs: Bullets & Carnage
+            "A31339", //Drifters
+            "A33032", //Drifters: Special Edition
             "A12885", //Dynamic Super Robots Soushingekki
             "A1799",  //Fatal Fury: Legend of the Hungry Wolf
             "A1800",  //Fatal Fury 2: The New Battle
@@ -149,6 +153,7 @@
             "A31561", //Gangsta. Recap
             "A384",   //Gantz
             "A395",   //Gantz 2nd Stage
+            "A32071", //Gantz:O
             "A3579",  //Getter Robo
             "A8252",  //Getter Robo (Movie)
             "A4486",  //Getter Robo G
@@ -174,6 +179,7 @@
             "A245",   //Great Teacher Onizuka
             "A31467", //Grendizer Giga
             "A3481",  //Grendizer: Getter Robo G - Great Mazinger Kessen! Daikaijuu
+            "A2423",  //Grey: Digital Target
             "A5041",  //Guin Saga
             "A1706",  //Gun Frontier
             "A411",   //Gun x Sword
@@ -208,6 +214,7 @@
             "A4808",  //Hurricane Polymar
             "A16774", //Inferno Cop
             "A17843", //Inferno Cop: Fact Files
+            "A31035", //Inferno Cop Specials
             "A1759",  //Jigen Sengokushi: Kuro no Shishi - Jinnai Hen
             "A666",   //JoJo no Kimyou na Bouken
             "A665",   //JoJo no Kimyou na Bouken (2000)
@@ -221,6 +228,8 @@
             "A15735", //Jormungand: Perfect Order - First Stage Soushuuhen
             "A617",   //Juubee Ninpuuchou
             "A618",   //Juubee Ninpuuchou: Ryuuhougyoku-hen
+            "A496",   //Kamui no Ken
+            "A1777",  //Kaze no Tairiku
             "A24439", //Kekkai Sensen
             "A30915", //Kekkai Sensen: Soresaemo Saitei de Saikou na Hibi
             "A32574", //Kekkai Sensen: Ousama no Restaurant no Ousama
@@ -243,17 +252,21 @@
             "A5967",  //Kinnikuman II Sei: Ultimate Muscle
             "A5968",  //Kinnikuman II Sei: Ultimate Muscle 2
             "A2048",  //Kikou Ryohei Mellowlink
+            "A33191", //Kishibe Rohan wa Ugokanai
             "A766",   //Kishin Houkou Demonbane
             "A1067",  //Kishin Houkou Demonbane (TV)
             "A23753", //Kishin Houkou Demonbane (TV) Specials
             "A3064",  //Kizuoibito
+            "A2346",  //Koroshiya 1 The Animation: Episode 0
             "A6293",  //Koukou Butouden Crows
             "A2797",  //Koukou Tekken-den Tough
+            "A2737",  //Kouryuu no Mimi: Mina no Shou
             "A851",   //Kyou kara Ore wa!!
             "A2293",  //Kyoushoku Soukou Guyver
             "A6016",  //Kyoushoku Soukou Guyver (1989)
             "A1374",  //Kyoushoku Soukou Guyver (2005)
             "A1336",  //Kyoushoku Soukou Guyver II
+            "A434",   //Legend of Lemnear: Kyokuguro no Tsubasa Valkisas
             "A3676",  //Machine Robo: Revenge of Chronos
             "A6577",  //Machine Robo: Leina, The Legend of Wolf Blade
             "A3448",  //Mad★Bull 34
@@ -271,17 +284,26 @@
             "A1286",  //MD Geist II: Death Force
             "A1879",  //Midnight Eye: Gokuu
             "A1880",  //Midnight Eye: Gokuu II
+            "A5386",  //Miyamoto Musashi: Souken ni Haseru Yume
             "A96",    //Mobile Fighter G Gundam
+            "A31251", //Mobile Suit Gundam: Iron-Blooded Orphans
+            "A33051", //Mobile Suit Gundam: Iron-Blooded Orphans 2nd Season
+            "A31973", //Mobile Suit Gundam Thunderbolt
+            "A33221", //Mobile Suit Gundam Thunderbolt: December Sky
             "A32534", //Monkey King: Hero Is Back
+            "A1941",  //Moonlight Mile 1st Season: Lift Off
+            "A2929",  //Moonlight Mile 2nd Season: Touch Down
             "A6946",  //Mudazumo Naki Kaikaku: The Legend of Koizumi
             "A6030",  //Needless
             "A8935",  //Nekketsu Uchuujin
+            "A619",   //Ninja Ryuukenden
             "A23605", //Ninja Slayer From Animation
             "A19855", //Nobunagun
             "A7836",  //Notari Matsutarou
             "A5040",  //One Outs
             "A30276", //One Punch Man
             "A31704", //One Punch Man: Road to Hero
+            "A31772", //One Punch Man Specials
             "A6031",  //Osu!! Karate Bu
             "A6114",  //Rainbow: Nisha Rokubou no Shichinin
             "A6675",  //Redline
@@ -307,10 +329,14 @@
             "A3882",  //Seijuuki Cyguard
             "A5355",  //Sengoku Basara
             "A23201", //Sengoku Basara: Judge End
-            "A6581",  //Sengoku Basara: Setonai no Gekitotsu! Hi wo Fuku Umi no Daiyousai - Fugaku!!
             "A9745",  //Sengoku Basara Movie: The Last Party
+            "A6581",  //Sengoku Basara: Setonai no Gekitotsu! Hi wo Fuku Umi no Daiyousai - Fugaku!!
             "A6634",  //Sengoku Basara Two
             "A10483", //Sengoku Basara Two: Ryuko, Itadaki no Chikai! Atsuki Mirai e Kakeru Tamashii!!
+            "A3005",  //Shadow Skill
+            "A679",   //Shadow Skill (1996)
+            "A678",   //Shadow Skill: Eigi
+            "A1099",  //Shadow Skill: Kurudaryuu Kousatsuhou no Himitsu
             "A18683", //Shibai Taroka
             "A2216",  //Shigurui
             "A1559",  //Shijou Saikyou no Deshi Kenichi
@@ -324,6 +350,7 @@
             "A3398",  //Shin Hurricane Polymar
             "A5485",  //Shin Mazinger Shougeki! Z-Hen
             "A1913",  //Shonan Junai Gumi!
+            "A1227",  //Shuten Douji
             "A2161",  //Skull Man
             "A170",   //Slam Dunk
             "A1764",  //Slam Dunk Movie
@@ -353,13 +380,18 @@
             "A1081",  //Space Pirate Captain Herlock: Outside Legend - The Endless Odyssey
             "A2418",  //Stranger: Mukou Hadan
             "A14617", //Stranger: Mukou Hadan Pilot
+            "A950",   //Street Fighter Alpha: Generations
             "A876",   //Street Fighter II V
             "A1362",  //Street Fighter II: The Movie
+            "A17379", //Street Fighter II: Yomigaeru Fujiwara-Kyou - Toki wo Kaketa Fighter-tachi
+            "A979",   //Street Fighter Zero The Animation
             "A3252",  //Super Express Mazinger 7
             "A1603",  //Super Robot Taisen OG: Divine Wars
             "A4075",  //Super Robot Taisen OG: Divine Wars Special
             "A1544",  //Super Robot Taisen OG: The Animation
             "A9241",  //Super Robot Taisen OG: The Inspector
+            "A8026",  //Super Street Fighter IV
+            "A1451",  //Shuranosuke Zanmaken: Shikamamon no Otoko
             "A2257",  //Taiyou no Kiba Dagram
             "A4427",  //Tatakae!! Ramenman
             "A16728", //Tatakae!! Ramenman (Movie)
@@ -376,7 +408,9 @@
             "A23723", //Teppen
             "A22687", //Terra Formars
             "A22689", //Terra Formars OVA
+            "A31430", //Terra Formars Revenge
             "A2500",  //The Cockpit
+            "A4714",  //The Rapeman
             "A3009",  //Tiger Mask
             "A18061", //Tiger Mask (Movie)
             "A18063", //Tiger Mask Fuku Men League Sen
