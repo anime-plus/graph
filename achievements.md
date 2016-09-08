@@ -2,7 +2,7 @@ All genre-based achievements have four levels. Max level images for these are si
 
 If you're curious about titles that count towards certain badges, read [these files](https://github.com/anime-plus/graph/tree/master/data/achievement), but note that some genre-based achievements have their title list generated automatically from genres on myanimelist.net. These can also have additional titles added manually, to fill up genre holes left by myanimelist.net (e.g. sequel to a historical anime isn't tagged as such).
 
-Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60 for level 3 and 100 for the maximum level. Manga thresholds (and anime mahou shoujo) are 15, 30, 50 and 80. The romance badges have increased thresholds (40, 70, 100 and 150), since this genre tag is ubiquitous.
+Thresholds for (most) anime genres are 25 titles for level 1, 40 for level 2, 60 for level 3 and 100 for the maximum level. Manga thresholds are 15, 30, 50 and 80.
 
 ##Anime achievements
 
