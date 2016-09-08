@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "40-69",
+            "threshold": "25-39",
             "id": "anime-romance-1",
             "level": "Romance: level 1",
             "title": "Stalker",
             "desc": "I'll stalk you so hard you won't notice me for 24 episodes. Why don't you love me yet?"
         },
         {
-            "threshold": "70-99",
+            "threshold": "40-59",
             "id": "anime-romance-2",
             "level": "Romance: level 2",
             "title": "Unrequited love",
             "desc": "If you won't confess, they'll never know how you feel. But don't bother if you're the best girl - these never win."
         },
         {
-            "threshold": "100-149",
+            "threshold": "60-99",
             "id": "anime-romance-3",
             "level": "Romance: level 3",
             "title": "Sparkles and bubbles",
             "desc": "Every time you two get close you feel butterflies in your stomach. Now kiss."
         },
         {
-            "threshold": "150+",
+            "threshold": "100+",
             "id": "anime-romance-4",
             "level": "Romance: level MAX",
             "title": "Heart full of love",

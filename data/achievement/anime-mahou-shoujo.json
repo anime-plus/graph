@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "15-29",
+            "threshold": "25-39",
             "id": "anime-mahou-shoujo-1",
             "level": "Mahou Shoujo: level 1",
             "title": "Signed the contract",
             "desc": "Became a magical girl and started saving the world, step by step."
         },
         {
-            "threshold": "30-49",
+            "threshold": "40-59",
             "id": "anime-mahou-shoujo-2",
             "level": "Mahou Shoujo: level 2",
             "title": "Magic is my middle name",
             "desc": "Transformed into a magical girl: level two. In the name of the Moon, I will punish you!"
         },
         {
-            "threshold": "50-79",
+            "threshold": "60-99",
             "id": "anime-mahou-shoujo-3",
             "level": "Mahou Shoujo: level 3",
             "title": "Too magical to comprehend",
             "desc": "Watched so many mahou shoujo anime that you sparkle occasionally."
         },
         {
-            "threshold": "80+",
+            "threshold": "100+",
             "id": "anime-mahou-shoujo-4",
             "level": "Mahou Shoujo: MAX POWER",
             "title": "Are you a wizard",
