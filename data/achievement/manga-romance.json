@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "332-663",
+            "threshold": "50-99",
             "id": "manga-romance-1",
             "level": "Romance: level 1",
             "title": "Mixed feelings",
             "desc": "98% hatred, 2% love. Give it some time and these two will reverse."
         },
         {
-            "threshold": "664-1327",
+            "threshold": "100-199",
             "id": "manga-romance-2",
             "level": "Romance: level 2",
             "title": "Love me or die",
             "desc": "Yandere is a form of love too. A rather extreme one, but still!"
         },
         {
-            "threshold": "1328-2655",
+            "threshold": "200-399",
             "id": "manga-romance-3",
             "level": "Romance: level 3",
             "title": "Breaking the chains",
             "desc": "With love, nothing is impossible. You just have to let someone break you free of restrictions."
         },
         {
-            "threshold": "2656+",
+            "threshold": "400+",
             "id": "manga-romance-4",
             "level": "Romance: FULL LOVE",
             "title": "Heart that never stops beating",
