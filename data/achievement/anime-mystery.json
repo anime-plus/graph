@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "25-39",
+            "threshold": "15-29",
             "id": "anime-mystery-1",
             "level": "Mystery: level 1",
             "title": "Growing suspicions",
             "desc": "It's suspicious because nothing looks suspicious, and if it looks suspicious from the start it's obviously suspicious."
         },
         {
-            "threshold": "40-59",
+            "threshold": "30-59",
             "id": "anime-mystery-2",
             "level": "Mystery: level 2",
             "title": "Detective's assistant",
             "desc": "Now it's your business to know what other people don't know too."
         },
         {
-            "threshold": "60-99",
+            "threshold": "60-119",
             "id": "anime-mystery-3",
             "level": "Mystery: level 3",
             "title": "Genius detective",
             "desc": "You're already a genius at unraveling mysteries... but how is it possible that everywhere you go someone ends up dead?"
         },
         {
-            "threshold": "100+",
+            "threshold": "120+",
             "id": "anime-mystery-4",
             "level": "Mystery: level MAX",
             "title": "Golden Truth",
