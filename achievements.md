@@ -2,7 +2,7 @@ All genre-based achievements have 4 levels. Count-based badges have 12 levels, a
 
 If you're curious about titles that count towards certain badges, read [these files](https://github.com/anime-plus/graph/tree/master/data/achievement), but note that some genre-based achievements have their title list generated automatically from genres on myanimelist.net. These can also have additional titles added manually, to fill up genre holes left by myanimelist.net (e.g. sequel to a historical anime isn't tagged as such).
 
-Thresholds for (most) genres are ~3% of titles for level 1, ~6% for level 2, ~12% for level 3 and ~24% for the maximum level.
+Thresholds for genres are ~3% of titles (up to 50) for level 1, ~6% (up to 100) for level 2, ~12% (up to 200) for level 3 and ~24% (up to 400) for the maximum level.
 
 ##Anime achievements
 
