@@ -4,8 +4,8 @@
     "achievements":
     [
         {
-            "threshold": "15+",
-            "id": "anime-pre-1980",
+            "threshold": "25+",
+            "id": "anime-release-old",
             "level": "Pre-1980 anime",
             "title": "VHS master race",
             "desc": "You overwrote my cartoons with The Karate Kid?! MOOOM!"
@@ -13,6 +13,6 @@
     ],
     "requirement":
     {
-        "type": "old-titles"
+        "type": "release-old"
     }
 }

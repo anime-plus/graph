@@ -1,0 +1,18 @@
+{
+    "media": "A",
+    "order": 303,
+    "achievements":
+    [
+        {
+            "threshold": "25+",
+            "id": "anime-episode-long",
+            "level": "Anime, that is",
+            "title": "I like them long",
+            "desc": "Didn't fall asleep while watching long anime series. 100 episodes isn't a big deal to you."
+        }
+    ],
+    "requirement":
+    {
+        "type": "episode-long"
+    }
+}

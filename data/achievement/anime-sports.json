@@ -1,6 +1,6 @@
 {
     "media": "A",
-    "order": 110,
+    "order": 112,
     "achievements":
     [
         {
@@ -34,7 +34,7 @@
     ],
     "requirement":
     {
-        "type": "genre-titles",
+        "type": "genre-title",
         "genre": 30
     }
 }

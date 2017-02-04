@@ -6,21 +6,21 @@
         {
             "threshold": "25-48",
             "id": "manga-vampire-demons-1",
-            "level": "Level 1 vampire/demon",
+            "level": "Vampires/Demons: level 1",
             "title": "Sweet tooth",
             "desc": "Donuts? Really? You lived for 500 years just to eat them?"
         },
         {
             "threshold": "49-96",
             "id": "manga-vampire-demons-2",
-            "level": "Level 2 vampire/demon",
+            "level": "Vampires/Demons: level 2",
             "title": "Vegetarian",
             "desc": "Some creatures prefer juicy fruits instead of sucking blood or eating raw meat. Weaklings."
         },
         {
             "threshold": "97-192",
             "id": "manga-vampire-demons-3",
-            "level": "Level 3 vampire/demon",
+            "level": "Vampires/Demons: level 3",
             "title": "Carnivore",
             "desc": "Don't mess with me if you want to keep your limbs attached to your body."
         },
@@ -34,7 +34,7 @@
     ],
     "requirement":
     {
-        "type": "genre-titles",
+        "type": "genre-title",
         "genre": [6, 32]
     }
 }

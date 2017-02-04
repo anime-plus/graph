@@ -13,7 +13,7 @@
     ],
     "requirement":
     {
-        "type": "given-titles",
+        "type": "title",
         "titles":
         [
             "A2890",  //Gake no Ue no Ponyo

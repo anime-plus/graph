@@ -13,7 +13,7 @@
     ],
     "requirement":
     {
-        "type": "given-titles",
+        "type": "title",
         "titles":
         [
             "A1639",  //Boku no Pico

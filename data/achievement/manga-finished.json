@@ -1,88 +1,88 @@
 {
     "media": "M",
-    "order": 310,
+    "order": 306,
     "achievements":
     [
         {
             "threshold": "100-199",
-            "id": "manga-completed-100",
+            "id": "manga-finished-100",
             "level": "Passed 100 mark",
             "title": "Casual reader",
             "desc": "Read 100 manga. Looks like reading doesn't hurt."
         },
         {
             "threshold": "200-299",
-            "id": "manga-completed-200",
+            "id": "manga-finished-200",
             "level": "Passed 200 mark",
             "title": "Bookworm",
             "desc": "Read 200 manga. Sitting in your comfortable chair, reading favorite Korean comics. This is bliss."
         },
         {
             "threshold": "300-399",
-            "id": "manga-completed-300",
+            "id": "manga-finished-300",
             "level": "Passed 300 mark",
             "title": "Dat scent",
             "desc": "Read 300 manga. There's nothing better than the smell of freshly opened book. Or a PDF."
         },
         {
             "threshold": "400-499",
-            "id": "manga-completed-400",
+            "id": "manga-finished-400",
             "level": "Passed 400 mark",
             "title": "Where do I put these?",
             "desc": "Read 400 manga. Consider investing in another bookshelf, or you'll be swimming in books soon."
         },
         {
             "threshold": "500-749",
-            "id": "manga-completed-500",
+            "id": "manga-finished-500",
             "level": "Passed 500 mark",
             "title": "Half a grand",
             "desc": "Read 500 manga. Now think of what kind of person you'd be if you didn't start reading manga then. On that particular day..."
         },
         {
             "threshold": "750-999",
-            "id": "manga-completed-750",
+            "id": "manga-finished-750",
             "level": "Passed 750 mark",
             "title": "Read or die",
             "desc": "Read 750 manga. You managed to make a bow out of paper, but remember that cellulose fibers don't work well as a bulletproof shield."
         },
         {
             "threshold": "1000-1499",
-            "id": "manga-completed-1000",
+            "id": "manga-finished-1000",
             "level": "Passed 1000 mark",
             "title": "Librarian",
             "desc": "Read 1000 manga. You work with books, right? Right?"
         },
         {
             "threshold": "1500-2499",
-            "id": "manga-completed-1500",
+            "id": "manga-finished-1500",
             "level": "Passed 1500 mark",
             "title": "The floor is books",
             "desc": "Read 1500 manga. Sleeping on books must be pretty... hard?"
         },
         {
             "threshold": "2500-4999",
-            "id": "manga-completed-2500",
+            "id": "manga-finished-2500",
             "level": "Passed 2500 mark",
             "title": "Still not enough",
             "desc": "Read 2500 manga. In search for the perfect story you've read six lifetimes worth of words. Did you find it?"
         },
         {
             "threshold": "5000-7499",
-            "id": "manga-completed-5000",
+            "id": "manga-finished-5000",
             "level": "Passed 5000 mark",
             "title": "Sleep deprivation",
             "desc": "Read 5000 manga. Think of all the mangakas and writers that couldn't sleep just to make this moment happen."
         },
         {
             "threshold": "7500-9999",
-            "id": "manga-completed-7500",
+            "id": "manga-finished-7500",
             "level": "Passed 7500 mark",
             "title": "Reincarnation",
             "desc": "Read 7500 manga. How, exactly? This is not possible for normal humans."
         },
         {
             "threshold": "10000+",
-            "id": "manga-completed-10000",
+            "id": "manga-finished-10000",
             "level": "Passed 10000 mark",
             "title": "I've seen it all",
             "desc": "Read 10000 manga. Ten. Thousand. Manga. An average user's list is shorter than your list of titles starting with \"A\" alone."
@@ -90,6 +90,6 @@
     ],
     "requirement":
     {
-        "type": "finished-titles"
+        "type": "finished"
     }
 }

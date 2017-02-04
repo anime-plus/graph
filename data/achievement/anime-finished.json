@@ -1,88 +1,88 @@
 {
     "media": "A",
-    "order": 310,
+    "order": 308,
     "achievements":
     [
         {
             "threshold": "100-199",
-            "id": "anime-completed-100",
+            "id": "anime-finished-100",
             "level": "Passed 100 mark",
             "title": "The first step",
             "desc": "Watched 100 anime. Congratulations, you broke the magical number. Take a breath now, it will only get more difficult."
         },
         {
             "threshold": "200-299",
-            "id": "anime-completed-200",
+            "id": "anime-finished-200",
             "level": "Passed 200 mark",
             "title": "Casual watcher",
             "desc": "Watched 200 anime. You're used to seeing character's eyes bigger than their nose. If they have any nose."
         },
         {
             "threshold": "300-399",
-            "id": "anime-completed-300",
+            "id": "anime-finished-300",
             "level": "Passed 300 mark",
             "title": "A millionaire",
             "desc": "Watched 300 anime. You DID buy all of them, right?"
         },
         {
             "threshold": "400-499",
-            "id": "anime-completed-400",
+            "id": "anime-finished-400",
             "level": "Passed 400 mark",
             "title": "Bragging rights",
             "desc": "Watched 400 anime. That's... a lot. You can be proud of yourself, that's for sure."
         },
         {
             "threshold": "500-749",
-            "id": "anime-completed-500",
+            "id": "anime-finished-500",
             "level": "Passed 500 mark",
             "title": "A lot of free time",
             "desc": "Watched 500 anime. Now pause, take a breath and stretch a bit. Remember not to sit too close to the screen."
         },
         {
             "threshold": "750-999",
-            "id": "anime-completed-750",
+            "id": "anime-finished-750",
             "level": "Passed 750 mark",
             "title": "Not even my final form",
             "desc": "Watched 750 anime. Your power level is way above others'. The only way is up."
         },
         {
             "threshold": "1000-1499",
-            "id": "anime-completed-1000",
+            "id": "anime-finished-1000",
             "level": "Passed 1000 mark",
             "title": "Gotta watch them all!",
             "desc": "Watched 1000 anime. You should already know what that picture means."
         },
         {
             "threshold": "1500-2499",
-            "id": "anime-completed-1500",
+            "id": "anime-finished-1500",
             "level": "Passed 1500 mark",
             "title": "The Collector",
             "desc": "Watched 1500 animes. No, wait. The plural of anime is anime."
         },
         {
             "threshold": "2500-4999",
-            "id": "anime-completed-2500",
+            "id": "anime-finished-2500",
             "level": "Passed 2500 mark",
             "title": "The Maniac",
             "desc": "Watched 2500 anime. Is this healthy? You should contact your doctor."
         },
         {
             "threshold": "5000-7499",
-            "id": "anime-completed-5000",
+            "id": "anime-finished-5000",
             "level": "Passed 5000 mark",
             "title": "The Legend",
             "desc": "Watched 5000 anime. You're one of the chosen ones. You don't even have to brag, since everyone heard about you."
         },
         {
             "threshold": "7500-9999",
-            "id": "anime-completed-7500",
+            "id": "anime-finished-7500",
             "level": "Passed 7500 mark",
             "title": "Database Breaker",
             "desc": "Watched 7.5 × 10³ anime. Are you having fun, breaking all the rules? By the way, since when do we have that many anime in the database?!"
         },
         {
             "threshold": "10000+",
-            "id": "anime-completed-10000",
+            "id": "anime-finished-10000",
             "level": "Passed 10000 mark",
             "title": "This is it",
             "desc": "Watched 10000 anime. There is no higher level. You can stop now. Everyone, go home."
@@ -90,6 +90,6 @@
     ],
     "requirement":
     {
-        "type": "finished-titles"
+        "type": "finished"
     }
 }

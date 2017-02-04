@@ -1,0 +1,18 @@
+{
+    "media": "M",
+    "order": 302,
+    "achievements":
+    [
+        {
+            "threshold": "25+",
+            "id": "manga-volume-long",
+            "level": "Infinite stamina",
+            "title": "Long runner",
+            "desc": "The best stories can't be told in less than 25 volumes."
+        }
+    ],
+    "requirement":
+    {
+        "type": "volume-long"
+    }
+}
