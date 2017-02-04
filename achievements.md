@@ -344,7 +344,7 @@ Awarded for watching anime classics (finished between 1981 and 2000).
 <td>__Solid color__<div><sub>Bomber jackets, high-waisted jeans, an overload of patterns, and bishies everywhere.</sub></div></td>
 </tr>
 <tr>
-<td>![anime-release-classic-3](http://graph.anime.plus/image/achievement/anime-release-classic-2.png)</td>
+<td>![anime-release-classic-3](http://graph.anime.plus/image/achievement/anime-release-classic-3.png)</td>
 <td>__It's raining... tragic backstories!__<div><sub>It might be the nostalgia lens, but you swear things had more substance back then.</sub></div></td>
 </tr>
 <tr>
