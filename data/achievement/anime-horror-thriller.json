@@ -1,0 +1,40 @@
+{
+    "media": "A",
+    "order": 104,
+    "achievements":
+    [
+        {
+            "threshold": "14-27",
+            "id": "anime-horror-thriller-1",
+            "level": "Horror/Thriller: level 1",
+            "title": "Paranoia fuel",
+            "desc": "It's not like you needed to sleep tonight, anyway."
+        },
+        {
+            "threshold": "28-55",
+            "id": "anime-horror-thriller-2",
+            "level": "Horror/Thriller: level 2",
+            "title": "Too many teeth",
+            "desc": "You know something is following you. You just don't know what."
+        },
+        {
+            "threshold": "56-110",
+            "id": "anime-horror-thriller-3",
+            "level": "Horror/Thriller: level 3",
+            "title": "Extreme phobia",
+            "desc": "You are terrified; you are transfixed."
+        },
+        {
+            "threshold": "111+",
+            "id": "anime-horror-thriller-4",
+            "level": "Trauma: level MAX",
+            "title": "Flowers of flesh and blood",
+            "desc": "It's far too late, now."
+        }
+    ],
+    "requirement":
+    {
+        "type": "genre-title",
+        "genre": [14, 41]
+    }
+}

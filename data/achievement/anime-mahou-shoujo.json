@@ -1,6 +1,6 @@
 {
     "media": "A",
-    "order": 104,
+    "order": 105,
     "achievements":
     [
         {
@@ -34,7 +34,7 @@
     ],
     "requirement":
     {
-        "type": "given-titles",
+        "type": "title",
         "titles":
         [
             "A20913", //6♥Princess

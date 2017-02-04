@@ -1,0 +1,40 @@
+{
+    "media": "A",
+    "order": 107,
+    "achievements":
+    [
+        {
+            "threshold": "27-53",
+            "id": "anime-music-1",
+            "level": "Music: level 1",
+            "title": "Gettin' your keys on!",
+            "desc": "You don't know what you've just listened to, but you like it."
+        },
+        {
+            "threshold": "54-106",
+            "id": "anime-music-2",
+            "level": "Music: level 2",
+            "title": "This is even better live",
+            "desc": "Proudly display the badges you have earned in the fancafe."
+        },
+        {
+            "threshold": "107-212",
+            "id": "anime-music-3",
+            "level": "Music: level 3",
+            "title": "Dreaming of the city",
+            "desc": "Your musical knowledge has expanded so much you are tempted to make a career out of it."
+        },
+        {
+            "threshold": "213+",
+            "id": "anime-music-4",
+            "level": "Music: level SUPERSTAR",
+            "title": "Hall of Fame",
+            "desc": "The stage is now your second home."
+        }
+    ],
+    "requirement":
+    {
+        "type": "genre-title",
+        "genre": 19
+    }
+}

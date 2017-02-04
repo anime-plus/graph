@@ -96,77 +96,114 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
         $listDropped = UserMediaFilter::doFilter($list, UserMediaFilter::dropped());
         $distribution = RatingDistribution::fromEntries($listNonPlanned);
 
-        $evaluators =
-        [
-            'given-titles' => function($groupData) use ($listFinished)
-            {
-                $entriesOwned = UserMediaFilter::doFilter($listFinished, UserMediaFilter::givenMedia($groupData->requirement->titles));
+        $evaluators = [
+            'title' => function ($groupData) use ($listFinished) {
+                $entries = UserMediaFilter::doFilter($listFinished, UserMediaFilter::givenMedia($groupData->requirement->titles));
                 
-                return [count($entriesOwned), $entriesOwned];
+                return [count($entries), $entries];
             },
-            'genre-titles' => function($groupData) use ($viewContext, $listFinished)
-            {
-                $entriesOwned1 = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre($groupData->requirement->genre, $listFinished));
-                $entriesOwned2 = !empty($groupData->requirement->titles) ? UserMediaFilter::doFilter($listFinished, UserMediaFilter::givenMedia($groupData->requirement->titles)) : [];
-                $entriesOwned = array_merge($entriesOwned1, $entriesOwned2);
-                #array unique w/ callback
-                $entriesOwned = array_intersect_key($entriesOwned, array_unique(array_map(function($e) { return $e->media . $e->mal_id; }, $entriesOwned)));
+            'genre-title' => function ($groupData) use ($listFinished) {
+                $entries1 = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre($groupData->requirement->genre, $listFinished));
                 
-                return [count($entriesOwned), $entriesOwned];
+                $entries2 = !empty($groupData->requirement->titles) ? UserMediaFilter::doFilter($listFinished, UserMediaFilter::givenMedia($groupData->requirement->titles)) : [];
+                
+                $entries = array_merge($entries1, $entries2);
+                
+                $entries = array_intersect_key($entries, array_unique(array_map(function ($entry) {
+                    return $entry->media . $entry->mal_id;
+                }, $entries)));
+                
+                return [count($entries), $entries];
             },
-            'pervert' => function($groupData) use ($viewContext, $listFinished)
-            {
-                $entriesTotalCount = count($listFinished);
-                
-                if ($entriesTotalCount > 0) {
-                    $entriesEcchi = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(9, $listFinished));
-                    
-                    $entriesHentai = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(12, $listFinished));
-                    
-                    $score = 100 / $entriesTotalCount * (count($entriesEcchi) * 2 + count($entriesHentai) * 4);
-                    
-                    if ($score > 100) {
-                        $score = 100;
-                    }
-                    
-                    $entries = array_merge($entriesEcchi, $entriesHentai);
-                    $entries = array_intersect_key($entries, array_unique(array_map(function($e) { return $e->media . $e->mal_id; }, $entries)));
-                    
-                    return [$score, $entries];
-                }
-                
-                return [0, null];
-            },
-            'finished-titles' => function($groupData) use ($listFinished)
-            {
+            'finished' => function ($groupData) use ($listFinished) {
                 return [count($listFinished), null];
             },
-            'mean-score' => function($groupData) use ($listNonPlanned, $distribution)
-            {
-                if ($distribution->getRatedCount() > 0) {
-                    return [$distribution->getMeanScore(), null];
-                }
-                
-                return [null, null];
-            },
-            'no-drop' => function($groupData) use ($listFinished, $listDropped)
-            {
+            'dropped-0' => function ($groupData) use ($listFinished, $listDropped) {
                 if (count($listDropped) > 0) {
                     return [0, null];
                 }
                 
                 return [count($listFinished), null];
             },
-            'old-titles' => function($groupData) use ($listFinished)
-            {
-                $entriesOwned = UserMediaFilter::doFilter($listFinished, function($row)
-                {
-                    $year = substr($row->published_to, 0, 4);
-                    return $year != '????' and intval($year) <= 1980;
+            'score' => function ($groupData) use ($listNonPlanned, $distribution) {
+                if ($distribution->getRatedCount() > 0) {
+                    return [$distribution->getMeanScore(), null];
+                }
+                
+                return [null, null];
+            },
+            'release-old' => function ($groupData) use ($listFinished) {
+                $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
+                    $yearTo = substr($entry->published_to, 0, 4);
+                    
+                    return $yearTo !== '????' && intval($yearTo) <= 1980;
                 });
                 
-                return [count($entriesOwned), $entriesOwned];
-            }
+                return [count($entries), $entries];
+            },
+            'release-classic' => function ($groupData) use ($listFinished) {
+                $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
+                    $yearFrom = substr($entry->published_from, 0, 4);
+                    
+                    $yearTo = substr($entry->published_to, 0, 4);
+                    
+                    return $yearFrom !== '????' && intval($yearFrom) >= 1981 && $yearTo !== '????' && intval($yearTo) <= 2000;
+                });
+                
+                return [count($entries), $entries];
+            },
+            'duration-short' => function ($groupData) use ($listFinished) {
+                $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
+                    $duration = $entry->duration;
+                    
+                    return $duration <= 15;
+                });
+                
+                return [count($entries), $entries];
+            },
+            'episode-long' => function ($groupData) use ($listFinished) {
+                $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
+                    $episode = $entry->episodes;
+                    
+                    return $episode >= 100;
+                });
+                
+                return [count($entries), $entries];
+            },
+            'volume-long' => function ($groupData) use ($listFinished) {
+                $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
+                    $volume = $entry->volumes;
+                    
+                    return $volume >= 25;
+                });
+                
+                return [count($entries), $entries];
+            },
+            'pervert' => function ($groupData) use ($viewContext, $listFinished) {
+                $entriesCount = count($listFinished);
+                
+                if ($entriesCount > 0) {
+                    $entriesEcchi = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(9, $listFinished));
+                    
+                    $entriesHentai = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(12, $listFinished));
+                    
+                    $entries = array_merge($entriesEcchi, $entriesHentai);
+                    
+                    $entries = array_intersect_key($entries, array_unique(array_map(function ($entry) {
+                        return $entry->media . $entry->mal_id;
+                    }, $entries)));
+                    
+                    $score = 100 / $entriesCount * (count($entriesEcchi) * 2 + count($entriesHentai) * 4);
+                    
+                    if ($score > 100) {
+                        $score = 100;
+                    }
+                    
+                    return [$score, $entries];
+                }
+                
+                return [0, null];
+            },
         ];
         
         $achievements = [];

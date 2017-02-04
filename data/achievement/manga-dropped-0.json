@@ -1,11 +1,11 @@
 {
     "media": "M",
-    "order": 309,
+    "order": 305,
     "achievements":
     [
         {
         "threshold": "50+",
-        "id": "manga-no-drop",
+        "id": "manga-dropped-0",
         "level": "And it still hurts",
         "title": "I've seen some sh**",
         "desc": "Despite seemingly endless suffering, you've never dropped any manga. That's impressive."
@@ -13,6 +13,6 @@
     ],
     "requirement":
     {
-        "type": "no-drop"
+        "type": "dropped-0"
     }
 }

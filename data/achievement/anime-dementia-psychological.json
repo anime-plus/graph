@@ -34,7 +34,7 @@
     ],
     "requirement":
     {
-        "type": "genre-titles",
+        "type": "genre-title",
         "genre": [5, 40]
     }
 }

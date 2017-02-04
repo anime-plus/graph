@@ -34,7 +34,7 @@
     ],
     "requirement":
     {
-        "type": "given-titles",
+        "type": "title",
         "titles":
         [
             "A32998", //91 Days

@@ -78,6 +78,30 @@ Awarded for watching Historical anime.
 </tbody>
 </table>&nbsp;
 
+###Horror and Thriller
+Awarded for watching Horror or Thriller anime.
+
+<table>
+<tbody>
+<tr>
+<td>![anime-horror-thriller-1](http://graph.anime.plus/image/achievement/anime-horror-thriller-1.png)</td>
+<td>**Paranoia fuel**<div>It's not like you needed to sleep tonight, anyway.</div></td>
+</tr>
+<tr>
+<td>![anime-horror-thriller-2](http://graph.anime.plus/image/achievement/anime-horror-thriller-2.png)</td>
+<td>**Too many teeth**<div>You know something is following you. You just don't know what.</div></td>
+</tr>
+<tr>
+<td>![anime-horror-thriller-3](http://graph.anime.plus/image/achievement/anime-horror-thriller-3.png)</td>
+<td>**Extreme phobia**<div>You are terrified; you are transfixed.</div></td>
+</tr>
+<tr>
+<td>![anime-horror-thriller-4](http://graph.anime.plus/image/achievement/anime-horror-thriller-4.png)</td>
+<td>**Flowers of flesh and blood**<div>It's far too late, now.</div></td>
+</tr>
+</tbody>
+</table>&nbsp;
+
 ###Mahou Shoujo
 Awarded for watching anime with magical girls.
 
@@ -122,6 +146,30 @@ Awarded for watching Mecha anime.
 <tr>
 <td>![anime-mecha-4](http://graph.anime.plus/image/achievement/anime-mecha-4.png)</td>
 <td>**Pierce the HEAVENS!**<div>Do the impossible. See the invisible. ROW ROW FIGHT THE POWAH! You just sang that</div><div>in your head, didn't you?</div></td>
+</tr>
+</tbody>
+</table>&nbsp;
+
+###Music
+Awarded for watching Music anime.
+
+<table>
+<tbody>
+<tr>
+<td>![anime-music-1](http://graph.anime.plus/image/achievement/anime-music-1.png)</td>
+<td>**Gettin' your keys on!**<div>You don't know what you've just listened to, but you like it.</div></td>
+</tr>
+<tr>
+<td>![anime-music-2](http://graph.anime.plus/image/achievement/anime-music-2.png)</td>
+<td>**This is even better live**<div>Proudly display the badges you have earned in the fancafe.</div></td>
+</tr>
+<tr>
+<td>![anime-music-3](http://graph.anime.plus/image/achievement/anime-music-3.png)</td>
+<td>**Dreaming of the city**<div>Your musical knowledge has expanded so much you are tempted to make a career out of it.</div></td>
+</tr>
+<tr>
+<td>![anime-music-4](http://graph.anime.plus/image/achievement/anime-music-4.png)</td>
+<td>**Hall of Fame**<div>The stage is now your second home.</div></td>
 </tr>
 </tbody>
 </table>&nbsp;
@@ -271,25 +319,73 @@ Awarded for watching 15+ anime from Studio Ghibli.
 </table>&nbsp;
 
 ###Old anime
-Awarded for watching 15+ old anime (finished in 1980 at most).
+Awarded for watching 25+ old anime (finished in 1980 at most).
 
 <table>
 <tbody>
 <tr>
-<td>![anime-pre-1980](http://graph.anime.plus/image/achievement/anime-pre-1980.gif)</td>
+<td>![anime-release-old](http://graph.anime.plus/image/achievement/anime-release-old.gif)</td>
 <td>**VHS master race**<div>You overwrote my cartoons with The Karate Kid?! MOOOM!</div></td>
 </tr>
 </tbody>
 </table>&nbsp;
 
-###Long runner
-Awarded for watching 15+ anime that are 150+ episodes long.
+###Classics
+Awarded for watching anime classics (finished between 1981 and 2000).
 
 <table>
 <tbody>
 <tr>
-<td>![anime-long](http://graph.anime.plus/image/achievement/anime-long.png)</td>
-<td>**I like them long**<div>Didn't fall asleep while watching long anime series. 150 episodes isn't a big deal to you.</div></td>
+<td>![anime-release-classic-1](http://graph.anime.plus/image/achievement/anime-release-classic-1.png)</td>
+<td>**Cassette tape**<div>The first time you watched these, you didn't even know what they were.</div></td>
+</tr>
+<tr>
+<td>![anime-release-classic-2](http://graph.anime.plus/image/achievement/anime-release-classic-2.png)</td>
+<td>**Solid color**<div>Bomber jackets, high-waisted jeans, an overload of patterns, and bishies everywhere.</div></td>
+</tr>
+<tr>
+<td>![anime-release-classic-3](http://graph.anime.plus/image/achievement/anime-release-classic-2.png)</td>
+<td>**It's raining... tragic backstories!**<div>It might be the nostalgia lens, but you swear things had more substance back then.</div></td>
+</tr>
+<tr>
+<td>![anime-release-classic-4](http://graph.anime.plus/image/achievement/anime-release-classic-4.png)</td>
+<td>**Blockbuster**<div>Man, do you feel old as all hell.</div></td>
+</tr>
+</tbody>
+</table>&nbsp;
+
+###Long runner
+Awarded for watching 25+ anime that are 100+ episodes long.
+
+<table>
+<tbody>
+<tr>
+<td>![anime-episode-long](http://graph.anime.plus/image/achievement/anime-episode-long.png)</td>
+<td>**I like them long**<div>Didn't fall asleep while watching long anime series. 100 episodes isn't a big deal to you.</div></td>
+</tr>
+</tbody>
+</table>&nbsp;
+
+###Shorts
+Awarded for watching anime with episode length of under 15 minutes.
+
+<table>
+<tbody>
+<tr>
+<td>![anime-duration-short-1](http://graph.anime.plus/image/achievement/anime-duration-short-1.png)</td>
+<td>**Blink, and you'll miss it**<div>It was over before it started, but it managed to tell an enticing tale.</div></td>
+</tr>
+<tr>
+<td>![anime-duration-short-2](http://graph.anime.plus/image/achievement/anime-duration-short-2.png)</td>
+<td>**Quickie addict**<div>You've been saying "one more" for the past nine hours.</div></td>
+</tr>
+<tr>
+<td>![anime-duration-short-3](http://graph.anime.plus/image/achievement/anime-duration-short-2.png)</td>
+<td>**Block by block**<div>Just like in a game of tetris, you're building something great out of small pieces.</div></td>
+</tr>
+<tr>
+<td>![anime-duration-short-4](http://graph.anime.plus/image/achievement/anime-duration-short-4.png)</td>
+<td>**Short but gold**<div>You have learned that some of the greatest things come in small packages.</div></td>
 </tr>
 </tbody>
 </table>&nbsp;
@@ -340,7 +436,7 @@ Related to mean anime score.
 <table>
 <tbody>
 <tr>
-<td>![anime-no-drop](http://graph.anime.plus/image/achievement/anime-no-drop.png)</td>
+<td>![anime-dropped-0](http://graph.anime.plus/image/achievement/anime-dropped-0.png)</td>
 <td>**Completionist**<div>You've managed to survive watching so many anime without dropping any of them.</div><div>You masochist.</div></td>
 </tr>
 </tbody>
@@ -352,51 +448,51 @@ No living being should be able to get to 10k.
 <table>
 <tbody>
 <tr>
-<td>![anime-completed-100](http://graph.anime.plus/image/achievement/anime-completed-100.png)</td>
+<td>![anime-finished-100](http://graph.anime.plus/image/achievement/anime-finished-100.png)</td>
 <td>**The first step**<div>Watched 100 anime. Congratulations, you broke the magical number. Take a breath now,</div><div>it will only get more difficult.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-200](http://graph.anime.plus/image/achievement/anime-completed-200.png)</td>
+<td>![anime-finished-200](http://graph.anime.plus/image/achievement/anime-finished-200.png)</td>
 <td>**Casual watcher**<div>Watched 200 anime. You're used to seeing character's eyes bigger than their nose. If</div><div>they have any nose.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-300](http://graph.anime.plus/image/achievement/anime-completed-300.png)</td>
+<td>![anime-finished-300](http://graph.anime.plus/image/achievement/anime-finished-300.png)</td>
 <td>**A millionaire**<div>Watched 300 anime. You DID buy all of them, right?</div></td>
 </tr>
 <tr>
-<td>![anime-completed-400](http://graph.anime.plus/image/achievement/anime-completed-400.png)</td>
+<td>![anime-finished-400](http://graph.anime.plus/image/achievement/anime-finished-400.png)</td>
 <td>**Bragging rights**<div>Watched 400 anime. That's... a lot. You can be proud of yourself, that's for sure.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-500](http://graph.anime.plus/image/achievement/anime-completed-500.png)</td>
+<td>![anime-finished-500](http://graph.anime.plus/image/achievement/anime-finished-500.png)</td>
 <td>**A lot of free time**<div>Watched 500 anime. Now pause, take a breath and stretch a bit. Remember not to sit too</div><div>close to the screen.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-750](http://graph.anime.plus/image/achievement/anime-completed-750.gif)</td>
+<td>![anime-finished-750](http://graph.anime.plus/image/achievement/anime-finished-750.gif)</td>
 <td>**Not even my final form**<div>Watched 750 anime. Your power level is way above others'. The only way is up.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-1000](http://graph.anime.plus/image/achievement/anime-completed-1000.png)</td>
+<td>![anime-finished-1000](http://graph.anime.plus/image/achievement/anime-finished-1000.png)</td>
 <td>**Gotta watch them all!**<div>Watched 1000 anime. You should already know what that picture means.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-1500](http://graph.anime.plus/image/achievement/anime-completed-1500.png)</td>
+<td>![anime-finished-1500](http://graph.anime.plus/image/achievement/anime-finished-1500.png)</td>
 <td>**The Collector**<div>Watched 1500 animes. No, wait. The plural of anime is anime.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-2500](http://graph.anime.plus/image/achievement/anime-completed-2500.png)</td>
+<td>![anime-finished-2500](http://graph.anime.plus/image/achievement/anime-finished-2500.png)</td>
 <td>**The Maniac**<div>Watched 2500 anime. Is this healthy? You should contact your doctor.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-5000](http://graph.anime.plus/image/achievement/anime-completed-5000.png)</td>
+<td>![anime-finished-5000](http://graph.anime.plus/image/achievement/anime-finished-5000.png)</td>
 <td>**The Legend**<div>Watched 5000 anime. You're one of the chosen ones. You don't even have to brag, since</div><div>everyone heard about you.</div></td>
 </tr>
 <tr>
-<td>![anime-completed-7500](http://graph.anime.plus/image/achievement/anime-completed-7500.png)</td>
+<td>![anime-finished-7500](http://graph.anime.plus/image/achievement/anime-finished-7500.png)</td>
 <td>**Database Breaker**<div>Watched 7.5 × 10³ anime. Are you having fun, breaking all the rules? By the way, since</div><div>when do we have that many anime in the database?!</div></td>
 </tr>
 <tr>
-<td>![anime-completed-10000](http://graph.anime.plus/image/achievement/anime-completed-10000.png)</td>
+<td>![anime-finished-10000](http://graph.anime.plus/image/achievement/anime-finished-10000.png)</td>
 <td>**This is it**<div>Watched 10000 anime. There is no higher level. You can stop now. Everyone, go home.</div></td>
 </tr>
 </tbody>
@@ -525,7 +621,7 @@ Awarded for reading Sports manga.
 </table>&nbsp;
 
 ###Vampires and Demons
-Awarded for reading Demons or Vampires manga.
+Awarded for reading Vampires or Demons manga.
 
 <table>
 <tbody>
@@ -549,7 +645,7 @@ Awarded for reading Demons or Vampires manga.
 </table>&nbsp;
 
 ###Yaoi and Shounen Ai
-Awarded for reading Shounen Ai or Yaoi manga.
+Awarded for reading Yaoi or Shounen Ai manga.
 
 <table>
 <tbody>
@@ -573,7 +669,7 @@ Awarded for reading Shounen Ai or Yaoi manga.
 </table>&nbsp;
 
 ###Yuri and Shoujo Ai
-Awarded for reading Shoujo Ai or Yuri manga.
+Awarded for reading Yuri or Shoujo Ai manga.
 
 <table>
 <tbody>
@@ -597,25 +693,25 @@ Awarded for reading Shoujo Ai or Yuri manga.
 </table>&nbsp;
 
 ###Old manga
-Awarded for reading 15+ old manga (finished in 1980 at most).
+Awarded for reading 25+ old manga (finished in 1980 at most).
 
 <table>
 <tbody>
 <tr>
-<td>![manga-pre-1980](http://graph.anime.plus/image/achievement/manga-pre-1980.png)</td>
+<td>![manga-release-old](http://graph.anime.plus/image/achievement/manga-release-old.png)</td>
 <td>**At the end of the galaxy**<div>Your never-ending journey for the most forgotten comic books has finally paid off.</div></td>
 </tr>
 </tbody>
 </table>&nbsp;
 
 ###Long runner
-Awarded for reading 15+ manga that are 20+ volumes long.
+Awarded for reading 25+ manga that are 25+ volumes long.
 
 <table>
 <tbody>
 <tr>
-<td>![manga-long](http://graph.anime.plus/image/achievement/manga-long.png)</td>
-<td>**Long runner**<div>The best stories can't be told in less than 20 volumes.</div></td>
+<td>![manga-volume-long](http://graph.anime.plus/image/achievement/manga-volume-long.png)</td>
+<td>**Long runner**<div>The best stories can't be told in less than 25 volumes.</div></td>
 </tr>
 </tbody>
 </table>&nbsp;
@@ -666,7 +762,7 @@ Related to mean manga score.
 <table>
 <tbody>
 <tr>
-<td>![manga-no-drop](http://graph.anime.plus/image/achievement/manga-no-drop.gif)</td>
+<td>![manga-dropped-0](http://graph.anime.plus/image/achievement/manga-dropped-0.gif)</td>
 <td>**I've seen some sh&ast;&ast;**<div>Despite seemingly endless suffering, you've never dropped any manga. That's impressive.</div></td>
 </tr>
 </tbody>
@@ -678,51 +774,51 @@ No living being should be able to get to 10k.
 <table>
 <tbody>
 <tr>
-<td>![manga-completed-100](http://graph.anime.plus/image/achievement/manga-completed-100.png)</td>
+<td>![manga-finished-100](http://graph.anime.plus/image/achievement/manga-finished-100.png)</td>
 <td>**Casual reader**<div>Read 100 manga. Looks like reading doesn't hurt.</div></td>
 </tr>
 <tr>
-<td>![manga-completed-200](http://graph.anime.plus/image/achievement/manga-completed-200.gif)</td>
+<td>![manga-finished-200](http://graph.anime.plus/image/achievement/manga-finished-200.gif)</td>
 <td>**Bookworm**<div>Read 200 manga. Sitting in your comfortable chair, reading favorite Korean comics.</div><div>This is bliss.</div></td>
 </tr>
 <tr>
-<td>![manga-completed-300](http://graph.anime.plus/image/achievement/manga-completed-300.png)</td>
+<td>![manga-finished-300](http://graph.anime.plus/image/achievement/manga-finished-300.png)</td>
 <td>**Dat scent**<div>Read 300 manga. There's nothing better than the smell of freshly opened book. Or</div><div>a PDF.</div></td>
 </tr>
 <tr>
-<td>![manga-completed-400](http://graph.anime.plus/image/achievement/manga-completed-400.png)</td>
+<td>![manga-finished-400](http://graph.anime.plus/image/achievement/manga-finished-400.png)</td>
 <td>**Where do I put these?**<div>Read 400 manga. Consider investing in another bookshelf, or you'll be swimming in</div><div>books soon.</div></td>
 </tr>
 <tr>
-<td>![manga-completed-500](http://graph.anime.plus/image/achievement/manga-completed-500.png)</td>
+<td>![manga-finished-500](http://graph.anime.plus/image/achievement/manga-finished-500.png)</td>
 <td>**Half a grand**<div>Read 500 manga. Now think of what kind of person you'd be if you didn't start reading</div><div>manga then. On that particular day...</div></td>
 </tr>
 <tr>
-<td>![manga-completed-750](http://graph.anime.plus/image/achievement/manga-completed-750.png)</td>
+<td>![manga-finished-750](http://graph.anime.plus/image/achievement/manga-finished-750.png)</td>
 <td>**Read or die**<div>Read 750 manga. You managed to make a bow out of paper, but remember that</div><div>cellulose fibers don't work well as a bulletproof shield.</div></td>
 </tr>
 <tr>
-<td>![manga-completed-1000](http://graph.anime.plus/image/achievement/manga-completed-1000.png)</td>
+<td>![manga-finished-1000](http://graph.anime.plus/image/achievement/manga-finished-1000.png)</td>
 <td>**Librarian**<div>Read 1000 manga. You work with books, right? Right?</div></td>
 </tr>
 <tr>
-<td>![manga-completed-1500](http://graph.anime.plus/image/achievement/manga-completed-1500.png)</td>
+<td>![manga-finished-1500](http://graph.anime.plus/image/achievement/manga-finished-1500.png)</td>
 <td>**The floor is books**<div>Read 1500 manga. Sleeping on books must be pretty... hard?</div></td>
 </tr>
 <tr>
-<td>![manga-completed-2500](http://graph.anime.plus/image/achievement/manga-completed-2500.png)</td>
+<td>![manga-finished-2500](http://graph.anime.plus/image/achievement/manga-finished-2500.png)</td>
 <td>**Still not enough**<div>Read 2500 manga. In search for the perfect story you've read six lifetimes worth of</div><div>words. Did you find it?</div></td>
 </tr>
 <tr>
-<td>![manga-completed-5000](http://graph.anime.plus/image/achievement/manga-completed-5000.png)</td>
+<td>![manga-finished-5000](http://graph.anime.plus/image/achievement/manga-finished-5000.png)</td>
 <td>**Sleep deprivation**<div>Read 5000 manga. Think of all the mangakas and writers that couldn't sleep just to</div><div>make this moment happen.</div></td>
 </tr>
 <tr>
-<td>![manga-completed-7500](http://graph.anime.plus/image/achievement/manga-completed-7500.png)</td>
+<td>![manga-finished-7500](http://graph.anime.plus/image/achievement/manga-finished-7500.png)</td>
 <td>**Reincarnation**<div>Read 7500 manga. How, exactly? This is not possible for normal humans.</div></td>
 </tr>
 <tr>
-<td>![manga-completed-10000](http://graph.anime.plus/image/achievement/manga-completed-10000.png)</td>
+<td>![manga-finished-10000](http://graph.anime.plus/image/achievement/manga-finished-10000.png)</td>
 <td>**I've seen it all**<div>Read 10000 manga. Ten. Thousand. Manga. An average user's list is shorter than</div><div>your list of titles starting with "A" alone.</div></td>
 </tr>
 </tbody>

@@ -6,21 +6,21 @@
         {
             "threshold": "181-363",
             "id": "manga-yaoi-shounen-ai-1",
-            "level": "Level 1 fujoshi",
+            "level": "Yaoi/Shounen Ai: level 1",
             "title": "Inner fujoshi awakened",
             "desc": "I was just taking a peek in this manga I accidentally found... and surprisingly liked it."
         },
         {
             "threshold": "364-727",
             "id": "manga-yaoi-shounen-ai-2",
-            "level": "Level 2 fujoshi",
+            "level": "Yaoi/Shounen Ai: level 2",
             "title": "Not a day without BL",
             "desc": "It's already too late to stop and turn back, just remember to watch your back while reading."
         },
         {
             "threshold": "728-1454",
             "id": "manga-yaoi-shounen-ai-3",
-            "level": "Level 3 fujoshi",
+            "level": "Yaoi/Shounen Ai: level 3",
             "title": "Yaoi detector",
             "desc": "I don't care! I ship it!"
         },
@@ -34,7 +34,7 @@
     ],
     "requirement":
     {
-        "type": "genre-titles",
+        "type": "genre-title",
         "genre": [28, 33]
     }
 }

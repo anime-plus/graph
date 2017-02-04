@@ -4,8 +4,8 @@
     "achievements":
     [
         {
-            "threshold": "15+",
-            "id": "manga-pre-1980",
+            "threshold": "25+",
+            "id": "manga-release-old",
             "level": "Pre-1980 manga",
             "title": "At the end of the galaxy",
             "desc": "Your never-ending journey for the most forgotten comic books has finally paid off."
@@ -13,6 +13,6 @@
     ],
     "requirement":
     {
-        "type": "old-titles"
+        "type": "release-old"
     }
 }

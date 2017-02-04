@@ -34,7 +34,7 @@
     ],
     "requirement":
     {
-        "type": "given-titles",
+        "type": "title",
         "titles":
         [
             "M90687", //[Shinyaku] Mahou Shoujo Oriko★Magica: Sadness Prayer
