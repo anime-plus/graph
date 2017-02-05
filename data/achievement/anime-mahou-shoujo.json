@@ -59,6 +59,7 @@
             "A30156", //Ba La La Xiao Mo Xian Zhi: Meng Huan Xuan Lu
             "A31965", //Ba La La Xiao Mo Xian Zhi: Qiji Wubu
             "A27727", //Binan Koukou Chikyuu Bouei-bu LOVE!
+            "A31417", //Binan Koukou Chikyuu Bouei-bu LOVE! LOVE!
             "A530",   //Bishoujo Senshi Sailor Moon
             "A14751", //Bishoujo Senshi Sailor Moon Crystal
             "A31733", //Bishoujo Senshi Sailor Moon Crystal: Death Busters-hen
@@ -92,6 +93,7 @@
             "A1992",  //Chou Kousoku Gran Doll
             "A111",   //Corrector Yui
             "A2036",  //Cosmic Baton Girl Comet-san
+            "A33669", //Cure Miracle to Mofurun no Mahou Lesson
             "A1661",  //Cutey Honey
             "A1853",  //Cutey Honey F
             "A6496",  //Cutey Honey Flash: The Movie
@@ -207,6 +209,7 @@
             "A18679", //Kill la Kill
             "A21659", //Kill la Kill Special
             "A32202", //Kimi ni Maji Kyun!
+            "A34290", //Kirakira☆Precure A La Mode
             "A5783",  //Koisuru Tenshi Angelique: Chibi Character Adventure
             "A8180",  //Koisuru Tenshi Angelique: Chibi Character Adventure 2
             "A1864",  //Koisuru Tenshi Angelique: Kagayaki no Ashita
@@ -216,9 +219,9 @@
             "A27519", //Konna Watashitachi ga Nariyuki de Heroine ni Natta Kekka www (TV)
             "A28885", //Konna Watashitachi ga Nariyuki de Heroine ni Natta Kekka www (TV): Heroine Kentei
             "A8841",  //Kore wa Zombie Desu ka
+            "A10209", //Kore wa Zombie Desu ka OVA
             "A10790", //Kore wa Zombie Desu ka of the Dead
             "A15437", //Kore wa Zombie Desu ka of the Dead OVA
-            "A10209", //Kore wa Zombie Desu ka OVA
             "A13159", //Kuromajo-san ga Tooru!!
             "A3577",  //Kyouran Kazoku Nikki
             "A22693", //Lady Jewelpet
@@ -228,6 +231,7 @@
             "A9878",  //Licca-chan to Yamaneko Hoshi no Tabi
             "A1995",  //Lingerie Senshi Papillon Rose
             "A14349", //Little Witch Academia
+            "A33489", //Little Witch Academia (TV)
             "A19489", //Little Witch Academia: Mahou Shikake no Parade
             "A33197", //Lostorage Incited WIXOSS
             "A32083", //Luck & Logic
@@ -244,11 +248,11 @@
             "A3660",  //Mahou no Idol Pastel Yumi
             "A4113",  //Mahou no Mako-chan
             "A518",   //Mahou no Princess Minky Momo
-            "A8972",  //Mahou no Princess Minky Momo vs. Mahou no Tenshi Creamy Mami
             "A23129", //Mahou no Princess Minky Momo: Hitomi no Seiza - Minky Momo Song Special
             "A2272",  //Mahou no Princess Minky Momo: Yume no Naka no Rondo
             "A5953",  //Mahou no Princess Minky Momo: Yume wo Dakishimete
             "A30298", //Mahou no Princess Minky Momo: Yume wo Dakishimete Specials
+            "A8972",  //Mahou no Princess Minky Momo vs. Mahou no Tenshi Creamy Mami
             "A3643",  //Mahou no Rouge Lipstick
             "A5400",  //Mahou no Shiho-chan
             "A604",   //Mahou no Stage Fancy Lala
@@ -301,7 +305,7 @@
             "A273",   //Mahou Tsukai ni Taisetsu na Koto
             "A4483",  //Mahou Tsukai ni Taisetsu na Koto: Natsu no Sora
             "A31884", //Mahoutsukai Precure!
-            "A33183", //Mahoutsukai Precure! Movie
+            "A33183", //Mahoutsukai Precure! Movie: Kiseki no Henshin! Cure Mofurun!
             "A3356",  //Mahou Tsukai Sally
             "A17719", //Mahou Tsukai Sally (Movie)
             "A3875",  //Mahou Tsukai Sally 2
@@ -328,7 +332,6 @@
             "A25113", //Majokko Shimai no Yoyo to Nene Movie Extra: Hatsukoi - Mikako Komatsu
             "A3881",  //Majokko Tickle
             "A2457",  //Majokko Tsukune-chan
-            "A512",   //Majo no Takkyuubin
             "A2079",  //Majuu Senshi Luna Varga
             "A1360",  //Makai Tenshi Djibril
             "A4027",  //Makai Tenshi Djibril: Episode 2
@@ -379,7 +382,7 @@
             "A4114",  //Onegai My Melody: Kuru Kuru Shuffle!
             "A5520",  //Onegai My Melody Sukkiri♪
             "A14947", //Onegai My Melody: Yuu & Ai
-            "A24705", //Ore, Twintails ni Narimasu.
+            "A24705", //Ore, Twintail ni Narimasu.
             "A3362",  //Oshare Majo Love and Berry: Shiawase no Mahou
             "A682",   //Otogi Story Tenshi no Shippo
             "A683",   //Otogi Story Tenshi no Shippo Specials
@@ -397,6 +400,7 @@
             "A12221", //Precure All Stars New Stage: Mirai no Tomodachi
             "A16442", //Precure All Stars New Stage 2: Kokoro no Tomodachi
             "A21031", //Precure All Stars New Stage 3: Eien no Tomodachi
+            "A34302", //Precure Dream Stars!
             "A10736", //Precure kara Minna e no Ouen Movie
             "A8231",  //Princess Lover!: Magical Knight Maria-chan
             "A721",   //Princess Tutu
@@ -432,17 +436,16 @@
             "A22273", //Selector Infected WIXOSS
             "A27613", //Selector Infected WIXOSS: Midoriko-san to Piruruku-tan
             "A24037", //Selector Spread WIXOSS
-            "A32836", //Senki Zesshou Symphogear 4th Season
-            "A32843", //Senki Zesshou Symphogear 5th Season
+            "A11751", //Senki Zesshou Symphogear: Meteoroid-Falling, Burning, and Disappear, Then...
             "A15793", //Senki Zesshou Symphogear G: In the Distance, That Day, When the Star Became Music...
             "A20843", //Senki Zesshou Symphogear G: In the Distance, That Day, When the Star Became Music... Specials
             "A21573", //Senki Zesshou Symphogear GX: Believe in Justice and Hold a Determination to Fist.
             "A32151", //Senki Zesshou Symphogear GX: Believe in Justice and Hold a Determination to Fist. Specials
-            "A11751", //Senki Zesshou Symphogear: Meteoroid-Falling, Burning, and Disappear, Then...
             "A3301",  //Septem Charm Magical Kanan
             "A4489",  //Septem Charm Magical Kanan: SP Summer Camp
             "A678",   //Shadow Skill: Eigi
             "A355",   //Shakugan no Shana
+            "A1066",  //Shakugan no Shana Specials
             "A2787",  //Shakugan no Shana II (Second)
             "A3956",  //Shakugan no Shana II (Second) Specials
             "A6773",  //Shakugan no Shana III (Final)
@@ -452,7 +455,6 @@
             "A6572",  //Shakugan no Shana S
             "A7375",  //Shakugan no Shana S Specials
             "A1531",  //Shakugan no Shana SP: Koi to Onsen no Kogai Gakushuu!
-            "A1066",  //Shakugan no Shana Specials
             "A6330",  //Shakugan no Shana: Friagne to Marianne no Naze Nani Shana! Nandemo Shitsumonbako!
             "A14957", //Shakugan no Shana: Friagne to Marianne no Naze Nani Shana! Nandemo Shitsumonbako! 2
             "A28603", //Shakugan no Shana: Naze Nani Shana! Nandemo Shitsumonbako! Special
@@ -515,8 +517,8 @@
             "A30385", //Valkyrie Drive: Mermaid
             "A31736", //Valkyrie Drive: Mermaid Specials
             "A1787",  //Viper GTS
-            "A33589", //ViVid Strike!
             "A14283", //Vividred Operation
+            "A33589", //ViVid Strike!
             "A1744",  //Wagamama☆Fairy Mirumo de Pon!
             "A21085", //Witch Craft Works
             "A22117", //Witch Craft Works OVA
@@ -526,8 +528,8 @@
             "A1558",  //Yarima Queen
             "A1932",  //Yes! Precure 5
             "A3692",  //Yes! Precure 5 GoGo!
-            "A4703",  //Yes! Precure 5 GoGo! Movie: Okashi no Kuni no Happy Birthday
             "A3051",  //Yes! Pretty Cure 5 Movie: Kagami no Kuni no Miracle Daibouken!
+            "A4703",  //Yes! Precure 5 GoGo! Movie: Okashi no Kuni no Happy Birthday
             "A5454",  //Yokuwakaru Gendaimahou
             "A6748",  //Yokuwakaru Gendaimahou 00
             "A4651",  //Yume no Crayon Oukoku
