@@ -137,11 +137,11 @@ Awarded for watching Mecha anime.
 </tr>
 <tr>
 <td>![anime-mecha-2](http://graph.anime.plus/image/achievement/anime-mecha-2.png)</td>
-<td>__Engineer__<div><sub>After watching over 40 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us.</sub></div></td>
+<td>__Engineer__<div><sub>After watching over 59 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us.</sub></div></td>
 </tr>
 <tr>
 <td>![anime-mecha-3](http://graph.anime.plus/image/achievement/anime-mecha-3.png)</td>
-<td>__Mechazawa__<div><sub>Having watched over 60 mecha anime, you've probably became a robot already. Nice job, hero.</sub></div></td>
+<td>__Mechazawa__<div><sub>Having watched over 118 mecha anime, you've probably became a robot already. Nice job, hero.</sub></div></td>
 </tr>
 <tr>
 <td>![anime-mecha-4](http://graph.anime.plus/image/achievement/anime-mecha-4.png)</td>

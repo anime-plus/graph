@@ -15,14 +15,14 @@
             "id": "anime-mecha-2",
             "level": "Mecha: level 2",
             "title": "Engineer",
-            "desc": "After watching over 40 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us."
+            "desc": "After watching over 59 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us."
         },
         {
             "threshold": "118-234",
             "id": "anime-mecha-3",
             "level": "Mecha: level 3",
             "title": "Mechazawa",
-            "desc": "Having watched over 60 mecha anime, you've probably become a robot already. Nice job, hero."
+            "desc": "Having watched over 118 mecha anime, you've probably become a robot already. Nice job, hero."
         },
         {
             "threshold": "235+",
