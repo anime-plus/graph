@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "50-99",
+            "threshold": "25-49",
             "id": "manga-mystery-1",
             "level": "Mystery: level 1",
             "title": "Curiosity",
             "desc": "If it is you who is curious, no case shall remain unsolved."
         },
         {
-            "threshold": "100-199",
+            "threshold": "50-99",
             "id": "manga-mystery-2",
             "level": "Mystery: level 2",
             "title": "Determination",
             "desc": "No matter who the villain is... you WILL find out the answers."
         },
         {
-            "threshold": "200-399",
+            "threshold": "100-199",
             "id": "manga-mystery-3",
             "level": "Mystery: level 3",
             "title": "Collecting the pieces",
             "desc": "Sometimes the smallest bit of information can turn the whole case around."
         },
         {
-            "threshold": "400+",
+            "threshold": "200+",
             "id": "manga-mystery-4",
             "level": "Mystery: level MAX",
             "title": "Raw intuition",

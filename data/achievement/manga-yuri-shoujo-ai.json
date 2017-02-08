@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "33-64",
+            "threshold": "17-32",
             "id": "manga-yuri-shoujo-ai-1",
             "level": "Yuri/Shoujo Ai: level 1",
             "title": "But that's forbidden love",
             "desc": "Cute girls doing cute things... right?"
         },
         {
-            "threshold": "65-128",
+            "threshold": "33-64",
             "id": "manga-yuri-shoujo-ai-2",
             "level": "Yuri/Shoujo Ai: level 2",
             "title": "I kissed a girl...",
             "desc": "...and I liked it!"
         },
         {
-            "threshold": "129-256",
+            "threshold": "65-128",
             "id": "manga-yuri-shoujo-ai-3",
             "level": "Yuri/Shoujo Ai: level 3",
             "title": "All female school",
             "desc": "There are only girls here to love... but I don't mind it."
         },
         {
-            "threshold": "257+",
+            "threshold": "129+",
             "id": "manga-yuri-shoujo-ai-4",
             "level": "Yuri/Shoujo Ai: level MAX",
             "title": "Lily",
