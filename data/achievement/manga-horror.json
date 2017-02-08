@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "38-74",
+            "threshold": "19-37",
             "id": "manga-horror-1",
             "level": "Horror: level 1",
             "title": "HONEY, I'M HOME",
             "desc": "WHAT IS FOR DINNER TODAY?"
         },
         {
-            "threshold": "75-148",
+            "threshold": "38-74",
             "id": "manga-horror-2",
             "level": "Horror: level 2",
             "title": "Lovely smile of a psychopath",
             "desc": "You can't spell slaughter without laughter."
         },
         {
-            "threshold": "149-297",
+            "threshold": "75-149",
             "id": "manga-horror-3",
             "level": "Horror: level 3",
             "title": "What have I become?",
             "desc": "Sweetheart, something's wrong with your make up..."
         },
         {
-            "threshold": "298+",
+            "threshold": "150+",
             "id": "manga-horror-4",
             "level": "Horror: level MAX",
             "title": "Heart attack",

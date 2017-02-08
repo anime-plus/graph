@@ -174,7 +174,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                 $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
                     $volume = $entry->volumes;
                     
-                    return $volume >= 25;
+                    return $volume >= 15;
                 });
                 
                 return [count($entries), $entries];
