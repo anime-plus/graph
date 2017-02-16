@@ -543,7 +543,7 @@ Awarded for reading manga with magical girls.
 </tr>
 <tr>
 <td>![manga-mahou-shoujo-4](http://graph.anime.plus/image/achievement/manga-mahou-shoujo-4.png)</td>
-<td>__Complete control__<div><sub>Read over 80 mahou shoujo manga. At this level magic circles form around you at will.</sub></div></td>
+<td>__Complete control__<div><sub>Read over 20 mahou shoujo manga. At this level magic circles form around you at will.</sub></div></td>
 </tr>
 </tbody>
 </table>&nbsp;
