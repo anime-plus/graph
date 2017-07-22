@@ -40,7 +40,7 @@ ul.infobox {
 }
 .history-monthly table .box {
 	height: 2em;
-	background: #1969CB;
+	border: 1px solid #1969CB;
 }
 .history-monthly table .box-wrapper {
 	position: relative;
