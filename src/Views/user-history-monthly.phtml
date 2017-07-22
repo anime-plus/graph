@@ -35,7 +35,7 @@
 									<td class="<?php echo $class ?>">
 								<?php endif ?>
 									<div class="box-wrapper">
-										<div class="box" style="opacity: <?php printf('%.02f', count($entries) / max(1, $viewContext->monthlyHistoryMax)) ?>">
+										<div class="box" style="background-color: rgba(25, 105, 203, <?php printf('%.02f', count($entries) / max(1, $viewContext->monthlyHistoryMax)) ?>)">
 										</div>
 									</div>
 								</td>
