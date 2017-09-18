@@ -42,6 +42,13 @@ class Model_User extends RedBean_SimpleModel
         
         return intval(R::getAll($query, [date('Y-m-d H:i:s', strtotime('-1 month'))])[0]['count']);
 	}
+    
+	public static function getCountAll()
+	{
+        $query = 'SELECT COUNT(*) AS `count` FROM user';
+        
+        return intval(R::getAll($query, [])[0]['count']);
+	}
 
 	public static function getCoolUsers($goal)
 	{

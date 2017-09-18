@@ -117,7 +117,7 @@ class Config extends Singleton
         self::$googleAnalyticsEnabled = true;
         self::$adminPassword = '';
         self::$maintenanceMessage = null;
-        self::$noticeMessage = '<a href="http://myanimelist.net/clubs.php?cid=67199" target="_blank">JOIN OUR CLUB SENPAI!</a>';
+        self::$noticeMessage = '<a href="https://myanimelist.net/clubs.php?cid=67199" target="_blank">JOIN OUR CLUB SENPAI!</a>';
         self::$sendReferrer = true;
         self::$enforcedDomain = null;
     }

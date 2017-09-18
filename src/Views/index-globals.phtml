@@ -46,7 +46,7 @@
 							<div>
 								<div data-tooltip="Average count of rated titles per user">
 									<span class="prefix">Rated per user</span>
-									<span class="subject"><?php printf('%d', floor($ratingDistribution->getRatedCount() / max(1, $viewContext->userCount))) ?></span>
+									<span class="subject"><?php printf('%d', floor($ratingDistribution->getRatedCount() / max(1, $viewContext->userCountAll))) ?></span>
 								</div>
 							</div>
 						</li>

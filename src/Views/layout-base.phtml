@@ -22,7 +22,7 @@ if (isset($viewContext->meta->description)) {
 <?php
 }
 ?>
-<meta property="og:image" content="<?php echo UrlHelper::absoluteUrl('/media/img/logo-fb.png'); ?>" />
+<meta property="og:image" content="/media/img/logo-fb.png" />
 <?php
 if (isset($viewContext->meta->description)) {
 ?>
@@ -30,12 +30,12 @@ if (isset($viewContext->meta->description)) {
 <?php
 }
 ?>
-<link type="image/png" rel="shortcut icon" href="<?php echo UrlHelper::absoluteUrl('/image/32.png'); ?>" />
+<link type="image/png" rel="shortcut icon" href="/image/32.png" />
 <?php
 if (isset($viewContext->meta->styles)) {
     foreach ($viewContext->meta->styles as $style) {
 ?>
-<link type="text/css" rel="stylesheet" href="<?php echo UrlHelper::absoluteUrl($style, ['date' => date('Ymd')]); ?>" />
+<link type="text/css" rel="stylesheet" href="<?php echo $style; ?>" />
 <?php 
     }
 }
@@ -43,7 +43,7 @@ if (isset($viewContext->meta->styles)) {
 if (isset($viewContext->meta->scripts)) {
     foreach ($viewContext->meta->scripts as $script) {
 ?>
-<script src="<?php echo UrlHelper::absoluteUrl($script, ['date' => date('Ymd')]); ?>"></script>
+<script src="<?php echo $script; ?>"></script>
 <?php
     }
 }

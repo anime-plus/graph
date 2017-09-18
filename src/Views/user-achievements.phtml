@@ -12,7 +12,7 @@
 			<?php foreach ($viewContext->achievements as $ach): ?>
 				<div class="achi-entry<?php if ($ach->hidden) echo ' hidden' ?>">
 					<?php if (!empty($ach->path)): ?>
-						<img class="achi<?php if (!empty($ach->entries)): ?> entries-trigger<?php endif ?>" alt="<?php echo $ach->title ?>" src="<?php echo UrlHelper::absoluteUrl('/image/achievement/' . $ach->path) ?>">
+						<img class="achi<?php if (!empty($ach->entries)): ?> entries-trigger<?php endif ?>" alt="<?php echo $ach->title ?>" src="<?php echo '/image/achievement/' . $ach->path; ?>">
 					<?php endif ?>
 					<?php if (!empty($ach->level)): ?>
 						<p class="level"><?php echo $ach->level ?></p>

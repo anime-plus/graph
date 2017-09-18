@@ -27,7 +27,7 @@ class Model_MixedUserMedia
 			$this->title = 'Unknown ' . Media::toString($this->media) . ' entry #' . $this->mal_id;
 		}
 
-		$this->mal_link = 'http://myanimelist.net/' . Media::toString($this->media) . '/' . $this->mal_id;
+		$this->mal_link = 'https://myanimelist.net/' . Media::toString($this->media) . '/' . $this->mal_id;
 	}
 
 	public function getSeason()
