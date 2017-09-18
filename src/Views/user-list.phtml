@@ -9,7 +9,7 @@
 			If this is your list, add (and rate) something and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.</p>
 		<?php elseif ($viewContext->private): ?>
 			<p>Sadly, <?php echo Media::toString($viewContext->media) ?> list of this user is private.</p>
-			<p>If this is your list, you can <a target="_blank" href="http://myanimelist.net/editprofile.php?go=listpreferences">click here</a> and change your privacy settings to make it visible.</p>
+			<p>If this is your list, you can <a target="_blank" href="https://myanimelist.net/editprofile.php?go=listpreferences">click here</a> and change your privacy settings to make it visible.</p>
 		<?php else: ?>
 
 			<form id="filter-form">

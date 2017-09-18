@@ -40,7 +40,7 @@ abstract class AbstractUserControllerModule extends AbstractControllerModule
 		{
 			$url .= ',' . Media::toString($media);
 		}
-		return UrlHelper::absoluteUrl($url);
+		return $url;
 	}
 
 	public static function getContentType()

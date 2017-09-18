@@ -26,6 +26,7 @@ class IndexControllerGlobalsModule extends AbstractControllerModule
 			: [];
 
 		$viewContext->userCount = $globalsCache['user-count'];
+        $viewContext->userCountAll = $globalsCache['user-count-all'];
 		$viewContext->mediaCount = $globalsCache['media-count'];
 		$viewContext->ratingDistribution = array_map(function($v) { return RatingDistribution::fromArray($v); }, $globalsCache['rating-dist']);
 		$viewContext->queuedUserCount = (new Queue(Config::$userQueuePath))->size();

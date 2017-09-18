@@ -35,8 +35,8 @@ class WebMediaHelper
 
 	public static function addJquery($viewContext)
 	{
-		$viewContext->meta->scripts []= 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js';
-		$viewContext->meta->scripts []= 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/ui/jquery.ui.position.min.js';
+		$viewContext->meta->scripts []= 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js';
+		$viewContext->meta->scripts []= 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/ui/jquery.ui.position.min.js';
 		$viewContext->meta->scripts []= '/media/js/jquery.cookie.js';
 	}
 
@@ -49,7 +49,7 @@ class WebMediaHelper
 	public static function addBasic($viewContext)
 	{
 		self::addJquery($viewContext);
-		$viewContext->meta->styles []= 'http://fonts.googleapis.com/css?family=Open+Sans|Ubuntu';
+		$viewContext->meta->styles []= 'https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu';
 		$viewContext->meta->styles []= '/media/css/core.css';
 		$viewContext->meta->styles []= '/media/css/icons.css';
 		$viewContext->meta->scripts []= '/media/js/misc.js';

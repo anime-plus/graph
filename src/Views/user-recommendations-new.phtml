@@ -2,7 +2,7 @@
 	<h2>Recommendations</h2>
 	<div class="section-body">
 		<?php if ($viewContext->private): ?>
-			<p>Since <?php echo $viewContext->user->name ?>&rsquo;s <?php echo Media::toString($viewContext->media) ?> list is marked as private, we can&rsquo;t reveal its contents by showing recommendations. If this is your list, click <a target="_blank" href="http://myanimelist.net/editprofile.php?go=listpreferences">here</a> to change privacy settings.</p>
+			<p>Since <?php echo $viewContext->user->name ?>&rsquo;s <?php echo Media::toString($viewContext->media) ?> list is marked as private, we can&rsquo;t reveal its contents by showing recommendations. If this is your list, click <a target="_blank" href="https://myanimelist.net/editprofile.php?go=listpreferences">here</a> to change privacy settings.</p>
 		<?php elseif (empty($viewContext->newRecommendations)): ?>
 			<p>Sorry, no new recommendations. Hey, this shouldn&rsquo;t have happened!</p>
 		<?php else: ?>
