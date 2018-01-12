@@ -69,13 +69,7 @@ CronRunner::run(__FILE__, function($logger)
 	];
 
 	$userQueue = new Queue(Config::$userQueuePath);
-    $userQueueSize = (new Queue(Config::$userQueuePath))->size();
 	$mediaQueue = new Queue(Config::$mediaQueuePath);
-    
-    if ($userQueueSize > 30) {
-        Config::$usersPerCronRun = Config::$usersPerCronRunMore;
-        Config::$mediaPerCronRun = Config::$mediaPerCronRunMore;
-    }
 
 	Downloader::setLogger($logger);
 

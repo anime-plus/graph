@@ -65,12 +65,10 @@ class Config extends Singleton
         
         self::$cronInterval = 5;
         self::$usersPerCronRun = 10;
-        self::$usersPerCronRunMore = 20;
         self::$userQueuePath = $dataRootDir . 'queue-users.lst';
         self::$userQueueMinWait = 60 * 60;
         self::$userQueueMaxAttempts = 2;
         self::$mediaPerCronRun = 40;
-        self::$mediaPerCronRunMore = 5;
         self::$mediaQueuePath = $dataRootDir . 'queue-media.lst';
         self::$mediaQueueMinWait = 7 * 24 * 60 * 60;
         self::$mediaQueueMaxAttempts = 2;
