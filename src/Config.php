@@ -60,7 +60,7 @@ class Config extends Singleton
         $dataRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'data', '']);
         $htmlRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'public']);
         
-        self::$title = 'graph.anime.plus';
+        self::$title = 'GRAPH.ANIME.PLUS';
         self::$mail = 'hello@anime.plus';
         
         self::$cronInterval = 5;

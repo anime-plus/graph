@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "17-33",
+            "threshold": "18-35",
             "id": "anime-sports-1",
             "level": "Sports: level 1",
             "title": "Knockout!",
             "desc": "You've held your own in the ring, time to go all the way."
         },
         {
-            "threshold": "34-66",
+            "threshold": "36-71",
             "id": "anime-sports-2",
             "level": "Sports: level 2",
             "title": "Get your head in the game",
             "desc": "The odds are against you, time to get in the zone."
         },
         {
-            "threshold": "67-132",
+            "threshold": "72-144",
             "id": "anime-sports-3",
             "level": "Sports: level 3",
             "title": "Welcome to the Big Leagues",
             "desc": "There's no stopping you, just one final push."
         },
         {
-            "threshold": "133+",
+            "threshold": "145+",
             "id": "anime-sports-4",
             "level": "Sports: level MAX",
             "title": "Olympian",
