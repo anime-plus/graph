@@ -11,21 +11,21 @@
             "desc": "Cute girls doing cute things... right?"
         },
         {
-            "threshold": "33-64",
+            "threshold": "33-66",
             "id": "manga-yuri-shoujo-ai-2",
             "level": "Yuri/Shoujo Ai: level 2",
             "title": "I kissed a girl...",
             "desc": "...and I liked it!"
         },
         {
-            "threshold": "65-128",
+            "threshold": "67-132",
             "id": "manga-yuri-shoujo-ai-3",
             "level": "Yuri/Shoujo Ai: level 3",
             "title": "All female school",
             "desc": "There are only girls here to love... but I don't mind it."
         },
         {
-            "threshold": "129+",
+            "threshold": "133+",
             "id": "manga-yuri-shoujo-ai-4",
             "level": "Yuri/Shoujo Ai: level MAX",
             "title": "Lily",

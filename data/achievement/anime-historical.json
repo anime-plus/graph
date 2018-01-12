@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "27-52",
+            "threshold": "27-54",
             "id": "anime-historical-1",
             "level": "Historical: level 1",
             "title": "History class",
             "desc": "History doesn't have to be boring. There's a lot to learn."
         },
         {
-            "threshold": "53-104",
+            "threshold": "55-109",
             "id": "anime-historical-2",
             "level": "Historical: level 2",
             "title": "A look at passing time",
             "desc": "Instead of dreaming of the future, you prefer to look back at the past."
         },
         {
-            "threshold": "105-209",
+            "threshold": "110-219",
             "id": "anime-historical-3",
             "level": "Historical: level 3",
             "title": "Archaeologist",
             "desc": "You have learned that sometimes going further just isn't worth it. And yet you try."
         },
         {
-            "threshold": "210+",
+            "threshold": "220+",
             "id": "anime-historical-4",
             "level": "Historical: level MAX",
             "title": "Time machine",
@@ -39,54 +39,54 @@
         "titles":
         [
             "A12561", //Benkei tai Ushiwaka
-            "A2800",  //Candy Candy
-            "A723",   //Candy Candy (Movie)
-            "A2802",  //Candy Candy: Candy no Natsuyasumi
-            "A2801",  //Candy Candy: Haru no Yobigoe
-            "A2830",  //Chibikko Remi to Meiken Kapi
-            "A724",   //Enzai
-            "A2553",  //Flanders no Inu
-            "A2623",  //Flanders no Inu (Movie)
+            "A2800", //Candy Candy
+            "A723", //Candy Candy (Movie)
+            "A2802", //Candy Candy: Candy no Natsuyasumi
+            "A2801", //Candy Candy: Haru no Yobigoe
+            "A2830", //Chibikko Remi to Meiken Kapi
+            "A724", //Enzai
+            "A2553", //Flanders no Inu
+            "A2623", //Flanders no Inu (Movie)
             "A24679", //Flanders no Inu Specials
-            "A3381",  //Fushigi no Umi no Nadia Specials
-            "A7775",  //Futatsu no Kurumi
+            "A3381", //Fushigi no Umi no Nadia Specials
+            "A7775", //Futatsu no Kurumi
             "A26283", //Gin no Rousokutate
-            "A336",   //Ginyuu Mokushiroku Meine Liebe
-            "A1663",  //Haha wo Tazunete Sanzenri
+            "A336", //Ginyuu Mokushiroku Meine Liebe
+            "A1663", //Haha wo Tazunete Sanzenri
             "A23585", //Haha wo Tazunete Sanzenri Specials
-            "A2405",  //Hello! Lady Lynn
-            "A4800",  //Huckleberry Finn Monogatarii
-            "A2831",  //Ie Naki Ko (Movie)
-            "A2829",  //Ie Naki Ko Remi
+            "A2405", //Hello! Lady Lynn
+            "A4800", //Huckleberry Finn Monogatarii
+            "A2831", //Ie Naki Ko (Movie)
+            "A2829", //Ie Naki Ko Remi
             "A10471", //Ie Naki Ko Remi Specials
             "A25087", //Ie Naki Ko Remi Specials (2001)
-            "A249",   //InuYasha
-            "A6811",  //InuYasha: Kanketsu-hen
-            "A4886",  //InuYasha: Kuroi Tessaiga
-            "A5900",  //Jean Valjean Monogatari
-            "A618",   //Juubee Ninpuuchou: Ryuuhougyoku-hen
-            "A5305",  //Koihime†Musou OVA
-            "A6707",  //Kuroshitsuji II
-            "A9136",  //Kuroshitsuji II Specials
-            "A8068",  //Kuroshitsuji Picture Drama
-            "A6163",  //Kuroshitsuji Recap
-            "A6793",  //Kuroshitsuji Special
-            "A9773",  //Lady Lady!! (1988)
-            "A4926",  //Marco: Haha wo Tazunete Sanzenri
-            "A912",   //Ninku
+            "A249", //InuYasha
+            "A6811", //InuYasha: Kanketsu-hen
+            "A4886", //InuYasha: Kuroi Tessaiga
+            "A5900", //Jean Valjean Monogatari
+            "A618", //Juubee Ninpuuchou: Ryuuhougyoku-hen
+            "A5305", //Koihime†Musou OVA
+            "A6707", //Kuroshitsuji II
+            "A9136", //Kuroshitsuji II Specials
+            "A8068", //Kuroshitsuji Picture Drama
+            "A6163", //Kuroshitsuji Recap
+            "A6793", //Kuroshitsuji Special
+            "A9773", //Lady Lady!! (1988)
+            "A4926", //Marco: Haha wo Tazunete Sanzenri
+            "A912", //Ninku
             "A16345", //Ninku: Knife no Bohyou
-            "A8487",  //Onigamiden
-            "A6884",  //Ookami to Koushinryou II Specials
-            "A9716",  //Rurouni Kenshin: Review Special
-            "A4664",  //Rurouni Kenshin: Special Techniques
-            "A839",   //Samurai Spirits 2: Asura Zanmaden
-            "A7774",  //Shin Koihime†Musou OVA
-            "A8635",  //Shin Koihime†Musou: Live Revolution
+            "A8487", //Onigamiden
+            "A6884", //Ookami to Koushinryou II Specials
+            "A9716", //Rurouni Kenshin: Review Special
+            "A4664", //Rurouni Kenshin: Special Techniques
+            "A839", //Samurai Spirits 2: Asura Zanmaden
+            "A7774", //Shin Koihime†Musou OVA
+            "A8635", //Shin Koihime†Musou: Live Revolution
             "A10297", //Shin Koihime†Musou: Otome Tairan OVA
-            "A173",   //Tactics
-            "A8961",  //Tono to Issho: Ippunkan Gekijou
-            "A5917",  //Tsuru ni Notte: Tomoko no Bouken
-            "A4132"   //Wakakusa no Yon Shimai
+            "A173", //Tactics
+            "A8961", //Tono to Issho: Ippunkan Gekijou
+            "A5917", //Tsuru ni Notte: Tomoko no Bouken
+            "A4132" //Wakakusa no Yon Shimai
         ]
     }
 }

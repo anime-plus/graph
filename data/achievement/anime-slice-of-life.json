@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "39-76",
+            "threshold": "43-86",
             "id": "anime-slice-of-life-1",
             "level": "Slice of Life: level 1",
             "title": "Normal high school boy",
             "desc": "Got started into the furious ride with slice-of-life anime."
         },
         {
-            "threshold": "77-152",
+            "threshold": "87-172",
             "id": "anime-slice-of-life-2",
             "level": "Slice of Life: level 2",
             "title": "cute × ( girls + things )",
             "desc": "Didn't get bored of watching cute girls doing cute things. As if that's possible."
         },
         {
-            "threshold": "153-305",
+            "threshold": "173-346",
             "id": "anime-slice-of-life-3",
             "level": "Slice of Life: level 3",
             "title": "Enjoying life",
             "desc": "Found the equilibrium between boring and interesting."
         },
         {
-            "threshold": "306+",
+            "threshold": "347+",
             "id": "anime-slice-of-life-4",
             "level": "Slice of Life: level MAX",
             "title": "Prima Undine",
@@ -38,37 +38,37 @@
         "genre": 36,
         "titles":
         [
-            "A656",   //Air in Summer
-            "A713",   //Air Movie
+            "A656", //Air in Summer
+            "A713", //Air Movie
             "A14027", //Boku wa Tomodachi ga Sukunai: Relay Shousetsu wa Ketsumatsu ga Hanpanai
-            "A3203",  //Chibi Maruko-chan Movie
+            "A3203", //Chibi Maruko-chan Movie
             "A15687", //Chuunibyou demo Koi ga Shitai! Lite
             "A15879", //Chuunibyou demo Koi ga Shitai!: Depth of Field - Ai to Nikushimi Gekijou
             "A16934", //Chuunibyou demo Koi ga Shitai!: Kirameki no... Slapstick Noel
             "A21797", //Chuunibyou demo Koi ga Shitai! Ren Lite
             "A23237", //Chuunibyou demo Koi ga Shitai! Ren Specials
-            "A1723",  //Clannad Movie
-            "A6351",  //Clannad: After Story - Mou Hitotsu no Sekai, Kyou-hen
+            "A1723", //Clannad Movie
+            "A6351", //Clannad: After Story - Mou Hitotsu no Sekai, Kyou-hen
             "A10638", //Denpa Onna to Seishun Otoko Special
-            "A16",    //Hachimitsu to Clover
-            "A1142",  //Hachimitsu to Clover II
+            "A16", //Hachimitsu to Clover
+            "A1142", //Hachimitsu to Clover II
             "A10935", //Hourou Musuko Specials
-            "A6958",  //Hyakko OVA
-            "A3318",  //Kimi ga Nozomu Eien: Next Season
-            "A1379",  //Kino no Tabi: Nanika wo Suru Tame ni - Life Goes On.
-            "A2175",  //Kino no Tabi: The Beautiful World - Byouki no Kuni - For You
-            "A3466",  //Kino no Tabi: The Beautiful World - Tou no Kuni
+            "A6958", //Hyakko OVA
+            "A3318", //Kimi ga Nozomu Eien: Next Season
+            "A1379", //Kino no Tabi: Nanika wo Suru Tame ni - Life Goes On.
+            "A2175", //Kino no Tabi: The Beautiful World - Byouki no Kuni - For You
+            "A3466", //Kino no Tabi: The Beautiful World - Tou no Kuni
             "A17635", //Koitabi: True Tours Nanto
-            "A444",   //Maria-sama ga Miteru: Haru
-            "A1738",  //Muteki Kanban Musume
-            "A5690",  //Nodame Cantabile Finale
-            "A8038",  //Nodame Cantabile Finale Special
-            "A8190",  //Nodame Cantabile OVA 2
-            "A611",   //Platonic Chain
-            "A6127",  //Toradora!: SOS!
-            "A6586",  //Yume-iro Pâtissière
-            "A8894",  //Yume-iro Pâtissière: Mune Kyun Tropical Island!
-            "A12665"  //Yuru Yuri: Doushite, Tomaranai, Tokimeki, Doki Doki, Paradox, Eternal
+            "A444", //Maria-sama ga Miteru: Haru
+            "A1738", //Muteki Kanban Musume
+            "A5690", //Nodame Cantabile Finale
+            "A8038", //Nodame Cantabile Finale Special
+            "A8190", //Nodame Cantabile OVA 2
+            "A611", //Platonic Chain
+            "A6127", //Toradora!: SOS!
+            "A6586", //Yume-iro Pâtissière
+            "A8894", //Yume-iro Pâtissière: Mune Kyun Tropical Island!
+            "A12665" //Yuru Yuri: Doushite, Tomaranai, Tokimeki, Doki Doki, Paradox, Eternal
         ]
     }
 }
