@@ -329,7 +329,7 @@ class UserControllerRecommendationsModule extends AbstractUserControllerModule
         $list = $viewContext->user->getMixedUserMedia($viewContext->media);
         $recsEngine = new RecommendationsEngine($viewContext->media, $list);
         
-        $goal = 20;
+        $goal = 10;
         $viewContext->newRecommendations = $recsEngine->getNewRecommendations($goal);
         $viewContext->franchises = $recsEngine->getMissingTitles();
         $viewContext->missingTitlesCount = $recsEngine->getMissingTitlesCount($viewContext->franchises);
