@@ -55,18 +55,46 @@
     [
         "M26751" //Devilman vs Getter Robo
     ],
+    "M1475": //Devilman Lady
+    [
+        "M75723" //Cutie Honey Tai Devilman Lady
+    ],
     "M1551": //Getter Robo
     [
-        "M26751" //Devilman vs Getter Robo
+        "M26751", //Devilman vs Getter Robo
+        "M37701" //Super Robot Retsuden
     ],
     "M1639": //Cyborg 009
     [
         "M95091" //Cyborg 009 VS Devilman: Breakdown
     ],
+    "M7658": //Cutie Honey
+    [
+        "M75723" //Cutie Honey Tai Devilman Lady
+    ],
+    "M8773": //Mazinger Z
+    [
+        "M37701" //Super Robot Retsuden
+    ],
     "M26751": //Devilman vs Getter Robo
     [
         "M1474", //Devilman
         "M1551" //Getter Robo
+    ],
+    "M30723": //Koutetsu Jeeg
+    [
+        "M37701" //Super Robot Retsuden
+    ],
+    "M37701": //Super Robot Retsuden
+    [
+        "M1551", //Getter Robo
+        "M8773", //Mazinger Z
+        "M30723" //Koutetsu Jeeg
+    ],
+    "M75723": //Cutie Honey Tai Devilman Lady
+    [
+        "M1475", //Devilman Lady
+        "M7658" //Cutie Honey
     ],
     "M95091": //Cyborg 009 VS Devilman: Breakdown
     [
