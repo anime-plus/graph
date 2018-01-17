@@ -1,53 +1,24 @@
 {
-    "A235": //Detective Conan
-    [
-        "A6115" //Lupin III vs. Detective Conan
-    ],
     "A1412": //Lupin III
     [
         "A6115" //Lupin III vs. Detective Conan
     ],
-    "A6115": //Lupin III vs. Detective Conan
-    [
-        "A235" //Detective Conan
-    ],
     
-    "A2253": //Mazinger Z
-    [
-        "A3898" //Mazinger Z tai Devilman
-    ],
     "A2354": //Devilman: Tanjou-hen
     [
         "A3898" //Mazinger Z tai Devilman
     ],
     "A3898": //Mazinger Z tai Devilman
     [
-        "A2252", //Devilman
-        "A2253" //Mazinger Z
+        "A2252" //Devilman
     ],
     "A4385": //Great Mazinger tai Getter Robo
     [
-        "A3579", //Getter Robo
-        "A5658", //Great Mazinger
+        "A3579" //Getter Robo
     ],
     "A4386": //Great Mazinger tai Getter Robo G: Kuuchuu Dai-Gekitotsu
     [
-        "A4486", //Getter Robo G
-        "A5658" //Great Mazinger
-    ],
-    "A5658": //Great Mazinger
-    [
-        "A4385", //Great Mazinger tai Getter Robo
-        "A4386" //Great Mazinger tai Getter Robo G: Kuuchuu Daigekitotsu
-    ],
-    
-    "A4918": //xxxHOLiC Shunmuki
-    [
-        "A4938" //Tsubasa: Shunraiki
-    ],
-    "A4938": //Tsubasa: Shunraiki
-    [
-        "A4918" //xxxHOLiC Shunmuki
+        "A4486" //Getter Robo G
     ],
     
     "A6566": //It's a Rumic World: 50th Anniversary Weekly★Shonen Sunday
@@ -55,6 +26,23 @@
         "A210", //Ranma_½
         "A249", //InuYasha
         "A1293" //Urusei Yatsura
+    ],
+    
+    "A33544": //InaDan Movie x Mameshiba Collab CM
+    [
+        "A15785" //Inazuma Eleven Go vs. Danball Senki W Movie
+    ],
+    "A33547": //Mameshiba x Gaist Crusher Collab CM
+    [
+        "A19871" //Gaist Crusher
+    ],
+    "A33549": //Mame-Mofu Collab Animation
+    [
+        "A5241" //Mofu☆Mofu
+    ],
+    "A35631": //Mahouka x Mameshiba
+    [
+        "A7261" //Mameshiba
     ],
     
     "M881": //Cross Epoch
