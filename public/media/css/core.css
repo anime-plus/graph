@@ -18,6 +18,7 @@ body {
     font-family: 'Open Sans', 'Verdana', 'Dejavu sans', sans-serif;
     font-size: 11pt;
     -webkit-tap-highlight-color: transparent;
+    min-width: 800px;
 }
 
 h1, h2, h3 {
