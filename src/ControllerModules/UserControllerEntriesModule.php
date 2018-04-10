@@ -13,7 +13,7 @@ class UserControllerEntriesModule extends AbstractUserControllerModule
 
 	public static function work(&$controllerContext, &$viewContext)
 	{
-		$sender = $_GET['sender'];
+		$sender = $_GET['sender'] ?? null;
 		$filterParam = isset($_GET['filter-param']) ? $_GET['filter-param'] : null;
 		if (isset($_GET['media']) and in_array($_GET['media'], Media::getConstList()))
 		{

@@ -1,4 +1,23 @@
 {
+    "A512": //Majo no Takkyuubin
+    [
+        "A35770" //Hungry Days: Aoharu ka yo.
+    ],
+    "A2225": //Alps no Shoujo Heidi
+    [
+        "A35770" //Hungry Days: Aoharu ka yo.
+    ],
+    "A2406": //Sazae-san
+    [
+        "A35770" //Hungry Days: Aoharu ka yo.
+    ],
+    "A35770": //Hungry Days: Aoharu ka yo.
+    [
+        "A512", //Majo no Takkyuubin
+        "A2225", //Alps no Shoujo Heidi
+        "A2406" //Sazae-san
+    ],
+    
     "A1412": //Lupin III
     [
         "A6115" //Lupin III vs. Detective Conan
@@ -50,6 +69,15 @@
         "M13", //One Piece
         "M42" //Dragon Ball
     ],
+    "M7887": //Toriko
+    [
+        "M25146" //One Piece x Toriko
+    ],
+    "M25146": //One Piece x Toriko
+    [
+        "M13", //One Piece
+        "M7887" //Toriko
+    ],
     
     "M1474": //Devilman
     [
@@ -100,16 +128,6 @@
     [
         "M1474", //Devilman
         "M1639" //Cyborg 009
-    ],
-    
-    "M7887": //Toriko
-    [
-        "M25146" //One Piece x Toriko
-    ],
-    "M25146": //One Piece x Toriko
-    [
-        "M13", //One Piece
-        "M7887" //Toriko
     ],
     
     "M16124": //Maburaho VS Slayers!? - Dragon All Stars Gekitouhen
