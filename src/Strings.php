@@ -4,7 +4,7 @@ class Strings
 	public static function removeSpaces($subject)
 	{
 		$subject = trim($subject);
-		$subject = rtrim($subject, ':');
+		
 		while (false !== ($x = strpos($subject, '  ')))
 		{
 			$subject = str_replace('  ', ' ', $subject);
