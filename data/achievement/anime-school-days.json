@@ -1,0 +1,22 @@
+{
+    "media": "A",
+    "order": 202,
+    "achievements":
+    [
+        {
+            "threshold": "1+",
+            "id": "anime-school-days",
+            "level": "Nice boat",
+            "title": "It's just me and you now",
+            "desc": "Awarded for completing School Days. And they say true romance is dead!"
+        }
+    ],
+    "requirement":
+    {
+        "type": "title",
+        "titles":
+        [
+            "A2476" //School Days
+        ]
+    }
+}
