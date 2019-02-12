@@ -173,7 +173,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
             },
             'novel' => function ($groupData) use ($listNonPlanned) {
                 $entries = UserMediaFilter::doFilter($listNonPlanned, function ($entry) {
-                    return $entry->sub_type === MangaMediaType::Novel && $entry->finished_volumes;
+                    return intval($entry->sub_type) === MangaMediaType::Novel && $entry->finished_volumes;
                 });
                 
                 return [count($entries), $entries];
