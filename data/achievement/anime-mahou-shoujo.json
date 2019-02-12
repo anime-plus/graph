@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "17-33",
+            "threshold": "18-36",
             "id": "anime-mahou-shoujo-1",
             "level": "Mahou Shoujo: level 1",
             "title": "Signed the contract",
             "desc": "Became a magical girl and started saving the world, step by step."
         },
         {
-            "threshold": "34-67",
+            "threshold": "37-72",
             "id": "anime-mahou-shoujo-2",
             "level": "Mahou Shoujo: level 2",
             "title": "Magic is my middle name",
             "desc": "Transformed into a magical girl: level two. In the name of the Moon, I will punish you!"
         },
         {
-            "threshold": "68-135",
+            "threshold": "73-144",
             "id": "anime-mahou-shoujo-3",
             "level": "Mahou Shoujo: level 3",
             "title": "Too magical to comprehend",
             "desc": "Watched so many mahou shoujo anime that you sparkle occasionally."
         },
         {
-            "threshold": "136+",
+            "threshold": "145+",
             "id": "anime-mahou-shoujo-4",
             "level": "Mahou Shoujo: MAX POWER",
             "title": "Are you a wizard",
@@ -65,6 +65,7 @@
             "A27727", //Binan Koukou Chikyuu Bouei-bu LOVE!
             "A31417", //Binan Koukou Chikyuu Bouei-bu LOVE! LOVE!
             "A35182", //Binan Koukou Chikyuu Bouei-bu LOVE! LOVE! LOVE!
+            "A37036", //Binan Koukou Chikyuu Bouei-bu Happy Kiss!
             "A530", //Bishoujo Senshi Sailor Moon
             "A14751", //Bishoujo Senshi Sailor Moon Crystal
             "A31733", //Bishoujo Senshi Sailor Moon Crystal Season III
@@ -80,12 +81,15 @@
             "A1240", //Bishoujo Senshi Sailor Moon SuperS: Sailor 9 Senshi Shuuketsu! Black Dream Hole no Kiseki
             "A1278", //Bishoujo Senshi Sailor Moon SuperS Gaiden: Ami-chan no Hatsukoi
             "A3076", //Bishoujo Senshi Sailor Moon SuperS Special
+            "A32906", //Bishoujo Yuugi Unit Crane Game Girls
+            "A33541", //Bishoujo Yuugi Unit Crane Game Girls Galaxy
             "A30100", //Black Bullet: Tenchuu＊Girls
             "A32866", //Brave Witches
             "A34644", //Brave Witches: Petersburg Daisenryaku
             "A232", //Cardcaptor Sakura
             "A33354", //Cardcaptor Sakura: Clear Card-hen
             "A35320", //Cardcaptor Sakura: Clear Card-hen Prologue - Sakura to Futatsu no Kuma
+            "A37595", //Cardcaptor Sakura: Clear Card-hen Recap
             "A1078", //Cardcaptor Sakura: Kero-chan ni Omakase!
             "A371", //Cardcaptor Sakura Movie 1
             "A372", //Cardcaptor Sakura Movie 2: Fuuin Sareta Card
@@ -96,7 +100,7 @@
             "A765", //Chou Henshin Cosprayers Specials
             "A705", //Chou Henshin Cosprayers vs. Ankoku Uchuu Shougun the Movie
             "A16157", //Choujigen Game Neptune The Animation
-            "A20479", //Choujigen Game Neptune The Animation OVA
+            "A20479", //Choujigen Game Neptune The Animation: Yakusoku no Eien - True End
             "A1992", //Chou Kousoku Gran Doll
             "A1780", //Choukou Tenshi Escalayer
             "A111", //Corrector Yui
@@ -105,6 +109,7 @@
             "A1661", //Cutey Honey
             "A1853", //Cutey Honey F
             "A6496", //Cutey Honey Flash: The Movie
+            "A36976", //Cutie Honey Universe
             "A2723", //D4 Princess
             "A933", //Dai Mahou Touge
             "A1841", //Dai Mahou Touge Omake
@@ -128,7 +133,7 @@
             "A31706", //Fate/kaleid liner Prisma☆Illya 3rei!!
             "A33456", //Fate/kaleid liner Prisma☆Illya 3rei!! Specials
             "A34100", //Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai
-            "A36833", //Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai Special
+            "A36833", //Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai - Kuro Sakura no Heya
             "A19109", //Fate/kaleid liner Prisma☆Illya Specials
             "A18851", //Fate/kaleid liner Prisma☆Illya: Undoukai de Dance!
             "A1126", //Figure 17: Tsubasa & Hikaru
@@ -192,6 +197,8 @@
             "A9911", //Houkago no Pleiades
             "A17919", //Houkago no Pleiades (TV)
             "A10710", //Houkago no Pleiades: Manner Movie
+            "A36593", //Hug tto! Precure
+            "A37501", //Hug tto! Precure♡Futari wa Precure Movie: All Stars Memories
             "A588", //Itsudatte My Santa!
             "A1855", //JaJa Uma! Quartet
             "A6008", //Jewelpet
@@ -206,7 +213,9 @@
             "A1613", //Jikuu Ihoujin Kyoko: Chocola ni Omakase!
             "A577", //Kagihime Monogatari Eikyuu Alice Rinbukyoku
             "A33663", //Kagihime Monogatari Eikyuu Alice Rinbukyoku Extra Song
+            "A37586", //Kaijuu Girls Kuro: Ultra Kaijuu Gijinka Keikaku
             "A33011", //Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku
+            "A36196", //Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku 2nd Season
             "A1567", //Kaitou Saint Tail
             "A3805", //Kaitou Tenshi Twin Angel
             "A10217", //Kaitou Tenshi Twin Angel: Kyun Kyun☆Tokimeki Paradise!!
@@ -243,6 +252,7 @@
             "A15437", //Kore wa Zombie Desu ka of the Dead OVA
             "A32214", //Koukaku no Pandora
             "A31930", //Koukaku no Pandora: Ghost Urn
+            "A37026", //Koukaku no Pandora: Pandoradio
             "A13159", //Kuromajo-san ga Tooru!!
             "A3577", //Kyouran Kazoku Nikki
             "A22693", //Lady Jewelpet
@@ -254,10 +264,11 @@
             "A14349", //Little Witch Academia
             "A33489", //Little Witch Academia (TV)
             "A19489", //Little Witch Academia: Mahoujikake no Parade
+            "A34607", //Lostorage Conflated WIXOSS
             "A36083", //Lostorage Conflated WIXOSS: Missing Link
             "A33197", //Lostorage Incited WIXOSS
             "A32083", //Luck & Logic
-            "A35300", //Magia Record: Mahou Shoujo Madoka☆Magica Gaiden
+            "A35300", //Magia Record: Mahou Shoujo Madoka☆Magica Gaiden PV
             "A435", //Magic Knight Rayearth
             "A1563", //Magic Knight Rayearth II
             "A33299", //Magic-Kyun! Renaissance
@@ -306,13 +317,17 @@
             "A7807", //Mahou Shoujo Lalabel: Umi ga Yobu Natsuyasumi
             "A76", //Mahou Shoujo Lyrical Nanoha
             "A77", //Mahou Shoujo Lyrical Nanoha A's
-            "A1915", //Mahou Shoujo Lyrical Nanoha StrikerS
-            "A25939", //Mahou Shoujo Lyrical Nanoha ViVid
-            "A31137", //Mahou Shoujo Lyrical Nanoha ViVid: Special Program
+            "A37933", //Mahou Shoujo Lyrical Nanoha A's Picture Drama
+            "A35984", //Mahou Shoujo Lyrical Nanoha: Detonation
             "A12101", //Mahou Shoujo Lyrical Nanoha: Lyrical Toy Box
+            "A35501", //Mahou Shoujo Lyrical Nanoha Picture Drama
+            "A17947", //Mahou Shoujo Lyrical Nanoha: Reflection
+            "A1915", //Mahou Shoujo Lyrical Nanoha StrikerS
+            "A37934", //Mahou Shoujo Lyrical Nanoha StrikerS Picture Drama
             "A4985", //Mahou Shoujo Lyrical Nanoha: The Movie 1st
             "A10153", //Mahou Shoujo Lyrical Nanoha: The Movie 2nd A's
-            "A17947", //Mahou Shoujo Lyrical Nanoha: The Movie 3rd Reflection
+            "A25939", //Mahou Shoujo Lyrical Nanoha ViVid
+            "A31137", //Mahou Shoujo Lyrical Nanoha ViVid: Special Program
             "A9756", //Mahou Shoujo Madoka★Magica
             "A11977", //Mahou Shoujo Madoka★Magica Movie 1: Hajimari no Monogatari
             "A11979", //Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari
@@ -324,14 +339,18 @@
             "A33795", //Mahou Shoujo Nante Mou Ii Desukara. 2nd Season
             "A33394", //Mahou Shoujo? Naria☆Girls
             "A33723", //Mahou Shoujo? Naria☆Girls Nama de Anime wo Tsukuru Sama
+            "A36902", //Mahou Shoujo Ore
             "A1918", //Mahou Shoujo Pretty Sammy
             "A1502", //Mahou Shoujo Pretty Sammy (1996)
             "A1503", //Mahou Shoujo Pretty Sammy Specials
             "A5401", //Mahou Shoujo Sae
+            "A36266", //Mahou Shoujo Site
+            "A38104", //Mahou Shoujo Site Recaps
             "A10519", //Mahou Shoujo Sonico★Magica
             "A872", //Mahou Shoujo Tai Arusu
             "A3991", //Mahou Shoujo Tai Arusu the Adventure
             "A21421", //Mahou Shoujo Taisen
+            "A37979", //Mahou Shoujo Tokushusen Asuka
             "A3845", //Mahoutsukai Chappy
             "A273", //Mahoutsukai ni Taisetsu na Koto
             "A4483", //Mahoutsukai ni Taisetsu na Koto: Natsu no Sora
@@ -365,6 +384,7 @@
             "A25113", //Majokko Shimai no Yoyo to Nene Movie Extra: Hatsukoi - Mikako Komatsu
             "A3881", //Majokko Tickle
             "A2457", //Majokko Tsukune-chan
+            "A31885", //Majuu Jouka Shoujo Utea
             "A2079", //Majuu Senshi Luna Varga
             "A1360", //Makai Tenshi Djibril
             "A4027", //Makai Tenshi Djibril: Episode 2
@@ -373,6 +393,8 @@
             "A1280", //Mamono Hunter Youko
             "A1509", //Mamotte! Lollipop
             "A626", //Mamotte Shugogetten!
+            "A35997", //Märchen Mädchen
+            "A37973", //Märchen Mädchen Specials
             "A335", //Matantei Loki Ragnarok
             "A521", //Mermaid Melody: Pichi Pichi Pitch
             "A1110", //Mermaid Melody Pichi Pichi Pitch Pure
@@ -420,6 +442,7 @@
             "A14947", //Onegai My Melody: Yuu & Ai
             "A24705", //Ore, Twintail ni Narimasu.
             "A3362", //Oshare Majo Love and Berry: Shiawase no Mahou
+            "A37328", //Oshiete Mahou no Pendulum: Rilu Rilu Fairilu
             "A682", //Otogi Story Tenshi no Shippo
             "A683", //Otogi Story Tenshi no Shippo Specials
             "A8795", //Panty & Stocking with Garterbelt
@@ -441,6 +464,8 @@
             "A21031", //Precure All Stars New Stage 3: Eien no Tomodachi
             "A34302", //Precure Dream Stars! Movie
             "A10736", //Precure kara Minna e no Ouen Movie
+            "A38672", //Precure Miracle Universe Movie
+            "A36995", //Precure Super Stars! Movie
             "A8231", //Princess Lover!: Magical Knight Maria-chan
             "A721", //Princess Tutu
             "A3265", //Princess Tutu Recaps
@@ -458,6 +483,8 @@
             "A941", //Renkin San-kyuu Magical? Pokaan
             "A1489", //Renkin San-kyuu Magical? Pokaan Specials
             "A980", //Rikujou Bouei-tai Mao-chan
+            "A34927", //Rilu Rilu Fairilu: Mahou no Kagami
+            "A34754", //Rilu Rilu Fairilu: Yousei no Door
             "A26019", //Rokujouma no Shinryakusha!?
             "A22865", //Rokujouma no Shinryakusha!? (TV)
             "A64", //Rozen Maiden
@@ -471,8 +498,10 @@
             "A1881", //Sasami: Mahou Shoujo Club
             "A1882", //Sasami: Mahou Shoujo Club 2
             "A3328", //School Days: Magical Heart Kokoro-chan
+            "A35510", //Seizei Ganbare! Mahou Shoujo Kurumi
+            "A38175", //Seizei Ganbare! Mahou Shoujo Kurumi 2nd Season
             "A18047", //Seiyuu Deka
-            "A31280", //Selector Destructed WIXOSS
+            "A31280", //Selector Destructed WIXOSS Movie
             "A22273", //Selector Infected WIXOSS
             "A27613", //Selector Infected WIXOSS: Midoriko-san to Piruruku-tan
             "A24037", //Selector Spread WIXOSS
@@ -519,6 +548,8 @@
             "A33668", //Soushin Shoujo Matoi
             "A35458", //Soushin Shoujo Matoi: Kabushiki Gaisha Knight Busters
             "A34538", //Soushin Shoujo Matoi: Yuma-chin, Matomemashita - Nanimo Kitenakute... Natsu
+            "A38578", //Star☆Twinkle Precure
+            "A38850", //Star☆Twinkle Precure Movie
             "A3667", //Strike Witches
             "A6381", //Strike Witches 2
             "A9751", //Strike Witches Movie
@@ -527,7 +558,7 @@
             "A1642", //Sugar Sugar Rune
             "A9893", //Suite Precure♪
             "A10821", //Suite Precure♪ Movie: Torimodose! Kokoro ga Tsunaku Kiseki no Melody♪
-            "A2066", //Super Doll Licca-chan
+            "A2766", //Super Doll Licca-chan
             "A10199", //Super Doll Licca-Chan: Licca-chan Zettai Zetsumei! Doll Knights no Kiseki
             "A2424", //Suteki desu wa, Sakura-chan! Tomoyo no Cardcaptor Sakura Katsuyaku Video Nikki!
             "A2727", //Sweet Valerian
@@ -546,7 +577,9 @@
             "A22231", //Tenshi no Shippo Chu!: Tenshi no Utagoe
             "A687", //Tokyo Mew Mew
             "A9393", //T.P. Sakura: Time Paladin Sakura
+            "A33934", //Trigger-chan
             "A33532", //Twin Angel Break
+            "A32681", //Uchuu Patrol Luluco
             "A1127", //UFO Princess Valkyrie
             "A1128", //UFO Princess Valkyrie 2: Juunigatsu no Yasoukyoku
             "A1514", //UFO Princess Valkyrie 3: Seiresetsu no Hanayome
@@ -575,6 +608,7 @@
             "A22117", //Witch Craft Works OVA
             "A23487", //Witch Craft Works Specials
             "A22377", //Wonder Momo
+            "A37225", //Xiao Hua Xian
             "A497", //Yami to Boushi to Hon no Tabibito
             "A1558", //Yarima Queen
             "A1932", //Yes! Precure 5
@@ -595,6 +629,7 @@
             "A34375", //Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou 2 - Tamashii
             "A34376", //Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou 3 - Yakusoku
             "A34445", //Yuuki Yuuna wa Yuusha de Aru: Yuusha no Shou
+            "A19953", //Zetsumetsu Kigu Shoujo: Amazing Twins
             "A17681", //Zettai Bouei Leviathan
             "A19397", //Zettai Bouei Leviathan: Mini Takibi Gekijou
             "A16656", //Zettai Junpaku♡Mahou Shoujo
