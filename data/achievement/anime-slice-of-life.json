@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "43-86",
+            "threshold": "50-99",
             "id": "anime-slice-of-life-1",
             "level": "Slice of Life: level 1",
             "title": "Normal high school boy",
             "desc": "Got started into the furious ride with slice-of-life anime."
         },
         {
-            "threshold": "87-172",
+            "threshold": "100-199",
             "id": "anime-slice-of-life-2",
             "level": "Slice of Life: level 2",
             "title": "cute × ( girls + things )",
             "desc": "Didn't get bored of watching cute girls doing cute things. As if that's possible."
         },
         {
-            "threshold": "173-346",
+            "threshold": "200-399",
             "id": "anime-slice-of-life-3",
             "level": "Slice of Life: level 3",
             "title": "Enjoying life",
             "desc": "Found the equilibrium between boring and interesting."
         },
         {
-            "threshold": "347+",
+            "threshold": "400+",
             "id": "anime-slice-of-life-4",
             "level": "Slice of Life: level MAX",
             "title": "Prima Undine",
