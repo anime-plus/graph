@@ -171,6 +171,31 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                 
                 return [count($entries), $entries];
             },
+            'franchise' => function ($groupData) use ($listFinished) {
+                $franchises = array_filter(Model_MixedUserMedia::getFranchises($listFinished), function ($franchise) {
+                    if (count($franchise->ownEntries) < 2) {
+                        return false;
+                    }
+                    
+                    $episodes = 0;
+                    
+                    foreach ($franchise->ownEntries as $entry) {
+                        $episodes += $entry->episodes;
+                    }
+                    
+                    return $episodes > 249;
+                });
+                
+                $entries = [];
+                
+                foreach ($franchises as $franchise) {
+                    foreach ($franchise->ownEntries as $entry) {
+                        $entries[] = $entry;
+                    }
+                }
+                
+                return [count($franchises), $entries];
+            },
             'novel' => function ($groupData) use ($listNonPlanned) {
                 $entries = UserMediaFilter::doFilter($listNonPlanned, function ($entry) {
                     return intval($entry->sub_type) === MangaMediaType::Novel && $entry->finished_volumes;

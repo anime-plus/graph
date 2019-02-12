@@ -636,6 +636,24 @@ Awarded for watching 15+ anime from Studio Ghibli.
 </tbody>
 </table>&nbsp;
 
+### Franchises
+Special achievement given upon completing 250+ episodes of 10+ franchises.
+
+<table>
+<tbody>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-franchise-long.png" alt="">
+</td>
+<td>
+<strong>Long and hard</strong>
+
+<sub>Ten years ago, you began this journey...</sub>
+</td>
+</tr>
+</tbody>
+</table>&nbsp;
+
 ### Original
 Awarded for watching anime with Original source.
 
