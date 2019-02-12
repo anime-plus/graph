@@ -600,6 +600,24 @@ One level. Is it the highest, or the lowest possible level a person can achieve?
 </tbody>
 </table>&nbsp;
 
+### School Days
+This award is a compensation for the intense, paranoid fear of relationships the anime has left you with.
+
+<table>
+<tbody>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-school-days.png" alt="">
+</td>
+<td>
+<strong>It's just me and you now</strong>
+
+<sub>Awarded for completing School Days. And they say true romance is dead!</sub>
+</td>
+</tr>
+</tbody>
+</table>&nbsp;
+
 ### Studio Ghibli
 Awarded for watching 15+ anime from Studio Ghibli. 
 
@@ -613,6 +631,120 @@ Awarded for watching 15+ anime from Studio Ghibli.
 <strong>Memories</strong>
 
 <sub>Once you've seen them, you can never forget them.</sub>
+</td>
+</tr>
+</tbody>
+</table>&nbsp;
+
+### Original
+Awarded for watching anime with Original source.
+
+<table>
+<tbody>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-original-1.png" alt="">
+</td>
+<td>
+<strong>Uncharted waters</strong>
+
+<sub>You have just stumbled across a wonderful, strange new world.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-original-2.png" alt="">
+</td>
+<td>
+<strong>Into the jungle</strong>
+
+<sub>The deeper you go, the less you want out.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-original-3.png" alt="">
+</td>
+<td>
+<strong>Center of the Earth</strong>
+
+<sub>You have forgotten about the outside world; nature has assimilated you. An apple falls - not only have you flowered, you have produced fruit.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-original-4.png" alt="">
+</td>
+<td>
+<strong>Transcendence</strong>
+
+<sub>You have been returned to the primordial ocean. From the highest point in the sky, you can peer into every universe, and lose yourself in an infinity of stories.</sub>
+</td>
+</tr>
+</tbody>
+</table>&nbsp;
+
+### Shorts
+Awarded for watching anime with episode length of under 15 minutes.
+
+<table>
+<tbody>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-duration-short-1.png" alt="">
+</td>
+<td>
+<strong>Blink, and you'll miss it</strong>
+
+<sub>It was over before it started, but it managed to tell an enticing tale.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-duration-short-2.png" alt="">
+</td>
+<td>
+<strong>Quickie addict</strong>
+
+<sub>You've been saying "one more" for the past nine hours.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-duration-short-3.png" alt="">
+</td>
+<td>
+<strong>Block by block</strong>
+
+<sub>Just like in a game of tetris, you're building something great out of small pieces.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-duration-short-4.png" alt="">
+</td>
+<td>
+<strong>Short but gold</strong>
+
+<sub>You have learned that some of the greatest things come in small packages.</sub>
+</td>
+</tr>
+</tbody>
+</table>&nbsp;
+
+### Long runner
+Awarded for watching 25+ anime that are 100+ episodes long.
+
+<table>
+<tbody>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/anime-episode-long.png" alt="">
+</td>
+<td>
+<strong>I like them long</strong>
+
+<sub>Didn't fall asleep while watching long anime series. 100 episodes isn't a big deal to you.</sub>
 </td>
 </tr>
 </tbody>
@@ -679,72 +811,6 @@ Awarded for watching anime classics (finished between 1981 and 2000).
 <strong>Blockbuster</strong>
 
 <sub>Man, do you feel old as all hell.</sub>
-</td>
-</tr>
-</tbody>
-</table>&nbsp;
-
-### Long runner
-Awarded for watching 25+ anime that are 100+ episodes long.
-
-<table>
-<tbody>
-<tr>
-<td>
-<img src="http://graph.anime.plus/image/achievement/anime-episode-long.png" alt="">
-</td>
-<td>
-<strong>I like them long</strong>
-
-<sub>Didn't fall asleep while watching long anime series. 100 episodes isn't a big deal to you.</sub>
-</td>
-</tr>
-</tbody>
-</table>&nbsp;
-
-### Shorts
-Awarded for watching anime with episode length of under 15 minutes.
-
-<table>
-<tbody>
-<tr>
-<td>
-<img src="http://graph.anime.plus/image/achievement/anime-duration-short-1.png" alt="">
-</td>
-<td>
-<strong>Blink, and you'll miss it</strong>
-
-<sub>It was over before it started, but it managed to tell an enticing tale.</sub>
-</td>
-</tr>
-<tr>
-<td>
-<img src="http://graph.anime.plus/image/achievement/anime-duration-short-2.png" alt="">
-</td>
-<td>
-<strong>Quickie addict</strong>
-
-<sub>You've been saying "one more" for the past nine hours.</sub>
-</td>
-</tr>
-<tr>
-<td>
-<img src="http://graph.anime.plus/image/achievement/anime-duration-short-3.png" alt="">
-</td>
-<td>
-<strong>Block by block</strong>
-
-<sub>Just like in a game of tetris, you're building something great out of small pieces.</sub>
-</td>
-</tr>
-<tr>
-<td>
-<img src="http://graph.anime.plus/image/achievement/anime-duration-short-4.png" alt="">
-</td>
-<td>
-<strong>Short but gold</strong>
-
-<sub>You have learned that some of the greatest things come in small packages.</sub>
 </td>
 </tr>
 </tbody>
@@ -1358,19 +1424,49 @@ Awarded for reading Yuri or Shoujo Ai manga.
 </tbody>
 </table>&nbsp;
 
-### Old manga
-Awarded for reading 25+ old manga (finished in 1980 at most).
+### Novel
+Awarded for reading novels.
 
 <table>
 <tbody>
 <tr>
 <td>
-<img src="http://graph.anime.plus/image/achievement/manga-release-old.png" alt="">
+<img src="http://graph.anime.plus/image/achievement/manga-novel-1.png" alt="">
 </td>
 <td>
-<strong>At the end of the galaxy</strong>
+<strong>Cracking the book</strong>
 
-<sub>Your never-ending journey for the most forgotten comic books has finally paid off.</sub>
+<sub>You didn't get bored reading plain text.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/manga-novel-2.png" alt="">
+</td>
+<td>
+<strong>IKEA trip</strong>
+
+<sub>Instead of playing Candy Crush, you now read during transit.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/manga-novel-3.png" alt="">
+</td>
+<td>
+<strong>Personal library</strong>
+
+<sub>The tales you've read have taken you on a journey you never want to end.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/manga-novel-4.png" alt="">
+</td>
+<td>
+<strong>What is sleep?</strong>
+
+<sub>The more you've learned, the more you wanted to keep on learning.</sub>
 </td>
 </tr>
 </tbody>
@@ -1389,6 +1485,24 @@ Awarded for reading 25+ manga that are 15+ volumes long.
 <strong>Long runner</strong>
 
 <sub>The best stories can't be told in less than 25 volumes.</sub>
+</td>
+</tr>
+</tbody>
+</table>&nbsp;
+
+### Old manga
+Awarded for reading 25+ old manga (finished in 1980 at most).
+
+<table>
+<tbody>
+<tr>
+<td>
+<img src="http://graph.anime.plus/image/achievement/manga-release-old.png" alt="">
+</td>
+<td>
+<strong>At the end of the galaxy</strong>
+
+<sub>Your never-ending journey for the most forgotten comic books has finally paid off.</sub>
 </td>
 </tr>
 </tbody>

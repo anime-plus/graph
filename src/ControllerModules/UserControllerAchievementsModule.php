@@ -83,7 +83,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
     public static function work(&$controllerContext, &$viewContext)
     {
         $viewContext->viewName = 'user-achievements';
-        $viewContext->meta->title = $viewContext->user->name . ' &#8212; Achievements (' . Media::toString($viewContext->media) . ') &#8212; ' . Config::$title;
+        $viewContext->meta->title = $viewContext->user->name . ' - Achievements (' . Media::toString($viewContext->media) . ') - ' . Config::$title;
         $viewContext->meta->description = $viewContext->user->name . '\'s ' . Media::toString($viewContext->media) . ' achievements.';
         WebMediaHelper::addEntries($viewContext);
         WebMediaHelper::addCustom($viewContext);
@@ -136,45 +136,44 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                 $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
                     $yearTo = substr($entry->published_to, 0, 4);
                     
-                    return $yearTo !== '????' && intval($yearTo) <= 1980;
+                    return $yearTo !== '????' && intval($yearTo) < 1981;
                 });
                 
                 return [count($entries), $entries];
             },
             'release-classic' => function ($groupData) use ($listFinished) {
                 $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
-                    $yearFrom = substr($entry->published_from, 0, 4);
-                    
                     $yearTo = substr($entry->published_to, 0, 4);
                     
-                    return $yearFrom !== '????' && intval($yearFrom) >= 1981 && $yearTo !== '????' && intval($yearTo) <= 2000;
+                    return $yearTo !== '????' && intval($yearTo) < 2001 && intval($yearTo) > 1980;
                 });
                 
                 return [count($entries), $entries];
             },
             'duration-short' => function ($groupData) use ($listFinished) {
                 $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
-                    $duration = $entry->duration;
-                    
-                    return $duration <= 15;
+                    return $entry->duration > 0 && $entry->duration < 16;
                 });
                 
                 return [count($entries), $entries];
             },
             'episode-long' => function ($groupData) use ($listFinished) {
                 $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
-                    $episode = $entry->episodes;
-                    
-                    return $episode >= 100;
+                    return $entry->episodes > 99;
                 });
                 
                 return [count($entries), $entries];
             },
             'volume-long' => function ($groupData) use ($listFinished) {
                 $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
-                    $volume = $entry->volumes;
-                    
-                    return $volume >= 15;
+                    return $entry->volumes > 14;
+                });
+                
+                return [count($entries), $entries];
+            },
+            'novel' => function ($groupData) use ($listNonPlanned) {
+                $entries = UserMediaFilter::doFilter($listNonPlanned, function ($entry) {
+                    return $entry->sub_type === MangaMediaType::Novel && $entry->finished_volumes;
                 });
                 
                 return [count($entries), $entries];
