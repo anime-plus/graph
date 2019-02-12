@@ -1425,7 +1425,7 @@ Awarded for reading Yuri or Shoujo Ai manga.
 </table>&nbsp;
 
 ### Novel
-Awarded for reading novels.
+1+ volumes completed.
 
 <table>
 <tbody>
