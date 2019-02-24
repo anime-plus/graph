@@ -42,9 +42,38 @@
     
     "A6566": //It's a Rumic World: 50th Anniversary Weekly★Shonen Sunday
     [
-        "A210", //Ranma_½
+        "A210", //Ranma ½
         "A249", //InuYasha
         "A1293" //Urusei Yatsura
+    ],
+    
+    "A17819": //Kyoto Animation: Suiei-hen
+    [
+        "A18507" //Free!
+    ],
+    
+    "A18393": //Fairy Tail x Rave
+    [
+        "A246", //Groove Adventure Rave
+        "A6702" //Fairy Tail
+    ],
+    
+    "A28149": //Nihon Animator Mihonichi
+    [
+        "A38055" //Evangelion: Another Impact (VR)
+    ],
+    "A38055": //Evangelion: Another Impact (VR)
+    [
+        "A28149" //Nihon Animator Mihonichi
+    ],
+    
+    "A33512": //Animegatari x Ghost in the Shell Collab Eizou
+    [
+        "A30617" //Animegatari
+    ],
+    "A37012": //Animegatari x Shingeki no Kyojin Collab Eizou
+    [
+        "A30617" //Animegatari
     ],
     
     "A33544": //InaDan Movie x Mameshiba Collab CM
@@ -155,5 +184,27 @@
     [
         "M31499", //Nisekoi
         "M36933" //Ore Monogatari!!
+    ],
+    
+    "M75053": //Magazine Heroines on the Beach
+    [
+        "M8300", //Baby Steps
+        "M35003", //Yamada-kun to 7-nin no Majo
+        "M47102", //Aho Girl
+        "M67019" //Fuuka
+    ],
+    "M86414": //Magazine Boys' Valentine!
+    [
+        "M8795", //Area no Kishi
+        "M47363", //Kamisama no Iutoori 2
+        "M65685", //Real Account
+        "M67019" //Fuuka
+    ],
+    "M88032": //Magazine Ohanami!!
+    [
+        "M598", //Fairy Tail
+        "M8300", //Baby Steps
+        "M35003", //Yamada-kun to 7-nin no Majo
+        "M67019" //Fuuka
     ]
 }
