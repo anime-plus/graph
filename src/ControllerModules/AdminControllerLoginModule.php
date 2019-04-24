@@ -15,7 +15,7 @@ class AdminControllerLoginModule extends AbstractControllerModule
     {
         $viewContext->viewName = 'admin-login';
         
-        $viewContext->meta->title = 'Admin &#8212; ' . Config::$title;
+        $viewContext->meta->title = 'Admin - ' . Config::$title;
         
         WebMediaHelper::addCustom($viewContext);
         

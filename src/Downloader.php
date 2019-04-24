@@ -10,7 +10,9 @@ class Downloader
 
 	private static function prepareHandle($url)
 	{
-		$handle = curl_init();
+        usleep(500000);
+        
+        $handle = curl_init();
 		curl_setopt($handle, CURLOPT_URL, $url);
 		curl_setopt($handle, CURLOPT_HEADER, 1);
 		curl_setopt($handle, CURLOPT_RETURNTRANSFER, 1);
@@ -87,7 +89,7 @@ class Downloader
 
 		foreach (array_chunk($allUrls, Config::$downloaderMaxParallelJobs) as $urls)
 		{
-			if (self::$logger)
+            if (self::$logger)
 			{
 				foreach ($urls as $url)
 					self::$logger->log('Downloading ' . $url);

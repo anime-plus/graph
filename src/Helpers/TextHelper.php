@@ -205,6 +205,6 @@ class TextHelper
     {
         $mail = explode('@', $mail);
         
-        return '<script>document.write(\'' . implode('\'+\'', str_split($mail[0])) . '\'+\'@\'+\'' . $mail[1] . '\');</script>';
+        return '<script>document.write(\'' . implode('\'+\'', str_split($mail[0])) . '\'+\'&#64;\'+\'' . $mail[1] . '\');</script>';
     }
 }

@@ -14,7 +14,7 @@ class AnimeProcessor extends AbstractProcessor
 		$context->media = $media;
 	}
 
-	public function getSubProcessors()
+	public function getSubProcessors($key)
 	{
 		$subProcessors = [];
 		$subProcessors []= new MediaSubProcessorBasic(Media::Anime);

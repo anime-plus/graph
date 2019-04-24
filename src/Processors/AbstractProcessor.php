@@ -1,7 +1,7 @@
 <?php
 abstract class AbstractProcessor
 {
-	public abstract function getSubProcessors();
+	public abstract function getSubProcessors($key);
 
 	public function beforeProcessing(&$context)
 	{
@@ -27,7 +27,7 @@ abstract class AbstractProcessor
 			$context = new ProcessingContext();
 			$context->key = $key;
 
-			$subProcessors = $this->getSubProcessors();
+			$subProcessors = $this->getSubProcessors($key);
 			$urlMap = [];
 			foreach ($subProcessors as $processor)
 			{

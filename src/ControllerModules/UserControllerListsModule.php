@@ -24,7 +24,7 @@ class UserControllerListsModule extends AbstractUserControllerModule
     public static function work(&$controllerContext, &$viewContext)
     {
         $viewContext->viewName = 'user-list';
-        $viewContext->meta->title = $viewContext->user->name . ' &#8212; List (' . Media::toString($viewContext->media) . ') &#8212; ' . Config::$title;
+        $viewContext->meta->title = $viewContext->user->name . ' - List (' . Media::toString($viewContext->media) . ') - ' . Config::$title;
         $viewContext->meta->description = $viewContext->user->name . '\'s ' . Media::toString($viewContext->media) . ' list.';
         WebMediaHelper::addTablesorter($viewContext);
         WebMediaHelper::addCustom($viewContext);

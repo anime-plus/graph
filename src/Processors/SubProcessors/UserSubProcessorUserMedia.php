@@ -22,12 +22,12 @@ class UserSubProcessorUserMedia extends UserSubProcessor
 		Database::delete('usermedia', ['user_id' => $context->user->id]);
 
 		$context->user->cool = false;
-        
+
         foreach (Media::getConstList() as $media) {
             $key = $media === Media::Anime ? self::URL_ANIMELIST : self::URL_MANGALIST;
-            
+
             $isPrivate = $documents[$key]->content === '403';
-            
+
 			$key = $media == Media::Anime
 				? self::URL_ANIMEINFO
 				: self::URL_MANGAINFO;

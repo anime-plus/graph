@@ -46,7 +46,7 @@ class AdminControllerMiscModule extends AbstractControllerModule
 		}
 
 		$viewContext->viewName = 'admin-index';
-		$viewContext->meta->title = 'Admin &#8212; ' . Config::$title;
+		$viewContext->meta->title = 'Admin - ' . Config::$title;
 		WebMediaHelper::addCustom($viewContext);
 	}
 }

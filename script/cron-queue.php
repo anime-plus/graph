@@ -62,6 +62,7 @@ function processQueue($queue, $count, $maxAttempts, $logger, $callback)
 CronRunner::run(__FILE__, function($logger)
 {
 	$userProcessor = new UserProcessor();
+    $userMediaProcessor = new UserMediaProcessor();
 	$mediaProcessors =
 	[
 		Media::Anime => new AnimeProcessor(),
@@ -69,6 +70,7 @@ CronRunner::run(__FILE__, function($logger)
 	];
 
 	$userQueue = new Queue(Config::$userQueuePath);
+    $userMediaQueue = new Queue(Config::$userMediaQueuePath);
 	$mediaQueue = new Queue(Config::$mediaQueuePath);
 
 	Downloader::setLogger($logger);
@@ -113,6 +115,46 @@ CronRunner::run(__FILE__, function($logger)
 			$logger->log('ok');
 		});
 
+	#process users media
+	processQueue(
+		$userMediaQueue,
+		Config::$usersPerCronRun,
+		Config::$userQueueMaxAttempts,
+		$logger,
+		function($userName) use ($userMediaProcessor, $mediaQueue, $logger)
+		{
+			Database::selectUser($userName);
+			$logger->log('Processing user %s... ', $userName);
+
+			#process the user
+			$userContext = $userMediaProcessor->process($userName);
+
+			#remove associated cache
+			$cache = new Cache();
+			$cache->setPrefix($userName);
+			foreach ($cache->getAllFiles() as $path)
+				unlink($path);
+
+			#append media to queue
+			$mediaIds = [];
+			foreach (Media::getConstList() as $media)
+			{
+				foreach ($userContext->user->getMixedUserMedia($media) as $entry)
+				{
+					$mediaAge = time() - strtotime($entry->processed);
+					if ($mediaAge > Config::$mediaQueueMinWait)
+						$mediaIds []= TextHelper::serializeMediaId($entry);
+				}
+			}
+
+			$mediaQueue->enqueueMultiple(array_map(function($mediaId)
+				{
+					return new QueueItem($mediaId);
+				}, $mediaIds));
+
+			$logger->log('ok');
+		});
+
 	$mediaIds = [];
 	foreach (Media::getConstList() as $media)
 	{
@@ -130,6 +172,7 @@ CronRunner::run(__FILE__, function($logger)
 		}, $mediaIds));
 
 
+    
 	#process media
 	processQueue(
 		$mediaQueue,

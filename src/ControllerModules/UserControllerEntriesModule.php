@@ -124,6 +124,7 @@ class UserControllerEntriesModule extends AbstractUserControllerModule
 				{
 					$dist = RatingDistribution::fromEntries($franchise->ownEntries);
 					$franchise->meanScore = $dist->getMeanScore();
+                    DataSorter::sort($franchise->ownEntries, DataSorter::MediaMalId);
 				}
 				unset($franchise);
 				DataSorter::sort($franchises, DataSorter::MeanScore);

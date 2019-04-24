@@ -99,6 +99,7 @@ class AdminControllerProcessorModule extends AbstractControllerModule
 					Media::Manga => new MangaProcessor(),
 				];
 				$userProcessor = new UserProcessor();
+                $userMediaProcessor = new UserMediaProcessor();
 
 				foreach ($chosenMedia as $media => $ids)
 				{
@@ -111,6 +112,7 @@ class AdminControllerProcessorModule extends AbstractControllerModule
 				foreach ($chosenUsers as $user)
 				{
 					$userProcessor->process($user);
+                    $userMediaProcessor->process($user);
 					++ $num;
 				}
 
@@ -206,7 +208,7 @@ class AdminControllerProcessorModule extends AbstractControllerModule
 		}
 
 		$viewContext->viewName = 'admin-index';
-		$viewContext->meta->title = 'Admin &#8212; ' . Config::$title;
+		$viewContext->meta->title = 'Admin - ' . Config::$title;
 		WebMediaHelper::addCustom($viewContext);
 	}
 }

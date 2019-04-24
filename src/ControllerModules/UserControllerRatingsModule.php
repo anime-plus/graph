@@ -24,7 +24,7 @@ class UserControllerRatingsModule extends AbstractUserControllerModule
     public static function work(&$controllerContext, &$viewContext)
     {
         $viewContext->viewName = 'user-ratings';
-        $viewContext->meta->title = $viewContext->user->name . ' &#8212; Ratings (' . Media::toString($viewContext->media) . ') &#8212; ' . Config::$title;
+        $viewContext->meta->title = $viewContext->user->name . ' - Ratings (' . Media::toString($viewContext->media) . ') - ' . Config::$title;
         $viewContext->meta->description = $viewContext->user->name . '\'s ' . Media::toString($viewContext->media) . ' ratings.';
         WebMediaHelper::addHighcharts($viewContext);
         WebMediaHelper::addFarbtastic($viewContext);
