@@ -9,6 +9,10 @@ if (isset($viewContext->meta->noIndex)) {
 ?>
 <meta name="robots" content="noindex,nofollow" />
 <?php
+} else {
+?>
+<meta name="robots" content="index,follow" />
+<?php
 }
 ?>
 <title><?php echo isset($viewContext->meta->title) ? $viewContext->meta->title : Config::$title . ' &#8212; An extension of your myanimelist.net profile'; ?></title>
@@ -50,8 +54,6 @@ if (isset($viewContext->meta->scripts)) {
 ?>
 </head>
 <body>
-<div id="fb-root"></div>
-<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/all.js#xfbml=1";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
 <div id="notice-wrapper">
 <div id="no-script" class="notice">JavaScript is disabled. Consider enabling it to get positive user experience.</div>
 <script>$('#no-script').hide();</script>
@@ -91,7 +93,6 @@ if (isset($viewContext->media)) {
 <button type="submit" name="submit" value="search" class="btn" data-tooltip="Search"><i class="icon-search"></i></button>
 </div>
 <div id="top-nav">
-<div class="fb-like" data-href="https://www.facebook.com/animedotplus" data-width="47" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
 <a href="<?php echo IndexControllerGlobalsModule::url(); ?>" class="waitable">Global statistics</a>
 <div class="sep"></div>
 <a href="<?php echo IndexControllerAboutModule::url(); ?>" class="waitable">About</a>

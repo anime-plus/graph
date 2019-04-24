@@ -28,6 +28,8 @@ class IndexControllerSearchModule extends AbstractControllerModule
         if (!preg_match('#^' . UserController::getUserRegex() . '$#', $username)) {
             $viewContext->viewName = 'error-user-invalid';
             
+            $viewContext->meta->noIndex = true;
+            
             return;
         }
         

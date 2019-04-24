@@ -48,7 +48,8 @@ class UserController extends AbstractController
             $controllerContext->cache->bypass(true);
             $viewContext->userName = $controllerContext->userName;
             $viewContext->viewName = 'error-user-blocked';
-            $viewContext->meta->title = 'User blocked &#8212; ' . Config::$title;
+            $viewContext->meta->title = 'User blocked - ' . Config::$title;
+            $viewContext->meta->noIndex = true;
             return;
         }
 
@@ -66,7 +67,7 @@ class UserController extends AbstractController
         Database::selectUser($controllerContext->userName);
         $user = R::findOne('user', 'LOWER(name) = LOWER(?)', [$controllerContext->userName]);
         if (empty($user)) {
-            if (!isset($_GET['referral']) || $_GET['referral'] !== 'search') {
+            if (!isset($_GET['referral'])) {
                 $controllerContext->cache->bypass(true);
                 
                 $viewContext->userName = $controllerContext->userName;
@@ -79,8 +80,10 @@ class UserController extends AbstractController
             }
             
             $queue = new Queue(Config::$userQueuePath);
+            $queueMedia = new Queue(Config::$userMediaQueuePath);
             $queueItem = new QueueItem(strtolower($controllerContext->userName));
             $queue->enqueue($queueItem);
+            $queueMedia->enqueue($queueItem);
             $viewContext->queuePosition = $queue->seek($queueItem);
 
             $controllerContext->cache->bypass(true);
@@ -96,7 +99,7 @@ class UserController extends AbstractController
             }
             $viewContext->userName = $controllerContext->userName;
             $viewContext->viewName = 'error-user-enqueued';
-            $viewContext->meta->title = 'User enqueued &#8212; ' . Config::$title;
+            $viewContext->meta->title = 'User enqueued - ' . Config::$title;
             return;
         }
 

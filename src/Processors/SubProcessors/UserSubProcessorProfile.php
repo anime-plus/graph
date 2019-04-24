@@ -34,6 +34,14 @@ class UserSubProcessorProfile extends UserSubProcessor
         
         $joinDate = Strings::makeDate(self::getNodeValue($xpath, '//span[text() = \'Joined\']/following-sibling::span'));
         
+        $anime = Strings::makeInteger(self::getNodeValue($xpath, '//div[contains(@class, \'anime\')]//span[text() = \'Total Entries\']/following-sibling::span'));
+        
+        $manga = Strings::makeInteger(self::getNodeValue($xpath, '//div[contains(@class, \'manga\')]//span[text() = \'Total Entries\']/following-sibling::span'));
+        
+        $animere = Strings::makeInteger(self::getNodeValue($xpath, '//div[contains(@class, \'anime\')]//span[text() = \'Rewatched\']/following-sibling::span'));
+        
+        $mangare = Strings::makeInteger(self::getNodeValue($xpath, '//div[contains(@class, \'manga\')]//span[text() = \'Reread\']/following-sibling::span'));
+        
         $user = &$context->user;
         
         $user->name = $name;
@@ -41,6 +49,14 @@ class UserSubProcessorProfile extends UserSubProcessor
         $user->picture_url = $image;
         
         $user->join_date = $joinDate;
+        
+        $user->anime_days_spent = $anime;
+        
+        $user->manga_days_spent = $manga;
+        
+        $user->anime_views = $animere;
+        
+        $user->manga_views = $mangare;
         
         $user->processed = date('Y-m-d H:i:s');
         

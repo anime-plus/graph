@@ -14,7 +14,7 @@ class IndexControllerAboutModule extends AbstractControllerModule
 	public static function work(&$controllerContext, &$viewContext)
 	{
 		$viewContext->viewName = 'index-about';
-		$viewContext->meta->title = 'About &#8212; ' . Config::$title;
+		$viewContext->meta->title = 'About - ' . Config::$title;
 		WebMediaHelper::addCustom($viewContext);
 	}
 }

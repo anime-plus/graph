@@ -24,7 +24,7 @@ class UserControllerHistoryModule extends AbstractUserControllerModule
     public static function work(&$controllerContext, &$viewContext)
     {
         $viewContext->viewName = 'user-history';
-        $viewContext->meta->title = $viewContext->user->name . ' &#8212; History (' . Media::toString($viewContext->media) . ') &#8212; ' . Config::$title;
+        $viewContext->meta->title = $viewContext->user->name . ' - History (' . Media::toString($viewContext->media) . ') - ' . Config::$title;
         $viewContext->meta->description = $viewContext->user->name . '\'s ' . Media::toString($viewContext->media) . ' history.';
         WebMediaHelper::addHighcharts($viewContext);
         WebMediaHelper::addInfobox($viewContext);

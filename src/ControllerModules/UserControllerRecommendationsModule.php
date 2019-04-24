@@ -322,7 +322,7 @@ class UserControllerRecommendationsModule extends AbstractUserControllerModule
     public static function work(&$controllerContext, &$viewContext)
     {
         $viewContext->viewName = 'user-recommendations';
-        $viewContext->meta->title = $viewContext->user->name . ' &#8212; Recommendations (' . Media::toString($viewContext->media) . ') &#8212; ' . Config::$title;
+        $viewContext->meta->title = $viewContext->user->name . ' - Recommendations (' . Media::toString($viewContext->media) . ') - ' . Config::$title;
         $viewContext->meta->description = $viewContext->user->name . '\'s ' . Media::toString($viewContext->media) . ' recommendations.';
         WebMediaHelper::addCustom($viewContext);
         

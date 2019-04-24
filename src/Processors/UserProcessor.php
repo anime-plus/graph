@@ -14,13 +14,13 @@ class UserProcessor extends AbstractProcessor
 		$context->user = $user;
 	}
 
-	public function getSubProcessors()
+	public function getSubProcessors($key)
 	{
 		$subProcessors = [];
 		$subProcessors []= new UserSubProcessorProfile();
-		$subProcessors []= new UserSubProcessorFriends();
+		//$subProcessors []= new UserSubProcessorFriends();
 		$subProcessors []= new UserSubProcessorHistory();
-		$subProcessors []= new UserSubProcessorUserMedia();
+		//$subProcessors []= new UserSubProcessorUserMedia();
 		return $subProcessors;
 	}
 

@@ -26,6 +26,7 @@ class AdminController extends AbstractController
 		}
 
 		HttpHeadersHelper::setCurrentHeader('Content-Type', 'text/html');
+        $viewContext->meta->noIndex = true;
 		assert(!empty($controllerContext->module));
 		$module = $controllerContext->module;
 		$module::work($controllerContext, $viewContext);

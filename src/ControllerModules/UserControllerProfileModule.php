@@ -19,7 +19,7 @@ class UserControllerProfileModule extends AbstractUserControllerModule
     public static function work(&$controllerContext, &$viewContext)
     {
         $viewContext->viewName = 'user-profile';
-        $viewContext->meta->title = $viewContext->user->name . '\'s profile &#8212; ' . Config::$title;
+        $viewContext->meta->title = $viewContext->user->name . '\'s profile - ' . Config::$title;
         $viewContext->meta->description = $viewContext->user->name . '\'s profile.';
         WebMediaHelper::addEntries($viewContext);
         WebMediaHelper::addMiniSections($viewContext);

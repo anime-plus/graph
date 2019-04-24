@@ -14,7 +14,7 @@ class IndexControllerGlobalsModule extends AbstractControllerModule
 	public static function work(&$controllerContext, &$viewContext)
 	{
 		$viewContext->viewName = 'index-globals';
-		$viewContext->meta->title = 'Global statistics &#8212; ' . Config::$title;
+		$viewContext->meta->title = 'Global statistics - ' . Config::$title;
 		$viewContext->meta->description = 'Global community statistics on ' . Config::$title . ', an online tool that extends your myanimelist.net profile.';
 		WebMediaHelper::addHighcharts($viewContext);
 		WebMediaHelper::addInfobox($viewContext);
