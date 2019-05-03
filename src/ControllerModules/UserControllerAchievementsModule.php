@@ -226,7 +226,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                     return [$score, $entries];
                 }
 
-                return [0, null];
+                return [null, null];
             },
             'time' => function ($groupData) use ($viewContext, $listNonPlanned) {
                 $distribution = RatingTimeDistribution::fromEntries($listNonPlanned);
