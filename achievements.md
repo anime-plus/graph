@@ -1011,7 +1011,7 @@ Awarded for having 100+ rewatches.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-re.png" alt="">
+<img src="https://graph.anime.plus/image/achievement/anime-re.gif" alt="">
 </td>
 <td>
 <strong>Endless Eight</strong>
@@ -1797,7 +1797,7 @@ Awarded for having 100+ rereads.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-re.png" alt="">
+<img src="https://graph.anime.plus/image/achievement/manga-re.gif" alt="">
 </td>
 <td>
 <strong>Take me back</strong>
