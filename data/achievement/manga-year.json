@@ -1,0 +1,18 @@
+{
+    "media": "M",
+    "order": 304,
+    "achievements":
+    [
+        {
+            "threshold": "50+",
+            "id": "manga-year",
+            "level": "Elder",
+            "title": "Ancient Scholar",
+            "desc": "You witnessed the beginning of the medium. You hope you will not witness its end."
+        }
+    ],
+    "requirement":
+    {
+        "type": "year"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "media": "A",
+    "order": 311,
+    "achievements":
+    [
+        {
+            "threshold": "365+",
+            "id": "anime-time-4",
+            "level": "Youth: WASTED",
+            "title": "Wicked cultured",
+            "desc": "By making a deal with the devil, you have ensured access to even the most obscure of materials.",
+            "tooltip": "{subject} days"
+        }
+    ],
+    "requirement":
+    {
+        "type": "time"
+    }
+}

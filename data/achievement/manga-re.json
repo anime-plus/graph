@@ -1,0 +1,18 @@
+{
+    "media": "M",
+    "order": 308,
+    "achievements":
+    [
+        {
+            "threshold": "100+",
+            "id": "manga-re",
+            "level": "In time",
+            "title": "Take me back",
+            "desc": "Ah, it's every bit as good as the first time."
+        }
+    ],
+    "requirement":
+    {
+        "type": "re"
+    }
+}
