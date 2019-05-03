@@ -1,0 +1,19 @@
+{
+    "media": "M",
+    "order": 309,
+    "achievements":
+    [
+        {
+            "threshold": "365+",
+            "id": "manga-time-4",
+            "level": "Blindness: level BAT",
+            "title": "Apocryphal Sanctuary",
+            "desc": "You've journeyed through hell and heaven, and learned much in your wanderings.",
+            "tooltip": "{subject} days"
+        }
+    ],
+    "requirement":
+    {
+        "type": "time"
+    }
+}

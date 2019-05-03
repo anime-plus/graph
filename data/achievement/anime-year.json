@@ -1,0 +1,18 @@
+{
+    "media": "A",
+    "order": 306,
+    "achievements":
+    [
+        {
+            "threshold": "50+",
+            "id": "anime-year",
+            "level": "Tempus fugit",
+            "title": "Chronomaster",
+            "desc": "Your discerning eye has traveled across the aeons of animation."
+        }
+    ],
+    "requirement":
+    {
+        "type": "year"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "media": "M",
+    "order": 309,
+    "achievements":
+    [
+        {
+            "threshold": "210-364",
+            "id": "manga-time-3",
+            "level": "Time: level 3",
+            "title": "Voluntary confinement",
+            "desc": "Every title you read brings you closer to your self.",
+            "tooltip": "{subject} days"
+        }
+    ],
+    "requirement":
+    {
+        "type": "time"
+    }
+}

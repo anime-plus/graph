@@ -1,0 +1,19 @@
+{
+    "media": "A",
+    "order": 307,
+    "achievements":
+    [
+        {
+            "threshold": "0-24.99",
+            "id": "anime-pervert-0",
+            "level": "Saint",
+            "title": "Innocent One",
+            "desc": "Puritan, oblivious, or serial killer in the making? Either way, you made it through No Man's Land without glimpsing a single bra. Good job!",
+            "tooltip": "{subject}% pervert"
+        }
+    ],
+    "requirement":
+    {
+        "type": "pervert"
+    }
+}

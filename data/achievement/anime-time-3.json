@@ -1,0 +1,19 @@
+{
+    "media": "A",
+    "order": 311,
+    "achievements":
+    [
+        {
+            "threshold": "210-364",
+            "id": "anime-time-3",
+            "level": "Time: level 3",
+            "title": "Consciousness upload",
+            "desc": "Consuming the medium becomes a lot easier once you yourself are raw data.",
+            "tooltip": "{subject} days"
+        }
+    ],
+    "requirement":
+    {
+        "type": "time"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "media": "A",
+    "order": 310,
+    "achievements":
+    [
+        {
+            "threshold": "100+",
+            "id": "anime-re",
+            "level": "Looping...",
+            "title": "Endless Eight",
+            "desc": "Is the replay button stuck?"
+        }
+    ],
+    "requirement":
+    {
+        "type": "re"
+    }
+}

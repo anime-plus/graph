@@ -1,0 +1,19 @@
+{
+    "media": "A",
+    "order": 311,
+    "achievements":
+    [
+        {
+            "threshold": "14-89",
+            "id": "anime-time-1",
+            "level": "Time: level 1",
+            "title": "Hair antenna",
+            "desc": "Whose watchtime are you calling puny‽",
+            "tooltip": "{subject} days"
+        }
+    ],
+    "requirement":
+    {
+        "type": "time"
+    }
+}

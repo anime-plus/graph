@@ -1,0 +1,19 @@
+{
+    "media": "M",
+    "order": 305,
+    "achievements":
+    [
+        {
+            "threshold": "0-24.99",
+            "id": "manga-pervert-0",
+            "level": "Virgin",
+            "title": "Chastity belt",
+            "desc": "Mama said that if you touch your no-no square, the Yogi Bear will come and get you. Congratulations on resisting the siren call of h-doujin!",
+            "tooltip": "{subject}% pervert"
+        }
+    ],
+    "requirement":
+    {
+        "type": "pervert"
+    }
+}
