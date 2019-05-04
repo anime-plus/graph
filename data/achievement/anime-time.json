@@ -8,32 +8,28 @@
             "id": "anime-time-1",
             "level": "Time: level 1",
             "title": "Hair antenna",
-            "desc": "Whose watchtime are you calling puny‽",
-            "tooltip": "{subject} days"
+            "desc": "Whose watchtime are you calling puny‽"
         },
         {
             "threshold": "90-209",
             "id": "anime-time-2",
             "level": "Time: level 2",
             "title": "Endurance training",
-            "desc": "By doing a daily ten-episode run, you are sure to become a master in no time!",
-            "tooltip": "{subject} days"
+            "desc": "By doing a daily ten-episode run, you are sure to become a master in no time!"
         },
         {
             "threshold": "210-364",
             "id": "anime-time-3",
             "level": "Time: level 3",
             "title": "Consciousness upload",
-            "desc": "Consuming the medium becomes a lot easier once you yourself are raw data.",
-            "tooltip": "{subject} days"
+            "desc": "Consuming the medium becomes a lot easier once you yourself are raw data."
         },
         {
             "threshold": "365+",
             "id": "anime-time-4",
             "level": "Youth: WASTED",
             "title": "Wicked cultured",
-            "desc": "By making a deal with the devil, you have ensured access to even the most obscure of materials.",
-            "tooltip": "{subject} days"
+            "desc": "By making a deal with the devil, you have ensured access to even the most obscure of materials."
         }
     ],
     "requirement":
