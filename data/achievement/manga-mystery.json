@@ -21,14 +21,14 @@
             "threshold": "100-199",
             "id": "manga-mystery-3",
             "level": "Mystery: level 3",
-            "title": "Collecting the pieces",
+            "title": "Collecting the Pieces",
             "desc": "Sometimes the smallest bit of information can turn the whole case around."
         },
         {
             "threshold": "200+",
             "id": "manga-mystery-4",
             "level": "Mystery: level MAX",
-            "title": "Raw intuition",
+            "title": "Raw Intuition",
             "desc": "Investigative skills honed up. You know the answers just by looking at mere shards of data."
         }
     ],

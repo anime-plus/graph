@@ -7,21 +7,21 @@
             "threshold": "20-40",
             "id": "anime-dementia-psychological-1",
             "level": "Dementia/Psychological: level 1",
-            "title": "What exactly did I just watch?",
+            "title": "What Exactly Did I Just Watch?",
             "desc": "You discovered a whole new world of weird. Keep on watching."
         },
         {
             "threshold": "41-80",
             "id": "anime-dementia-psychological-2",
             "level": "Dementia/Psychological: level 2",
-            "title": "My mind is full of fu**",
+            "title": "My Mind Is Full of Fu**",
             "desc": "Your attempt to wrap your mind around this failed completely."
         },
         {
             "threshold": "81-161",
             "id": "anime-dementia-psychological-3",
             "level": "Dementia/Psychological: level 3",
-            "title": "Is this the real life?",
+            "title": "Is This the Real Life?",
             "desc": "It has become hard to distinguish between reality and fiction."
         },
         {

@@ -14,21 +14,21 @@
             "threshold": "100-199",
             "id": "anime-romance-2",
             "level": "Romance: level 2",
-            "title": "Unrequited love",
+            "title": "Unrequited Love",
             "desc": "If you won't confess, they'll never know how you feel. But don't bother if you're the best girl - these never win."
         },
         {
             "threshold": "200-399",
             "id": "anime-romance-3",
             "level": "Romance: level 3",
-            "title": "Sparkles and bubbles",
+            "title": "Sparkles and Bubbles",
             "desc": "Every time you two get close you feel butterflies in your stomach. Now kiss."
         },
         {
             "threshold": "400+",
             "id": "anime-romance-4",
             "level": "Romance: FULL LOVE",
-            "title": "Heart full of love",
+            "title": "Heart Full of Love",
             "desc": "So many romance anime! You surely are an expert in relationships already."
         }
     ],

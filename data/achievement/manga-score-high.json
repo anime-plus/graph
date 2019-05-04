@@ -6,8 +6,8 @@
         {
             "threshold": "8.5-10",
             "id": "manga-score-high",
-            "level": "Dat plot",
-            "title": "So good I can't handle it",
+            "level": "Dat Plot",
+            "title": "So Good I Can't Handle It",
             "desc": "Mean manga score above 8.5. Looks like you only pick the best titles to read.",
             "tooltip": "Mean score: {subject}"
         }

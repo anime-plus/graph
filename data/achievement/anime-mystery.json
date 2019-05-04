@@ -7,21 +7,21 @@
             "threshold": "19-38",
             "id": "anime-mystery-1",
             "level": "Mystery: level 1",
-            "title": "Growing suspicions",
+            "title": "Growing Suspicions",
             "desc": "It's suspicious because nothing looks suspicious, and if it looks suspicious from the start it's obviously suspicious."
         },
         {
             "threshold": "39-77",
             "id": "anime-mystery-2",
             "level": "Mystery: level 2",
-            "title": "Detective's assistant",
+            "title": "Detective's Assistant",
             "desc": "Now it's your business to know what other people don't know too."
         },
         {
             "threshold": "78-154",
             "id": "anime-mystery-3",
             "level": "Mystery: level 3",
-            "title": "Genius detective",
+            "title": "Genius Detective",
             "desc": "You're already a genius at unraveling mysteries... but how is it possible that everywhere you go someone ends up dead?"
         },
         {

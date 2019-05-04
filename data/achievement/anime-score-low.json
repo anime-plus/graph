@@ -6,8 +6,8 @@
         {
             "threshold": "3-5",
             "id": "anime-score-low",
-            "level": "My eyes! It hurts!",
-            "title": "Watching anime is suffering",
+            "level": "My Eyes! It Hurts!",
+            "title": "Watching Anime Is Suffering",
             "desc": "Mean anime score lower than 5. Someone has to counterweigh the fanboys, right?",
             "tooltip": "Mean score: {subject}"
         }

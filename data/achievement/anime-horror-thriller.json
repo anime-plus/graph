@@ -7,28 +7,28 @@
             "threshold": "16-32",
             "id": "anime-horror-thriller-1",
             "level": "Horror/Thriller: level 1",
-            "title": "Paranoia fuel",
+            "title": "Paranoia Fuel",
             "desc": "It's not like you needed to sleep tonight, anyway."
         },
         {
             "threshold": "33-65",
             "id": "anime-horror-thriller-2",
             "level": "Horror/Thriller: level 2",
-            "title": "Too many teeth",
+            "title": "Too Many Teeth",
             "desc": "You know something is following you. You just don't know what."
         },
         {
             "threshold": "66-130",
             "id": "anime-horror-thriller-3",
             "level": "Horror/Thriller: level 3",
-            "title": "Extreme phobia",
+            "title": "Extreme Phobia",
             "desc": "You are terrified; you are transfixed."
         },
         {
             "threshold": "131+",
             "id": "anime-horror-thriller-4",
             "level": "Trauma: level MAX",
-            "title": "Flowers of flesh and blood",
+            "title": "Flowers of Flesh and Blood",
             "desc": "It's far too late, now."
         }
     ],

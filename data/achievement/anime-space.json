@@ -14,14 +14,14 @@
             "threshold": "28-55",
             "id": "anime-space-2",
             "level": "Space: level 2",
-            "title": "The Earth looks so small from up here",
+            "title": "The Earth Looks So Small from Up Here",
             "desc": "You're finally outside the atmosphere, but there's still a lot to explore."
         },
         {
             "threshold": "56-111",
             "id": "anime-space-3",
             "level": "Space: level 3",
-            "title": "Interstellar traveler",
+            "title": "Interstellar Traveler",
             "desc": "You've traveled vast interstellar distances and seen many galaxies in your way."
         },
         {
