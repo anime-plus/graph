@@ -7,7 +7,7 @@
             "threshold": "2-4",
             "id": "manga-mahou-shoujo-1",
             "level": "Mahou Shoujo: level 1",
-            "title": "Let me lift that curse",
+            "title": "Let Me Lift That Curse",
             "desc": "If you wish hard enough, you can become a magical girl in the blink of an eye."
         },
         {
@@ -21,14 +21,14 @@
             "threshold": "10-19",
             "id": "manga-mahou-shoujo-3",
             "level": "Mahou Shoujo: level 3",
-            "title": "Aim for the top",
+            "title": "Aim for the Top",
             "desc": "Even if you work alone, never forget your friends who helped you overcome all fears."
         },
         {
             "threshold": "20+",
             "id": "manga-mahou-shoujo-4",
             "level": "Mahou Shoujo: MAX POWER",
-            "title": "Complete control",
+            "title": "Complete Control",
             "desc": "Read over 20 mahou shoujo manga. At this level magic circles form around you at will."
         }
     ],

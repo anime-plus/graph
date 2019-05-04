@@ -14,21 +14,21 @@
             "threshold": "40-78",
             "id": "manga-horror-2",
             "level": "Horror: level 2",
-            "title": "Lovely smile of a psychopath",
+            "title": "Lovely Smile of a Psychopath",
             "desc": "You can't spell slaughter without laughter."
         },
         {
             "threshold": "79-157",
             "id": "manga-horror-3",
             "level": "Horror: level 3",
-            "title": "What have I become?",
+            "title": "What Have I Become?",
             "desc": "Sweetheart, something's wrong with your make up..."
         },
         {
             "threshold": "158+",
             "id": "manga-horror-4",
             "level": "Horror: level MAX",
-            "title": "Heart attack",
+            "title": "Heart Attack",
             "desc": "Not all surprises are pleasant, but it looks like you love being scared."
         }
     ],

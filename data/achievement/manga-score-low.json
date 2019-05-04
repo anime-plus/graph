@@ -6,7 +6,7 @@
         {
             "threshold": "3-5",
             "id": "manga-score-low",
-            "level": "Not worth my time",
+            "level": "Not Worth My Time",
             "title": "Professional Critic",
             "desc": "Mean manga score below 5. Watch out, we got a critic over here.",
             "tooltip": "Mean score: {subject}"

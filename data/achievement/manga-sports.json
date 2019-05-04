@@ -7,21 +7,21 @@
             "threshold": "14-28",
             "id": "manga-sports-1",
             "level": "Sports: level 1",
-            "title": "The stakes are high",
+            "title": "The Stakes Are High",
             "desc": "Joined the game for real. The more you read, the more addictive it gets."
         },
         {
             "threshold": "29-56",
             "id": "manga-sports-2",
             "level": "Sports: level 2",
-            "title": "Do you even read?",
+            "title": "Do You Even Read?",
             "desc": "Even during the most exhausting excercise you still find time to read. Can't miss a chapter."
         },
         {
             "threshold": "57-112",
             "id": "manga-sports-3",
             "level": "Sports: level 3",
-            "title": "Got balls",
+            "title": "Got Balls",
             "desc": "Looking at all this struggling inspires you to become strong yourself."
         },
         {

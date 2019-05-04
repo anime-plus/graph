@@ -7,7 +7,7 @@
             "threshold": "8.5-10",
             "id": "anime-score-high",
             "level": "10/10! EVERYTHING!",
-            "title": "I love Chinese cartoons",
+            "title": "I Love Chinese Cartoons",
             "desc": "Mean anime score higher than 8.5. How about using the whole scale and re-rating stuff? That could make you look less like a fanboy...",
             "tooltip": "Mean score: {subject}"
         }

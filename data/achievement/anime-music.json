@@ -7,21 +7,21 @@
             "threshold": "48-96",
             "id": "anime-music-1",
             "level": "Music: level 1",
-            "title": "Gettin' your keys on!",
+            "title": "Gettin' Your Keys On!",
             "desc": "You don't know what you've just listened to, but you like it."
         },
         {
             "threshold": "97-192",
             "id": "anime-music-2",
             "level": "Music: level 2",
-            "title": "This is even better live",
+            "title": "This Is Even Better Live",
             "desc": "Proudly display the badges you have earned in the fancafe."
         },
         {
             "threshold": "193-385",
             "id": "anime-music-3",
             "level": "Music: level 3",
-            "title": "Dreaming of the city",
+            "title": "Dreaming of the City",
             "desc": "Your musical knowledge has expanded so much you are tempted to make a career out of it."
         },
         {

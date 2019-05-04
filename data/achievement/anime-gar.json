@@ -7,21 +7,21 @@
             "threshold": "17-34",
             "id": "anime-gar-1",
             "level": "GAR: level 1",
-            "title": "So manly I can't breathe",
+            "title": "So Manly I Can't Breathe",
             "desc": "Watching all those men made you feel like a little girl... and you liked it."
         },
         {
             "threshold": "35-69",
             "id": "anime-gar-2",
             "level": "GAR: level 2",
-            "title": "Testosterone storm",
+            "title": "Testosterone Storm",
             "desc": "Your body has adapted into GAR anime. You can hear your muscles growing."
         },
         {
             "threshold": "70-138",
             "id": "anime-gar-3",
             "level": "GAR: level 3",
-            "title": "You are already man",
+            "title": "You Are Already Man",
             "desc": "Resistance is futile. People are simply no match for you."
         },
         {

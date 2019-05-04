@@ -7,28 +7,28 @@
             "threshold": "10-19",
             "id": "manga-novel-1",
             "level": "Novel: level 1",
-            "title": "Cracking the book",
+            "title": "Cracking the Book",
             "desc": "You didn't get bored reading plain text."
         },
         {
             "threshold": "20-39",
             "id": "manga-novel-2",
             "level": "Novel: level 2",
-            "title": "IKEA trip",
+            "title": "IKEA Trip",
             "desc": "Instead of playing Candy Crush, you now read during transit."
         },
         {
             "threshold": "40-79",
             "id": "manga-novel-3",
             "level": "Novel: level 3",
-            "title": "Personal library",
+            "title": "Personal Library",
             "desc": "The tales you've read have taken you on a journey you never want to end."
         },
         {
             "threshold": "80+",
             "id": "manga-novel-4",
             "level": "Bookworm: level MAX",
-            "title": "What is sleep?",
+            "title": "What Is Sleep?",
             "desc": "The more you've learned, the more you wanted to keep on learning."
         }
     ],

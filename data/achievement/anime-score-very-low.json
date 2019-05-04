@@ -6,8 +6,8 @@
         {
             "threshold": "0-2.99",
             "id": "anime-score-very-low",
-            "level": "0/10. Play next one",
-            "title": "Less than three",
+            "level": "0/10. Play Next One",
+            "title": "Less Than Three",
             "desc": "Mean anime score lower than 3. Is it hate, or is it love?",
             "tooltip": "Mean score: {subject}"
         }
