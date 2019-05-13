@@ -16,7 +16,7 @@
 		<?php foreach ($viewContext->franchises as $franchise): ?>
 			<li>
 				<?php foreach ($franchise->ownEntries as $entry): ?>
-					<a target="_blank" href="<?php echo $entry->mal_link ?>">
+					<a target="_blank" href="<?php echo $entry->mal_link ?>" rel="noreferrer">
 						<?php echo htmlspecialchars($entry->title) ?>
 					</a>
 					<span class="details">&nbsp;

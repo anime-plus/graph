@@ -113,11 +113,11 @@ class Config extends Singleton
         self::$imageDirectory = $htmlRootDir . DIRECTORY_SEPARATOR . 'image';
         self::$mediaUrl = '/media/';
         self::$imageUrl = '/image/';
-        self::$baseUrl = 'https://graph.anime.plus/';
+        self::$baseUrl = 'https://anime.plus/';
         self::$googleAnalyticsEnabled = true;
         self::$adminPassword = '';
         self::$maintenanceMessage = null;
-        self::$noticeMessage = '<a href="https://myanimelist.net/clubs.php?cid=67199" target="_blank">JOIN OUR CLUB SENPAI</a>';
+        self::$noticeMessage = '<a href="https://myanimelist.net/clubs.php?cid=67199" target="_blank" rel="noreferrer">JOIN OUR CLUB SENPAI</a>';
         self::$sendReferrer = true;
         self::$enforcedDomain = null;
     }

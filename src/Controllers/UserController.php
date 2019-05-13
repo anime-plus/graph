@@ -57,7 +57,6 @@ class UserController extends AbstractController
         HttpHeadersHelper::setCurrentHeader('Content-Type', $module::getContentType());
         $viewContext->media = $controllerContext->media;
         $viewContext->module = $controllerContext->module;
-        $viewContext->meta->noIndex = true;
         $viewContext->contentType = $module::getContentType();
         if ($viewContext->contentType != 'text/html')
         {
@@ -69,16 +68,18 @@ class UserController extends AbstractController
         if (empty($user)) {
             if (!isset($_GET['referral'])) {
                 $controllerContext->cache->bypass(true);
-                
+
                 $viewContext->userName = $controllerContext->userName;
-                
+
                 $viewContext->viewName = 'error-user-not-found';
-                
+
                 $viewContext->meta->title = 'User not found &#8212; ' . Config::$title;
-                
+
+                $viewContext->meta->noIndex = true;
+
                 return;
             }
-            
+
             $queue = new Queue(Config::$userQueuePath);
             $queueMedia = new Queue(Config::$userMediaQueuePath);
             $queueItem = new QueueItem(strtolower($controllerContext->userName));

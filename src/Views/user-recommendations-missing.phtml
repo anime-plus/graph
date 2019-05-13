@@ -23,7 +23,7 @@
 								<ul>
 									<?php foreach ($franchise->ownEntries as $entry): ?>
 										<li>
-											<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>">
+											<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>" rel="noreferrer">
                                                 <?php if ($entry->status == UserListStatus::Dropped): ?>
                                                     <i data-tooltip="Dropped" class="left icon-status-dropped"></i>
 												<?php elseif ($entry->status == UserListStatus::Planned): ?>
@@ -46,7 +46,7 @@
 											<a href="#" class="delete-trigger">
 												<i data-tooltip="Hide this recommendation" class="right icon-small-close"></i>
 											</a>
-											<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>">
+											<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>" rel="noreferrer">
 												<?php if ($entry->publishing_status == MediaStatus::NotYetPublished): ?>
 													<i data-tooltip="Not yet <?php echo $viewContext->media == Media::Anime ? 'aired' : 'published' ?>" class="left icon-not-yet-aired"></i>
 												<?php else: ?>
