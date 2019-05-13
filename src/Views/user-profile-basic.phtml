@@ -13,7 +13,7 @@
 			<!--<?php echo date('M d, H:i', strtotime($viewContext->user->processed)) ?> UTC-->
 		</span>
 
-		<a target="_blank" href="https://myanimelist.net/profile/<?php echo $viewContext->user->name ?>">
+		<a target="_blank" href="https://myanimelist.net/profile/<?php echo $viewContext->user->name ?>" rel="noreferrer">
 			<?php echo $viewContext->user->name ?>
 		</a>&rsquo;s profile
 
@@ -24,7 +24,7 @@
 
 	<div class="section-body">
 		<div class="right user-pic">
-			<a target="_blank" href="https://myanimelist.net/profile/<?php echo $viewContext->user->name ?>">
+			<a target="_blank" href="https://myanimelist.net/profile/<?php echo $viewContext->user->name ?>" rel="noreferrer">
 			<?php if (empty($viewContext->user->picture_url)): ?>
 				<img class="profile unavailable" alt="No profile picture" src="/media/img/pixel.gif">
 			<?php else: ?>
@@ -49,15 +49,15 @@
 				</div>
 
 				<div class="mal-links">
-					<a target="_blank" href="https://myanimelist.net/profile/<?php echo $viewContext->user->name ?>">
+					<a target="_blank" href="https://myanimelist.net/profile/<?php echo $viewContext->user->name ?>" rel="noreferrer">
 						Visit MAL profile
 					</a>
 					<br>
-					<a target="_blank" href="https://myanimelist.net/animelist/<?php echo $viewContext->user->name ?><?php if (Config::$sendReferrer) echo '&amp;sclick=1'; ?>">
+					<a target="_blank" href="https://myanimelist.net/animelist/<?php echo $viewContext->user->name ?><?php if (Config::$sendReferrer) echo '&amp;sclick=1'; ?>" rel="noreferrer">
 						Anime list on MAL
 					</a>
 					<br>
-					<a target="_blank" href="https://myanimelist.net/mangalist/<?php echo $viewContext->user->name ?><?php if (Config::$sendReferrer) echo '&amp;sclick=1'; ?>">
+					<a target="_blank" href="https://myanimelist.net/mangalist/<?php echo $viewContext->user->name ?><?php if (Config::$sendReferrer) echo '&amp;sclick=1'; ?>" rel="noreferrer">
 						Manga list on MAL
 					</a>
 				</div>

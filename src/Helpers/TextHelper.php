@@ -3,16 +3,16 @@ class TextHelper
 {
 	const TIME_MINUTES = 1;
 	const TIME_HOURS = 2;
-    
+
 	public static function loadJson($path, $fetchAsArray = false)
 	{
 		$content = file_get_contents($path);
-        
+
 		$content = preg_replace(['#//(.*)$#m', '#\#(.*)$#m'], '', $content);
-        
+
 		return json_decode($content, $fetchAsArray);
 	}
-    
+
 	public static function loadSimpleList($path)
 	{
 		$contents = file_get_contents($path);
@@ -200,11 +200,9 @@ class TextHelper
 		else
 			throw new InvalidArgumentException();
 	}
-    
+
     public static function mailJavaScript($mail)
     {
-        $mail = explode('@', $mail);
-        
-        return '<script>document.write(\'' . implode('\'+\'', str_split($mail[0])) . '\'+\'&#64;\'+\'' . $mail[1] . '\');</script>';
+        return $mail;
     }
 }

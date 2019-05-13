@@ -13,7 +13,7 @@ Awarded for watching Dementia/Psychological anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-dementia-psychological-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-dementia-psychological-1.png" alt="">
 </td>
 <td>
 <strong>What exactly did I just watch?</strong>
@@ -23,7 +23,7 @@ Awarded for watching Dementia/Psychological anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-dementia-psychological-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-dementia-psychological-2.png" alt="">
 </td>
 <td>
 <strong>My mind is full of fu**</strong>
@@ -33,7 +33,7 @@ Awarded for watching Dementia/Psychological anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-dementia-psychological-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-dementia-psychological-3.png" alt="">
 </td>
 <td>
 <strong>Is this the real life?</strong>
@@ -43,7 +43,7 @@ Awarded for watching Dementia/Psychological anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-dementia-psychological-4.gif" alt="">
+<img src="https://anime.plus/image/achievement/anime-dementia-psychological-4.gif" alt="">
 </td>
 <td>
 <strong>「 Ｗｉｒｅｄ Ｓｏｕｎｄ 」</strong>
@@ -61,7 +61,7 @@ Awarded for watching anime with manly men.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-gar-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-gar-1.png" alt="">
 </td>
 <td>
 <strong>So manly I can't breathe</strong>
@@ -71,7 +71,7 @@ Awarded for watching anime with manly men.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-gar-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-gar-2.png" alt="">
 </td>
 <td>
 <strong>Testosterone storm</strong>
@@ -81,7 +81,7 @@ Awarded for watching anime with manly men.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-gar-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-gar-3.png" alt="">
 </td>
 <td>
 <strong>You are already man</strong>
@@ -91,7 +91,7 @@ Awarded for watching anime with manly men.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-gar-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-gar-4.png" alt="">
 </td>
 <td>
 <strong>Alpha Male</strong>
@@ -109,7 +109,7 @@ Awarded for watching Historical anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-historical-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-historical-1.png" alt="">
 </td>
 <td>
 <strong>History class</strong>
@@ -119,7 +119,7 @@ Awarded for watching Historical anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-historical-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-historical-2.png" alt="">
 </td>
 <td>
 <strong>A look at passing time</strong>
@@ -129,7 +129,7 @@ Awarded for watching Historical anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-historical-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-historical-3.png" alt="">
 </td>
 <td>
 <strong>Archaeologist</strong>
@@ -139,7 +139,7 @@ Awarded for watching Historical anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-historical-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-historical-4.png" alt="">
 </td>
 <td>
 <strong>Time machine</strong>
@@ -157,7 +157,7 @@ Awarded for watching Horror/Thriller anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-horror-thriller-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-horror-thriller-1.png" alt="">
 </td>
 <td>
 <strong>Paranoia fuel</strong>
@@ -167,7 +167,7 @@ Awarded for watching Horror/Thriller anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-horror-thriller-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-horror-thriller-2.png" alt="">
 </td>
 <td>
 <strong>Too many teeth</strong>
@@ -177,7 +177,7 @@ Awarded for watching Horror/Thriller anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-horror-thriller-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-horror-thriller-3.png" alt="">
 </td>
 <td>
 <strong>Extreme phobia</strong>
@@ -187,7 +187,7 @@ Awarded for watching Horror/Thriller anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-horror-thriller-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-horror-thriller-4.png" alt="">
 </td>
 <td>
 <strong>Flowers of flesh and blood</strong>
@@ -205,7 +205,7 @@ Awarded for watching anime with magical girls.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mahou-shoujo-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mahou-shoujo-1.png" alt="">
 </td>
 <td>
 <strong>Signed the contract</strong>
@@ -215,7 +215,7 @@ Awarded for watching anime with magical girls.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mahou-shoujo-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mahou-shoujo-2.png" alt="">
 </td>
 <td>
 <strong>Magic is my middle name</strong>
@@ -225,7 +225,7 @@ Awarded for watching anime with magical girls.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mahou-shoujo-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mahou-shoujo-3.png" alt="">
 </td>
 <td>
 <strong>Too magical to comprehend</strong>
@@ -235,7 +235,7 @@ Awarded for watching anime with magical girls.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mahou-shoujo-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mahou-shoujo-4.png" alt="">
 </td>
 <td>
 <strong>Are you a wizard?</strong>
@@ -253,7 +253,7 @@ Awarded for watching Mecha anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mecha-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mecha-1.png" alt="">
 </td>
 <td>
 <strong>Me? PILOT this thing?!</strong>
@@ -263,7 +263,7 @@ Awarded for watching Mecha anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mecha-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mecha-2.png" alt="">
 </td>
 <td>
 <strong>Engineer</strong>
@@ -273,7 +273,7 @@ Awarded for watching Mecha anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mecha-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mecha-3.png" alt="">
 </td>
 <td>
 <strong>Mechazawa</strong>
@@ -283,7 +283,7 @@ Awarded for watching Mecha anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mecha-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mecha-4.png" alt="">
 </td>
 <td>
 <strong>Pierce the HEAVENS!</strong>
@@ -301,7 +301,7 @@ Awarded for watching Music anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-music-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-music-1.png" alt="">
 </td>
 <td>
 <strong>Gettin' your keys on!</strong>
@@ -311,7 +311,7 @@ Awarded for watching Music anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-music-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-music-2.png" alt="">
 </td>
 <td>
 <strong>This is even better live</strong>
@@ -321,7 +321,7 @@ Awarded for watching Music anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-music-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-music-3.png" alt="">
 </td>
 <td>
 <strong>Dreaming of the city</strong>
@@ -331,7 +331,7 @@ Awarded for watching Music anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-music-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-music-4.png" alt="">
 </td>
 <td>
 <strong>Hall of Fame</strong>
@@ -349,7 +349,7 @@ Awarded for watching Mystery anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mystery-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mystery-1.png" alt="">
 </td>
 <td>
 <strong>Growing suspicions</strong>
@@ -359,7 +359,7 @@ Awarded for watching Mystery anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mystery-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mystery-2.png" alt="">
 </td>
 <td>
 <strong>Detective's assistant</strong>
@@ -369,7 +369,7 @@ Awarded for watching Mystery anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mystery-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mystery-3.png" alt="">
 </td>
 <td>
 <strong>Genius detective</strong>
@@ -379,7 +379,7 @@ Awarded for watching Mystery anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-mystery-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-mystery-4.png" alt="">
 </td>
 <td>
 <strong>Golden Truth</strong>
@@ -397,7 +397,7 @@ Awarded for watching Romance anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-romance-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-romance-1.png" alt="">
 </td>
 <td>
 <strong>Stalker</strong>
@@ -407,7 +407,7 @@ Awarded for watching Romance anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-romance-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-romance-2.png" alt="">
 </td>
 <td>
 <strong>Unrequited love</strong>
@@ -417,7 +417,7 @@ Awarded for watching Romance anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-romance-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-romance-3.png" alt="">
 </td>
 <td>
 <strong>Sparkles and bubbles</strong>
@@ -427,7 +427,7 @@ Awarded for watching Romance anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-romance-4.gif" alt="">
+<img src="https://anime.plus/image/achievement/anime-romance-4.gif" alt="">
 </td>
 <td>
 <strong>Heart full of love</strong>
@@ -445,7 +445,7 @@ Awarded for watching Slice of Life anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-slice-of-life-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-slice-of-life-1.png" alt="">
 </td>
 <td>
 <strong>Normal high school boy</strong>
@@ -455,7 +455,7 @@ Awarded for watching Slice of Life anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-slice-of-life-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-slice-of-life-2.png" alt="">
 </td>
 <td>
 <strong>cute × ( girls + things )</strong>
@@ -465,7 +465,7 @@ Awarded for watching Slice of Life anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-slice-of-life-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-slice-of-life-3.png" alt="">
 </td>
 <td>
 <strong>Enjoying life</strong>
@@ -475,7 +475,7 @@ Awarded for watching Slice of Life anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-slice-of-life-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-slice-of-life-4.png" alt="">
 </td>
 <td>
 <strong>Prima Undine</strong>
@@ -493,7 +493,7 @@ Awarded for watching Space anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-space-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-space-1.png" alt="">
 </td>
 <td>
 <strong>3... 2... 1... Liftoff!</strong>
@@ -503,7 +503,7 @@ Awarded for watching Space anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-space-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-space-2.png" alt="">
 </td>
 <td>
 <strong>The Earth looks so small from up here</strong>
@@ -513,7 +513,7 @@ Awarded for watching Space anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-space-3.gif" alt="">
+<img src="https://anime.plus/image/achievement/anime-space-3.gif" alt="">
 </td>
 <td>
 <strong>Interstellar traveler</strong>
@@ -523,7 +523,7 @@ Awarded for watching Space anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-space-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-space-4.png" alt="">
 </td>
 <td>
 <strong>Emperor of the Universe</strong>
@@ -541,7 +541,7 @@ Awarded for watching Sports anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-sports-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-sports-1.png" alt="">
 </td>
 <td>
 <strong>Knockout!</strong>
@@ -551,7 +551,7 @@ Awarded for watching Sports anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-sports-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-sports-2.png" alt="">
 </td>
 <td>
 <strong>Get your head in the game</strong>
@@ -561,7 +561,7 @@ Awarded for watching Sports anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-sports-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-sports-3.png" alt="">
 </td>
 <td>
 <strong>Welcome to the Big Leagues</strong>
@@ -571,7 +571,7 @@ Awarded for watching Sports anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-sports-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-sports-4.png" alt="">
 </td>
 <td>
 <strong>Olympian</strong>
@@ -589,7 +589,7 @@ Awarded for watching 15+ anime from Studio Ghibli.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-studio-ghibli.gif" alt="">
+<img src="https://anime.plus/image/achievement/anime-studio-ghibli.gif" alt="">
 </td>
 <td>
 <strong>Memories</strong>
@@ -607,7 +607,7 @@ One level. Is it the highest, or the lowest possible level a person can achieve?
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-boku-no-pico.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-boku-no-pico.png" alt="">
 </td>
 <td>
 <strong>Feels... weird, man</strong>
@@ -625,7 +625,7 @@ This award is a compensation for the intense, paranoid fear of relationships the
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-school-days.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-school-days.png" alt="">
 </td>
 <td>
 <strong>It's just me and you now</strong>
@@ -643,7 +643,7 @@ Awarded for watching anime with Original source.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-original-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-original-1.png" alt="">
 </td>
 <td>
 <strong>Uncharted waters</strong>
@@ -653,7 +653,7 @@ Awarded for watching anime with Original source.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-original-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-original-2.png" alt="">
 </td>
 <td>
 <strong>Into the jungle</strong>
@@ -663,7 +663,7 @@ Awarded for watching anime with Original source.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-original-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-original-3.png" alt="">
 </td>
 <td>
 <strong>Center of the Earth</strong>
@@ -673,7 +673,7 @@ Awarded for watching anime with Original source.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-original-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-original-4.png" alt="">
 </td>
 <td>
 <strong>Transcendence</strong>
@@ -691,7 +691,7 @@ Awarded for watching anime adapted from Games and Visual Novels.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-game-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-game-1.png" alt="">
 </td>
 <td>
 <strong>Eternal Spring"</strong>
@@ -701,7 +701,7 @@ Awarded for watching anime adapted from Games and Visual Novels.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-game-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-game-2.png" alt="">
 </td>
 <td>
 <strong>At the gates of Eden</strong>
@@ -711,7 +711,7 @@ Awarded for watching anime adapted from Games and Visual Novels.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-game-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-game-3.png" alt="">
 </td>
 <td>
 <strong>Banquet of the Golden Witch</strong>
@@ -721,7 +721,7 @@ Awarded for watching anime adapted from Games and Visual Novels.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-game-4.gif" alt="">
+<img src="https://anime.plus/image/achievement/anime-game-4.gif" alt="">
 </td>
 <td>
 <strong>Hacking to the Gate</strong>
@@ -739,7 +739,7 @@ Special achievement given upon completing 250+ episodes of 10+ franchises.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-franchise-long.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-franchise-long.png" alt="">
 </td>
 <td>
 <strong>Long and hard</strong>
@@ -757,7 +757,7 @@ Awarded for watching anime with episode length of under 15 minutes.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-duration-short-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-duration-short-1.png" alt="">
 </td>
 <td>
 <strong>Blink, and you'll miss it</strong>
@@ -767,7 +767,7 @@ Awarded for watching anime with episode length of under 15 minutes.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-duration-short-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-duration-short-2.png" alt="">
 </td>
 <td>
 <strong>Quickie addict</strong>
@@ -777,7 +777,7 @@ Awarded for watching anime with episode length of under 15 minutes.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-duration-short-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-duration-short-3.png" alt="">
 </td>
 <td>
 <strong>Block by block</strong>
@@ -787,7 +787,7 @@ Awarded for watching anime with episode length of under 15 minutes.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-duration-short-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-duration-short-4.png" alt="">
 </td>
 <td>
 <strong>Short but gold</strong>
@@ -805,7 +805,7 @@ Awarded for watching 25+ anime that are 100+ episodes long.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-episode-long.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-episode-long.png" alt="">
 </td>
 <td>
 <strong>I like them long</strong>
@@ -823,7 +823,7 @@ Awarded for watching 25+ old anime (finished in 1980 at most).
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-release-old.gif" alt="">
+<img src="https://anime.plus/image/achievement/anime-release-old.gif" alt="">
 </td>
 <td>
 <strong>VHS master race</strong>
@@ -841,7 +841,7 @@ Awarded for watching anime classics (finished between 1981 and 2000).
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-release-classic-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-release-classic-1.png" alt="">
 </td>
 <td>
 <strong>Cassette tape</strong>
@@ -851,7 +851,7 @@ Awarded for watching anime classics (finished between 1981 and 2000).
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-release-classic-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-release-classic-2.png" alt="">
 </td>
 <td>
 <strong>Solid color</strong>
@@ -861,7 +861,7 @@ Awarded for watching anime classics (finished between 1981 and 2000).
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-release-classic-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-release-classic-3.png" alt="">
 </td>
 <td>
 <strong>It's raining... tragic backstories!</strong>
@@ -871,7 +871,7 @@ Awarded for watching anime classics (finished between 1981 and 2000).
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-release-classic-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-release-classic-4.png" alt="">
 </td>
 <td>
 <strong>Blockbuster</strong>
@@ -889,7 +889,7 @@ Awarded for watching 50+ anime, all of which started in different years.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-year.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-year.png" alt="">
 </td>
 <td>
 <strong>Chronomaster</strong>
@@ -907,7 +907,7 @@ Are you a pervert? There's a formula: 100 ÷ *anime completed* × (*ecchi anime 
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-pervert-0.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-pervert-0.png" alt="">
 </td>
 <td>
 <strong>Innocent One</strong>
@@ -917,7 +917,7 @@ Are you a pervert? There's a formula: 100 ÷ *anime completed* × (*ecchi anime 
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-pervert-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-pervert-1.png" alt="">
 </td>
 <td>
 <strong>I watch anime only for the plot...</strong>
@@ -927,7 +927,7 @@ Are you a pervert? There's a formula: 100 ÷ *anime completed* × (*ecchi anime 
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-pervert-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-pervert-2.png" alt="">
 </td>
 <td>
 <strong>Only accidents! I swear!</strong>
@@ -937,7 +937,7 @@ Are you a pervert? There's a formula: 100 ÷ *anime completed* × (*ecchi anime 
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-pervert-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-pervert-3.png" alt="">
 </td>
 <td>
 <strong>Hentai Overlord</strong>
@@ -955,7 +955,7 @@ Related to mean anime score.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-score-high.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-score-high.png" alt="">
 </td>
 <td>
 <strong>I love Chinese cartoons</strong>
@@ -965,7 +965,7 @@ Related to mean anime score.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-score-low.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-score-low.png" alt="">
 </td>
 <td>
 <strong>Watching anime is suffering</strong>
@@ -975,7 +975,7 @@ Related to mean anime score.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-score-very-low.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-score-very-low.png" alt="">
 </td>
 <td>
 <strong>Less than three</strong>
@@ -993,7 +993,7 @@ Related to mean anime score.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-dropped-0.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-dropped-0.png" alt="">
 </td>
 <td>
 <strong>Completionist</strong>
@@ -1011,7 +1011,7 @@ Awarded for having 100+ rewatches.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-re.gif" alt="">
+<img src="https://anime.plus/image/achievement/anime-re.gif" alt="">
 </td>
 <td>
 <strong>Endless Eight</strong>
@@ -1029,7 +1029,7 @@ Awarded for reaching certain thresholds in your time spent watching anime.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-time-1.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-time-1.png" alt="">
 </td>
 <td>
 <strong>Hair antenna</strong>
@@ -1039,7 +1039,7 @@ Awarded for reaching certain thresholds in your time spent watching anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-time-2.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-time-2.png" alt="">
 </td>
 <td>
 <strong>Endurance training</strong>
@@ -1049,7 +1049,7 @@ Awarded for reaching certain thresholds in your time spent watching anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-time-3.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-time-3.png" alt="">
 </td>
 <td>
 <strong>Consciousness upload</strong>
@@ -1059,7 +1059,7 @@ Awarded for reaching certain thresholds in your time spent watching anime.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-time-4.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-time-4.png" alt="">
 </td>
 <td>
 <strong>Wicked cultured</strong>
@@ -1077,7 +1077,7 @@ No living being should be able to get to 10k.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-100.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-100.png" alt="">
 </td>
 <td>
 <strong>The first step</strong>
@@ -1087,7 +1087,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-200.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-200.png" alt="">
 </td>
 <td>
 <strong>Casual watcher</strong>
@@ -1097,7 +1097,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-300.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-300.png" alt="">
 </td>
 <td>
 <strong>A millionaire</strong>
@@ -1107,7 +1107,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-400.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-400.png" alt="">
 </td>
 <td>
 <strong>Bragging rights</strong>
@@ -1117,7 +1117,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-500.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-500.png" alt="">
 </td>
 <td>
 <strong>A lot of free time</strong>
@@ -1127,7 +1127,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-750.gif" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-750.gif" alt="">
 </td>
 <td>
 <strong>Not even my final form</strong>
@@ -1137,7 +1137,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-1000.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-1000.png" alt="">
 </td>
 <td>
 <strong>Gotta watch them all!</strong>
@@ -1147,7 +1147,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-1500.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-1500.png" alt="">
 </td>
 <td>
 <strong>The Collector</strong>
@@ -1157,7 +1157,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-2500.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-2500.png" alt="">
 </td>
 <td>
 <strong>The Maniac</strong>
@@ -1167,7 +1167,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-5000.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-5000.png" alt="">
 </td>
 <td>
 <strong>The Legend</strong>
@@ -1177,7 +1177,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-7500.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-7500.png" alt="">
 </td>
 <td>
 <strong>Database Breaker</strong>
@@ -1187,7 +1187,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/anime-finished-10000.png" alt="">
+<img src="https://anime.plus/image/achievement/anime-finished-10000.png" alt="">
 </td>
 <td>
 <strong>This is it</strong>
@@ -1207,7 +1207,7 @@ Awarded for reading Horror manga.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-horror-1.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-horror-1.png" alt="">
 </td>
 <td>
 <strong>HONEY, I'M HOME</strong>
@@ -1217,7 +1217,7 @@ Awarded for reading Horror manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-horror-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-horror-2.png" alt="">
 </td>
 <td>
 <strong>Lovely smile of a psychopath</strong>
@@ -1227,7 +1227,7 @@ Awarded for reading Horror manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-horror-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-horror-3.png" alt="">
 </td>
 <td>
 <strong>What have I become?</strong>
@@ -1237,7 +1237,7 @@ Awarded for reading Horror manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-horror-4.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-horror-4.png" alt="">
 </td>
 <td>
 <strong>Heart attack</strong>
@@ -1255,7 +1255,7 @@ Awarded for reading manga with magical girls.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-mahou-shoujo-1.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-mahou-shoujo-1.png" alt="">
 </td>
 <td>
 <strong>Let me lift that curse</strong>
@@ -1265,7 +1265,7 @@ Awarded for reading manga with magical girls.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-mahou-shoujo-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-mahou-shoujo-2.png" alt="">
 </td>
 <td>
 <strong>Conflict Breaker</strong>
@@ -1275,7 +1275,7 @@ Awarded for reading manga with magical girls.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-mahou-shoujo-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-mahou-shoujo-3.png" alt="">
 </td>
 <td>
 <strong>Aim for the top</strong>
@@ -1285,7 +1285,7 @@ Awarded for reading manga with magical girls.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-mahou-shoujo-4.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-mahou-shoujo-4.png" alt="">
 </td>
 <td>
 <strong>Complete control</strong>
@@ -1303,7 +1303,7 @@ Awarded for reading Mystery manga.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-mystery-1.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-mystery-1.png" alt="">
 </td>
 <td>
 <strong>Curiosity</strong>
@@ -1313,7 +1313,7 @@ Awarded for reading Mystery manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-mystery-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-mystery-2.png" alt="">
 </td>
 <td>
 <strong>Determination</strong>
@@ -1323,7 +1323,7 @@ Awarded for reading Mystery manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-mystery-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-mystery-3.png" alt="">
 </td>
 <td>
 <strong>Collecting the pieces</strong>
@@ -1333,7 +1333,7 @@ Awarded for reading Mystery manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-mystery-4.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-mystery-4.png" alt="">
 </td>
 <td>
 <strong>Raw intuition</strong>
@@ -1351,7 +1351,7 @@ Awarded for reading Romance manga.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-romance-1.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-romance-1.png" alt="">
 </td>
 <td>
 <strong>Mixed feelings</strong>
@@ -1361,7 +1361,7 @@ Awarded for reading Romance manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-romance-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-romance-2.png" alt="">
 </td>
 <td>
 <strong>Love me or die</strong>
@@ -1371,7 +1371,7 @@ Awarded for reading Romance manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-romance-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-romance-3.png" alt="">
 </td>
 <td>
 <strong>Breaking the chains</strong>
@@ -1381,7 +1381,7 @@ Awarded for reading Romance manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-romance-4.gif" alt="">
+<img src="https://anime.plus/image/achievement/manga-romance-4.gif" alt="">
 </td>
 <td>
 <strong>Heart that never stops beating</strong>
@@ -1399,7 +1399,7 @@ Awarded for reading Sports manga.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-sports-1.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-sports-1.png" alt="">
 </td>
 <td>
 <strong>The stakes are high</strong>
@@ -1409,7 +1409,7 @@ Awarded for reading Sports manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-sports-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-sports-2.png" alt="">
 </td>
 <td>
 <strong>Do you even read?</strong>
@@ -1419,7 +1419,7 @@ Awarded for reading Sports manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-sports-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-sports-3.png" alt="">
 </td>
 <td>
 <strong>Got balls</strong>
@@ -1429,7 +1429,7 @@ Awarded for reading Sports manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-sports-4.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-sports-4.png" alt="">
 </td>
 <td>
 <strong>Kuro Basket</strong>
@@ -1447,7 +1447,7 @@ Awarded for reading Vampires/Demons manga.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-vampire-demons-1.gif" alt="">
+<img src="https://anime.plus/image/achievement/manga-vampire-demons-1.gif" alt="">
 </td>
 <td>
 <strong>Sweet tooth</strong>
@@ -1457,7 +1457,7 @@ Awarded for reading Vampires/Demons manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-vampire-demons-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-vampire-demons-2.png" alt="">
 </td>
 <td>
 <strong>Vegetarian</strong>
@@ -1467,7 +1467,7 @@ Awarded for reading Vampires/Demons manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-vampire-demons-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-vampire-demons-3.png" alt="">
 </td>
 <td>
 <strong>Carnivore</strong>
@@ -1477,7 +1477,7 @@ Awarded for reading Vampires/Demons manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-vampire-demons-4.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-vampire-demons-4.png" alt="">
 </td>
 <td>
 <strong>Pure Evil</strong>
@@ -1495,7 +1495,7 @@ Awarded for reading Yaoi/Shounen Ai manga.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-yaoi-shounen-ai-1.gif" alt="">
+<img src="https://anime.plus/image/achievement/manga-yaoi-shounen-ai-1.gif" alt="">
 </td>
 <td>
 <strong>Inner fujoshi awakened</strong>
@@ -1505,7 +1505,7 @@ Awarded for reading Yaoi/Shounen Ai manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-yaoi-shounen-ai-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-yaoi-shounen-ai-2.png" alt="">
 </td>
 <td>
 <strong>Not a day without BL</strong>
@@ -1515,7 +1515,7 @@ Awarded for reading Yaoi/Shounen Ai manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-yaoi-shounen-ai-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-yaoi-shounen-ai-3.png" alt="">
 </td>
 <td>
 <strong>Yaoi detector</strong>
@@ -1525,7 +1525,7 @@ Awarded for reading Yaoi/Shounen Ai manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-yaoi-shounen-ai-4.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-yaoi-shounen-ai-4.png" alt="">
 </td>
 <td>
 <strong>Full Fledged Fujoshi</strong>
@@ -1543,7 +1543,7 @@ Awarded for reading Yuri/Shoujo Ai manga.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-yuri-shoujo-ai-1.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-yuri-shoujo-ai-1.png" alt="">
 </td>
 <td>
 <strong>But that's forbidden love</strong>
@@ -1553,7 +1553,7 @@ Awarded for reading Yuri/Shoujo Ai manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-yuri-shoujo-ai-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-yuri-shoujo-ai-2.png" alt="">
 </td>
 <td>
 <strong>I kissed a girl...</strong>
@@ -1563,7 +1563,7 @@ Awarded for reading Yuri/Shoujo Ai manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-yuri-shoujo-ai-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-yuri-shoujo-ai-3.png" alt="">
 </td>
 <td>
 <strong>All female school</strong>
@@ -1573,7 +1573,7 @@ Awarded for reading Yuri/Shoujo Ai manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-yuri-shoujo-ai-4.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-yuri-shoujo-ai-4.png" alt="">
 </td>
 <td>
 <strong>Lily</strong>
@@ -1591,7 +1591,7 @@ Awarded for reading Yuri/Shoujo Ai manga.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-novel-1.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-novel-1.png" alt="">
 </td>
 <td>
 <strong>Cracking the book</strong>
@@ -1601,7 +1601,7 @@ Awarded for reading Yuri/Shoujo Ai manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-novel-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-novel-2.png" alt="">
 </td>
 <td>
 <strong>IKEA trip</strong>
@@ -1611,7 +1611,7 @@ Awarded for reading Yuri/Shoujo Ai manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-novel-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-novel-3.png" alt="">
 </td>
 <td>
 <strong>Personal library</strong>
@@ -1621,7 +1621,7 @@ Awarded for reading Yuri/Shoujo Ai manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-novel-4.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-novel-4.png" alt="">
 </td>
 <td>
 <strong>What is sleep?</strong>
@@ -1639,7 +1639,7 @@ Awarded for reading 25+ manga that are 15+ volumes long.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-volume-long.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-volume-long.png" alt="">
 </td>
 <td>
 <strong>Long runner</strong>
@@ -1657,7 +1657,7 @@ Awarded for reading 25+ old manga (finished in 1980 at most).
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-release-old.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-release-old.png" alt="">
 </td>
 <td>
 <strong>At the end of the galaxy</strong>
@@ -1675,7 +1675,7 @@ Awarded for reading 50+ manga, all of which started in different years.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-year.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-year.png" alt="">
 </td>
 <td>
 <strong>Ancient Scholar</strong>
@@ -1693,7 +1693,7 @@ Are you a pervert? There's a formula: 100 ÷ *manga completed* × (*ecchi manga 
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-pervert-0.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-pervert-0.png" alt="">
 </td>
 <td>
 <strong>Chastity belt</strong>
@@ -1703,7 +1703,7 @@ Are you a pervert? There's a formula: 100 ÷ *manga completed* × (*ecchi manga 
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-pervert-1.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-pervert-1.png" alt="">
 </td>
 <td>
 <strong>I peek just a little</strong>
@@ -1713,7 +1713,7 @@ Are you a pervert? There's a formula: 100 ÷ *manga completed* × (*ecchi manga 
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-pervert-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-pervert-2.png" alt="">
 </td>
 <td>
 <strong>We need a blood donor here</strong>
@@ -1723,7 +1723,7 @@ Are you a pervert? There's a formula: 100 ÷ *manga completed* × (*ecchi manga 
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-pervert-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-pervert-3.png" alt="">
 </td>
 <td>
 <strong>Ero-sennin</strong>
@@ -1741,7 +1741,7 @@ Related to mean manga score.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-score-high.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-score-high.png" alt="">
 </td>
 <td>
 <strong>So good I can't handle it</strong>
@@ -1751,7 +1751,7 @@ Related to mean manga score.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-score-low.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-score-low.png" alt="">
 </td>
 <td>
 <strong>Professional Critic</strong>
@@ -1761,7 +1761,7 @@ Related to mean manga score.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-score-very-low.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-score-very-low.png" alt="">
 </td>
 <td>
 <strong>Best I can do is 2</strong>
@@ -1779,7 +1779,7 @@ Related to mean manga score.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-dropped-0.gif" alt="">
+<img src="https://anime.plus/image/achievement/manga-dropped-0.gif" alt="">
 </td>
 <td>
 <strong>I've seen some sh**</strong>
@@ -1797,7 +1797,7 @@ Awarded for having 100+ rereads.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-re.gif" alt="">
+<img src="https://anime.plus/image/achievement/manga-re.gif" alt="">
 </td>
 <td>
 <strong>Take me back</strong>
@@ -1815,7 +1815,7 @@ Awarded for reaching certain thresholds in your time spent reading manga.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-time-1.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-time-1.png" alt="">
 </td>
 <td>
 <strong>Downward spiral</strong>
@@ -1825,7 +1825,7 @@ Awarded for reaching certain thresholds in your time spent reading manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-time-2.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-time-2.png" alt="">
 </td>
 <td>
 <strong>Revelations (18:14)</strong>
@@ -1835,7 +1835,7 @@ Awarded for reaching certain thresholds in your time spent reading manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-time-3.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-time-3.png" alt="">
 </td>
 <td>
 <strong>Voluntary confinement</strong>
@@ -1845,7 +1845,7 @@ Awarded for reaching certain thresholds in your time spent reading manga.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-time-4.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-time-4.png" alt="">
 </td>
 <td>
 <strong>Apocryphal Sanctuary</strong>
@@ -1863,7 +1863,7 @@ No living being should be able to get to 10k.
 <tbody>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-100.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-100.png" alt="">
 </td>
 <td>
 <strong>Casual reader</strong>
@@ -1873,7 +1873,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-200.gif" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-200.gif" alt="">
 </td>
 <td>
 <strong>Bookworm</strong>
@@ -1883,7 +1883,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-300.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-300.png" alt="">
 </td>
 <td>
 <strong>Dat scent</strong>
@@ -1893,7 +1893,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-400.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-400.png" alt="">
 </td>
 <td>
 <strong>Where do I put these?</strong>
@@ -1903,7 +1903,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-500.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-500.png" alt="">
 </td>
 <td>
 <strong>Half a grand</strong>
@@ -1913,7 +1913,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-750.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-750.png" alt="">
 </td>
 <td>
 <strong>Read or die</strong>
@@ -1923,7 +1923,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-1000.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-1000.png" alt="">
 </td>
 <td>
 <strong>Librarian</strong>
@@ -1933,7 +1933,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-1500.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-1500.png" alt="">
 </td>
 <td>
 <strong>The floor is books</strong>
@@ -1943,7 +1943,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-2500.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-2500.png" alt="">
 </td>
 <td>
 <strong>Still not enough</strong>
@@ -1953,7 +1953,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-5000.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-5000.png" alt="">
 </td>
 <td>
 <strong>Sleep deprivation</strong>
@@ -1963,7 +1963,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-7500.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-7500.png" alt="">
 </td>
 <td>
 <strong>Reincarnation</strong>
@@ -1973,7 +1973,7 @@ No living being should be able to get to 10k.
 </tr>
 <tr>
 <td>
-<img src="https://graph.anime.plus/image/achievement/manga-finished-10000.png" alt="">
+<img src="https://anime.plus/image/achievement/manga-finished-10000.png" alt="">
 </td>
 <td>
 <strong>I've seen it all</strong>

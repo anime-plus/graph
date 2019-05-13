@@ -18,7 +18,7 @@ body {
     font-family: 'Open Sans', 'Verdana', 'Dejavu sans', sans-serif;
     font-size: 11pt;
     -webkit-tap-highlight-color: transparent;
-    min-width: 800px;
+    min-width: 320px;
 }
 
 h1, h2, h3 {
@@ -93,7 +93,7 @@ a, a span, a i {
     background: orangered;
     color: white;
 }
-    
+
 /* ie image border */
 img {
     border: 0;
@@ -105,8 +105,8 @@ img {
 .main-wrapper {
     text-align: left;
     margin: 0 auto;
-    max-width: 600px;
-    padding: 0 1em;
+    max-width: 960px;
+    padding: 0;
 }
 
 /* miscellaneous */
