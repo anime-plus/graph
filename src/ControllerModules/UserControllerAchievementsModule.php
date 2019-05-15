@@ -228,10 +228,10 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
 
                 return [null, null];
             },
-            'time' => function ($groupData) use ($viewContext, $listNonPlanned) {
+            'time' => function ($groupData) use ($listNonPlanned) {
                 $distribution = RatingTimeDistribution::fromEntries($listNonPlanned);
 
-                return [sprintf('%.02f', $distribution->getTotalTime() / 1440.), null];
+                return [floatval(sprintf('%.02f', $distribution->getTotalTime() / 1440.)), null];
             },
             're' => function ($groupData) use ($viewContext) {
                 return [$viewContext->media === 'M' ? $viewContext->user->manga_views : $viewContext->user->anime_views, null];
