@@ -10,7 +10,7 @@ class Model_MixedUserMedia
 
 		if ($this->media == Media::Manga)
 		{
-			$this->duration = 10;
+			$this->duration = 8;
 		}
 
 		if (isset($this->finished_episodes) and $this->media == Media::Anime)
