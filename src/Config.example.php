@@ -79,7 +79,7 @@ class Config extends Singleton
         self::$downloaderProxy = null;
         self::$downloaderCookieFilePath = $dataRootDir . 'cookies.dat';
         self::$downloaderMaxParallelJobs = 2;
-        self::$downloaderMaxTimeout = 10000;
+        self::$downloaderMaxTimeout = 30000;
         self::$downloaderUseMultiHandles = false;
 
         self::$mirrorEnabled = false;
