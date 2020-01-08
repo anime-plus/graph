@@ -57,13 +57,13 @@
 							<?php if (!$mixedUserMedia->score): ?>
 								<?php $diff = '-' ?>
 							<?php endif ?>
-							<?php if ($diff{0} != '-' and $diff != '0.00'): ?>
+							<?php if ($diff[0] != '-' and $diff != '0.00'): ?>
 								<?php $diff = '+' . $diff ?>
 							<?php endif ?>
 							<td class="diff" data-sorter="<?php echo $diff == '-' ? '-10' : $diff ?>">
-								<?php if ($diff{0} == '-'): ?>
+								<?php if ($diff[0] == '-'): ?>
 									<span class="lower"><?php echo $diff ?></span>
-								<?php elseif ($diff{0} == '+'): ?>
+								<?php elseif ($diff[0] == '+'): ?>
 									<span class="higher"><?php echo $diff ?></span>
 								<?php else: ?>
 									<span class="equal"><?php echo $diff ?></span>
