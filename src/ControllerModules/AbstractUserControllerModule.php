@@ -35,7 +35,7 @@ abstract class AbstractUserControllerModule extends AbstractControllerModule
 			$bestPart = array_shift($urlParts);
 		}
 		$url = '/' . $userName;
-		$url .= '/' . $bestPart;
+		$url .= $bestPart === 'profile' ? '' : '/' . $bestPart;
 		if (!empty(static::getMediaAvailability()))
 		{
 			$url .= ',' . Media::toString($media);

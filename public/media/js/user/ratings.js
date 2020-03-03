@@ -14,7 +14,7 @@ $(function()
 	{
 		var img = $(target).find('img');
 		var matches = $(target).find('textarea').val().match(/\[img\](.*)\[\/img]/);
-		var newSrc = matches[1] + '?bypass-cache=1';
+		var newSrc = matches[1];
 		if (img.attr('src') != newSrc)
 		{
 			img.attr('src', newSrc);
@@ -51,10 +51,15 @@ $(function()
 	function updateParams(params)
 	{
 		var textarea = $('.export.popup textarea');
-		for (var k in params)
-			_params[k] = params[k];
+		for (var k in params) {
+            _params[k] = params[k];
+        }
+        params = [];
+        for (var k in _params) {
+            params.push(_params[k]);
+        }
 
-		var newText = btoa(JSON.stringify(_params)).replace(/=/g, '');
+		var newText = btoa(JSON.stringify(params)).replace(/=/g, '');
 		textarea.val(textarea.val().replace(/\/([^\/]*)(?=\/[^\/]*\.png)/, '/' + newText));
 		return _params;
 	}
