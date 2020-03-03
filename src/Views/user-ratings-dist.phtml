@@ -81,7 +81,7 @@
 							</div>
 							<textarea readonly="readonly" name="bbcode"><?php
 								?>[url=<?php echo UrlHelper::absoluteUrl(UserControllerProfileModule::url($viewContext->user->name, $viewContext->media)) ?>]<?php
-								?>[img]<?php echo UserControllerExportModule::url($viewContext->user->name, $viewContext->media, '0=1') ?><?php
+								?>[img]<?php echo UserControllerExportModule::url($viewContext->user->name, $viewContext->media, '[1]') ?><?php
 								?>[/img]<?php
 								?>[/url]<?php
 							?></textarea>

@@ -132,7 +132,7 @@ class TextHelper
 		}, $distribution);
 
 		asort($percentages, SORT_NUMERIC);
-		$percentagesRounded = array_map('floor', $percentages);
+		$percentagesRounded = array_map('round', $percentages);
 
 		$keys = array_keys($percentages);
 		$sum = array_sum($percentagesRounded);
