@@ -24,7 +24,9 @@
 									<?php foreach ($franchise->ownEntries as $entry): ?>
 										<li>
 											<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>" rel="noreferrer">
-                                                <?php if ($entry->status == UserListStatus::Dropped): ?>
+                                                <?php if ($entry->status == UserListStatus::Completing): ?>
+                                                    <i data-tooltip="Completing" class="left icon-status-completing"></i>
+                                                <?php elseif ($entry->status == UserListStatus::Dropped): ?>
                                                     <i data-tooltip="Dropped" class="left icon-status-dropped"></i>
 												<?php elseif ($entry->status == UserListStatus::Planned): ?>
 													<i data-tooltip="Planned" class="left icon-status-planned"></i>
