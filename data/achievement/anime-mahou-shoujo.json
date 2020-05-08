@@ -69,6 +69,8 @@
             "A530", //Bishoujo Senshi Sailor Moon
             "A14751", //Bishoujo Senshi Sailor Moon Crystal
             "A31733", //Bishoujo Senshi Sailor Moon Crystal Season III
+            "A40024", //Bishoujo Senshi Sailor Moon Eternal Movie 1
+            "A40429", //Bishoujo Senshi Sailor Moon Eternal Movie 2
             "A8756", //Bishoujo Senshi Sailor Moon Memorial
             "A740", //Bishoujo Senshi Sailor Moon R
             "A531", //Bishoujo Senshi Sailor Moon R The Movie
@@ -136,6 +138,7 @@
             "A36833", //Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai - Kuro Sakura no Heya
             "A19109", //Fate/kaleid liner Prisma☆Illya Specials
             "A18851", //Fate/kaleid liner Prisma☆Illya: Undoukai de Dance!
+            "A38897", //Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm
             "A1126", //Figure 17: Tsubasa & Hikaru
             "A32979", //Flip Flappers
             "A32691", //Flowering Heart
@@ -173,6 +176,7 @@
             "A25907", //Glass no Hana to Kowasu Sekai
             "A28669", //Go! Princess Precure
             "A29868", //Go! Princess Precure Movie: Go! Go!! Gouka 3-bon Date!!!
+            "A39417", //Granbelm
             "A18713", //Haiyore! Nyaruko-san: Yasashii Teki no Shitome-kata
             "A2230", //Hana no Ko Lunlun
             "A9264", //Hana no Ko Lunlun: Konnichiwa Sakura no Kuni
@@ -182,6 +186,7 @@
             "A23083", //Happiness Charge PreCure! Movie: Ningyou no Kuni no Ballerina
             "A36757", //Happy☆Twinkle
             "A3320", //Harbor Light Monogatari: Fashion Lala Yori
+            "A40610", //Healin' Good♡Precure
             "A7645", //Heartcatch Precure!
             "A9288", //Heartcatch Precure! Movie: Hana no Miyako de Fashion Show... Desu ka!?
             "A10491", //Higurashi no Naku Koro ni Kira
@@ -203,6 +208,7 @@
             "A1855", //JaJa Uma! Quartet
             "A6008", //Jewelpet
             "A32707", //Jewelpet: Attack Chance!?
+            "A40808", //Jewelpet: Attack Travel!
             "A17497", //Jewelpet Happiness
             "A12963", //Jewelpet Kira☆Deco!
             "A30030", //Jewelpet Magical Change
@@ -268,7 +274,10 @@
             "A36083", //Lostorage Conflated WIXOSS: Missing Link
             "A33197", //Lostorage Incited WIXOSS
             "A32083", //Luck & Logic
+            "A39071", //Machikado Mazoku
             "A35300", //Magia Record: Mahou Shoujo Madoka☆Magica Gaiden PV
+            "A38256", //Magia Record: Mahou Shoujo Madoka☆Magica Gaiden (TV)
+            "A41530", //Magia Record: Mahou Shoujo Madoka☆Magica Gaiden (TV) 2nd Season
             "A435", //Magic Knight Rayearth
             "A1563", //Magic Knight Rayearth II
             "A33299", //Magic-Kyun! Renaissance
@@ -378,6 +387,7 @@
             "A14563", //Maji de Otaku na English! Ribbon-chan: Eigo de Tatakau Mahou Shoujo
             "A19207", //Maji de Otaku na English! Ribbon-chan: Eigo de Tatakau Mahou Shoujo - The TV
             "A23945", //Majimoji Rurumo
+            "A39585", //Majo Minarai wo Sagashite
             "A2080", //Majokko Club Yoningumi: A Kuukan Kara no Alien X
             "A3388", //Majokko Megu-chan
             "A15813", //Majokko Shimai no Yoyo to Nene
@@ -398,6 +408,7 @@
             "A335", //Matantei Loki Ragnarok
             "A521", //Mermaid Melody: Pichi Pichi Pitch
             "A1110", //Mermaid Melody Pichi Pichi Pitch Pure
+            "A40327", //Mewkledreamy
             "A6492", //Minky Momo in Tabidachi no Eki
             "A3462", //Minky Momo in Yume ni Kakeru Hashi
             "A2834", //Miracle☆Girls
@@ -433,6 +444,7 @@
             "A12591", //Ojamajo Doremi OVA
             "A351", //Ojamajo Doremi Sharp
             "A2947", //Ojamajo Doremi Sharp Movie
+            "A39588", //Ojamajo Doremi: Owarai Gekijou
             "A614", //Okusama wa Mahou Shoujo
             "A13379", //Okusama wa Michael
             "A2489", //Onegai My Melody
@@ -512,6 +524,7 @@
             "A32151", //Senki Zesshou Symphogear GX: Senki Zesshou Shinai Symphogear
             "A32836", //Senki Zesshou Symphogear AXZ
             "A36692", //Senki Zesshou Symphogear AXZ: Senki Zesshou Shinai Symphogear
+            "A32843" //Senki Zesshou Symphogear XV
             "A3301", //Septem Charm Magical Kanan
             "A4489", //Septem Charm Magical Kanan: SP Summer Camp
             "A678", //Shadow Skill: Eigi
@@ -549,7 +562,7 @@
             "A35458", //Soushin Shoujo Matoi: Kabushiki Gaisha Knight Busters
             "A34538", //Soushin Shoujo Matoi: Yuma-chin, Matomemashita - Nanimo Kitenakute... Natsu
             "A38578", //Star☆Twinkle Precure
-            "A38850", //Star☆Twinkle Precure Movie
+            "A38850", //Star☆Twinkle Precure: Hoshi no Uta ni Omoi wo Komete
             "A3667", //Strike Witches
             "A6381", //Strike Witches 2
             "A9751", //Strike Witches Movie
@@ -576,6 +589,7 @@
             "A684", //Tenshi no Shippo Chu!
             "A22231", //Tenshi no Shippo Chu!: Tenshi no Utagoe
             "A687", //Tokyo Mew Mew
+            "A41589", //Tokyo Mew Mew New ♡
             "A9393", //T.P. Sakura: Time Paladin Sakura
             "A33934", //Trigger-chan
             "A33532", //Twin Angel Break
