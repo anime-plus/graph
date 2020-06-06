@@ -37,167 +37,371 @@
         "type": "title",
         "titles":
         [
-            "M90687", //[Shinyaku] Mahou Shoujo Oriko★Magica: Sadness Prayer
-            "M3167", //A Little Snow Fairy Sugar
+            "M12643", //Ai to Yuuki no Pig Girl Tonde Buurin
             "M7270", //Akazukin Chacha
             "M1818", //Akihabara Dennou Gumi Patapi
             "M77", //Alice 19th
             "M15820", //Alice Kara Mahou
+            "M7852", //Angelique
+            "M9803", //Angelique: Treasure - Angelique Comic Anthology
             "M3730", //Asagiri no Miko
+            "M96473", //Asagiri no Miko Gaiden
             "M92", //Bishoujo Senshi Sailor Moon
+            "M71957", //Bokura wa Mahou Shoujo no Naka
+            "M11269", //Brocken Blood
+            "M89364", //Café☆Griefseed e Youkoso!
             "M3630", //Carat!
             "M106", //Cardcaptor Sakura
+            "M25902", //Cardcaptor Sakura Extras
+            "M3167", //Chicchana Yukitsukai Sugar
+            "M64261", //Choujigen Game Neptune
+            "M23207", //Choujigen Game Neptune: Megami Tsuushin
+            "M71297", //Choujigen Game Neptune: The Animation - Comic Anthology
+            "M70135", //Choujigen Game Neptune: The Animation - Dengeki Comic Anthology
+            "M23207", //Choujigen Game Neptune: Megami Tsuushin
+            "M52007", //Choujigen Game Neptune: The Animation - Hello New World
+            "M69507", //Choukou Tenshi Escalayer
             "M854", //Codename wa Sailor V
             "M172", //Corrector Yui
             "M18411", //Corrector Yui
             "M18412", //Corrector Yui Ver.2
-            "M7658", //Cutey Honey
+            "M7658", //Cutie Honey
             "M16941", //Cutie Honey
             "M16942", //Cutie Honey a Go Go!
             "M75723", //Cutie Honey Tai Devilman Lady
+            "M119688", //Cutie Honey THE ANOTHER
             "M19619", //Cutie Honey: Tennyo Densetsu
             "M9987", //Dai Mahou Touge
             "M23986", //Daisuki desu!! Mahou Tenshi Kosumasu
-            "M10027", //Demashitaa! Powerpuff Girls Z
+            "M10027", //Demashita! Powerpuff Girls Z
+            "M17471", //Dengeki Oshioki Musume Gootaman
+            "M87453", //Die Romane der Rozen Maiden
             "M5917", //Dr. Rin ni Kiitemite!
             "M25923", //Eiga Futari wa Precure Max Heart
             "M18046", //Esper Mami
-            "M9795", //Fancy Lala
+            "M57279", //Fantasista Doll
+            "M57285", //Fantasista Doll Mix
+            "M57281", //Fantasista Doll: Prelude Kagami
             "M3526", //Fate/kaleid liner Prisma☆Illya
             "M91809", //Fate/kaleid liner Prisma☆Illya
             "M13856", //Fate/kaleid liner Prisma☆Illya 2wei!
-            "M36131", //Fate/kaleid liner Prisma☆Illya 3rei!!
             "M20548", //Fate/stay night x Magical Girl Lyrical Nanoha
             "M3230", //Figure 17
+            "M95097", //Four Cours After
             "M25927", //Fresh Precure!
             "M8", //Full Moon wo Sagashite
+            "M11567", //Fushigiboshi no Futagohime
             "M9275", //Fushigi na Melmo
+            "M84", //Fushigi Yuugi
+            "M85929", //Fushigi Yuugi: Byakko Ibun
+            "M110881", //Fushigi Yuugi: Byakko Senki
+            "M929", //Fushigi Yuugi: Genbu Kaiden
+            "M25023", //Fushigi Yuugi: Genbu Kaiden Kizuna - Haruka Naru Kaze no Kora
             "M25921", //Futari wa Precure
+            "M100142", //Futari wa Precure: Max Heart
             "M25924", //Futari wa Precure Splash Star
-            "M94222", //Futari wa PreCure! (Novel)
+            "M89365", //Fuwatto Madoka
             "M320", //Gakuen Alice
             "M62671", //Gekijouban Mahou Shoujo Madoka★Magica: Shinpen - Hangyaku no Monogatari
             "M54739", //Genei wo Kakeru Taiyou
             "M82077", //Genei wo Kakeru Taiyou: Koborechiru wa Unmei no Suna
             "M7115", //Getsumen to Heiki Mina
-            "M9911", //Ground Defence Mao-chan
+            "M95987", //Glass no Hana to Kowasu Sekai
+            "M97716", //Go! Princess Precure
+            "M96060", //Hakaijuu VS Mahou Shoujo of the End VS Vs Earth
+            "M16178", //Hardboiled Scrambled Egg
             "M25928", //Heartcatch Precure!
-            "M94223", //Heartcatch Precure! (Novel)
+            "M94223", //Heartcatch Precure!
+            "M103555", //"Hihou" Mahou Shoujo no Sonogo no Nichijou.
+            "M80703", //Hikounin Mahou Shoujo Sensen
             "M4998", //Hime-chan no Ribbon
             "M21406", //Himitsu no Akko-chan
             "M87835", //Honey VS
-            "M88133", //Houkago no Pleiades: Prism Palette
+            "M114956", //Hug tto! Precure
             "M1607", //Itsudatte My Santa!
-            "M19898", //Jewelpet
+            "M19898", //Jewel Pet
+            "M190" //Juunikyuu de Tsukamaete
+            "M3498", //Kagi Hime Monogatari: Eikyuu Alice Rondo
+            "M508", //Kaitou Saint Tail
             "M32391", //Kaitou Tenshi Twin Angel
             "M35", //Kamichama Karin
-            "M2575", //Kamichama Karin chu
+            "M2575", //Kamichama Karin Chu
             "M36", //Kamikaze Kaitou Jeanne
-            "M31835", //Kamikaze Kaitou Jeanne: Bangaihen
-            "M3498", //Key Princess Story Eternal Alice Rondo
+            "M11606", //Kämpfer
+            "M11607", //Kämpfer
+            "M84447", //Karasuma Zero-jou Tandai: Mahou Shoujo Taisen
+            "M75749", //Katsute Mahou Shoujo to Aku wa Tekitai shite Ita.
+            "M2931", //Kiddy Grade Reverse
+            "M9270", //Kiddy Grade VS
+            "M58391", //Kill la Kill
+            "M122309", //KiraKira☆PreCure A La Mode
+            "M1139", //Kon Kon KoKon
             "M21410", //Kore wa Zombie desu ka?
             "M23067", //Kore wa Zombie desu ka?
             "M91004", //Kore wa Zombie desu ka? Hai, Anata no Yome desu
             "M4649", //Kurumi-tic Miracle
+            "M108286", //Kusunoki Mebuki wa Yuusha de Aru
             "M16468", //Kyouran Kazoku Nikki
             "M12182", //Kyouran Kazoku Nikki
+            "M72429", //Kyouran Kazoku Nikki Bangai
+            "M94538", //Lady Jewelpet
             "M20088", //Lilpri
             "M641", //Love♡Witch
-            "M119", //Magic Knight Rayearth
-            "M697", //Magic Knight Rayearth II
-            "M11189", //Magical Nyan Nyan Taruto
-            "M24087", //Mahochu-!
-            "M9882", //Mahou no Tenshi Creamy Mami
+            "M32083", //Luck & Logic: Paradox Twin
+            "M115774", //Magia Record: Mahou Shoujo Madoka☆Magica Gaiden
+            "M57131", //Magical☆Change
             "M90300", //Magical Chef Shoujo Shizuru
-            "M23223", //Magical Girl Lyrical Nanoha
+            "M34333", //Magical Hero Hour
+            "M98947", //Mahou Hitozuma Manami
+            "M91275", //Mahou Joshidaisei Kurone
+            "M105818", //Mahou Joshi Gakuen no Suketto Kyoushi
+            "M54231", //Mahou Josou Shounen Magical☆Rio
+            "M30309", //Magical Lollipop
+            "M11189", //Magical Nyan Nyan Taruto
             "M83187", //Magical Pâtissière Kosaki-chan!!
-            "M13268", //Mahou Senki Lyrical Nanoha Force
-            "M56719", //Mahou Senki Lyrical Nanoha Force Dimension
+            "M49127", //Magical☆Star Kanon 100%
+            "M10724", //Magical☆Taruruuto-kun
+            "M119", //Magic Knight Rayearth
+            "M697", //Magic Knight Rayearth 2
+            "M74015", //Magic Knight Rayearth Gaiden
+            "M103445", //Magic-kyun! Renaissance
+            "M24087", //Mahochu-!
+            "M16526", //Mahou no Iroha!
+            "M9795", //Mahou no Stage Fancy Lala
+            "M9882", //Mahou no Tenshi Creamy Mami
+            "M22875", //Mahou Onna ga Kuru
+            "M9617", //Mahou Ryouri Chaos Kitchen
+            "M112131", //Mahou Shoujo 2-sei
+            "M86598", //Mahou Shoujo 4-gou-chan
+            "M55729", //Mahou Shoujo Ai
+            "M65925", //Mahou Shoujo Ai
+            "M60021", //Mahou Shoujo Ahya☆Amie
+            "M106774", //Mahou Shoujo Akira
+            "M61787", //Mahou Shoujo Angelic Karin
+            "M109444", //Mahou Shoujo Angel Lips
+            "M63329", //Mahou Shoujo-bu Madoka★Magica
+            "M53185", //Mahou Shoujo Carrot Carrot
+            "M60957", //Mahou Shoujo Chiffon: Yogosareta Momo-hime
+            "M85287", //Mahou Shoujo Double Choukyou: Freya & Crysta
+            "M60031", //Mahou Shoujo Exceed Fina
+            "M82423", //Mahou Shoujo ga Tomodachi wo Tasukeru Tame ni, Retro Game no Kaijin ni Yararechau Ken
             "M70751", //Mahou Shoujo Homura★Tamura: Heikou Sekai ga Itsumo Heikou de Aru to wa Kagiranai no da.
-            "M72353", //Mahou Shoujo Ikusei Keikaku
             "M80555", //Mahou Shoujo Ikusei Keikaku
+            "M25381", //Mahou Shoujo Isuka: After School
+            "M61157", //Mahou Shoujo Kanrikan Hanmura Hisayuki
+            "M64073", //Mahou Shoujo☆Karimenkyo
+            "M95994", //Mahou Shoujo Kasumi: Monzetsu, Isekai no Futanari Jigoku
             "M24295", //Mahou Shoujo Kazumi★Magica: The Innocent Malice
+            "M60061", //Mahou Shoujo Kinshihou
+            "M88560", //Mahou Shoujo Kokone wa Kakukatariki
+            "M96008", //Mahou Shoujo Lilina & Miyu: Ishu Kouhai no Wana
+            "M23223", //Mahou Shoujo Lyrical Nanoha
             "M3236", //Mahou Shoujo Lyrical Nanoha A's
-            "M1231", //Mahou Shoujo Lyrical Nanoha StrikerS THE COMICS
-            "M14238", //Mahou Shoujo Lyrical Nanoha ViVid
-            "M63891", //Mahou Shoujo Lyrical Nanoha ViVid LIFE
+            "M34299", //Mahou Shoujo Lyrical Nanoha A's Portable: The Gears of Destiny - Material Musume.
+            "M42129", //Mahou Shoujo Lyrical Nanoha Innocent
+            "M88984", //Mahou Shoujo Lyrical Nanoha InnocentS
             "M16872", //Mahou Shoujo Lyrical Nanoha: Movie 1st the Comics
+            "M1231", //Mahou Shoujo Lyrical Nanoha StrikerS THE COMICS
             "M50595", //Mahou Shoujo Lyrical Nanoha: The Movie 2nd A's - Tribute Comics
-            "M24457", //Mahou Shoujo Madoka Magica
-            "M27861", //Mahou Shoujo Madoka Magica (novel)
-            "M28961", //Mahou Shoujo Madoka Magica: Anthology
-            "M44319", //Mahou Shoujo Madoka Magica: The Different Story
+            "M14238", //Mahou Shoujo Lyrical Nanoha ViVid
+            "M24457", //Mahou Shoujo Madoka★Magica
+            "M27861", //Mahou Shoujo Madoka★Magica
+            "M28961", //Mahou Shoujo Madoka★Magica: Anthology Comic
             "M85884", //Mahou Shoujo Madoka★Magica: Homura Revenge!
             "M90309", //Mahou Shoujo Madoka★Magica: Majuu-hen
+            "M44319", //Mahou Shoujo Madoka★Magica: The Different Story
+            "M81143", //Mahou Shoujo Magical Marika: Mahou Shoujo, Miko, Himekishi, Social Game no Heroine to Harem Days
+            "M53139", //Mahou Shoujo Miharu
+            "M52731", //Mahou Shoujo Milky☆Rufina
+            "M60033", //Mahou Shoujo Nanaru Mahou Chuunen ga Sekai no Heiwa wo Mamoru Koto ni Natta you desu
+            "M89724", //Mahou Shoujo nante Mou Ii desukara.
+            "M2573", //Mahou Shoujo Neko X
+            "M11369", //Mahou Shoujo Neko XXX
+            "M110480", //Mahou Shoujo no Kareinaru Yosei
+            "M85547", //Mahou Shoujo no Kuse ni Namaiki da.
+            "M60649", //Mahou Shoujo no Sodatekata Oniichan wa Hi-Potion
             "M40175", //Mahou Shoujo of the End
-            "M24456", //Mahou Shoujo Oriko Magica
+            "M103466", //Mahou Shoujo Omatsu
+            "M81971", //Mahou Shoujo Ore
+            "M24456", //Mahou Shoujo Oriko★Magica
             "M65909", //Mahou Shoujo Oriko★Magica: Betsu-hen
-            "M20521", //Mahou Shoujo Pretty Bell
+            "M20521", //Mahou Shoujo Pretty☆Bell
+            "M60137", //Mahou Shoujo Ria: Juuyoku ni Hamaru Oyako
+            "M65589", //Mahou Shoujo Rio: Cosplay Overdrive
+            "M97845", //Mahou Shoujo Rurika
+            "M95868", //Mahou Shoujo Sacred Angel
+            "M65843", //Mahou Shoujo Sae
+            "M30687", //Mahou Shoujo? Sai-chan-sama
             "M57295", //Mahou Shoujo Site
+            "M113780", //Mahou Shoujo Site Sept
+            "M60261", //Mahou Shoujo Splash Lycée
             "M62673", //Mahou Shoujo Suzune★Magica
+            "M73781", //Mahou Shoujo Tart★Magica: The Legend of "Jeanne d'Arc"
+            "M85333", //Mahou Shoujo wa Haitoku no Ori de: Midara na Fairy Tale
+            "M11880", //Mahou Shounen Majorian
+            "M105622", //Mahou Shounen Natsuki x Lovei
+            "M61779", //Mahou Shukujo Mion
+            "M440", //Mahoutsukai ni Taisetsu na Koto
+            "M72153", //Mahoutsukai ni Taisetsu na Koto
+            "M5898", //Mahoutsukai ni Taisetsu na Koto: Natsu no Sora
+            "M531", //Mahoutsukai ni Taisetsu na Koto: Taiyou to Kaze no Sakamichi
+            "M106725", //Mahoutsukai Precure!
+            "M12461", //Mahou Tsukai Sally
             "M9806", //Mahou Tsukai Tai!
             "M27303", //Mahou Tsukai Tai!
-            "M12461", //Mahou Tsukai Sally
-            "M22942", //Majokko Tsukune-chan
+            "M441", //Mai-HiME
+            "M6814", //Mai-HiME Destiny
+            "M19056", //Mai-HiME EXA
+            "M1069", //Mai-Otome
+            "M1254", //Mai-Otome Arashi
+            "M95587", //Maite wa Ikenai Rozen Maiden
+            "M13254", //Majimoji Rurumo
+            "M71185", //Majimoji Rurumo: Houkago no Mahou Chuugakusei
+            "M42925", //Majimoji Rurumo: Makai-hen
+            "M22943", //Majokko Tsukune-chan
             "M22944", //Majokko Tsukune-chan Plus
-            "M423", //Mermaid Melody Pichi Pichi Pitch
-            "M5217", //Min Min Mint
+            "M91366", //Majuu Jouka Shoujo Utea
+            "M77757", //Makai Tenshi Djibril
+            "M77759", //Makai Tenshi Djibril: Episode 2
+            "M18385", //Mamono Hunter Youko
+            "M414", //Mamotte! Lollipop
+            "M1499", //Mamotte Shugogetten!
+            "M10155", //Mamotte Shugogetten! Retrouvailles
+            "M108458", //Märchen Mädchen
+            "M659", //Matantei Loki
+            "M8442", //Matantei Loki Ragnarok
+            "M27111", //Matantei Loki Ragnarok: Shinsekai no Kamigami
+            "M26474", //Mawaru Penguindrum
+            "M57849", //Mawaru Penguindrum
+            "M5217", //Minmin Mint
             "M5753", //Miracle Dieter Miyuki
-            "M449", //Miracle Girls
+            "M449", //Miracle☆Girls
             "M5362", //Mirumo de Pon!
+            "M417", //Modotte! Mamotte! Lollipop
             "M14610", //Moetan
-            "M24316", //Motto! Ojamajo Doremi
+            "M94690", //Momo Kyun Sword: Hoshi to Ougon no Tachi
+            "M24316", //Mo~tto! Ojamajo Doremi
+            "M18663", //Mousou Kikou: Adolescence Avatar
             "M11910", //Nanako SOS
-            "M10825", //Nanatsuiro Drops
-            "M18884", //Nanatsuiro Drops Pure!!
-            "M10634", //Neko Mokoro
+            "M10825", //Nanatsuiro★Drops
+            "M18884", //Nanatsuiro★Drops Pure!!
+            "M10634", //Nekomocoro
+            "M4343", //Neo Angelique
+            "M90810", //Nogi Wakaba wa Yuusha de Aru
+            "M100945", //Nogi Wakaba wa Yuusha de Aru
             "M5626", //Nurse Angel Ririka SOS
             "M4175", //Ojamajo Doremi
             "M29283", //Ojamajo Doremi 16
+            "M79195", //Ojamajo Doremi 17
+            "M79197", //Ojamajo Doremi 18
+            "M94778", //Ojamajo Doremi 19
+            "M24022", //Olympus no Pollon
+            "M89841", //Ore, Twintail ni Narimasu. EX
+            "M63901", //Original Chronicle Mahou Shoujo Lyrical Nanoha The 1st
             "M8016", //Oto x Maho
+            "M52431", //Oto x Maho
+            "M21848", //Panty & Stocking with Garterbelt
+            "M40419", //Panty & Stocking with Garterbelt
             "M8552", //Parallel Sailor Moon
-            "M9883", //Persia ga suki!
-            "M31067", //Planet Guardian!
+            "M9883", //Persia ga Suki!
+            "M423", //Pichi Pichi Pitch: Mermaid Melody
+            "M31067", //Planet Guardian
+            "M104692", //Pop in Q Reverse
             "M643", //PQ Angels
-            "M1248", //Pretear
             "M1581", //Princess Tutu
             "M3692", //Puchi Puri Yuushi
-            "M505", //S to M no Sekai
+            "M13276", //Rakushou! Hyper Doll
+            "M25849", //Ramen Tenshi Pretty Menma
+            "M70003", //Re:Mahou Shoujo
+            "M91629", //Renkin 3-kyuu Magical? Poka~n
+            "M9911", //Rikujou Bouei-tai Mao-chan
+            "M30257", //RKGKMDK
+            "M68379", //Rokujouma no Shinryakusha!?
+            "M98", //Rozen Maiden
+            "M87454", //Rozen Maiden
+            "M95216", //Rozen Maiden 0
+            "M7728", //Rozen Maiden (2008)
+            "M31373", //Rozen Maiden: Dolls Talk
             "M13921", //Saint October
-            "M508", //Saint Tail
-            "M37599", //Senki Zesshou Symphogear: Meteoroid-falling, burning, and disappear, then...
+            "M37375", //Scissor Sisters
+            "M37599", //Senki Zesshou Symphogear
             "M1763", //Shadow Lady
+            "M783", //Shakugan no Shana
+            "M3074", //Shakugan no Shana
+            "M100300", //Shakugan no Shana: Ballroom
+            "M95363", //Shakugan no Shana: Reshuffle
+            "M77257", //Shakugan no Shana S
+            "M11608", //Shakugan no Shana X: Eternal Song - Harukanaru Uta
+            "M77255", //Shakugan no Shana Zero
+            "M3648", //Shichinin no Nana
             "M2902", //Shin Kankaku Iyashikei Mahou Shoujo Behoimi-chan
+            "M1248", //Shin Shirayuki-hime Densetsu Pretear
+            "M90687", //[Shinyaku] Mahou Shoujo Oriko★Magica: Sadness Prayer
             "M772", //Shoujo Kakumei Utena
             "M26103", //Shoujo Kakumei Utena
-            "M931", //Shoujo Kakumei Utena ~ Adolescence Mokushiroku
-            "M1524", //Shoujo Tenshi Milcute - Milky&Cute
-            "M15116", //Shugo Chara-chan!
+            "M931", //Shoujo Kakumei Utena: Adolescence Mokushiroku
+            "M108485", //Shoujo Kakumei Utena: After the Revolution
+            "M6914", //Shoujo no Tsukurikata
+            "M1524", //Shoujo Tenshi Milcute
+            "M94222", //Shousetsu Futari wa Precure
             "M101", //Shugo Chara!
-            "M17459", //Shugo Chara! Encore!
+            "M15116", //Shugo Chara-chan!
+            "M3193", //Simoun
+            "M20738", //Simoun: Magical Biyuuden
             "M7425", //Sister Witch
+            "M41121", //Smile Precure!
+            "M34621", //Soreyuke Marin-chan
+            "M505", //S to M no Sekai
+            "M50345", //Strike Witches: Africa no Majo
+            "M70829", //Strike Witches: Africa no Majo
+            "M68673", //Strike Witches: Africa no Majo - Kei's Report
+            "M74573", //Strike Witches: Andorra no Majo
+            "M8978", //Strike Witches: Aozora no Otome-tachi
+            "M69297", //Strike Witches: Aurora no Majo
+            "M89715", //Strike Witches: Dai-501 Tougou Sentou Koukuudan
+            "M115762", //Strike Witches: Erica Hartmann 1941
+            "M32259", //Strike Witches: Katayoku no Majo-tachi
+            "M76095", //Strike Witches: Kimi to no Kizuna no Katachi
+            "M22942", //Strike Witches: Kimi to Tsunagaru Sora
+            "M89683", //Strike Witches: Otome no Maki
+            "M10140", //Strike Witches: Suomus Iran-ko Chuutai Series
+            "M8979", //Strike Witches: Tenkuu no Otome-tachi
+            "M23985", //Strike Witches Zero: 1937 Fusou Kaijihen
+            "M89711", //Strike Witches Zero: 1939 Koukoku no Majo
             "M429", //Sugar Sugar Rune
-            "M20569", //Super Doll Rika-chan
+            "M25710", //Suite Precure♪
+            "M20569", //Superdoll Rika-chan
+            "M104925", //Sutema!
             "M3309", //Sweet Valerian
             "M86", //Time Stranger Kyoko
             "M554", //Tokyo Mew Mew
-            "M555", //Tokyo Mew Mew a La Mode
+            "M555", //Tokyo Mew Mew à La Mode
+            "M98255", //Uchuu Patrol Luluco
+            "M10049", //UFO Princess Valkyrie
             "M956", //Ultra Maniac
-            "M20821", //Umi Monogatari - Anata ga Ite Kureta Koto
-            "M20822", //Umi Monogatari - Minna Aishiteru!
-            "M930", //Uta Kata
+            "M20821", //Umi Monogatari: Anata ga Ite Kureta Koto
+            "M20822", //Umi Monogatari: Minna Aishiteru!
+            "M930", //Uta∽Kata
+            "M97328", //Valkyrie Drive: Mermaid
+            "M48687", //Vividred Operation
+            "M49843", //Vividred Operation: The 4-koma - Viviop
+            "M3740", //Yami to Boushi to Hon no Tabibito: Romance
             "M83169", //Washio Sumi wa Yuusha de Aru
             "M82347", //Washio Sumi wa Yuusha de Aru
-            "M1288", //Wedding Peach
+            "M107115", //Washio Sumi wa Yuusha de Aru Gaiden: Yuusha Koushinkyoku
+            "M1228", //Wedding Peach
             "M9080", //Wedding Peach: Young Love
             "M25925", //Yes! Precure 5
             "M25926", //Yes! Precure 5 GoGo
-            "M16064", //Yokuwakaru Gendaimahou
-            "M16065", //Yokuwakaru Gendaimahou
-            "M82411", //Yuuki Yuuna wa Yuusha de Aru
+            "M16064", //Yoku Wakaru Gendai Mahou
+            "M67825", //Yume no Crayon Oukoku
             "M81721", //Yuuki Yuuna wa Yuusha-bu Shozoku
+            "M82411", //Yuuki Yuuna wa Yuusha de Aru
+            "M86780", //Yuuki Yuuna wa Yuusha de Aru: Sonogo no Sonoko
+            "M111171", //Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou
+            "M7462", //Zettai Kakusei Tenshi Mistress☆Fortune
             "M5821", //Zettai Karen Children
-            "M190" //Zodiac P.I.
+            "M40375" //Zettai Karen Children the Novels ~ B.A.B.E.L. Houkai
         ]
     }
 }
