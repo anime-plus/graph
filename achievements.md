@@ -268,7 +268,7 @@ Awarded for watching Mecha anime.
 <td>
 <strong>Engineer</strong>
 
-<sub>After watching over 59 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us.</sub>
+<sub>After watching over 65 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us.</sub>
 </td>
 </tr>
 <tr>
@@ -278,7 +278,7 @@ Awarded for watching Mecha anime.
 <td>
 <strong>Mechazawa</strong>
 
-<sub>Having watched over 118 mecha anime, you've probably became a robot already. Nice job, hero.</sub>
+<sub>Having watched over 130 mecha anime, you've probably became a robot already. Nice job, hero.</sub>
 </td>
 </tr>
 <tr>
