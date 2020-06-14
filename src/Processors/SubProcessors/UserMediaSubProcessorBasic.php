@@ -2,68 +2,68 @@
 class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 {
 	private $anime = 0;
-    
+
     private $animeArray = [];
-    
+
     private $manga = 0;
-    
+
     private $mangaArray = [];
-    
+
     public function setAnimeRange($max = 0)
     {
         $this->anime = intval((ceil($max / 300) ?: 1) * 300 - 300);
     }
-    
+
     public function setMangaRange($max = 0)
     {
         $this->manga = intval((ceil($max / 300) ?: 1) * 300 - 300);
     }
-    
+
 	public function getURLs($name)
 	{
         $i = 0;
-        
+
         foreach (range(0, $this->anime, 300) as $offset)
         {
             $this->animeArray[$i] = 'https://myanimelist.net/animelist/' . $name . '/load.json?status=7&offset=' . $offset;
-            
+
             $i++;
         }
-        
+
         foreach (range(0, $this->manga, 300) as $offset)
         {
             $this->mangaArray[$i] = 'https://myanimelist.net/mangalist/' . $name . '/load.json?status=7&offset=' . $offset;
-            
+
             $i++;
         }
-        
+
         return array_merge($this->animeArray, $this->mangaArray);
 	}
-    
+
 	public function process(array $documents, &$context)
 	{
 		Database::delete('usermedia', ['user_id' => $context->user->id]);
-        
+
         foreach (Media::getConstList() as $media) {
 			$data = [];
-            
+
             $range = $media === Media::Anime ? array_keys($this->animeArray) : array_keys($this->mangaArray);
-            
+
             foreach ($range as $offset)
             {
                 $nodes = json_decode(str_replace('<?xml encoding="utf-8"?>', '', $documents[$offset]->content), true);
-                
-                if ($nodes === null)
+
+                if (!is_array($nodes))
                 {
                     throw new BadProcessorDocumentException($documents[$offset], 'list is only partially downloaded');
                 }
                 elseif (isset($nodes['errors']))
                 {
                     $data = [];
-                    
+
                     break;
                 }
-                
+
 			foreach ($nodes as $root)
 			{
 				$mediaMalId = Strings::makeInteger($media === Media::Anime ? $root['anime_id'] : $root['manga_id']);
@@ -110,48 +110,48 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 				];
 			}
             }
-            
+
             $us = 0;
-            
+
             $eu = 0;
-            
+
             foreach ($data as $entry)
             {
                 if (preg_match('#^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$#', $entry['start_date']))
                 {
                     $us++;
                 }
-                
+
                 if (preg_match('#^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$#', $entry['end_date']))
                 {
                     $us++;
                 }
-                
+
                 if (preg_match('#^[0-9]{4}-(0[1-9]|[1-2][0-9]|3[0-1])-(0[1-9]|1[0-2])$#', $entry['start_date']))
                 {
                     $eu++;
                 }
-                
+
                 if (preg_match('#^[0-9]{4}-(0[1-9]|[1-2][0-9]|3[0-1])-(0[1-9]|1[0-2])$#', $entry['end_date']))
                 {
                     $eu++;
                 }
             }
-            
+
             if ($eu > $us)
             {
                 foreach ($data as $key => $entry)
                 {
                     $data[$key]['start_date'] = sprintf('%1$s-%3$s-%2$s', ...explode('-', $entry['start_date']));
-                    
+
                     $data[$key]['end_date'] = sprintf('%1$s-%3$s-%2$s', ...explode('-', $entry['end_date']));
                 }
             }
-            
+
 			Database::insert('usermedia', $data);
-            
+
 			$user = &$context->user;
-            
+
 			R::store($user);
 		}
 	}

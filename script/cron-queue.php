@@ -45,12 +45,12 @@ function processQueue($queue, $count, $maxAttempts, $logger, $callback)
 		else
 		{
             $queue->dequeue();
-            
+
             $enqueueAtStart = $queueItem->attempts < $maxAttempts;
-            
+
             if ($enqueueAtStart) {
                 $queueItem->attempts ++;
-                
+
                 $queue->enqueue($queueItem, $enqueueAtStart);
             }
 		}
@@ -71,7 +71,16 @@ CronRunner::run(__FILE__, function($logger)
 
 	$userQueue = new Queue(Config::$userQueuePath);
     $userMediaQueue = new Queue(Config::$userMediaQueuePath);
-	$mediaQueue = new Queue(Config::$mediaQueuePath);
+    $mediaQueue = new Queue(Config::$mediaQueuePath);
+
+    if ($userQueue->size() < Config::$usersPerCronRun)
+    {
+        Config::$mediaPerCronRun = floor(Config::$mediaPerCronRun / Config::$usersPerCronRun * (Config::$usersPerCronRun - $userQueue->size()));
+    }
+    else
+    {
+        Config::$mediaPerCronRun = 0;
+    }
 
 	Downloader::setLogger($logger);
 
@@ -172,7 +181,7 @@ CronRunner::run(__FILE__, function($logger)
 		}, $mediaIds));
 
 
-    
+
 	#process media
 	processQueue(
 		$mediaQueue,

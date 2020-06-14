@@ -51,6 +51,7 @@ class Config extends Singleton
     static $adminPassword;
     static $maintenanceMessage;
     static $noticeMessage;
+    static $alertMessage;
     static $sendReferrer;
     static $enforcedDomain;
     static $mail;
@@ -65,20 +66,20 @@ class Config extends Singleton
         self::$mail = 'hello@anime.plus';
 
         self::$cronInterval = 5;
-        self::$usersPerCronRun = 30;
+        self::$usersPerCronRun = 15;
         self::$userQueuePath = $dataRootDir . 'queue-users.lst';
         self::$userMediaQueuePath = $dataRootDir . 'queue-users-media.lst';
         self::$userQueueMinWait = 60 * 60;
-        self::$userQueueMaxAttempts = 1;
-        self::$mediaPerCronRun = 30;
+        self::$userQueueMaxAttempts = 0;
+        self::$mediaPerCronRun = 45;
         self::$mediaQueuePath = $dataRootDir . 'queue-media.lst';
-        self::$mediaQueueMinWait = 7 * 24 * 60 * 60;
-        self::$mediaQueueMaxAttempts = 1;
+        self::$mediaQueueMinWait = 28 * 24 * 60 * 60;
+        self::$mediaQueueMaxAttempts = 0;
 
-        self::$downloaderUserAgent = '';
+        self::$downloaderUserAgent = 'GRAPH';
         self::$downloaderProxy = null;
         self::$downloaderCookieFilePath = $dataRootDir . 'cookies.dat';
-        self::$downloaderMaxParallelJobs = 2;
+        self::$downloaderMaxParallelJobs = 1;
         self::$downloaderMaxTimeout = 30000;
         self::$downloaderUseMultiHandles = false;
 
@@ -93,7 +94,7 @@ class Config extends Singleton
         self::$dbCount = 64;
         self::$transactionCommitFrequency = 20;
         self::$maxDbBindings = 50;
-        self::$maxProcessingAttempts = 1;
+        self::$maxProcessingAttempts = 0;
 
         self::$bannedUsersListPath = $dataRootDir . 'banned-users.lst';
         self::$bannedGenresListPath = $dataRootDir . 'banned-genres.lst';
@@ -117,7 +118,8 @@ class Config extends Singleton
         self::$googleAnalyticsEnabled = true;
         self::$adminPassword = '';
         self::$maintenanceMessage = null;
-        self::$noticeMessage = '<a href="https://myanimelist.net/clubs.php?cid=67199" target="_blank" rel="noreferrer">JOIN OUR CLUB SENPAI</a>';
+        self::$noticeMessage = '<a href="https://myanimelist.net/clubs.php?cid=67199" target="_blank" rel="nofollow noopener noreferrer">JOIN OUR CLUB SENPAI</a>';
+        self::$alertMessage = null;
         self::$sendReferrer = true;
         self::$enforcedDomain = null;
     }

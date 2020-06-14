@@ -63,6 +63,13 @@ if (Config::$noticeMessage) {
 <?php
 }
 ?>
+<?php
+if (Config::$alertMessage) {
+?>
+<div id="notice-message" class="notice" style="background-color: #f00;"><?php echo Config::$alertMessage; ?></div>
+<?php
+}
+?>
 </div>
 <?php
 if (!$viewContext->headerDisabled) {
