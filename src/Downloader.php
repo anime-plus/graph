@@ -10,8 +10,8 @@ class Downloader
 
 	private static function prepareHandle($url)
 	{
-        usleep(500000);
-        
+        sleep(2);
+
         $handle = curl_init();
 		curl_setopt($handle, CURLOPT_URL, $url);
 		curl_setopt($handle, CURLOPT_HEADER, 1);
