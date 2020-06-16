@@ -76,6 +76,8 @@ CronRunner::run(__FILE__, function($logger)
     if ($userQueue->size() < Config::$usersPerCronRun)
     {
         Config::$mediaPerCronRun = floor(Config::$mediaPerCronRun / Config::$usersPerCronRun * (Config::$usersPerCronRun - $userQueue->size()));
+
+        Config::$usersPerCronRun = $userQueue->size();
     }
     else
     {
