@@ -78,6 +78,7 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             'publishing' => MediaStatus::Publishing,
             'currently airing' => MediaStatus::Publishing,
             'on hiatus' => MediaStatus::Hiatus,
+            'discontinued' => MediaStatus::Discontinued,
             'finished' => MediaStatus::Finished,
             'finished airing' => MediaStatus::Finished
         ], null);

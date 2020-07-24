@@ -4,6 +4,7 @@ class MediaStatus extends Enum
 	const NotYetPublished = 'N';
     const Publishing = 'P';
     const Hiatus = 'H';
+    const Discontinued = 'D';
 	const Finished = 'F';
 
 	public static function toString($mediaStatus, $media = null)
@@ -24,6 +25,8 @@ class MediaStatus extends Enum
                 }
             case self::Hiatus:
                 return 'on hiatus';
+            case self::Discontinued:
+                return 'discontinued';
 			case self::Finished:
 				switch ($media)
 				{
