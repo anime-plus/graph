@@ -60,7 +60,7 @@ class Config extends Singleton
     public static function doInit()
     {
         $dataRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'data', '']);
-        $htmlRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'public']);
+        $htmlRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'public_html']);
 
         self::$title = 'anime.plus';
         self::$mail = 'hello@anime.plus';

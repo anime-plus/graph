@@ -41,7 +41,7 @@ class UserControllerHistoryModule extends AbstractUserControllerModule
         {
             $key = $entry->end_date;
             list ($year, $month, $day) = array_map('intval', explode('-', $key));
-            if (!$year or !$month)
+            if (!$year || !$month)
             {
                 $unknownEntries []= $entry;
                 continue;
