@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "18-36",
+            "threshold": "12-23",
             "id": "anime-mahou-shoujo-1",
             "level": "Mahou Shoujo: level 1",
             "title": "Signed the Contract",
             "desc": "Became a magical girl and started saving the world, step by step."
         },
         {
-            "threshold": "37-72",
+            "threshold": "24-47",
             "id": "anime-mahou-shoujo-2",
             "level": "Mahou Shoujo: level 2",
             "title": "Magic Is My Middle Name",
             "desc": "Transformed into a magical girl: level two. In the name of the Moon, I will punish you!"
         },
         {
-            "threshold": "73-144",
+            "threshold": "48-95",
             "id": "anime-mahou-shoujo-3",
             "level": "Mahou Shoujo: level 3",
             "title": "Too Magical to Comprehend",
             "desc": "Watched so many mahou shoujo anime that you sparkle occasionally."
         },
         {
-            "threshold": "145+",
+            "threshold": "96+",
             "id": "anime-mahou-shoujo-4",
             "level": "Mahou Shoujo: MAX POWER",
             "title": "Are You a Wizard",
@@ -259,7 +259,6 @@
             "A10790", //Kore wa Zombie Desu ka of the Dead
             "A15437", //Kore wa Zombie Desu ka of the Dead OVA
             "A32214", //Koukaku no Pandora
-            "A31930", //Koukaku no Pandora: Ghost Urn
             "A37026", //Koukaku no Pandora: Pandoradio
             "A13159", //Kuromajo-san ga Tooru!!
             "A3577", //Kyouran Kazoku Nikki
@@ -373,7 +372,6 @@
             "A33183", //Mahoutsukai Precure! Movie: Kiseki no Henshin! Cure Mofurun!
             "A3356", //Mahoutsukai Sally
             "A3875", //Mahoutsukai Sally 2
-            "A32795", //Mahoutsukai Sally: Haha no Ai wa Towa ni! Aurora no Tani ni Kodamasuru Kanashimi no Majo no Sakebi!
             "A32794", //Mahoutsukai Sally: Majo ni Natta Yoshiko-chan
             "A17719", //Mahoutsukai Sally (Movie)
             "A629", //Mahoutsukai Tai!
@@ -441,7 +439,6 @@
             "A615", //Nurse Witch Komugi-chan Magikarte
             "A920", //Nurse Witch Komugi-chan Magikarte Special
             "A921", //Nurse Witch Komugi-chan Magikarte Z
-            "A10520", //Nurse Witch Komugi-chan Magikarte Z Special
             "A31890", //Nurse Witch Komugi-chan R
             "A3136", //Ochamegami Monogatari: Korokoro Poron
             "A350", //Ojamajo Doremi
@@ -634,7 +631,6 @@
             "A22117", //Witch Craft Works OVA
             "A23487", //Witch Craft Works Specials
             "A22377", //Wonder Momo
-            "A38004", //World Witches Series: 501-butai Hasshin Shimasu!
             "A37225", //Xiao Hua Xian
             "A40091", //Xiao Hua Xian Di Er Ji
             "A40092", //Xiao Hua Xian Di San Ji: Shou Hu Tian Shi

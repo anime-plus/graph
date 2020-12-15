@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "13-26",
+            "threshold": "10-19",
             "id": "manga-vampire-demons-1",
             "level": "Vampires/Demons: level 1",
             "title": "Sweet Tooth",
             "desc": "Donuts? Really? You lived for 500 years just to eat them?"
         },
         {
-            "threshold": "27-52",
+            "threshold": "20-39",
             "id": "manga-vampire-demons-2",
             "level": "Vampires/Demons: level 2",
             "title": "Vegetarian",
             "desc": "Some creatures prefer juicy fruits instead of sucking blood or eating raw meat. Weaklings."
         },
         {
-            "threshold": "53-105",
+            "threshold": "40-79",
             "id": "manga-vampire-demons-3",
             "level": "Vampires/Demons: level 3",
             "title": "Carnivore",
             "desc": "Don't mess with me if you want to keep your limbs attached to your body."
         },
         {
-            "threshold": "106+",
+            "threshold": "80+",
             "id": "manga-vampire-demons-4",
             "level": "Vampires/Demons: level MAX",
             "title": "Pure Evil",

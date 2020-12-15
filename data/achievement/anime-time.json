@@ -4,21 +4,21 @@
     "achievements":
     [
         {
-            "threshold": "14-89.99",
+            "threshold": "14-91.24",
             "id": "anime-time-1",
             "level": "Time: level 1",
             "title": "Hair Antenna",
             "desc": "Whose watchtime are you calling puny‽"
         },
         {
-            "threshold": "90-209.99",
+            "threshold": "91.25-182.49",
             "id": "anime-time-2",
             "level": "Time: level 2",
             "title": "Endurance Training",
             "desc": "By doing a daily ten-episode run, you are sure to become a master in no time!"
         },
         {
-            "threshold": "210-364.99",
+            "threshold": "182.50-364.99",
             "id": "anime-time-3",
             "level": "Time: level 3",
             "title": "Consciousness Upload",

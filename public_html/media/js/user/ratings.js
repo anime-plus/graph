@@ -123,7 +123,8 @@ $(function()
 	function changedColor(color)
 	{
 		if (!$('.export .colorpicker').is(':visible'))
-			return;
+            return;
+        $('.export input.hex').val(color);
 		var target = $('.export');
 		var key = target.find('select.color').val();
 		var value = color.substr(1);
@@ -148,7 +149,14 @@ $(function()
 		var key = $(this).val();
 		var params = updateParams({});
 		$.farbtastic(colorpicker).setColor('#' + params[key]);
-	});
+    });
+
+	$('.export input.hex').on('keyup', function()
+	{
+        if (/^#[0-9a-f]{6}$/i.test($(this).val())) {
+            $.farbtastic($('.export .colorpicker')).setColor($(this).val());
+        }
+    });
 
 	$('.export .close').click(function(e)
 	{

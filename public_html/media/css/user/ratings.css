@@ -116,5 +116,8 @@ ul.infobox .btn {
 	white-space: pre;
 }
 .export .custom-theme select {
-	width: 100%;
+	width: 200px;
+}
+.export .custom-theme input {
+	width: calc(200px - 14px);
 }

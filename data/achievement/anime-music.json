@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "48-96",
+            "threshold": "20-39",
             "id": "anime-music-1",
             "level": "Music: level 1",
             "title": "Gettin' Your Keys On!",
             "desc": "You don't know what you've just listened to, but you like it."
         },
         {
-            "threshold": "97-192",
+            "threshold": "40-79",
             "id": "anime-music-2",
             "level": "Music: level 2",
             "title": "This Is Even Better Live",
             "desc": "Proudly display the badges you have earned in the fancafe."
         },
         {
-            "threshold": "193-385",
+            "threshold": "80-159",
             "id": "anime-music-3",
             "level": "Music: level 3",
             "title": "Dreaming of the City",
             "desc": "Your musical knowledge has expanded so much you are tempted to make a career out of it."
         },
         {
-            "threshold": "386+",
+            "threshold": "160+",
             "id": "anime-music-4",
             "level": "Music: level SUPERSTAR",
             "title": "Hall of Fame",

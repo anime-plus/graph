@@ -4,11 +4,11 @@
     "achievements":
     [
         {
-            "threshold": "25+",
+            "threshold": "10+",
             "id": "manga-volume-long",
             "level": "Infinite Stamina",
             "title": "Long Runner",
-            "desc": "The best stories can't be told in less than 15 volumes."
+            "desc": "The best stories can't be told in less than 20 volumes."
         }
     ],
     "requirement":

@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "32-64",
+            "threshold": "20-39",
             "id": "anime-mecha-1",
             "level": "Mecha: level 1",
             "title": "Me? PILOT This Thing?!",
             "desc": "A secret organization wants you to pilot a huge mecha. Can you do it?"
         },
         {
-            "threshold": "65-129",
+            "threshold": "40-79",
             "id": "anime-mecha-2",
             "level": "Mecha: level 2",
             "title": "Engineer",
-            "desc": "After watching over 65 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us."
+            "desc": "After watching over 40 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us."
         },
         {
-            "threshold": "130-258",
+            "threshold": "80-159",
             "id": "anime-mecha-3",
             "level": "Mecha: level 3",
             "title": "Mechazawa",
-            "desc": "Having watched over 130 mecha anime, you've probably become a robot already. Nice job, hero."
+            "desc": "Having watched over 80 mecha anime, you've probably become a robot already. Nice job, hero."
         },
         {
-            "threshold": "258+",
+            "threshold": "160+",
             "id": "anime-mecha-4",
             "level": "Mecha: level MAX",
             "title": "Pierce the HEAVENS!",
@@ -35,39 +35,6 @@
     "requirement":
     {
         "type": "genre-title",
-        "genre": 18,
-        "titles":
-        [
-            "A5289", //Beast Wars Second: LioConvoy in Imminent Danger!
-            "A1953", //Code Geass: Hangyaku no Lelouch Picture Drama
-            "A8728", //Code Geass: Hangyaku no Lelouch - Kiseki no Birthday Picture Drama
-            "A18881", //Code Geass: Hangyaku no Lelouch - Kiseki no Birthday Picture Drama Flash Special
-            "A5163", //Code Geass: Hangyaku no Lelouch R2 Picture Drama
-            "A9591", //Code Geass: Hangyaku no Lelouch R2: Flash Specials
-            "A23359", //Code Geass: Boukoku no Akito 2 - Hikisakareshi Yokuryuu Picture Drama
-            "A31145", //Code Geass: Boukoku no Akito 3 - Kagayaku Mono Ten yori Otsu Picture Drama
-            "A32240", //Code Geass: Boukoku no Akito 4 - Nikushimi no Kioku Kara Picture Drama
-            "A112", //Chou Henshin Cosprayers
-            "A765", //Chou Henshin Cosprayers Specials
-            "A705", //Chou Henshin Cosprayers vs. Ankoku Uchuu Shougun the Movie
-            "A2665", //Doraemon Movie 07: Nobita to Tetsujin Heidan
-            "A10534", //Doraemon Movie 31: Shin Nobita to Tetsujin Heidan - Habatake Tenshi-tachi
-            "A72", //Full Metal Panic? Fumoffu
-            "A1015", //Full Metal Panic! The Second Raid: Wari to Hima na Sentaichou no Ichinichi
-            "A5043", //Hurricane Live! 2032
-            "A5036", //Hurricane Live! 2033
-            "A10050", //Macross F Music Clip Shuu: Nyankuri
-            "A4939", //Macross Fufonfia
-            "A2733", //Mobile Police Patlabor: MiniPato
-            "A2743", //Mobile Suit Gundam Seed: Seed Supernova - Tanekyara Gekijo
-            "A1350", //Parasite Dolls
-            "A4130", //Petit Eva: Evangelion@School
-            "A559", //RahXephon Interlude: Her and Herself/Thatness and Thereness
-            "A1954", //Rayearth
-            "A2168", //Sakura Taisen: New York
-            "A4705", //Tengen Toppa Gurren Lagann: Parallel Works
-            "A5462", //Top wo Nerae! Kagaku Kouza
-            "A20547" //Top wo Nerae 2! Kagaku Kouza
-        ]
+        "genre": 18
     }
 }

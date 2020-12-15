@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "17-34",
+            "threshold": "12-23",
             "id": "anime-gar-1",
             "level": "GAR: level 1",
             "title": "So Manly I Can't Breathe",
             "desc": "Watching all those men made you feel like a little girl... and you liked it."
         },
         {
-            "threshold": "35-69",
+            "threshold": "24-43",
             "id": "anime-gar-2",
             "level": "GAR: level 2",
             "title": "Testosterone Storm",
             "desc": "Your body has adapted into GAR anime. You can hear your muscles growing."
         },
         {
-            "threshold": "70-138",
+            "threshold": "44-87",
             "id": "anime-gar-3",
             "level": "GAR: level 3",
             "title": "You Are Already Man",
             "desc": "Resistance is futile. People are simply no match for you."
         },
         {
-            "threshold": "139+",
+            "threshold": "88+",
             "id": "anime-gar-4",
             "level": "GAR: level MAKSHIMUM",
             "title": "Alpha Male",

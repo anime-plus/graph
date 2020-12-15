@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "14-28",
+            "threshold": "10-19",
             "id": "manga-sports-1",
             "level": "Sports: level 1",
             "title": "The Stakes Are High",
             "desc": "Joined the game for real. The more you read, the more addictive it gets."
         },
         {
-            "threshold": "29-56",
+            "threshold": "20-39",
             "id": "manga-sports-2",
             "level": "Sports: level 2",
             "title": "Do You Even Read?",
             "desc": "Even during the most exhausting excercise you still find time to read. Can't miss a chapter."
         },
         {
-            "threshold": "57-112",
+            "threshold": "40-79",
             "id": "manga-sports-3",
             "level": "Sports: level 3",
             "title": "Got Balls",
             "desc": "Looking at all this struggling inspires you to become strong yourself."
         },
         {
-            "threshold": "113+",
+            "threshold": "80+",
             "id": "manga-sports-4",
             "level": "Sports: level MAX",
             "title": "Kuro Basket",
