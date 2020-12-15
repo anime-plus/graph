@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "50-99",
+            "threshold": "20-39",
             "id": "anime-duration-short-1",
             "level": "Shorts: level 1",
             "title": "Blink, and You'll Miss It",
             "desc": "It was over before it started, but it managed to tell an enticing tale."
         },
         {
-            "threshold": "100-199",
+            "threshold": "40-79",
             "id": "anime-duration-short-2",
             "level": "Shorts: level 2",
             "title": "Quickie Addict",
             "desc": "You've been saying \"one more\" for the past nine hours."
         },
         {
-            "threshold": "200-399",
+            "threshold": "80-159",
             "id": "anime-duration-short-3",
             "level": "Shorts: level 3",
             "title": "Block by Block",
             "desc": "Just like in a game of tetris, you're building something great out of small pieces."
         },
         {
-            "threshold": "400+",
+            "threshold": "160+",
             "id": "anime-duration-short-4",
             "level": "Shorts: level MIN",
             "title": "Short but Gold",

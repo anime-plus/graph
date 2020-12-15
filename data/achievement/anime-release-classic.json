@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "25-49",
+            "threshold": "20-39",
             "id": "anime-release-classic-1",
             "level": "Classics: level 1",
             "title": "Cassette Tape",
             "desc": "The first time you watched these, you didn't even know what they were."
         },
         {
-            "threshold": "50-99",
+            "threshold": "40-79",
             "id": "anime-release-classic-2",
             "level": "Classics: level 2",
             "title": "Solid Color",
             "desc": "Bomber jackets, high-waisted jeans, an overload of patterns, and bishies everywhere."
         },
         {
-            "threshold": "100-199",
+            "threshold": "80-159",
             "id": "anime-release-classic-3",
             "level": "Classics: level 3",
             "title": "It's Raining... Tragic Backstories!",
             "desc": "It might be the nostalgia lens, but you swear things had more substance back then."
         },
         {
-            "threshold": "200+",
+            "threshold": "160+",
             "id": "anime-release-classic-4",
             "level": "Nostalgia: level MAX",
             "title": "Blockbuster",

@@ -4,7 +4,7 @@
     "achievements":
     [
         {
-            "threshold": "25+",
+            "threshold": "10+",
             "id": "manga-release-old",
             "level": "Pre-1980 Manga",
             "title": "At the End of the Galaxy",

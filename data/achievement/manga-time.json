@@ -4,21 +4,21 @@
     "achievements":
     [
         {
-            "threshold": "14-89.99",
+            "threshold": "14-91.24",
             "id": "manga-time-1",
             "level": "Time: level 1",
             "title": "Downward Spiral",
             "desc": "Once drawn inside this inky whirlpool, you will find yourself sinking faster than the Titanic."
         },
         {
-            "threshold": "90-209.99",
+            "threshold": "91.25-182.49",
             "id": "manga-time-2",
             "level": "Time: level 2",
             "title": "Revelations (18:14)",
             "desc": "You've developed quite the appetite. Devouring fifty chapters a day doesn't seem challenging to you anymore."
         },
         {
-            "threshold": "210-364.99",
+            "threshold": "182.50-364.99",
             "id": "manga-time-3",
             "level": "Time: level 3",
             "title": "Voluntary Confinement",

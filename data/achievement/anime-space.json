@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "13-27",
+            "threshold": "10-19",
             "id": "anime-space-1",
             "level": "Space: level 1",
             "title": "3... 2... 1... Liftoff!",
             "desc": "You've taken one small step for man, not such a giant leap for mankind."
         },
         {
-            "threshold": "28-55",
+            "threshold": "20-39",
             "id": "anime-space-2",
             "level": "Space: level 2",
             "title": "The Earth Looks So Small from Up Here",
             "desc": "You're finally outside the atmosphere, but there's still a lot to explore."
         },
         {
-            "threshold": "56-111",
+            "threshold": "40-79",
             "id": "anime-space-3",
             "level": "Space: level 3",
             "title": "Interstellar Traveler",
             "desc": "You've traveled vast interstellar distances and seen many galaxies in your way."
         },
         {
-            "threshold": "112+",
+            "threshold": "80+",
             "id": "anime-space-4",
             "level": "Space: level MAX",
             "title": "Emperor of the Universe",

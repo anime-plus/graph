@@ -157,22 +157,22 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
 
                 return [count($entries), $entries];
             },
-            'episode-long' => function ($groupData) use ($listFinished) {
-                $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
-                    return $entry->episodes > 99;
+            'episode-long' => function ($groupData) use ($listNonPlanned) {
+                $entries = UserMediaFilter::doFilter($listNonPlanned, function ($entry) {
+                    return $entry->finished_episodes > 99;
                 });
 
                 return [count($entries), $entries];
             },
-            'volume-long' => function ($groupData) use ($listFinished) {
-                $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
-                    return $entry->volumes > 14;
+            'volume-long' => function ($groupData) use ($listNonPlanned) {
+                $entries = UserMediaFilter::doFilter($listNonPlanned, function ($entry) {
+                    return $entry->finished_volumes > 19;
                 });
 
                 return [count($entries), $entries];
             },
-            'franchise' => function ($groupData) use ($listFinished) {
-                $franchises = array_filter(Model_MixedUserMedia::getFranchises($listFinished), function ($franchise) {
+            'franchise' => function ($groupData) use ($listNonPlanned) {
+                $franchises = array_filter(Model_MixedUserMedia::getFranchises($listNonPlanned), function ($franchise) {
                     if (count($franchise->ownEntries) < 2) {
                         return false;
                     }
@@ -180,10 +180,10 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                     $episodes = 0;
 
                     foreach ($franchise->ownEntries as $entry) {
-                        $episodes += $entry->episodes;
+                        $episodes += $entry->finished_episodes;
                     }
 
-                    return $episodes > 249;
+                    return $episodes > 199;
                 });
 
                 $entries = [];
@@ -198,7 +198,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
             },
             'novel' => function ($groupData) use ($listNonPlanned) {
                 $entries = UserMediaFilter::doFilter($listNonPlanned, function ($entry) {
-                    return intval($entry->sub_type) === MangaMediaType::Novel && $entry->finished_volumes;
+                    return intval($entry->sub_type) === MangaMediaType::Novel && $entry->finished_volumes > 0;
                 });
 
                 return [count($entries), $entries];
@@ -245,7 +245,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
 
                     if (ctype_digit($year))
                     {
-                        $years[$year] = 1;
+                        $years[$year] = true;
                     }
                 }
 

@@ -1,8 +1,8 @@
-All genre-based achievements have 4 levels. Count-based badges have 12 levels, and score-based have 3 pseudo-levels. There are some other special badges awarded for achieving something big. In total, we have over 100 images that make you want to watch more anime or read more manga.
+All genre-based achievements have 4 levels. Count-based badges have 12 levels, and score-based have 3 pseudo-levels. There are some other special badges awarded for achieving something big. In total, we have over 150 images that make you want to watch more anime or read more manga.
 
 If you're curious about titles that count towards certain badges, read [these files](https://github.com/anime-plus/graph/tree/master/data/achievement), but note that some genre-based achievements have their title list generated automatically from genres on myanimelist.net. These can also have additional titles added manually, to fill up genre holes left by myanimelist.net (e.g. sequel to a historical anime isn't tagged as such).
 
-Thresholds for manga/anime genres are 1.5/3% of titles (up to 25/50) for level 1, 3/6% (up to 50/100) for level 2, 6/12% (up to 100/200) for level 3 and 12/24% (up to 200/400) for the maximum level.
+Thresholds for manga/anime genres are 1/2% of titles (up to 10/20) for level 1, 2/4% (up to 20/40) for level 2, 4/8% (up to 40/80) for level 3 and 8/16% (up to 80/160) for the maximum level.
 
 ## Anime achievements
 
@@ -268,7 +268,7 @@ Awarded for watching Mecha anime.
 <td>
 <strong>Engineer</strong>
 
-<sub>After watching over 65 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us.</sub>
+<sub>After watching over 40 mecha anime you should be able to build your own mobile suit. Remember not to kill the rest of us.</sub>
 </td>
 </tr>
 <tr>
@@ -278,7 +278,7 @@ Awarded for watching Mecha anime.
 <td>
 <strong>Mechazawa</strong>
 
-<sub>Having watched over 130 mecha anime, you've probably became a robot already. Nice job, hero.</sub>
+<sub>Having watched over 80 mecha anime, you've probably became a robot already. Nice job, hero.</sub>
 </td>
 </tr>
 <tr>
@@ -583,7 +583,7 @@ Awarded for watching Sports anime.
 </table>&nbsp;
 
 ### Studio Ghibli
-Awarded for watching 15+ anime from Studio Ghibli.
+Awarded for watching 10+ anime from Studio Ghibli.
 
 <table>
 <tbody>
@@ -733,7 +733,7 @@ Awarded for watching anime adapted from Games and Visual Novels.
 </table>&nbsp;
 
 ### Franchises
-Special achievement given upon completing 250+ episodes of 10+ franchises.
+Special achievement given upon completing 200+ episodes of 10+ franchises.
 
 <table>
 <tbody>
@@ -799,7 +799,7 @@ Awarded for watching anime with episode length of under 15 minutes.
 </table>&nbsp;
 
 ### Long runner
-Awarded for watching 25+ anime that are 100+ episodes long.
+Awarded for watching 20+ anime that are 100+ episodes long.
 
 <table>
 <tbody>
@@ -817,7 +817,7 @@ Awarded for watching 25+ anime that are 100+ episodes long.
 </table>&nbsp;
 
 ### Old anime
-Awarded for watching 25+ old anime (finished in 1980 at most).
+Awarded for watching 20+ old anime (finished in 1980 at most).
 
 <table>
 <tbody>
@@ -883,7 +883,7 @@ Awarded for watching anime classics (finished between 1981 and 2000).
 </table>&nbsp;
 
 ### Age diversity
-Awarded for watching 50+ anime, all of which started in different years.
+Awarded for watching 40+ anime, all of which started in different years.
 
 <table>
 <tbody>
@@ -987,7 +987,7 @@ Related to mean anime score.
 </table>&nbsp;
 
 ### No drop
-50+ completed, zero dropped.
+20+ completed, zero dropped.
 
 <table>
 <tbody>
@@ -1005,7 +1005,7 @@ Related to mean anime score.
 </table>&nbsp;
 
 ### Rewatch
-Awarded for having 100+ rewatches.
+Awarded for having 20+ rewatches.
 
 <table>
 <tbody>
@@ -1290,7 +1290,7 @@ Awarded for reading manga with magical girls.
 <td>
 <strong>Complete control</strong>
 
-<sub>Read over 20 mahou shoujo manga. At this level magic circles form around you at will.</sub>
+<sub>Read over 32 mahou shoujo manga. At this level magic circles form around you at will.</sub>
 </td>
 </tr>
 </tbody>
@@ -1633,7 +1633,7 @@ Awarded for reading Yuri/Shoujo Ai manga.
 </table>&nbsp;
 
 ### Long runner
-Awarded for reading 25+ manga that are 15+ volumes long.
+Awarded for reading 10+ manga that are 20+ volumes long.
 
 <table>
 <tbody>
@@ -1644,14 +1644,14 @@ Awarded for reading 25+ manga that are 15+ volumes long.
 <td>
 <strong>Long runner</strong>
 
-<sub>The best stories can't be told in less than 25 volumes.</sub>
+<sub>The best stories can't be told in less than 20 volumes.</sub>
 </td>
 </tr>
 </tbody>
 </table>&nbsp;
 
 ### Old manga
-Awarded for reading 25+ old manga (finished in 1980 at most).
+Awarded for reading 10+ old manga (finished in 1980 at most).
 
 <table>
 <tbody>
@@ -1669,7 +1669,7 @@ Awarded for reading 25+ old manga (finished in 1980 at most).
 </table>&nbsp;
 
 ### Age diversity
-Awarded for reading 50+ manga, all of which started in different years.
+Awarded for reading 40+ manga, all of which started in different years.
 
 <table>
 <tbody>
@@ -1773,7 +1773,7 @@ Related to mean manga score.
 </table>&nbsp;
 
 ### No drop
-50+ completed, zero dropped.
+10+ completed, zero dropped.
 
 <table>
 <tbody>
@@ -1791,7 +1791,7 @@ Related to mean manga score.
 </table>&nbsp;
 
 ### Reread
-Awarded for having 100+ rereads.
+Awarded for having 10+ rereads.
 
 <table>
 <tbody>

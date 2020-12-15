@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "50-99",
+            "threshold": "20-39",
             "id": "anime-romance-1",
             "level": "Romance: level 1",
             "title": "Stalker",
             "desc": "I'll stalk you so hard you won't notice me for 24 episodes. Why don't you love me yet?"
         },
         {
-            "threshold": "100-199",
+            "threshold": "40-79",
             "id": "anime-romance-2",
             "level": "Romance: level 2",
             "title": "Unrequited Love",
             "desc": "If you won't confess, they'll never know how you feel. But don't bother if you're the best girl - these never win."
         },
         {
-            "threshold": "200-399",
+            "threshold": "80-159",
             "id": "anime-romance-3",
             "level": "Romance: level 3",
             "title": "Sparkles and Bubbles",
             "desc": "Every time you two get close you feel butterflies in your stomach. Now kiss."
         },
         {
-            "threshold": "400+",
+            "threshold": "160+",
             "id": "anime-romance-4",
             "level": "Romance: FULL LOVE",
             "title": "Heart Full of Love",
@@ -35,12 +35,6 @@
     "requirement":
     {
         "type": "genre-title",
-        "genre": 22,
-        "titles":
-        [
-            "A24031", //Denki-gai no Honya-san
-            "A4551", //Hakushaku to Yousei
-            "A7083" //Hakushaku to Yousei Specials
-        ]
+        "genre": 22
     }
 }

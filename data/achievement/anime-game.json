@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "50-99",
+            "threshold": "20-39",
             "id": "anime-game-1",
             "level": "Game: level 1",
             "title": "Eternal Spring",
             "desc": "It all started one fateful morning in April..."
         },
         {
-            "threshold": "100-199",
+            "threshold": "40-79",
             "id": "anime-game-2",
             "level": "Game: level 2",
             "title": "At the Gates of Eden",
             "desc": "You're so close to heaven, you can almost feel it."
         },
         {
-            "threshold": "200-399",
+            "threshold": "80-159",
             "id": "anime-game-3",
             "level": "Game: level 3",
             "title": "Banquet of the Golden Witch",
             "desc": "You've challenged her to a game. There is no turning back, now."
         },
         {
-            "threshold": "400+",
+            "threshold": "160+",
             "id": "anime-game-4",
             "level": "Immersion: level MAX",
             "title": "Hacking to the Gate",
