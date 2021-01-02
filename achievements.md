@@ -694,7 +694,7 @@ Awarded for watching anime adapted from Games and Visual Novels.
 <img src="https://anime.plus/image/achievement/anime-game-1.png" alt="">
 </td>
 <td>
-<strong>Eternal Spring"</strong>
+<strong>Eternal Spring</strong>
 
 <sub>It all started one fateful morning in April...</sub>
 </td>

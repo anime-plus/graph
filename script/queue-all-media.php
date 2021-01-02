@@ -3,7 +3,7 @@ require_once __DIR__ . '/../src/core.php';
 
 $mediaQueue = new Queue(Config::$mediaQueuePath);
 
-$query = 'SELECT id, media, mal_id FROM media';
+$query = "SELECT id, media, mal_id FROM media";
 $media = R::getAll($query);
 
 $mediaIds = [];

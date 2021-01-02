@@ -42,6 +42,7 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             'music' => AnimeMediaType::Music,
             'manga' => MangaMediaType::Manga,
             'novel' => MangaMediaType::Novel,
+            'light novel' => MangaMediaType::LightNovel,
             'one-shot' => MangaMediaType::Oneshot,
             'doujinshi' => MangaMediaType::Doujinshi,
             'manhwa' => MangaMediaType::Manhwa,
