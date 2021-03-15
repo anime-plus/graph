@@ -69,9 +69,9 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 				$mediaMalId = Strings::makeInteger($media === Media::Anime ? $root['anime_id'] : $root['manga_id']);
 				$score      = Strings::makeInteger($root['score']);
 				$startDate  = preg_match('#^[0-9]{2}-[0-9]{2}-[0-9]{2}$#', $root['start_date_string']) ? sprintf('%3$s-%1$s-%2$s', ...explode('-', $root['start_date_string'])) : Strings::makeDate('');
-                $startDate  = substr($startDate, 0, 2) > date('y', strtotime('+1 day')) ? '19' . $startDate : '20' . $startDate;
+                $startDate  = substr($startDate, 0, 2) > date('y', strtotime('+26 hour')) ? '19' . $startDate : '20' . $startDate;
 				$finishDate = preg_match('#^[0-9]{2}-[0-9]{2}-[0-9]{2}$#', $root['finish_date_string']) ? sprintf('%3$s-%1$s-%2$s', ...explode('-', $root['finish_date_string'])) : Strings::makeDate('');
-                $finishDate = substr($finishDate, 0, 2) > date('y', strtotime('+1 day')) ? '19' . $finishDate : '20' . $finishDate;
+                $finishDate = substr($finishDate, 0, 2) > date('y', strtotime('+26 hour')) ? '19' . $finishDate : '20' . $finishDate;
 				$status     = Strings::makeEnum($root['status'], [
 					1 => UserListStatus::Completing,
 					2 => UserListStatus::Finished,
@@ -117,22 +117,22 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 
             foreach ($data as $entry)
             {
-                if (preg_match('#^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$#', $entry['start_date']))
+                if (preg_match('#^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$#', $entry['start_date']))
                 {
                     $us++;
                 }
 
-                if (preg_match('#^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$#', $entry['end_date']))
+                if (preg_match('#^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$#', $entry['end_date']))
                 {
                     $us++;
                 }
 
-                if (preg_match('#^[0-9]{4}-(0[1-9]|[1-2][0-9]|3[0-1])-(0[1-9]|1[0-2])$#', $entry['start_date']))
+                if (preg_match('#^[0-9]{4}-(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])$#', $entry['start_date']))
                 {
                     $eu++;
                 }
 
-                if (preg_match('#^[0-9]{4}-(0[1-9]|[1-2][0-9]|3[0-1])-(0[1-9]|1[0-2])$#', $entry['end_date']))
+                if (preg_match('#^[0-9]{4}-(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])$#', $entry['end_date']))
                 {
                     $eu++;
                 }

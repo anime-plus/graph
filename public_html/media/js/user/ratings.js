@@ -60,7 +60,7 @@ $(function()
         }
 
 		var newText = btoa(JSON.stringify(params)).replace(/=/g, '');
-		textarea.val(textarea.val().replace(/\/([^\/]*)(?=\/[^\/]*\.png)/, '/' + newText));
+		textarea.val(textarea.val().replace(/\/[^\/]+\/(\d{10})/, '/' + newText + '/$1'));
 		return _params;
 	}
 

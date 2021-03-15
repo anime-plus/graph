@@ -4,7 +4,7 @@ class Strings
 	public static function removeSpaces($subject)
 	{
 		$subject = trim($subject);
-		
+
 		while (false !== ($x = strpos($subject, '  ')))
 		{
 			$subject = str_replace('  ', ' ', $subject);
@@ -17,13 +17,13 @@ class Strings
 	{
 		return (int) trim(trim(str_replace([',', '.', ' '], '', $subject)), '#');
 	}
-    
+
     public static function extractInteger($subject)
     {
         if (!preg_match('#[0-9]+#', $subject, $matches)) {
             return 0;
         }
-        
+
         return (int) $matches[0];
     }
 
@@ -36,7 +36,7 @@ class Strings
 
 	public static function makeDate($str)
 	{
-		$str = trim(str_replace('  ', ' ', $str));
+		$str = trim(trim(str_replace('  ', ' ', $str), ','));
 		$monthNames = array_merge
 		(
 			array_flip([1 => 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']),
