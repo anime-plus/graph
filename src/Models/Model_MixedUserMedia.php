@@ -10,16 +10,27 @@ class Model_MixedUserMedia
 
 		if ($this->media == Media::Manga)
 		{
-			$this->duration = 8;
+            if ($this->sub_type == MangaMediaType::Novel || $this->sub_type == MangaMediaType::LightNovel)
+            {
+                $this->duration = 32;
+            }
+            else
+            {
+                $this->duration = 8;
+            }
 		}
 
-		if (isset($this->finished_episodes) and $this->media == Media::Anime)
+		if (isset($this->finished_episodes) && $this->media == Media::Anime)
 		{
 			$this->finished_duration = $this->duration * $this->finished_episodes;
 		}
-		elseif (isset($this->finished_chapters) and $this->media == Media::Manga)
+		elseif (isset($this->finished_chapters) && $this->media == Media::Manga)
 		{
 			$this->finished_duration = $this->duration * $this->finished_chapters;
+		}
+		elseif (isset($this->finished_volumes) && $this->media == Media::Manga)
+		{
+			$this->finished_duration = $this->duration * 9 * $this->finished_volumes;
 		}
 
 		if (empty($this->title))

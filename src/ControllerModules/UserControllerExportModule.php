@@ -17,7 +17,7 @@ class UserControllerExportModule extends AbstractUserControllerModule
         $media = array_shift($args);
         $settings = array_shift($args);
 
-        $url = '/' . $userName . '/' . str_replace('=', '', base64_encode($settings)) . '/' . time() . '.png';
+        $url = '/' . $userName . '/' . str_replace('=', '', base64_encode($settings)) . '/' . time();
         return UrlHelper::absoluteUrl($url);
     }
 
