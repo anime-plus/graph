@@ -1,282 +1,290 @@
 <?php
 class Model_MixedUserMedia
 {
-	public function __construct(array $columns)
-	{
-		foreach ($columns as $key => $value)
-		{
-			$this->$key = $value;
-		}
+    public function __construct(array $columns)
+    {
+        foreach ($columns as $key => $value)
+        {
+            $this->$key = $value;
+        }
 
-		if ($this->media == Media::Manga)
-		{
+        if ($this->media == Media::Anime)
+        {
+            if (isset($this->finished_episodes))
+            {
+                $this->finished_duration = $this->duration * $this->finished_episodes;
+            }
+        }
+        elseif ($this->media == Media::Manga)
+        {
+            $duration = 8;
+
             if ($this->sub_type == MangaMediaType::Novel || $this->sub_type == MangaMediaType::LightNovel)
             {
-                $this->duration = 32;
+                $duration = 32;
             }
-            else
+
+            $durationChapters = 0;
+
+            if (isset($this->finished_chapters))
             {
-                $this->duration = 8;
+                $durationChapters = $duration * $this->finished_chapters;
             }
-		}
 
-		if (isset($this->finished_episodes) && $this->media == Media::Anime)
-		{
-			$this->finished_duration = $this->duration * $this->finished_episodes;
-		}
-		elseif (isset($this->finished_chapters) && $this->media == Media::Manga)
-		{
-			$this->finished_duration = $this->duration * $this->finished_chapters;
-		}
-		elseif (isset($this->finished_volumes) && $this->media == Media::Manga)
-		{
-			$this->finished_duration = $this->duration * 9 * $this->finished_volumes;
-		}
+            $durationVolumes = 0;
 
-		if (empty($this->title))
-		{
-			$this->title = 'Unknown ' . Media::toString($this->media) . ' entry #' . $this->mal_id;
-		}
+            if (isset($this->finished_volumes))
+            {
+                $durationVolumes = $duration * 9 * $this->finished_volumes;
+            }
 
-		$this->mal_link = 'https://myanimelist.net/' . Media::toString($this->media) . '/' . $this->mal_id;
-	}
+            $this->finished_duration = max($durationChapters, $durationVolumes);
+        }
 
-	public function getSeason()
-	{
-		$monthMap = [
-			1 => 'winter',
-			2 => 'winter',
-			3 => 'spring',
-			4 => 'spring',
-			5 => 'spring',
-			6 => 'summer',
-			7 => 'summer',
-			8 => 'summer',
-			9 => 'fall',
-			10 => 'fall',
-			11 => 'fall',
-			12 => 'winter',
-		];
+        if (empty($this->title))
+        {
+            $this->title = 'Unknown ' . Media::toString($this->media) . ' entry #' . $this->mal_id;
+        }
 
-		$yearA = intval(substr($this->published_from, 0, 4));
-		$yearB = intval(substr($this->published_to, 0, 4));
-		$monthA = intval(substr($this->published_from, 5, 2));
-		$monthB = intval(substr($this->published_to, 5, 2));
-		if (!$yearA and !$yearB)
-		{
-			return null;
-		}
-		elseif (!$yearA)
-		{
-			if ($monthB)
-			{
-				return $monthMap[$monthB] . ' ' . $yearB;
-			}
-			return strval($yearB);
-		}
-		if ($monthA)
-		{
-			return $monthMap[$monthA] . ' ' . $yearA;
-		}
-		return strval($yearA);
-	}
+        $this->mal_link = 'https://myanimelist.net/' . Media::toString($this->media) . '/' . $this->mal_id;
+    }
+
+    public function getSeason()
+    {
+        $monthMap = [
+            1 => 'winter',
+            2 => 'winter',
+            3 => 'spring',
+            4 => 'spring',
+            5 => 'spring',
+            6 => 'summer',
+            7 => 'summer',
+            8 => 'summer',
+            9 => 'fall',
+            10 => 'fall',
+            11 => 'fall',
+            12 => 'winter',
+        ];
+
+        $yearA = intval(substr($this->published_from, 0, 4));
+        $yearB = intval(substr($this->published_to, 0, 4));
+        $monthA = intval(substr($this->published_from, 5, 2));
+        $monthB = intval(substr($this->published_to, 5, 2));
+        if (!$yearA and !$yearB)
+        {
+            return null;
+        }
+        elseif (!$yearA)
+        {
+            if ($monthB)
+            {
+                return $monthMap[$monthB] . ' ' . $yearB;
+            }
+            return strval($yearB);
+        }
+        if ($monthA)
+        {
+            return $monthMap[$monthA] . ' ' . $yearA;
+        }
+        return strval($yearA);
+    }
 
 
-	public static function getFromIdList($list)
-	{
-		$allEntries = [];
-		foreach (array_chunk($list, Config::$maxDbBindings) as $chunk)
-		{
-			$query = 'SELECT m.*, m.id AS media_id FROM media m WHERE m.media || m.mal_id IN (' . R::genSlots($chunk) . ')';
-			$rows = R::getAll($query, $chunk);
-			$entries = array_map(function($entry) { return new Model_MixedUserMedia($entry); }, $rows);
-			$allEntries = array_merge($allEntries, $entries);
-		}
-		return $allEntries;
-	}
+    public static function getFromIdList($list)
+    {
+        $allEntries = [];
+        foreach (array_chunk($list, Config::$maxDbBindings) as $chunk)
+        {
+            $query = 'SELECT m.*, m.id AS media_id FROM media m WHERE m.media || m.mal_id IN (' . R::genSlots($chunk) . ')';
+            $rows = R::getAll($query, $chunk);
+            $entries = array_map(function($entry) { return new Model_MixedUserMedia($entry); }, $rows);
+            $allEntries = array_merge($allEntries, $entries);
+        }
+        return $allEntries;
+    }
 
-	public static function getRatingDistribution($media, $doRecompute = false)
-	{
-		$query = 'SELECT score, COUNT(score) AS count FROM usermedia WHERE media = ? GROUP BY score';
-		$result = R::getAll($query, [$media]);
-		$dist[$media] = [];
-		foreach ($result as $row)
-		{
-			$count = $row['count'];
-			$score = $row['score'];
-			$dist[$media][$score] = $count;
-		}
-		return RatingDistribution::fromArray($dist[$media]);
-	}
+    public static function getRatingDistribution($media, $doRecompute = false)
+    {
+        $query = 'SELECT score, COUNT(score) AS count FROM usermedia WHERE media = ? GROUP BY score';
+        $result = R::getAll($query, [$media]);
+        $dist[$media] = [];
+        foreach ($result as $row)
+        {
+            $count = $row['count'];
+            $score = $row['score'];
+            $dist[$media][$score] = $count;
+        }
+        return RatingDistribution::fromArray($dist[$media]);
+    }
 
-	/**
-	* Map entries to dictionary of franchise->entries
-	*/
-	private static function clusterize($entries)
-	{
-		$clusters = [];
-		foreach ($entries as $entry)
-		{
-			if (!isset($clusters[$entry->franchise]))
-			{
-				$clusters[$entry->franchise] = [];
-			}
-			$clusters[$entry->franchise] []= $entry;
-		}
-		return $clusters;
-	}
+    /**
+    * Map entries to dictionary of franchise->entries
+    */
+    private static function clusterize($entries)
+    {
+        $clusters = [];
+        foreach ($entries as $entry)
+        {
+            if (!isset($clusters[$entry->franchise]))
+            {
+                $clusters[$entry->franchise] = [];
+            }
+            $clusters[$entry->franchise] []= $entry;
+        }
+        return $clusters;
+    }
 
-	public static function getFranchises(array $ownEntries, $loadEverything = false)
-	{
-		$ownClusters = self::clusterize($ownEntries);
+    public static function getFranchises(array $ownEntries, $loadEverything = false)
+    {
+        $ownClusters = self::clusterize($ownEntries);
 
-		if ($loadEverything)
-		{
-			$tblName = 'hurr';
-			$query = 'CREATE TEMPORARY TABLE ' . $tblName . ' (franchise VARCHAR(10))';
-			R::exec($query);
-			foreach (array_chunk(array_keys($ownClusters), Config::$maxDbBindings) as $chunk)
-			{
-				$query = 'INSERT INTO ' . $tblName . ' VALUES ' . join(',', array_fill(0, count($chunk), '(?)'));
-				R::exec($query, $chunk);
-			}
-			$query = 'SELECT * FROM media INNER JOIN ' . $tblName . ' ON media.franchise = ' . $tblName . '.franchise';
-			$rows = R::getAll($query);
-			$query = 'DROP TABLE ' . $tblName;
-			R::exec($query);
+        if ($loadEverything)
+        {
+            $tblName = 'hurr';
+            $query = 'CREATE TEMPORARY TABLE ' . $tblName . ' (franchise VARCHAR(10))';
+            R::exec($query);
+            foreach (array_chunk(array_keys($ownClusters), Config::$maxDbBindings) as $chunk)
+            {
+                $query = 'INSERT INTO ' . $tblName . ' VALUES ' . join(',', array_fill(0, count($chunk), '(?)'));
+                R::exec($query, $chunk);
+            }
+            $query = 'SELECT * FROM media INNER JOIN ' . $tblName . ' ON media.franchise = ' . $tblName . '.franchise';
+            $rows = R::getAll($query);
+            $query = 'DROP TABLE ' . $tblName;
+            R::exec($query);
 
-			$allEntries = array_map(function($entry) { return new Model_MixedUserMedia($entry); }, $rows);
-			$allClusters = self::clusterize($allEntries);
-		}
+            $allEntries = array_map(function($entry) { return new Model_MixedUserMedia($entry); }, $rows);
+            $allClusters = self::clusterize($allEntries);
+        }
 
-		$franchises = [];
-		foreach ($ownClusters as $key => $ownCluster)
-		{
-			$franchise = new StdClass;
-			$franchise->allEntries =
-				!empty($allClusters[$key])
-				? $allClusters[$key]
-				: [];
-			$franchise->ownEntries = array_values($ownCluster);
-			$franchises []= $franchise;
-		}
-		return $franchises;
-	}
+        $franchises = [];
+        foreach ($ownClusters as $key => $ownCluster)
+        {
+            $franchise = new StdClass;
+            $franchise->allEntries =
+                !empty($allClusters[$key])
+                ? $allClusters[$key]
+                : [];
+            $franchise->ownEntries = array_values($ownCluster);
+            $franchises []= $franchise;
+        }
+        return $franchises;
+    }
 
-	public static function attachGenres(array &$entries)
-	{
-		$tblName = self::createTemporaryTable($entries);
-		$query = 'SELECT * FROM mediagenre mg INNER JOIN ' . $tblName . ' ON mg.media_id = ' . $tblName . '.media_id';
-		$rows = R::getAll($query);
-		self::dropTemporaryTable($tblName);
+    public static function attachGenres(array &$entries)
+    {
+        $tblName = self::createTemporaryTable($entries);
+        $query = 'SELECT * FROM mediagenre mg INNER JOIN ' . $tblName . ' ON mg.media_id = ' . $tblName . '.media_id';
+        $rows = R::getAll($query);
+        self::dropTemporaryTable($tblName);
 
-		$data = ReflectionHelper::arraysToClasses($rows);
-		$map = [];
-		foreach ($entries as $entry)
-		{
-			$entry->genres = [];
-			$map[$entry->media_id] = $entry;
-		}
+        $data = ReflectionHelper::arraysToClasses($rows);
+        $map = [];
+        foreach ($entries as $entry)
+        {
+            $entry->genres = [];
+            $map[$entry->media_id] = $entry;
+        }
 
-		foreach ($data as $row)
-		{
-			if (!isset($map[$row->media_id]))
-			{
-				continue;
-			}
-			if (BanHelper::isGenreBanned($map[$row->media_id]->media, $row->mal_id))
-			{
-				continue;
-			}
-			$map[$row->media_id]->genres []= $row;
-		}
-	}
+        foreach ($data as $row)
+        {
+            if (!isset($map[$row->media_id]))
+            {
+                continue;
+            }
+            if (BanHelper::isGenreBanned($map[$row->media_id]->media, $row->mal_id))
+            {
+                continue;
+            }
+            $map[$row->media_id]->genres []= $row;
+        }
+    }
 
-	public static function attachCreators(array &$entries)
-	{
-		$tblName = self::createTemporaryTable($entries);
-		switch (reset($entries)->media)
-		{
-			case Media::Anime:
-				$table = 'animeproducer';
-				break;
-			case Media::Manga:
-				$table = 'mangaauthor';
-				break;
-			default:
-				throw new BadMediaException();
-		}
-		$query = 'SELECT * FROM ' . $table . ' mc INNER JOIN ' . $tblName . ' ON mc.media_id = ' . $tblName . '.media_id';
-		$rows = R::getAll($query);
-		self::dropTemporaryTable($tblName);
+    public static function attachCreators(array &$entries)
+    {
+        $tblName = self::createTemporaryTable($entries);
+        switch (reset($entries)->media)
+        {
+            case Media::Anime:
+                $table = 'animeproducer';
+                break;
+            case Media::Manga:
+                $table = 'mangaauthor';
+                break;
+            default:
+                throw new BadMediaException();
+        }
+        $query = 'SELECT * FROM ' . $table . ' mc INNER JOIN ' . $tblName . ' ON mc.media_id = ' . $tblName . '.media_id';
+        $rows = R::getAll($query);
+        self::dropTemporaryTable($tblName);
 
-		$data = ReflectionHelper::arraysToClasses($rows);
-		$map = [];
-		foreach ($entries as $entry)
-		{
-			$entry->creators = [];
-			$map[$entry->media_id] = $entry;
-		}
+        $data = ReflectionHelper::arraysToClasses($rows);
+        $map = [];
+        foreach ($entries as $entry)
+        {
+            $entry->creators = [];
+            $map[$entry->media_id] = $entry;
+        }
 
-		foreach ($data as $row)
-		{
-			if (!isset($map[$row->media_id]))
-			{
-				continue;
-			}
-			if (BanHelper::isCreatorBanned($map[$row->media_id]->media, $row->mal_id))
-			{
-				continue;
-			}
-			$map[$row->media_id]->creators []= $row;
-		}
-	}
+        foreach ($data as $row)
+        {
+            if (!isset($map[$row->media_id]))
+            {
+                continue;
+            }
+            if (BanHelper::isCreatorBanned($map[$row->media_id]->media, $row->mal_id))
+            {
+                continue;
+            }
+            $map[$row->media_id]->creators []= $row;
+        }
+    }
 
-	public static function attachRecommendations(array &$entries)
-	{
-		$tblName = self::createTemporaryTable($entries);
-		$query = 'SELECT * FROM mediarec mr INNER JOIN ' . $tblName . ' ON mr.media_id = ' . $tblName . '.media_id';
-		$rows = R::getAll($query);
-		self::dropTemporaryTable($tblName);
+    public static function attachRecommendations(array &$entries)
+    {
+        $tblName = self::createTemporaryTable($entries);
+        $query = 'SELECT * FROM mediarec mr INNER JOIN ' . $tblName . ' ON mr.media_id = ' . $tblName . '.media_id';
+        $rows = R::getAll($query);
+        self::dropTemporaryTable($tblName);
 
-		$map = [];
-		foreach ($entries as $entry)
-		{
-			$entry->recommendations = [];
-			$map[$entry->media_id] = $entry;
-		}
+        $map = [];
+        foreach ($entries as $entry)
+        {
+            $entry->recommendations = [];
+            $map[$entry->media_id] = $entry;
+        }
 
-		foreach ($rows as $row)
-		{
-			$map[$row['media_id']]->recommendations []= $row;
-		}
-	}
+        foreach ($rows as $row)
+        {
+            $map[$row['media_id']]->recommendations []= $row;
+        }
+    }
 
-	private static $temporaryTables = [];
-	public static function createTemporaryTable(array $entries)
-	{
-		$ids = array_map(function($entry) { return $entry->media_id; }, $entries);
-		$uniqueId = md5(join(',', $ids));
-		$tblName = 'hurr_' . $uniqueId;
+    private static $temporaryTables = [];
+    public static function createTemporaryTable(array $entries)
+    {
+        $ids = array_map(function($entry) { return $entry->media_id; }, $entries);
+        $uniqueId = md5(join(',', $ids));
+        $tblName = 'hurr_' . $uniqueId;
 
-		if (!isset(self::$temporaryTables[$tblName]))
-		{
-			self::$temporaryTables[$tblName] = true;
-			$query = 'CREATE TEMPORARY TABLE ' . $tblName . ' (media_id INTEGER)';
-			R::exec($query);
-			foreach (array_chunk($ids, Config::$maxDbBindings) as $chunk)
-			{
-				$query = 'INSERT INTO ' . $tblName . ' VALUES ' . join(',', array_fill(0, count($chunk), '(?)'));
-				R::exec($query, $chunk);
-			}
-		}
+        if (!isset(self::$temporaryTables[$tblName]))
+        {
+            self::$temporaryTables[$tblName] = true;
+            $query = 'CREATE TEMPORARY TABLE ' . $tblName . ' (media_id INTEGER)';
+            R::exec($query);
+            foreach (array_chunk($ids, Config::$maxDbBindings) as $chunk)
+            {
+                $query = 'INSERT INTO ' . $tblName . ' VALUES ' . join(',', array_fill(0, count($chunk), '(?)'));
+                R::exec($query, $chunk);
+            }
+        }
 
-		return $tblName;
-	}
+        return $tblName;
+    }
 
-	public static function dropTemporaryTable($tblName)
-	{
-		#$query = 'DROP TABLE ' . $tblName;
-		#R::exec($query);
-	}
+    public static function dropTemporaryTable($tblName)
+    {
+        #$query = 'DROP TABLE ' . $tblName;
+        #R::exec($query);
+    }
 }
