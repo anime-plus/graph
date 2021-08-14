@@ -35,6 +35,7 @@
     "requirement":
     {
         "type": "title",
+        "genre": 11,
         "titles":
         [
             "A38603",
