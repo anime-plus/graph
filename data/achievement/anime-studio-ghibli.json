@@ -16,27 +16,58 @@
         "type": "title",
         "titles":
         [
+            "A42143", //Aya to Majo
+            "A32932", //Choujuu Giga
+            "A8632", //Chuuzumou
+            "A10029", //Coquelicot-zaka kara
+            "A4158", //Dore Dore no Uta
             "A2890", //Gake no Ue no Ponyo
-            "A1829", //Gedo Senki
+            "A1829", //Ged Senki
+            "A24975", //Ghibli ga Ippai Special Short Short
+            "A2617", //Ghiblies
             "A1030", //Heisei Tanuki Gassen Ponpoko
+            "A6463", //Hoshi wo Katta Hi
             "A578", //Hotaru no Haka
             "A431", //Howl no Ugoku Shiro
+            "A2891", //Iblard Jikan
             "A16664", //Kaguya-hime no Monogatari
             "A7711", //Karigurashi no Arrietty
+            "A4689", //Kaze no Toori Michi
             "A16662", //Kaze Tachinu
-            "A10029", //Kokurikozaka kara
+            "A32133", //Kemushi no Boro
+            "A6975", //Koro no Dai Sanpo
+            "A2895", //Kujiratori
             "A416", //Kurenai no Buta
+            "A19401", //Kuusou no Sora Tobu Kikaitachi
             "A512", //Majo no Takkyuubin
+            "A2488", //Mei to Koneko Bus
             "A585", //Mimi wo Sumaseba
+            "A4306", //Mizugumo Monmon
             "A164", //Mononoke Hime
+            "A2897", //Nandarou
             "A597", //Neko no Ongaeshi
-            "A199", //Sen to Chihiro no Kamikakushi
-            "A513", //Tenkuu no Shiro Laputa
-            "A523", //Tonari no Totoro
-            "A415", //Tonari no Yamada-kun
+            "A31111", //Nisshin Seifun Group CM
             "A21557", //Omoide no Marnie
             "A1029", //Omoide Poroporo
-            "A743" //Umi ga Kikoeru
+            "A1047", //On Your Mark
+            "A9798", //Pandane to Tamago-hime
+            "A8312", //Piece
+            "A3821", //Portable Kuukou
+            "A22359", //Sanzoku no Musume Ronja
+            "A199", //Sen to Chihiro no Kamikakushi
+            "A2616", //Sora Iro no Tane
+            "A3820", //Space Station No.9
+            "A31102", //Taiko no Tatsujin: 15 Shuunenkinen Short Animation
+            "A12267", //Takara-sagashi
+            "A2767", //Taneyamagahara no Yoru
+            "A513", //Tenkuu no Shiro Laputa
+            "A34050", //Tonari no Onigiri-kun
+            "A523", //Tonari no Totoro
+            "A415", //Tonari no Yamada-kun
+            "A9777", //Umacha
+            "A743", //Umi ga Kikoeru
+            "A3570", //Yadosagashi
+            "A25291" //Yomiuri Shimbun
         ]
     }
 }
