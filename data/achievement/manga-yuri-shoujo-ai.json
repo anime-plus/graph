@@ -6,28 +6,28 @@
         {
             "threshold": "10-19",
             "id": "manga-yuri-shoujo-ai-1",
-            "level": "Yuri/Shoujo Ai: level 1",
+            "level": "Girls Love: level 1",
             "title": "But That's Forbidden Love",
             "desc": "Cute girls doing cute things... right?"
         },
         {
             "threshold": "20-39",
             "id": "manga-yuri-shoujo-ai-2",
-            "level": "Yuri/Shoujo Ai: level 2",
+            "level": "Girls Love: level 2",
             "title": "I Kissed a Girl...",
             "desc": "...and I liked it!"
         },
         {
             "threshold": "40-79",
             "id": "manga-yuri-shoujo-ai-3",
-            "level": "Yuri/Shoujo Ai: level 3",
+            "level": "Girls Love: level 3",
             "title": "All Female School",
             "desc": "There are only girls here to love... but I don't mind it."
         },
         {
             "threshold": "80+",
             "id": "manga-yuri-shoujo-ai-4",
-            "level": "Yuri/Shoujo Ai: level MAX",
+            "level": "Girls Love: level MAX",
             "title": "Lily",
             "desc": "You feel it everywhere."
         }

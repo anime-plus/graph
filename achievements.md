@@ -6,8 +6,8 @@ Thresholds for manga/anime genres are 1/2% of titles (up to 10/20) for level 1, 
 
 ## Anime achievements
 
-### Dementia/Psychological
-Awarded for watching Dementia/Psychological anime.
+### Psychological
+Awarded for watching Psychological anime.
 
 <table>
 <tbody>
@@ -150,8 +150,8 @@ Awarded for watching Historical anime.
 </tbody>
 </table>&nbsp;
 
-### Horror/Thriller
-Awarded for watching Horror/Thriller anime.
+### Horror
+Awarded for watching Horror anime.
 
 <table>
 <tbody>
@@ -901,7 +901,7 @@ Awarded for watching 40+ anime, all of which started in different years.
 </table>&nbsp;
 
 ### Pervert
-Are you a pervert? There's a formula: 100 ÷ *anime completed* × (*ecchi anime completed* × 2 + *hentai anime completed* × 4)
+Are you a pervert? There's a formula: 100 ÷ *anime completed* × (*erotica anime completed* + *ecchi anime completed* × 2 + *hentai anime completed* × 4)
 
 <table>
 <tbody>
@@ -1488,8 +1488,8 @@ Awarded for reading Vampires/Demons manga.
 </tbody>
 </table>&nbsp;
 
-### Yaoi/Shounen Ai
-Awarded for reading Yaoi/Shounen Ai manga.
+### Boys Love
+Awarded for reading Boys Love manga.
 
 <table>
 <tbody>
@@ -1536,8 +1536,8 @@ Awarded for reading Yaoi/Shounen Ai manga.
 </tbody>
 </table>&nbsp;
 
-### Yuri/Shoujo Ai
-Awarded for reading Yuri/Shoujo Ai manga.
+### Girls Love
+Awarded for reading Girls Love manga.
 
 <table>
 <tbody>

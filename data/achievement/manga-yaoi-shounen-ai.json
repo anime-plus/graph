@@ -6,28 +6,28 @@
         {
             "threshold": "10-19",
             "id": "manga-yaoi-shounen-ai-1",
-            "level": "Yaoi/Shounen Ai: level 1",
+            "level": "Boys Love: level 1",
             "title": "Inner Fujoshi Awakened",
             "desc": "I was just taking a peek in this manga I accidentally found... and surprisingly liked it."
         },
         {
             "threshold": "20-39",
             "id": "manga-yaoi-shounen-ai-2",
-            "level": "Yaoi/Shounen Ai: level 2",
+            "level": "Boys Love: level 2",
             "title": "Not a Day Without BL",
             "desc": "It's already too late to stop and turn back, just remember to watch your back while reading."
         },
         {
             "threshold": "40-79",
             "id": "manga-yaoi-shounen-ai-3",
-            "level": "Yaoi/Shounen Ai: level 3",
+            "level": "Boys Love: level 3",
             "title": "Yaoi Detector",
             "desc": "I don't care! I ship it!"
         },
         {
             "threshold": "80+",
             "id": "manga-yaoi-shounen-ai-4",
-            "level": "Yaoi/Shounen Ai: level MAX",
+            "level": "Boys Love: level MAX",
             "title": "Full Fledged Fujoshi",
             "desc": "Yaoi isn't just a genre to you anymore, it's a way of life."
         }
