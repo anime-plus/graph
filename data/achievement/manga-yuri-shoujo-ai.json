@@ -35,6 +35,6 @@
     "requirement":
     {
         "type": "genre-title",
-        "genre": [26, 34]
+        "genre": 26
     }
 }
