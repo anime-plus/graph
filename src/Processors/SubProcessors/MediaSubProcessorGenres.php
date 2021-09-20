@@ -18,7 +18,7 @@ class MediaSubProcessorGenres extends MediaSubProcessor
 
         $data = [];
 
-        foreach (['Genres', 'Explicit Genre', 'Demographic', 'Theme'] as $text)
+        foreach (['Genre', 'Genres', 'Explicit Genre', 'Explicit Genres', 'Demographic', 'Demographics', 'Theme', 'Themes'] as $text)
         {
             foreach ($xpath->query('//span[text() = \'' . $text . ':\']/../a') as $node) {
                 if (!preg_match('#/genre/([0-9]+)/#', $node->getAttribute('href'), $matches)) {

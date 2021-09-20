@@ -4,28 +4,28 @@
     "achievements":
     [
         {
-            "threshold": "16-31",
+            "threshold": "7-13",
             "id": "anime-dementia-psychological-1",
             "level": "Psychological: level 1",
             "title": "What Exactly Did I Just Watch?",
             "desc": "You discovered a whole new world of weird. Keep on watching."
         },
         {
-            "threshold": "32-63",
+            "threshold": "14-27",
             "id": "anime-dementia-psychological-2",
             "level": "Psychological: level 2",
             "title": "My Mind Is Full of Fu**",
             "desc": "Your attempt to wrap your mind around this failed completely."
         },
         {
-            "threshold": "64-127",
+            "threshold": "28-55",
             "id": "anime-dementia-psychological-3",
             "level": "Psychological: level 3",
             "title": "Is This the Real Life?",
             "desc": "It has become hard to distinguish between reality and fiction."
         },
         {
-            "threshold": "128+",
+            "threshold": "56+",
             "id": "anime-dementia-psychological-4",
             "level": "Psychological: level MAX",
             "title": "「 Ｗｉｒｅｄ Ｓｏｕｎｄ 」",
