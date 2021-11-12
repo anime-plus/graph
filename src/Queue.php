@@ -123,7 +123,7 @@ class Queue
 		$data = $size > 0
 			? fread($this->handle, $size)
 			: null;
-		$lines = explode("\n", $data);
+		$lines = isset($data) ? explode("\n", $data) : [];
 		$lines = array_filter($lines);
 		return array_map([__CLASS__, 'itemFromLine'], $lines);
 	}

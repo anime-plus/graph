@@ -3,7 +3,8 @@ class Strings
 {
 	public static function removeSpaces($subject)
 	{
-		$subject = trim($subject);
+		$subject ??= '0';
+        $subject = trim($subject);
 
 		while (false !== ($x = strpos($subject, '  ')))
 		{
@@ -15,11 +16,13 @@ class Strings
 
 	public static function makeInteger($subject)
 	{
-		return (int) trim(trim(str_replace([',', '.', ' '], '', $subject)), '#');
+		$subject ??= '0';
+        return (int) trim(trim(str_replace([',', '.', ' '], '', $subject)), '#');
 	}
 
     public static function extractInteger($subject)
     {
+        $subject ??= '0';
         if (!preg_match('#[0-9]+#', $subject, $matches)) {
             return 0;
         }
@@ -29,14 +32,16 @@ class Strings
 
 	public static function makeFloat($subject)
 	{
-		$subject = str_replace(' ', '', $subject);
+		$subject ??= '0';
+        $subject = str_replace(' ', '', $subject);
 		$subject = floatval($subject);
 		return $subject;
 	}
 
 	public static function makeDate($str)
 	{
-		$str = trim(trim(str_replace('  ', ' ', $str), ','));
+		$str ??= '';
+        $str = trim(trim(str_replace('  ', ' ', $str), ','));
 		$monthNames = array_merge
 		(
 			array_flip([1 => 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']),
@@ -76,9 +81,9 @@ class Strings
 
 		if (!($month >= 1 and $month <= 12))
 		{
-			if (isset($monthNames[strtolower($month)]))
+			if (isset($monthNames[strtolower($month ?? '')]))
 			{
-				$month = $monthNames[strtolower($month)];
+				$month = $monthNames[strtolower($month ?? '')];
 			}
 			else
 			{

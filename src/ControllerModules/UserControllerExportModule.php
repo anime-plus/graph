@@ -55,7 +55,7 @@ class UserControllerExportModule extends AbstractUserControllerModule
         for ($i = 0; $i < 4; $i ++)
         {
             $comp = ($c1 & 0xff) + (($c2 & 0xff) - ($c1 & 0xff)) * $r;
-            $c3 |= ($comp << ($i << 3));
+            $c3 |= ((int) $comp << ($i << 3));
             $c1 >>= 8;
             $c2 >>= 8;
         }
@@ -145,7 +145,7 @@ class UserControllerExportModule extends AbstractUserControllerModule
             $x2 = $mirror
                 ? 0
                 : imagesx($img);
-            imagefilledrectangle($img, $x1, $y1, $x2, $y2, $settings->colors[self::COLOR_BACKGROUND]);
+            imagefilledrectangle($img, (int) $x1, (int) $y1, (int) $x2, (int) $y2, (int) $settings->colors[self::COLOR_BACKGROUND]);
         }
         foreach ($distribution->getGroupsSizes(AbstractDistribution::IGNORE_NULL_KEY) as $i => $count)
         {

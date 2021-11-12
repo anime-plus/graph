@@ -6,12 +6,18 @@ interface ISingleton
 
 abstract class Singleton implements ISingleton
 {
-	private static function isInitialized()
+	static $initialized = [];
+
+    private static function isInitialized()
 	{
-		static $initialized = false;
-		$ret = $initialized;
-		$initialized = true;
-		return $ret;
+		$initialized = in_array(static::class, static::$initialized, true);
+
+        if (!$initialized)
+        {
+            static::$initialized[] = static::class;
+        }
+
+		return $initialized;
 	}
 
 	public static function init()
