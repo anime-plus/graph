@@ -134,7 +134,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
             },
             'release-old' => function ($groupData) use ($listFinished) {
                 $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
-                    $yearTo = substr($entry->published_to, 0, 4);
+                    $yearTo = substr($entry->published_to ?? '????', 0, 4);
 
                     return $yearTo !== '????' && intval($yearTo) < 1981;
                 });
@@ -143,7 +143,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
             },
             'release-classic' => function ($groupData) use ($listFinished) {
                 $entries = UserMediaFilter::doFilter($listFinished, function ($entry) {
-                    $yearTo = substr($entry->published_to, 0, 4);
+                    $yearTo = substr($entry->published_to ?? '????', 0, 4);
 
                     return $yearTo !== '????' && intval($yearTo) < 2001 && intval($yearTo) > 1980;
                 });

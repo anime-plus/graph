@@ -109,10 +109,10 @@ class TextHelper
 
 	public static function replaceTokens($input, array $tokens)
 	{
-		$output = $input;
+        $output = $input;
 		foreach ($tokens as $key => $val)
 		{
-			if (is_object($val) or is_array($val))
+			if (is_object($val) || is_array($val) || is_null($val))
 			{
 				continue;
 			}

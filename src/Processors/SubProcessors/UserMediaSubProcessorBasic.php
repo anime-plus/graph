@@ -68,9 +68,9 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 			{
 				$mediaMalId = Strings::makeInteger($media === Media::Anime ? $root['anime_id'] : $root['manga_id']);
 				$score      = Strings::makeInteger($root['score']);
-				$startDate  = preg_match('#^[0-9]{2}-[0-9]{2}-[0-9]{2}$#', $root['start_date_string']) ? sprintf('%3$s-%1$s-%2$s', ...explode('-', $root['start_date_string'])) : Strings::makeDate('');
+				$startDate  = preg_match('#^[0-9]{2}-[0-9]{2}-[0-9]{2}$#', $root['start_date_string'] ?? '') ? sprintf('%3$s-%1$s-%2$s', ...explode('-', $root['start_date_string'])) : Strings::makeDate('');
                 $startDate  = substr($startDate, 0, 2) > date('y', strtotime('+26 hour')) ? '19' . $startDate : '20' . $startDate;
-				$finishDate = preg_match('#^[0-9]{2}-[0-9]{2}-[0-9]{2}$#', $root['finish_date_string']) ? sprintf('%3$s-%1$s-%2$s', ...explode('-', $root['finish_date_string'])) : Strings::makeDate('');
+				$finishDate = preg_match('#^[0-9]{2}-[0-9]{2}-[0-9]{2}$#', $root['finish_date_string'] ?? '') ? sprintf('%3$s-%1$s-%2$s', ...explode('-', $root['finish_date_string'])) : Strings::makeDate('');
                 $finishDate = substr($finishDate, 0, 2) > date('y', strtotime('+26 hour')) ? '19' . $finishDate : '20' . $finishDate;
 				$status     = Strings::makeEnum($root['status'], [
 					1 => UserListStatus::Completing,
