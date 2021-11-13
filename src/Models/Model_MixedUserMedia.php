@@ -66,10 +66,10 @@ class Model_MixedUserMedia
             12 => 'winter',
         ];
 
-        $yearA = intval(substr($this->published_from, 0, 4));
-        $yearB = intval(substr($this->published_to, 0, 4));
-        $monthA = intval(substr($this->published_from, 5, 2));
-        $monthB = intval(substr($this->published_to, 5, 2));
+        $yearA = intval(substr($this->published_from ?? '0', 0, 4));
+        $yearB = intval(substr($this->published_to ?? '0', 0, 4));
+        $monthA = intval(substr($this->published_from ?? '0', 5, 2));
+        $monthB = intval(substr($this->published_to ?? '0', 5, 2));
         if (!$yearA and !$yearB)
         {
             return null;

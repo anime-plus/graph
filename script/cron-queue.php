@@ -112,7 +112,7 @@ CronRunner::run(__FILE__, function($logger)
 			{
 				foreach ($userContext->user->getMixedUserMedia($media) as $entry)
 				{
-					$mediaAge = time() - strtotime($entry->processed);
+					$mediaAge = time() - (isset($entry->processed) ? strtotime($entry->processed) : 0);
 					if ($mediaAge > Config::$mediaQueueMinWait)
 						$mediaIds []= TextHelper::serializeMediaId($entry);
 				}
@@ -152,7 +152,7 @@ CronRunner::run(__FILE__, function($logger)
 			{
 				foreach ($userContext->user->getMixedUserMedia($media) as $entry)
 				{
-					$mediaAge = time() - strtotime($entry->processed);
+					$mediaAge = time() - (isset($entry->processed) ? strtotime($entry->processed) : 0);
 					if ($mediaAge > Config::$mediaQueueMinWait)
 						$mediaIds []= TextHelper::serializeMediaId($entry);
 				}
@@ -172,7 +172,7 @@ CronRunner::run(__FILE__, function($logger)
 		$entries = Model_Media::getOldest($media, 100);
 		foreach ($entries as $entry)
 		{
-			$mediaAge = time() - strtotime($entry->processed);
+			$mediaAge = time() - (isset($entry->processed) ? strtotime($entry->processed) : 0);
 			if ($mediaAge > Config::$mediaQueueMinWait)
 				$mediaIds []= TextHelper::serializeMediaId($entry);
 		}

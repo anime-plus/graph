@@ -243,7 +243,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
 
                 foreach ($listFinished as $entry)
                 {
-                    $year = substr($entry->published_from, 0, 4);
+                    $year = substr($entry->published_from ?? '????', 0, 4);
 
                     if (ctype_digit($year))
                     {
