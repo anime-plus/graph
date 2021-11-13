@@ -34,8 +34,8 @@ class MediaYearDistribution extends AbstractDistribution
 
 	public static function getPublishedYear($entry)
 	{
-		$yearA = intval(substr($entry->published_from, 0, 4));
-		$yearB = intval(substr($entry->published_to, 0, 4));
+		$yearA = intval(substr($entry->published_from ?? '0', 0, 4));
+		$yearB = intval(substr($entry->published_to ?? '0', 0, 4));
 		if (!$yearA and !$yearB)
 		{
 			return null;

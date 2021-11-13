@@ -40,4 +40,4 @@
 <input type="hidden" id="user-id" value="<?php echo $viewContext->user->id ?>">
 <input type="hidden" id="user-name" value="<?php echo $viewContext->user->name ?>">
 <input type="hidden" id="media" value="<?php echo Media::toString($viewContext->media) ?>">
-<input type="hidden" id="processed" value="<?php echo date('c', strtotime($viewContext->user->processed)) ?>">
+<input type="hidden" id="processed" value="<?php echo date('c', isset($viewContext->user->processed) ? strtotime($viewContext->user->processed) : 0) ?>">

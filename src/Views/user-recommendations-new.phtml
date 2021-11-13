@@ -43,7 +43,7 @@
 							</div>
 
 							<div class="season details">
-								<?php echo ucfirst($entry->getSeason()) ?>
+								<?php echo ucfirst($entry->getSeason() ?? '') ?>
 							</div>
 
 							<!--<?php printf('%.02f', $entry->hypothetical_score) ?>-->

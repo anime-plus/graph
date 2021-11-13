@@ -39,8 +39,8 @@ class UserControllerRatingsModule extends AbstractUserControllerModule
         $listNoMovies = UserMediaFilter::doFilter($list, UserMediaFilter::nonMovie());
         $viewContext->lengthDistribution = MediaLengthDistribution::fromEntries($listNoMovies);
 
-        $f = explode('-', $viewContext->user->join_date);
-        
+        $f = explode('-', $viewContext->user->join_date ?? '');
+
         if (count($f) != 3) {
             $viewContext->earliestTimeKnown = null;
             $viewContext->meanTime = null;
@@ -48,33 +48,33 @@ class UserControllerRatingsModule extends AbstractUserControllerModule
             list($year, $month, $day) = $f;
             $earliest = mktime(0, 0, 0, $month, $day, $year);
             $totalTime = 0;
-            
+
             foreach ($list as $mixedUserMedia) {
                 $totalTime += $mixedUserMedia->finished_duration;
-                
+
                 foreach ([$mixedUserMedia->start_date, $mixedUserMedia->end_date] as $k) {
                     $f = explode('-', $k);
-                    
+
                     if (count($f) != 3) {
                         continue;
                     }
-                    
+
                     $year = intval($f[0]);
                     $month = intval($f[1]);
                     $day = intval($f[2]);
-                    
+
                     if (!$year or !$month or !$day) {
                         continue;
                     }
-                    
+
                     $time = mktime(0, 0, 0, $month, $day, $year);
-                    
+
                     if ($time < $earliest) {
                         $earliest = $time;
                     }
                 }
             }
-            
+
             $viewContext->earliestTimeKnown = $earliest;
             $viewContext->meanTime = $totalTime / max(1, (time() - $earliest) / (24. * 3600.0));
         }

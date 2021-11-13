@@ -1,6 +1,6 @@
 <div class="section basic">
 	<div id="profile-details"
-		data-date="<?php echo date('c', strtotime($viewContext->user->processed)) ?>"
+		data-date="<?php echo date('c', isset($viewContext->user->processed) ? strtotime($viewContext->user->processed) : 0) ?>"
 		data-ban-state="<?php echo BanHelper::getUserBanState($viewContext->user->name) ?>"
 		data-queue-min-wait="<?php echo Config::$userQueueMinWait ?>"
 		data-queue-add-url="<?php echo UserControllerQueueAddModule::url($viewContext->user->name) ?>"
@@ -10,7 +10,7 @@
 	<h2>
 		<!-- use AJAXes because page gets cached and we want fresh info -->
 		<span class="updated" data-tooltip="Time of last data update">
-			<!--<?php echo date('M d, H:i', strtotime($viewContext->user->processed)) ?> UTC-->
+			<!--<?php echo date('M d, H:i', isset($viewContext->user->processed) ? strtotime($viewContext->user->processed) : 0) ?> UTC-->
 		</span>
 
 		<a target="_blank" href="https://myanimelist.net/profile/<?php echo $viewContext->user->name ?>" rel="noreferrer">
