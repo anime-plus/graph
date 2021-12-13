@@ -7,7 +7,7 @@
 	height: 16px;
 	margin: 0;
 	background-repeat: no-repeat;
-	background-image: url('../img/icons.png');
+	background-image: url('/media/img/icons.png');
 }
 
 .icon-empty             { background: none; }

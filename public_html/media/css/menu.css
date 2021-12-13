@@ -141,6 +141,6 @@
 	#logo a {
 		width: 163px;
 		height: 28px;
-		background-image: url('../img/logo-header-big.png');
+		background-image: url('/media/img/logo-header-big.png');
 	}
 }

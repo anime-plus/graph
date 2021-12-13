@@ -25,11 +25,13 @@ class MediaSubProcessorBasic extends MediaSubProcessor
             throw new BadProcessorDocumentException($document, 'empty title');
         }
 
-        $type = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/../a')));
+        $type = self::getNodeValue($xpath, '//span[text() = \'Type:\']/../a');
 
-        if ($type === '') {
-            $type = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Type:\']/following-sibling::node()[self::text()]')));
+        if ($type === null) {
+            $type = self::getNodeValue($xpath, '//span[text() = \'Type:\']/following-sibling::node()[self::text()]');
         }
+
+        $type = strtolower(Strings::removeSpaces($type));
 
         $typeUnknown = $this->media === Media::Manga ? MangaMediaType::Unknown : AnimeMediaType::Unknown;
 

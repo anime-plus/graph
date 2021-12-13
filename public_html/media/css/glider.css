@@ -17,7 +17,7 @@
 	width: 96px;
 }
 #glider .target {
-	background-image: url('../img/glider.png');
+	background-image: url('/media/img/glider.png');
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	width: 96px;
@@ -31,5 +31,5 @@
 	content: ''; /* fix for rendering resized box on IE */
 }
 #preloader {
-	background: url('../img/glider.png');
+	background: url('/media/img/glider.png');
 }

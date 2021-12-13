@@ -103,7 +103,7 @@
 	width: 100%;
 }
 .user-pic img.unavailable {
-	background-image: url('../../img/anon.png');
+	background-image: url('/media/img/anon.png');
 }
 
 .friends {
