@@ -3,7 +3,6 @@ class Config extends Singleton
 {
     static $cronInterval;
     static $usersPerCronRun;
-    static $usersPerCronRunMore;
     static $userQueuePath;
     static $userMediaQueuePath;
     static $userQueueMinWait;
