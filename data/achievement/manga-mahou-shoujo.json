@@ -34,7 +34,8 @@
     ],
     "requirement":
     {
-        "type": "title",
+        "type": "genre-title",
+        "genre": 66,
         "titles":
         [
             "M12643", //Ai to Yuuki no Pig Girl Tonde Buurin

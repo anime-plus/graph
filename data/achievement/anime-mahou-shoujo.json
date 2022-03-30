@@ -34,7 +34,8 @@
     ],
     "requirement":
     {
-        "type": "title",
+        "type": "genre-title",
+        "genre": 66,
         "titles":
         [
             "A20913", //6♥Princess

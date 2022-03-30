@@ -77,7 +77,7 @@ CronRunner::run(__FILE__, function($logger)
     {
         Config::$mediaPerCronRun = floor(Config::$mediaPerCronRun / Config::$usersPerCronRun * (Config::$usersPerCronRun - $userQueue->size()));
 
-        Config::$usersPerCronRun = $userQueue->size();
+        Config::$usersPerCronRun = max($userQueue->size(), $userMediaQueue->size());
     }
     else
     {
