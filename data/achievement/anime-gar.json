@@ -37,6 +37,7 @@
         "type": "title",
         "titles":
         [
+            "A48877", //5-fun de Wakaru! Kingdom: Gasshougun-hen
             "A32998", //91 Days
             "A33964", //91 Days Recap
             "A34777", //91 Days Special
@@ -47,7 +48,6 @@
             "A27939", //Afro Samurai Pilot
             "A4970", //Afro Samurai: Resurrection
             "A47", //Akira
-            "A37706", //Akuma no Kimuraa-hen
             "A2356", //Amon: Devilman Mokushiroku
             "A35834", //Angolmois: Genkou Kassenki
             "A6721", //Ankoku Cat
@@ -63,6 +63,7 @@
             "A2251", //Baccano!
             "A3901", //Baccano! Specials
             "A34443", //Baki
+            "A39555", //Baki: Dai Raitaisai-hen
             "A33566", //Baki: Most Evil Death Row Convicts Special Anime
             "A1468", //Baoh Raihousha
             "A67", //Basilisk: Kouga Ninpou Chou
@@ -80,6 +81,7 @@
             "A12113", //Berserk: Ougon Jidaihen II - Doldrey Kouryaku
             "A12115", //Berserk: Ougon Jidaihen III - Kourin
             "A35009", //Berserk Recap
+            "A2622", //Big Wars: Kami Utsu Akaki Kouya ni
             "A8278", //Biohazard 4: Incubate
             "A9544", //Biohazard: Damnation
             "A3446", //Biohazard: Degeneration
@@ -105,6 +107,7 @@
             "A17269", //Captain Harlock
             "A4981", //Casshern Sins
             "A1598", //Casshern: Robot Hunter
+            "A43763", //Cestvs: The Roman Fighter
             "A978", //Change!! Getter Robo: Sekai Saigo no Hi
             "A2881", //Chinmoku no Kantai
             "A2341", //Choujin Densetsu Urotsukidouji
@@ -123,6 +126,7 @@
             "A1478", //City Hunter: Goodbye My Sweetheart
             "A1476", //City Hunter: Hyakuman Dollar no Inbou
             "A1479", //City Hunter: Kinkyuu Namachuukei!? Kyouakuhan Saeba Ryou no Saigo
+            "A37516", //City Hunter Movie: Shinjuku Private Eyes
             "A1477", //City Hunter: The Secret Service
             "A5032", //Cobra the Animation
             "A4646", //Cobra the Animation: The Psycho-Gun
@@ -136,8 +140,10 @@
             "A2696", //Crusher Joe OVA
             "A1153", //Crying Freeman
             "A1352", //Cyber City Oedo 808
+            "A42310", //Cyberpunk: Edgerunners
             "A31050", //Cyborg 009 VS Devilman
             "A18795", //Dagram vs. Round-Facer
+            "A7122", //Dai Yamato Zero-gou
             "A1178", //Detonator Orgun
             "A3702", //Detroit Metal City
             "A5065", //Detroit Metal City: Birth of the Metal Devil
@@ -154,7 +160,7 @@
             "A223", //Dragon Ball
             "A12231", //Dragon Ball: Episode of Bardock
             "A225", //Dragon Ball GT
-            "A987", //Dragon Ball GT: Goku Gaiden! Yuuki no Akashi wa Suushinchuu
+            "A987", //Dragon Ball GT: Gokuu Gaiden! Yuuki no Akashi wa Suushinchuu
             "A6033", //Dragon Ball Kai
             "A22777", //Dragon Ball Kai (2014)
             "A11359", //Dragon Ball Kai: Mirai ni Heiwa wo! Goku no Tamashii yo Eien ni
@@ -165,9 +171,10 @@
             "A5152", //Dragon Ball: Ossu! Kaette Kita Son Gokuu to Nakama-tachi!!
             "A2520", //Dragon Ball Specials
             "A30694", //Dragon Ball Super
+            "A36946", //Dragon Ball Super: Broly
             "A38653", //Dragon Ball Super: Broly - Skytree Super
-            "A36946", //Dragon Ball Super Movie: Broly
             "A10017", //Dragon Ball: Super Saiya-jin Zetsumetsu Keikaku
+            "A48903", //Dragon Ball Super: Super Hero
             "A813", //Dragon Ball Z
             "A6714", //Dragon Ball Z: Atsumare! Gokuu World
             "A894", //Dragon Ball Z Movie 01: Ora no Gohan wo Kaese!!
@@ -190,6 +197,8 @@
             "A985", //Dragon Ball Z Special 2: Zetsubou e no Hankou!! Nokosareta Chousenshi - Gohan to Trunks
             "A22695", //Dragon Ball Z: Summer Vacation Special
             "A33947", //Dragon Ball Z: The Real 4-D
+            "A42449", //Dragon Ball Z: The Real 4-D at Super Tenkaichi Budokai
+            "A52282", //Dragon Ball Z x Kao
             "A22699", //Dragon Ball Z: Zenbu Misemasu Toshi Wasure Dragon Ball Z!
             "A31339", //Drifters
             "A36480", //Drifters (OVA)
@@ -202,19 +211,24 @@
             "A1800", //Fatal Fury 2: The New Battle
             "A504", //Fatal Fury: The Motion Picture
             "A34662", //Fate/Apocrypha
-            "A36327", //Fate/Apocrypha: Seihai Daisen Kaimaku-hen
-            "A36729", //Fate/Apocrypha: Seihai Taisen Douran-hen
+            "A36729", //Fate/Apocrypha Recaps
             "A34321", //Fate/Grand Order: First Order
             "A36915", //Fate/Grand Order: Moonlight/Lostroom
+            "A38085", //Fate/Grand Order: Shinsei Entaku Ryouiki Camelot 1 - Wandering; Agateram
+            "A38086", //Fate/Grand Order: Shinsei Entaku Ryouiki Camelot 2 - Paladin; Agateram
+            "A41497", //Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon
+            "A38084", //Fate/Grand Order: Zettai Majuu Sensen Babylonia
+            "A40206", //Fate/Grand Order: Zettai Majuu Sensen Babylonia - Initium Iter
+            "A40761", //Fate/Grand Order: Zettai Majuu Sensen Babylonia Recaps
             "A12565", //Fate/Prototype
             "A356", //Fate/stay night
             "A25537", //Fate/stay night Movie: Heaven's Feel - I. Presage Flower
             "A33049", //Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly
-            "A33050", //Fate/stay night Movie: Heaven's Feel III. Spring Song
+            "A33050", //Fate/stay night Movie: Heaven's Feel -  III. Spring Song
             "A6922", //Fate/stay night Movie: Unlimited Blade Works
             "A7559", //Fate/stay night TV Reproduction
             "A22297", //Fate/stay night: Unlimited Blade Works
-            "A27821", //Fate/stay night: Unlimited Blade Works - Prologue
+            "A27821", //Fate/stay night: Unlimited Blade Works Prologue
             "A28701", //Fate/stay night: Unlimited Blade Works 2nd Season
             "A31389", //Fate/stay night: Unlimited Blade Works 2nd Season - Sunny Day
             "A40982", //Fate/strange Fake
@@ -225,6 +239,7 @@
             "A2952", //Final Fantasy VII: Advent Children Complete
             "A6152", //Final Fantasy VII: Advent Children - Venice Film Festival Footage
             "A408", //Final Fantasy VII: Last Order
+            "A4298", //Futari no Joe
             "A21821", //Fuuun Ishin Dai Shogun
             "A37657", //Gakuen Basara
             "A25183", //Gangsta.
@@ -241,29 +256,38 @@
             "A37032", //Garo: Vanishing Line Recap
             "A3154", //Gatchaman
             "A3579", //Getter Robo
-            "A8252", //Getter Robo (Movie)
+            "A43741", //Geter Robo Arc
             "A4486", //Getter Robo G
             "A5292", //Getter Robo Go
+            "A42153", //Getter Robo Memorial
+            "A8252", //Getter Robo (Movie)
             "A7661", //Giant Killing
             "A18771", //Gifuu Doudou!!: Kanetsugu to Keiji
             "A820", //Ginga Eiyuu Densetsu
             "A3016", //Ginga Eiyuu Densetsu: Arata Naru Tatakai no Overture
+            "A42886", //Ginga Eiyuu Densetsu: Die Neue These - Gekitotsu
             "A31433", //Ginga Eiyuu Densetsu: Die Neue These - Kaikou
             "A36369", //Ginga Eiyuu Densetsu: Die Neue These - Seiran 1
             "A36370", //Ginga Eiyuu Densetsu: Die Neue These - Seiran 2
             "A36371", //Ginga Eiyuu Densetsu: Die Neue These - Seiran 3
-            "A3014", //Ginga Eiyuu Densetsu: Waga Yuku wa Hoshi no Taikai
+            "A3371", //Ginga Eiyuu Densetsu Gaiden
+            "A3665", //Ginga Eiyuu Densetsu Gaiden (1999)
             "A3015", //Ginga Eiyuu Densetsu Gaiden: Ougon no Tsubasa
-            "A3665", //Ginga Eiyuu Densetsu Gaiden: Rasen Meikyuu
-            "A3371", //Ginga Eiyuu Densetsu Gaiden: Senoku no Hoshi Senoku no Hikari
+            "A3014", //Ginga Eiyuu Densetsu: Waga Yuku wa Hoshi no Taikai
             "A3907", //Ginga Sengoku Gunyuuden Rai
+            "A43692", //Gokushufudou
+            "A48707", //Gokushufudou Part 2
+            "A37755", //Golden Douga Gekijou
+            "A51149", //Golden Douga Gekijou Specials
             "A36028", //Golden Kamuy
             "A37989", //Golden Kamuy 2nd Season
             "A38710", //Golden Kamuy 2nd Season OVA
+            "A40059", //Golden Kamuy 3rd Season
             "A37884", //Golden Kamuy OVA
             "A4039", //Golgo 13
             "A1761", //Golgo 13: Queen Bee
             "A1760", //Golgo 13: The Professional
+            "A49895", //Go! Saitama
             "A1859", //Grappler Baki
             "A287", //Grappler Baki (TV)
             "A551", //Grappler Baki: Saidai Tournament-hen
@@ -287,7 +311,9 @@
             "A265", //Hajime no Ippo: Mashiba vs. Kimura
             "A5258", //Hajime no Ippo: New Challenger
             "A19647", //Hajime no Ippo: Rising
+            "A42940", //Hanma Baki: Son of Ogre
             "A1645", //Harlock Saga: Nibelung no Yubiwa
+            "A10964", //Heavy
             "A270", //Hellsing
             "A777", //Hellsing Ultimate
             "A11077", //Hellsing: The Dawn
@@ -303,7 +329,7 @@
             "A4549", //Hokuto no Ken: Raoh Gaiden Ten no Haoh
             "A4312", //Hokuto no Ken: Toki-den
             "A3027", //Hokuto no Ken: Yuria-den
-            "A5291", //Hokuto no Ken: Zero Kenshiro Den
+            "A5291", //Hokuto no Ken Zero: Kenshiro Den
             "A2050", //Honoo no Tenkousei
             "A6090", //Hon Ran
             "A4808", //Hurricane Polymar
@@ -315,14 +341,18 @@
             "A1759", //Jigen Sengokushi: Kuro no Shishi - Jinnai Hen
             "A33400", //Jigoku de Naze Warui
             "A666", //JoJo no Kimyou na Bouken
-            "A665", //JoJo no Kimyou na Bouken (2000)
+            "A665", //JoJo no Kimyou na Bouken: Adventure
             "A14719", //JoJo no Kimyou na Bouken (TV)
-            "A31933", //JoJo no Kimyou na Bouken: Diamond wa Kudakenai
-            "A37991", //JoJo no Kimyou na Bouken: Ougon no Kaze
-            "A38972", //JoJo no Kimyou na Bouken: Ougon no Kaze Recap
+            "A20899", //JoJo no Kimyou na Bouken Part 3: Stardust Crusaders
+            "A26055", //JoJo no Kimyou na Bouken Part 3: Stardust Crusaders 2nd Season
+            "A31933", //JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai
+            "A37991", //JoJo no Kimyou na Bouken Part 5: Ougon no Kaze
+            "A38972", //JoJo no Kimyou na Bouken Part 5: Ougon no Kaze Recaps
+            "A48661", //JoJo no Kimyou na Bouken Part 6: Stone Ocean
+            "A51367", //JoJo no Kimyou na Bouken Part 6: Stone Ocean Part 2
             "A3603", //JoJo no Kimyou na Bouken: Phantom Blood
-            "A20899", //JoJo no Kimyou na Bouken: Stardust Crusaders
-            "A26055", //JoJo no Kimyou na Bouken: Stardust Crusaders 2nd Season
+            "A41306", //JoJo no Kimyou na Bouken: Phantom Blood Pilot
+            "A52593", //JoJo no Kimyou na Bouken: The Real 4-D Dio no Sekai
             "A12413", //Jormungand
             "A13331", //Jormungand: Perfect Order
             "A15735", //Jormungand: Perfect Order Recap
@@ -333,17 +363,23 @@
             "A6375", //Kagaku Ninja-tai Gatchaman F
             "A3153", //Kagaku Ninja-tai Gatchaman (Movie)
             "A496", //Kamui no Ken
+            "A2243", //Karasu Tengu Kabuto
+            "A3726", //Karasu Tengu Kabuto: Ougon no Me no Kemono
             "A1777", //Kaze no Tairiku
             "A24439", //Kekkai Sensen
             "A34451", //Kekkai Sensen & Beyond
             "A37364", //Kekkai Sensen & Beyond OVA
             "A30915", //Kekkai Sensen: Soresaemo Saitei de Saikou na Hibi
             "A32574", //Kekkai Sensen: Ousama no Restaurant no Ousama
+            "A36903", //Kengan Ashura
+            "A40269", //Kengan Ashura Part 2
             "A33", //Kenpuu Denki Berserk
             "A38000", //Kimetsu no Yaiba
+            "A40456", //Kimetsu no Yaiba Movie: Mugen Ressha-hen
             "A12031", //Kingdom
             "A17389", //Kingdom 2nd Season
             "A40682", //Kingdom 3rd Season
+            "A50160", //Kingdom 4th Season
             "A825", //King of Fighters: Another Day
             "A34678", //Kingsglaive: FFXV Fan Kansha Tokubetsu Movie
             "A3272", //Kinnikuman
@@ -385,6 +421,8 @@
             "A37506", //Legend of Lemnear: Kyokuguro no Tsubasa Valkisas Pilot Film
             "A3676", //Machine Robo: Revenge of Chronos
             "A6577", //Machine Robo: Leina, The Legend of Wolf Blade
+            "A474", //Macross Plus
+            "A1211", //Macross Plus Movie Edition
             "A3448", //Mad★Bull 34
             "A1455", //Makai Tenshou
             "A499", //Makai Toshi Shinjuku
@@ -402,12 +440,14 @@
             "A1286", //MD Geist II: Death Force
             "A36563", //Megalo Box
             "A37703", //Megalo Box Specials
+            "A16255", //Meisou-Ou Border
             "A1879", //Midnight Eye: Gokuu
             "A1880", //Midnight Eye: Gokuu II
             "A5386", //Miyamoto Musashi: Souken ni Haseru Yume
             "A96", //Mobile Fighter G Gundam
             "A31251", //Mobile Suit Gundam: Iron-Blooded Orphans
             "A33051", //Mobile Suit Gundam: Iron-Blooded Orphans 2nd Season
+            "A51569", //Mobile Suit Gundam: Iron-Blooded Orphans Special Edition
             "A31973", //Mobile Suit Gundam Thunderbolt
             "A34391", //Mobile Suit Gundam Thunderbolt 2nd Season
             "A35949", //Mobile Suit Gundam Thunderbolt: Bandit Flower
@@ -425,6 +465,8 @@
             "A19855", //Nobunagun
             "A39539", //No Guns Life
             "A40529", //No Guns Life 2nd Season
+            "A40729", //Nomad: Megalo Box 2
+            "A48678", //Nomad: Megalo Box 2 Short Anime
             "A7836", //Notari Matsutarou
             "A5040", //One Outs
             "A30276", //One Punch Man
@@ -436,6 +478,7 @@
             "A33983", //Onihei
             "A28297", //Ore Monogatari!!
             "A6031", //Osu!! Karate Bu
+            "A17903", //Otokogi
             "A35848", //Promare
             "A39991", //Promare: Galo-hen
             "A40313", //Promare: Lio-hen
@@ -460,6 +503,7 @@
             "A11441", //Rurouni Kenshin: Meiji Kenkaku Romantan - Shin Kyoto-hen
             "A44", //Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen
             "A10334", //Rurouni Kenshin Recap
+            "A9716", //Rurouni Kenshin: Review Special
             "A12067", //Rurouni Kenshin Special
             "A4664", //Rurouni Kenshin: Special Techniques
             "A1254", //Saint Seiya
@@ -487,6 +531,7 @@
             "A205", //Samurai Champloo
             "A33734", //Samurai Noodles: The Originator
             "A2698", //Sanctuary
+            "A3067", //Saraba Uchuu Senkan Yamato: Ai no Senshi-tachi
             "A168", //s.CRY.ed
             "A10592", //s.CRY.ed Alteration I: Tao
             "A12223", //s.CRY.ed Alteration II: Quan
@@ -515,14 +560,17 @@
             "A1357", //Shin Hokuto no Ken
             "A3398", //Shin Hurricane Polymar
             "A5485", //Shin Mazinger Shougeki! Z-Hen
+            "A9749", //Shin Otokogi
             "A4810", //Shinzou Ningen Casshern
             "A1913", //Shonan Junai Gumi!
+            "A52642", //Shounen Sunday CM: Shijou Saikyou no Deshi Kenichi
             "A1451", //Shuranosuke Zanmaken: Shikamamon no Otoko
             "A1227", //Shuten Douji
             "A2161", //Skull Man
             "A170", //Slam Dunk
-            "A1764", //Slam Dunk Movie
             "A2499", //Slam Dunk: Hoero Basketman-damashii Hanamichi to Rukawa no Atsuki Natsu
+            "A52159", //Slam Dunk: Ketsui no Shouhoku Basket-bu
+            "A1764", //Slam Dunk (Movie)
             "A2498", //Slam Dunk: Shouhoku Saidai no Kiki Moero Sakuragi Hanamichi
             "A1861", //Slam Dunk: Zenkoku Seiha Da Sakuragi Hanamichi
             "A1285", //Soukihei MD Geist
@@ -553,13 +601,18 @@
             "A30246", //Space☆Dandy 2nd Season Picture Drama
             "A1081", //Space Pirate Captain Herlock: Outside Legend - The Endless Odyssey
             "A420", //Spriggan
+            "A39489", //Spriggan (ONA)
+            "A14629", //Starship Troopers: Invasion
+            "A36194", //Starship Troopers: Red Planet
             "A3086", //Strait Jacket
             "A2418", //Stranger: Mukou Hadan
             "A14617", //Stranger: Mukou Hadan Pilot
             "A950", //Street Fighter Alpha: Generations
             "A876", //Street Fighter II V
-            "A1362", //Street Fighter II: The Movie
+            "A1362", //Street Fighter II Movie
             "A17379", //Street Fighter II: Yomigaeru Fujiwara-Kyou - Toki wo Kaketa Fighter-tachi
+            "A41873", //Street Fighter IV: Aftermath
+            "A5369", //Street Fighter IV: Aratanaru Kizuna
             "A979", //Street Fighter Zero The Animation
             "A3252", //Super Express Mazinger 7
             "A1603", //Super Robot Taisen OG: Divine Wars
@@ -571,6 +624,7 @@
             "A4427", //Tatakae!! Ramenman
             "A16728", //Tatakae!! Ramenman (Movie)
             "A537", //Tekken
+            "A51347", //Tekken: Bloodline
             "A10702", //Tekken: Blood Vengeance
             "A2001", //Tengen Toppa Gurren Lagann
             "A5947", //Tengen Toppa Gurren Lagann Movie: Lagann-hen Special - Viral no Amai Yume
@@ -598,9 +652,9 @@
             "A32881", //Tiger Mask W
             "A1703", //Tokyo Tribe 2
             "A10033", //Toriko
+            "A10074", //Toriko 3D: Kaimaku Gourmet Adventure!!
             "A11787", //Toriko: Barbarian Ivy wo Hokaku Seyo!
             "A6941", //Toriko: Jump Super Anime Tour 2009 Special
-            "A10074", //Toriko 3D: Kaimaku Gourmet Adventure!!
             "A17699", //Toriko Movie: Bishokushin no Special Menu
             "A658", //Touhai Densetsu Akagi: Yami ni Maiorita Tensai
             "A6", //Trigun
@@ -613,15 +667,28 @@
             "A2299", //Uchuu no Kishi Tekkaman Blade OVA: Burning Clock
             "A2301", //Uchuu no Kishi Tekkaman Blade OVA: Missing Link
             "A2300", //Uchuu no Kishi Tekkaman Blade OVA: Twin Blood
+            "A2516", //Uchuu no Senshi
+            "A1650", //Uchuu Senkan Yamato
+            "A1651", //Uchuu Senkan Yamato 2
             "A12029", //Uchuu Senkan Yamato 2199
             "A23249", //Uchuu Senkan Yamato 2199: Hoshimeguru Hakobune
             "A23931", //Uchuu Senkan Yamato 2199: Tsuioku no Koukai
+            "A33064", //Uchuu Senkan Yamato 2202: Ai no Senshi-tachi
+            "A40389", //Uchuu Senkan Yamato 2205: Aratanaru Tabidachi
+            "A3071", //Uchuu Senkan Yamato: Aratanaru Tabidachi
+            "A7144", //Uchuu Senkan Yamato: Fukkatsu-hen
+            "A1652", //Uchuu Senkan Yamato III
+            "A3072", //Uchuu Senkan Yamato: Kanketsu-hen
+            "A711", //Uchuu Senkan Yamato (Movie)
+            "A37082", //Uchuu Senkan Yamato Pilot Film
+            "A40554", //"Uchuu Senkan Yamato" to Iu Jidai: Seireki 2202-nen no Sentaku
             "A1985", //UFO Robo Grendizer
             "A4387", //UFO Robo Grendizer tai Great Mazinger
             "A36858", //Usuzumizakura: Garo
             "A732", //Vampire Hunter D
             "A543", //Vampire Hunter D: Bloodlust
             "A1765", //Vampire Sensou
+            "A48617", //Vegeta Super Yasaijin ni Narou-hen
             "A37521", //Vinland Saga
             "A1341", //Violence Jack: Harlem Bomber-hen
             "A1343", //Violence Jack: Hell's Wind-hen
@@ -635,10 +702,16 @@
             "A1745", //Wild 7 Another Bouryaku Unga
             "A6918", //Wolverine
             "A32534", //Xiyouji zhi Dasheng Guilai
+            "A6718", //Yamato 2520
+            "A3069", //Yamato yo Towa ni
+            "A43697", //Yasuke
+            "A10113", //Yokohama Meibutsu: Otoko Katayama-gumi!
             "A32615", //Youjo Senki
             "A37055", //Youjo Senki Movie
+            "A49236", //Youjo Senki: Sabaku no Pasta Daisakusen
             "A34904", //Youjo Senki: Senkyou Houkoku
             "A1107", //Youjuu Toshi
+            "A1484", //Youma
             "A30740", //Young Black Jack
             "A1766", //Youseiki Suikoden
             "A3325", //Yuusha Exkaiser
@@ -648,6 +721,7 @@
             "A392", //Yuu☆Yuu☆Hakusho
             "A2125", //Yuu☆Yuu☆Hakusho: Eizou Hakusho - Ankoku Bujutsukai no Shou
             "A2126", //Yuu☆Yuu☆Hakusho: Eizou Hakusho II
+            "A42880", //Yuu☆Yuu☆Hakusho: Eizou Hakusho - Opening Ending Encyclopedia
             "A883", //Yuu☆Yuu☆Hakusho: Meikai Shitou-hen - Honoo no Kizuna
             "A882", //Yuu☆Yuu☆Hakusho (Movie)
             "A36951", //Yuu☆Yuu☆Hakusho: Two Shots/Noru ka Soru ka
