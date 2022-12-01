@@ -8,7 +8,6 @@ class CronRunner
 		if (!self::$finished)
 		{
 			$logger->log('Finished abnormally');
-			mail(Config::$mail, 'Cron crash', 'Cron has crashed. Again.');
 			exit(1);
 		}
 	}

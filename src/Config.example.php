@@ -53,7 +53,6 @@ class Config extends Singleton
     static $alertMessage;
     static $sendReferrer;
     static $enforcedDomain;
-    static $mail;
     static $title;
 
     public static function doInit()
@@ -62,15 +61,14 @@ class Config extends Singleton
         $htmlRootDir = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'public_html']);
 
         self::$title = 'anime.plus';
-        self::$mail = 'hello@anime.plus';
 
         self::$cronInterval = 5;
-        self::$usersPerCronRun = 15;
+        self::$usersPerCronRun = 10;
         self::$userQueuePath = $dataRootDir . 'queue-users.lst';
         self::$userMediaQueuePath = $dataRootDir . 'queue-users-media.lst';
         self::$userQueueMinWait = 60 * 60;
         self::$userQueueMaxAttempts = 0;
-        self::$mediaPerCronRun = 45;
+        self::$mediaPerCronRun = 30;
         self::$mediaQueuePath = $dataRootDir . 'queue-media.lst';
         self::$mediaQueueMinWait = 28 * 24 * 60 * 60;
         self::$mediaQueueMaxAttempts = 0;
