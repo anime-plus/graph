@@ -111,30 +111,40 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 			}
             }
 
-            $ymd = false;
+            $ydm = false;
 
             foreach ($data as $entry)
             {
-                [, $d, $m] = explode('-', $entry['start_date']);
+                [, $m, $d] = explode('-', $entry['start_date']);
 
-                if ($m > 12)
+                if (intval($m) > 12)
                 {
-                    $ymd = true;
+                    $ydm = true;
 
                     break;
                 }
 
-                [, $d, $m] = explode('-', $entry['end_date']);
-
-                if ($m > 12)
+                if (intval($d) > 12)
                 {
-                    $ymd = true;
+                    break;
+                }
 
+                [, $m, $d] = explode('-', $entry['end_date']);
+
+                if (intval($m) > 12)
+                {
+                    $ydm = true;
+
+                    break;
+                }
+
+                if (intval($d) > 12)
+                {
                     break;
                 }
             }
 
-            if ($ymd)
+            if ($ydm)
             {
                 foreach ($data as $key => $entry)
                 {
