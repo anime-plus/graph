@@ -111,34 +111,30 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 			}
             }
 
-            $us = 0;
-
-            $eu = 0;
+            $ymd = false;
 
             foreach ($data as $entry)
             {
-                if (preg_match('#^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$#', $entry['start_date']))
+                [, $d, $m] = explode('-', $entry['start_date']);
+
+                if ($m > 12)
                 {
-                    $us++;
+                    $ymd = true;
+
+                    break;
                 }
 
-                if (preg_match('#^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$#', $entry['end_date']))
-                {
-                    $us++;
-                }
+                [, $d, $m] = explode('-', $entry['end_date']);
 
-                if (preg_match('#^[0-9]{4}-(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])$#', $entry['start_date']))
+                if ($m > 12)
                 {
-                    $eu++;
-                }
+                    $ymd = true;
 
-                if (preg_match('#^[0-9]{4}-(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])$#', $entry['end_date']))
-                {
-                    $eu++;
+                    break;
                 }
             }
 
-            if ($eu > $us)
+            if ($ymd)
             {
                 foreach ($data as $key => $entry)
                 {
