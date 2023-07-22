@@ -120,13 +120,12 @@ $(function()
 		$(this).select();
 	});
 
-	function changedColor(color)
+	function changeColor(color)
 	{
 		if (!$('.export .colorpicker').is(':visible'))
             return;
         $('.export input.hex').val(color);
-		var target = $('.export');
-		var key = target.find('select.color').val();
+		var key = $('.export select.color').val();
 		var value = color.substr(1);
 		var newParams = {};
 		newParams[key] = value;
@@ -136,7 +135,7 @@ $(function()
 	/* custom theme editing */
 	var opt =
 	{
-		callback: changedColor,
+		callback: changeColor,
 		width: 200,
 		height: 200
 	};
@@ -144,18 +143,25 @@ $(function()
 
 	$('.export select.color').change(function()
 	{
-		var textarea = $(this).parents('.export').find('textarea');
-		var colorpicker = $(this).parents('.export').find('.colorpicker');
 		var key = $(this).val();
 		var params = updateParams({});
-		$.farbtastic(colorpicker).setColor('#' + params[key]);
+		var param = params[key];
+		var color = param.length === 8 ? param.substring(2) : param;
+		$.farbtastic($('.export .colorpicker')).setColor('#' + color);
+		changeColor('#' + param);
     });
 
 	$('.export input.hex').on('keyup', function()
 	{
-        if (/^#[0-9a-f]{6}$/i.test($(this).val())) {
+        if (/^#[0-9a-f]{6}$/.test($(this).val())) {
             $.farbtastic($('.export .colorpicker')).setColor($(this).val());
-        }
+        } else if (/^#[0-9a-f]{8}$/.test($(this).val())) {
+			$.farbtastic($('.export .colorpicker')).setColor('#' + $(this).val().substring(3));
+			changeColor($(this).val());
+		} else if ($(this).val() === '') {
+			$.farbtastic($('.export .colorpicker')).setColor('#ffffff');
+			changeColor('#ffffffff');
+		}
     });
 
 	$('.export .close').click(function(e)
