@@ -153,9 +153,9 @@ $(function()
 
 	$('.export input.hex').on('keyup', function()
 	{
-        if (/^#[0-9a-f]{6}$/.test($(this).val())) {
+        if (/^#[0-9a-f]{6}$/i.test($(this).val())) {
             $.farbtastic($('.export .colorpicker')).setColor($(this).val());
-        } else if (/^#[0-9a-f]{8}$/.test($(this).val())) {
+        } else if (/^#[0-9a-f]{8}$/i.test($(this).val())) {
 			$.farbtastic($('.export .colorpicker')).setColor('#' + $(this).val().substring(3));
 			changeColor($(this).val());
 		} else if ($(this).val() === '') {
