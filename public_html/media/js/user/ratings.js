@@ -64,7 +64,7 @@ $(function()
 		return _params;
 	}
 
-	var defaultParams = { 1: 'a4c0f4', 2: '13459a', 3: 'f8fafe', 4: 'eff2f8', 5: 'ffffff', 6: '000000', 7: 'aaaaaa', 8: '577fc2', 9: '577fc2' };
+	var defaultParams = { 1: 'a4c0f4', 2: '13459a', 3: 'f8fafe', 4: 'eff2f8', 5: 'ffffffff', 6: '000000', 7: 'aaaaaa', 8: '577fc2', 9: '577fc2' };
 
 	/* prepare theme selecton */
 	var themes =
@@ -158,9 +158,9 @@ $(function()
         } else if (/^#[0-9a-f]{8}$/i.test($(this).val())) {
 			$.farbtastic($('.export .colorpicker')).setColor('#' + $(this).val().substring(3));
 			changeColor($(this).val());
-		} else if ($(this).val() === '') {
-			$.farbtastic($('.export .colorpicker')).setColor('#ffffff');
+		} else if ($(this).val() === 'transparent') {
 			changeColor('#ffffffff');
+			$(this).val('transparent');
 		}
     });
 
