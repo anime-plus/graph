@@ -1,8 +1,7 @@
 {
     "media": "M",
     "order": 104,
-    "achievements":
-    [
+    "achievements": [
         {
             "threshold": "10-19",
             "id": "manga-romance-1",
@@ -32,9 +31,13 @@
             "desc": "When I see you, my kokoro goes doki-doki and the sekai starts to spin around. How could I live without you?"
         }
     ],
-    "requirement":
-    {
+    "requirement": {
         "type": "genre-title",
-        "genre": 22
+        "genre": [
+            22,
+            26,
+            28,
+            75
+        ]
     }
 }
