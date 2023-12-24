@@ -1,8 +1,7 @@
 {
     "media": "A",
     "order": 109,
-    "achievements":
-    [
+    "achievements": [
         {
             "threshold": "20-39",
             "id": "anime-romance-1",
@@ -32,9 +31,13 @@
             "desc": "So many romance anime! You surely are an expert in relationships already."
         }
     ],
-    "requirement":
-    {
+    "requirement": {
         "type": "genre-title",
-        "genre": 22
+        "genre": [
+            22,
+            26,
+            28,
+            74
+        ]
     }
 }
