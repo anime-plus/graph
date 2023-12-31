@@ -8,6 +8,9 @@ class AnimeMediaType extends MediaType
 	const Special = 4;
 	const ONA = 5;
 	const Music = 6;
+    const CM = 7;
+    const PV = 8;
+    const TV_Special = 9;
 
 	public static function toString($type, $media = null)
 	{
@@ -25,6 +28,12 @@ class AnimeMediaType extends MediaType
 				return 'ONA';
 			case self::Music:
 				return 'music';
+            case self::CM:
+                return 'CM';
+            case self::PV:
+                return 'PV';
+            case self::TV_Special:
+                return 'TV special';
 			default:
 				return 'unknown';
 		}
