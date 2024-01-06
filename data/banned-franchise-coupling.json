@@ -17,17 +17,14 @@
         "A2225", //Alps no Shoujo Heidi
         "A2406" //Sazae-san
     ],
-
     "A966": //Crayon Shin-chan
     [
         "A35686" //Doraemon (2005) Specials
     ],
-
     "A1412": //Lupin III
     [
         "A6115" //Lupin III vs. Detective Conan
     ],
-
     "A2354": //Devilman: Tanjou-hen
     [
         "A3898" //Mazinger Z tai Devilman
@@ -44,31 +41,26 @@
     [
         "A4486" //Getter Robo G
     ],
-
     "A6566": //It's a Rumic World: 50th Anniversary Weekly★Shonen Sunday
     [
         "A210", //Ranma ½
         "A249", //InuYasha
         "A1293" //Urusei Yatsura
     ],
-
     "A15785": //Inazuma Eleven Go vs. Danball Senki W Movie
     [
         "A10507", //Inazuma Eleven Go
         "A12651" //Danball Senki W
     ],
-
     "A17819": //Kyoto Animation: Suiei-hen
     [
         "A18507" //Free!
     ],
-
     "A18393": //Fairy Tail x Rave
     [
         "A246", //Groove Adventure Rave
         "A6702" //Fairy Tail
     ],
-
     "A28149": //Nihon Animator Mihonichi
     [
         "A38055" //Evangelion: Another Impact (VR)
@@ -77,7 +69,6 @@
     [
         "A28149" //Nihon Animator Mihonichi
     ],
-
     "A33512": //Animegatari x Ghost in the Shell Collab Eizou
     [
         "A30617" //Animegatari
@@ -86,7 +77,6 @@
     [
         "A30617" //Animegatari
     ],
-
     "A33544": //InaDan Movie x Mameshiba Collab CM
     [
         "A15785" //Inazuma Eleven Go vs. Danball Senki W Movie
@@ -103,12 +93,10 @@
     [
         "A7261" //Mameshiba
     ],
-
     "A35686": //Doraemon (2005) Specials
     [
         "A966" //Crayon Shin-chan
     ],
-
     "M881": //Cross Epoch
     [
         "M13", //One Piece
@@ -123,7 +111,6 @@
         "M13", //One Piece
         "M7887" //Toriko
     ],
-
     "M1474": //Devilman
     [
         "M26751" //Devilman vs Getter Robo
@@ -148,6 +135,14 @@
     "M8773": //Mazinger Z
     [
         "M37701" //Super Robot Retsuden
+    ],
+    "M13891": //Kakioroshi Manga Bangai-hen: Valentine Special
+    [
+        "M43", //Eyeshield 21
+        "M47", //Katekyou Hitman Reborn!
+        "M671", //To LOVE-Ru
+        "M1414", //SKET Dance
+        "M9711" //Bakuman.
     ],
     "M26751": //Devilman vs Getter Robo
     [
@@ -174,7 +169,6 @@
         "M1474", //Devilman
         "M1639" //Cyborg 009
     ],
-
     "M16124": //Maburaho VS Slayers!? - Dragon All Stars Gekitouhen
     [
         "M120", //Maburaho
@@ -185,7 +179,6 @@
         "M8876", //Slayers
         "M39745" //Majutsushi Orphen Hagure Tabi
     ],
-
     "M47000": //Nisekyuu!!
     [
         "M31499", //Nisekoi
@@ -201,7 +194,6 @@
         "M31499", //Nisekoi
         "M36933" //Ore Monogatari!!
     ],
-
     "M75053": //Magazine Heroines on the Beach
     [
         "M8300", //Baby Steps
@@ -222,5 +214,15 @@
         "M8300", //Baby Steps
         "M35003", //Yamada-kun to 7-nin no Majo
         "M67019" //Fuuka
+    ],
+    "M102286": //Minna no Kochikame
+    [
+        "M733", //Kochira Katsushikaku Kameari Kouenmae Hashutsujo
+        "M1414", //SKET Dance
+        "M5664", //Nurarihyon no Mago
+        "M10010", //Beelzebub
+        "M31499", //Nisekoi
+        "M39883", //Ansatsu Kyoushitsu
+        "M67545" //Isobe Isobee Monogatari: Ukiyo wa Tsurai yo
     ]
 }
