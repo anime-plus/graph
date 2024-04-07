@@ -115,6 +115,19 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
 
                 return [count($entries), $entries];
             },
+            'source-title' => function ($groupData) use ($listFinished) {
+                $entries1 = UserMediaFilter::doFilter($listFinished, UserMediaFilter::source($groupData->requirement->source));
+
+                $entries2 = !empty($groupData->requirement->titles) ? UserMediaFilter::doFilter($listFinished, UserMediaFilter::givenMedia($groupData->requirement->titles)) : [];
+
+                $entries = array_merge($entries1, $entries2);
+
+                $entries = array_intersect_key($entries, array_unique(array_map(function ($entry) {
+                    return $entry->media . $entry->mal_id;
+                }, $entries)));
+
+                return [count($entries), $entries];
+            },
             'finished' => function ($groupData) use ($listFinished) {
                 return [count($listFinished), null];
             },

@@ -1,8 +1,7 @@
 {
     "media": "A",
     "order": 301,
-    "achievements":
-    [
+    "achievements": [
         {
             "threshold": "20-39",
             "id": "anime-original-1",
@@ -32,11 +31,10 @@
             "desc": "You have been returned to the primordial ocean. From the highest point in the sky, you can peer into every universe, and lose yourself in an infinity of stories."
         }
     ],
-    "requirement":
-    {
-        "type": "title",
-        "titles":
-        [
+    "requirement": {
+        "type": "source-title",
+        "source": 1,
+        "titles": [
             "A38045",
             "A34595",
             "A38748",

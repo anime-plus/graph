@@ -83,6 +83,7 @@ try
 		media VARCHAR(1),
 		title VARCHAR(96),
 		sub_type INTEGER,
+        source INTEGER,
 		picture_url VARCHAR(256),
 		average_score FLOAT,
 		average_score_users INTEGER,
@@ -113,7 +114,7 @@ try
 		name VARCHAR(30)
 	)');
 	R::exec('CREATE INDEX IF NOT EXISTS idx_mediagenre_media_id ON mediagenre (media_id)');
-    
+
 	R::exec('CREATE TABLE IF NOT EXISTS mediarelation (
 		id INTEGER PRIMARY KEY,
 		media_id INTEGER,
