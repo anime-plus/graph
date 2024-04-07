@@ -14,6 +14,26 @@ class AnimeSubProcessorBasic extends MediaSubProcessor
 
         $xpath = new DOMXPath($dom);
 
+        $source = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Source:\']/following-sibling::node()[self::text()]')));
+
+        $source = Strings::makeEnum($source, [
+            'original' => AnimeMediaSource::ORIGINAL,
+            'manga' => AnimeMediaSource::MANGA,
+            '4-koma manga' => AnimeMediaSource::FOUR_KOMA_MANGA,
+            'web manga' => AnimeMediaSource::WEB_MANGA,
+            'novel' => AnimeMediaSource::NOVEL,
+            'light novel' => AnimeMediaSource::LIGHT_NOVEL,
+            'visual novel' => AnimeMediaSource::VISUAL_NOVEL,
+            'game' => AnimeMediaSource::GAME,
+            'card game' => AnimeMediaSource::CARD_GAME,
+            'book' => AnimeMediaSource::BOOK,
+            'picture book' => AnimeMediaSource::PICTURE_BOOK,
+            'radio' => AnimeMediaSource::RADIO,
+            'music' => AnimeMediaSource::MUSIC,
+            'web novel' => AnimeMediaSource::WEB_NOVEL,
+            'mixed media' => AnimeMediaSource::MIXED_MEDIA,
+        ], null);
+
         preg_match_all('#([0-9]+) (hr|min|sec)#', self::getNodeValue($xpath, '//span[text() = \'Duration:\']/following-sibling::node()[self::text()]'), $matches);
 
         array_reverse($matches);
@@ -43,6 +63,7 @@ class AnimeSubProcessorBasic extends MediaSubProcessor
 
         $media = &$context->media;
 
+        $media->source = $source;
         $media->duration = $duration;
         $media->episodes = $episodes;
 

@@ -151,6 +151,14 @@ class UserMediaFilter
 		};
 	}
 
+	public static function source($source)
+	{
+		return function($row) use ($source)
+		{
+			return $row->source == $source;
+		};
+	}
+
 	public static function givenMedia($mediaList)
 	{
 		return function($e) use ($mediaList)
