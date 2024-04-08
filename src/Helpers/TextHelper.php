@@ -122,7 +122,7 @@ class TextHelper
 		return $output;
 	}
 
-	public static function roundPercentages($distribution)
+	public static function roundPercentages($distribution, $precision = 0)
 	{
 		//largest remainder method
 		$total = max(array_sum($distribution), 1);
@@ -132,24 +132,30 @@ class TextHelper
 		}, $distribution);
 
 		asort($percentages, SORT_NUMERIC);
-		$percentagesRounded = array_map('round', $percentages);
+		$percentagesRounded = array_map(function ($x) use ($precision)
+		{
+			return round($x, $precision);
+		}, $percentages);
 
-		$keys = array_keys($percentages);
-		$sum = array_sum($percentagesRounded);
-		if ($sum == 0)
-		{
-			return $distribution;
-		}
-		while ($sum < 100)
-		{
-			assert(!empty($keys));
-			$key = array_shift($keys);
-			if ($distribution[$key] != 0)
-			{
-				$percentagesRounded[$key] ++;
-				$sum ++;
-			}
-		}
+		if (!$precision)
+        {
+            $keys = array_keys($percentages);
+            $sum = array_sum($percentagesRounded);
+            if ($sum == 0)
+            {
+                return $distribution;
+            }
+            while ($sum < 100)
+            {
+                assert(!empty($keys));
+                $key = array_shift($keys);
+                if ($distribution[$key] != 0)
+                {
+                    $percentagesRounded[$key] ++;
+                    $sum ++;
+                }
+            }
+        }
 
 		return $percentagesRounded;
 	}
