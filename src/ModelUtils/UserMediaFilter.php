@@ -155,7 +155,7 @@ class UserMediaFilter
 	{
 		return function($row) use ($source)
 		{
-			return $row->source == $source;
+			return ($row->source ?? 0) == $source;
 		};
 	}
 

@@ -104,12 +104,12 @@
 									'y' => $viewContext->favTypes->getGroupSize($type),
 									'type' => $type
 								];
-							}, $viewContext->favTypes->getGroupsKeys(AbstractDistribution::IGNORE_NULL_KEY | AbstractDistribution::IGNORE_EMPTY_GROUPS)));
-                            
+							}, $viewContext->favTypes->getGroupsKeys(AbstractDistribution::IGNORE_EMPTY_GROUPS)));
+
                             usort($array, function($a, $b) {
                                 return $b['y'] - $a['y'];
                             });
-                            
+
                             echo json_encode($array); ?>,
 							point:
 							{

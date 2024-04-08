@@ -1,0 +1,158 @@
+<?php if ($viewContext->media === Media::Anime): ?>
+<div class="section sources">
+	<h2>
+		Favorite sources
+	</h2>
+	<div class="section-body">
+		<?php if ($viewContext->favSources->getLargestGroupSize() == 0): ?>
+			<p>There is no information about any media source for this user.</p>
+			<p>Add a few titles and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.<br>We'll be waiting for you.</p>
+		<?php else: ?>
+			<div class="target-wrapper">
+				<div class="target"></div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="entries-wrapper">
+			</div>
+
+			<script type="text/javascript">
+				var opt =
+				{
+					chart:
+					{
+						renderTo: $('.sources .target')[0],
+						type: 'pie',
+						spacingTop: 0,
+						spacingBottom: 0,
+						pieChart: true
+					},
+
+					legend:
+					{
+						enabled: true,
+						layout: 'vertical',
+						align: 'right',
+						verticalAlign: 'middle',
+						labelFormatter: function()
+						{
+							var percentages = <?php echo json_encode($viewContext->sourcePercentages) ?>;
+							var text = this.name;
+							text += ' - ' + this.y.toString();
+							text += ' (' + percentages[this.source] + '%)';
+							return text;
+						},
+						x: -40,
+						symbolPadding: 8,
+						itemMarginTop: 4,
+						itemMarginBottom: 4,
+						borderWidth: 0
+					},
+
+					xAxis:
+					{
+						labels:
+						{
+							enabled: false
+						},
+						title:
+						{
+							text: 'Sources',
+							margin: 15
+						},
+					},
+
+					yAxis:
+					{
+						title:
+						{
+							text: 'Mean score'
+						}
+					},
+
+					tooltip:
+					{
+						formatter: function()
+						{
+							var text;
+							if (this.key == '?')
+							{
+								text = 'Titles of unknown source: ';
+							} else
+							{
+								text = this.key + ': ';
+							}
+							if (this.y > 0)
+							{
+								text += this.y;
+							} else
+							{
+								text += 'none!';
+							}
+							return text;
+						}
+					},
+
+					series:
+					[
+						{
+							name: 'sources',
+							data: <?php $array = array_values(array_map(function($source) use ($viewContext)
+							{
+								return
+								[
+									'name' => ucfirst(AnimeMediaSource::toString($source)),
+									'y' => $viewContext->favSources->getGroupSize($source),
+									'source' => $source
+								];
+							}, $viewContext->favSources->getGroupsKeys(AbstractDistribution::IGNORE_EMPTY_GROUPS)));
+
+                            usort($array, function($a, $b) {
+                                return $b['y'] - $a['y'];
+                            });
+
+                            echo json_encode($array); ?>,
+							point:
+							{
+								events:
+								{
+									click: function(e)
+									{
+										console.log(this);
+										toggleEntries($('.sources .entries-wrapper'), {'sender': 'source', 'filter-param': this.source});
+									}
+								}
+							}
+						}
+					],
+
+					plotOptions:
+					{
+						pie:
+						{
+							point:
+							{
+								events:
+								{
+									legendItemClick: function()
+									{
+										return false;
+									}
+								}
+							},
+							dataLabels:
+							{
+								enabled: false
+							},
+							showInLegend: true,
+							size: '100%',
+						}
+					}
+				};
+
+				new Highcharts.Chart(opt);
+			</script>
+		<?php endif ?>
+	</div>
+</div>
+<?php endif; ?>

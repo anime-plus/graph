@@ -32,7 +32,7 @@ class AnimeSubProcessorBasic extends MediaSubProcessor
             'music' => AnimeMediaSource::MUSIC,
             'web novel' => AnimeMediaSource::WEB_NOVEL,
             'mixed media' => AnimeMediaSource::MIXED_MEDIA,
-        ], null);
+        ], AnimeMediaSource::UNKNOWN);
 
         preg_match_all('#([0-9]+) (hr|min|sec)#', self::getNodeValue($xpath, '//span[text() = \'Duration:\']/following-sibling::node()[self::text()]'), $matches);
 
