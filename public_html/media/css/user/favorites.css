@@ -13,6 +13,13 @@
 	height: 220px;
 }
 
+.sources .target-wrapper {
+	width: 100%;
+}
+.sources .target {
+	height: 220px;
+}
+
 table {
 	font-size: 90%;
 }

@@ -1,10 +1,11 @@
-<div class="section types">
+<?php if ($viewContext->media === Media::Anime): ?>
+<div class="section sources">
 	<h2>
-		Favorite types
+		Favorite sources
 	</h2>
 	<div class="section-body">
-		<?php if ($viewContext->favTypes->getLargestGroupSize() == 0): ?>
-			<p>There is no information about any media type for this user.</p>
+		<?php if ($viewContext->favSources->getLargestGroupSize() == 0): ?>
+			<p>There is no information about any media source for this user.</p>
 			<p>Add a few titles and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.<br>We'll be waiting for you.</p>
 		<?php else: ?>
 			<div class="target-wrapper">
@@ -20,7 +21,7 @@
 				{
 					chart:
 					{
-						renderTo: $('.types .target')[0],
+						renderTo: $('.sources .target')[0],
 						type: 'pie',
 						spacingTop: 0,
 						spacingBottom: 0,
@@ -35,10 +36,10 @@
 						verticalAlign: 'middle',
 						labelFormatter: function()
 						{
-							var percentages = <?php echo json_encode($viewContext->typePercentages) ?>;
+							var percentages = <?php echo json_encode($viewContext->sourcePercentages) ?>;
 							var text = this.name;
 							text += ' - ' + this.y.toString();
-							text += ' (' + percentages[this.type] + '%)';
+							text += ' (' + percentages[this.source] + '%)';
 							return text;
 						},
 						x: -40,
@@ -56,7 +57,7 @@
 						},
 						title:
 						{
-							text: 'Types',
+							text: 'Sources',
 							margin: 15
 						},
 					},
@@ -76,7 +77,7 @@
 							var text;
 							if (this.key == '?')
 							{
-								text = 'Titles of unknown type: ';
+								text = 'Titles of unknown source: ';
 							} else
 							{
 								text = this.key + ': ';
@@ -95,16 +96,16 @@
 					series:
 					[
 						{
-							name: 'types',
-							data: <?php $array = array_values(array_map(function($type) use ($viewContext)
+							name: 'sources',
+							data: <?php $array = array_values(array_map(function($source) use ($viewContext)
 							{
 								return
 								[
-									'name' => ucfirst(MediaType::toString($type, $viewContext->media)),
-									'y' => $viewContext->favTypes->getGroupSize($type),
-									'type' => $type
+									'name' => ucfirst(AnimeMediaSource::toString($source)),
+									'y' => $viewContext->favSources->getGroupSize($source),
+									'source' => $source
 								];
-							}, $viewContext->favTypes->getGroupsKeys(AbstractDistribution::IGNORE_EMPTY_GROUPS)));
+							}, $viewContext->favSources->getGroupsKeys(AbstractDistribution::IGNORE_EMPTY_GROUPS)));
 
                             usort($array, function($a, $b) {
                                 return $b['y'] - $a['y'];
@@ -118,7 +119,7 @@
 									click: function(e)
 									{
 										console.log(this);
-										toggleEntries($('.types .entries-wrapper'), {'sender': 'type', 'filter-param': this.type});
+										toggleEntries($('.sources .entries-wrapper'), {'sender': 'source', 'filter-param': this.source});
 									}
 								}
 							}
@@ -154,3 +155,4 @@
 		<?php endif ?>
 	</div>
 </div>
+<?php endif; ?>
