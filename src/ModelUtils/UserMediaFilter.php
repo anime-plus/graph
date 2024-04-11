@@ -151,11 +151,16 @@ class UserMediaFilter
 		};
 	}
 
-	public static function source($source)
+	public static function source($sources)
 	{
-		return function($row) use ($source)
+		if (!is_array($sources))
+        {
+            $sources = [$sources];
+        }
+
+        return function($row) use ($sources)
 		{
-			return ($row->source ?? 0) == $source;
+            return in_array($row->source ?? 0, $sources);
 		};
 	}
 
