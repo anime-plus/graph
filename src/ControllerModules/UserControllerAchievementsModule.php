@@ -232,7 +232,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                         return $entry->media . $entry->mal_id;
                     }, $entries)));
 
-                    $score = 100 / $entriesCount * (count($entriesErotica) + count($entriesEcchi) * 2 + count($entriesHentai) * 4);
+                    $score = round(100 / $entriesCount * (count($entriesErotica) + count($entriesEcchi) * 2 + count($entriesHentai) * 4), 2);
 
                     if ($score > 100) {
                         $score = 100;
