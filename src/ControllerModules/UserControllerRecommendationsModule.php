@@ -273,6 +273,23 @@ class RecommendationsEngine
                 continue;
             }
 
+            $skip = true;
+
+            foreach ($franchise->ownEntries as $entry)
+            {
+                if ($entry->status !== UserListStatus::Dropped && $entry->status !== UserListStatus::Planned)
+                {
+                    $skip = false;
+
+                    break;
+                }
+            }
+
+            if ($skip)
+            {
+                continue;
+            }
+
             DataSorter::sort($franchise->allEntries, DataSorter::MediaMalId);
             DataSorter::sort($franchise->ownEntries, DataSorter::MediaMalId);
             $dist = RatingDistribution::fromEntries($franchise->ownEntries);
