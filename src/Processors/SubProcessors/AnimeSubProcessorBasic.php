@@ -14,11 +14,13 @@ class AnimeSubProcessorBasic extends MediaSubProcessor
 
         $xpath = new DOMXPath($dom);
 
-        $source = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Source:\']/../a')));
+        $source = self::getNodeValue($xpath, '//span[text() = \'Source:\']/../a');
 
         if ($source === null) {
-            $source = strtolower(Strings::removeSpaces(self::getNodeValue($xpath, '//span[text() = \'Source:\']/following-sibling::node()[self::text()]')));
+            $source = self::getNodeValue($xpath, '//span[text() = \'Source:\']/following-sibling::node()[self::text()]');
         }
+
+        $source = strtolower(Strings::removeSpaces($source));
 
         $source = Strings::makeEnum($source, [
             'original' => AnimeMediaSource::ORIGINAL,
