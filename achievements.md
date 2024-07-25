@@ -901,7 +901,7 @@ Awarded for watching 40+ anime, all of which started in different years.
 </table>&nbsp;
 
 ### Pervert
-Are you a pervert? There's a formula: 100 ÷ *anime completed* × (*erotica anime completed* + *ecchi anime completed* × 2 + *hentai anime completed* × 4)
+Are you a pervert? There's a formula: 100 ÷ *anime completed* × (*ecchi anime completed* × 2 + *erotica anime completed* × 3 + *hentai anime completed* × 4)
 
 <table>
 <tbody>
@@ -1687,7 +1687,7 @@ Awarded for reading 40+ manga, all of which started in different years.
 </table>&nbsp;
 
 ### Pervert
-Are you a pervert? There's a formula: 100 ÷ *manga completed* × (*ecchi manga completed* × 2 + *hentai manga completed* × 4)
+Are you a pervert? There's a formula: 100 ÷ *manga completed* × (*ecchi manga completed* × 2 + *erotica manga completed* × 3 + *hentai manga completed* × 4)
 
 <table>
 <tbody>
