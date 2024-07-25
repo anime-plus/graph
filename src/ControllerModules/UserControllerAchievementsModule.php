@@ -220,9 +220,9 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                 $entriesCount = count($listFinished);
 
                 if ($entriesCount) {
-                    $entriesErotica = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(49, $listFinished));
-
                     $entriesEcchi = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(9, $listFinished));
+
+                    $entriesErotica = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(49, $listFinished));
 
                     $entriesHentai = UserMediaFilter::doFilter($listFinished, UserMediaFilter::genre(12, $listFinished));
 
@@ -232,7 +232,7 @@ class UserControllerAchievementsModule extends AbstractUserControllerModule
                         return $entry->media . $entry->mal_id;
                     }, $entries)));
 
-                    $score = round(100 / $entriesCount * (count($entriesErotica) + count($entriesEcchi) * 2 + count($entriesHentai) * 4), 2);
+                    $score = round(100 / $entriesCount * (count($entriesEcchi) * 2 + count($entriesErotica) * 3 + count($entriesHentai) * 4), 2);
 
                     if ($score > 100) {
                         $score = 100;
