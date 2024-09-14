@@ -182,7 +182,7 @@ $(function()
 		var hidden = readHidden(userName);
 		hidden.push(key);
 		writeHidden(userName, hidden);
-		hide($(this).parents('li'), false);
+		hide($('[data-id=\'' + key + '\']'), false);
 		e.preventDefault();
 	});
 

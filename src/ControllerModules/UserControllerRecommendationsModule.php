@@ -247,67 +247,25 @@ class RecommendationsEngine
 
     public function getMissingTitles()
     {
-        $dontRecommend = [];
+        $titles = Model_MixedUserMedia::attachMissingRelations($this->list, $this->media);
 
-        foreach ($this->list as $entry) {
-            $dontRecommend[$entry->media . $entry->mal_id] = true;
-        }
+        $titles = array_filter($titles, function ($title)
+        {
+            return !empty($title->relations);
+        });
 
-        $franchises = [];
+        DataSorter::sort($titles, DataSorter::Title);
 
-        foreach ($this->allFranchises as &$franchise) {
-            $franchise->allEntries = array_filter($franchise->allEntries,
-                function ($entry) use ($dontRecommend) {
-                    if ($entry->media != $this->media) {
-                        return false;
-                    }
-
-                    if (isset($dontRecommend[$entry->media . $entry->mal_id])) {
-                        return false;
-                    }
-
-                    return true;
-                });
-
-            if (empty($franchise->allEntries)) {
-                continue;
-            }
-
-            $skip = true;
-
-            foreach ($franchise->ownEntries as $entry)
-            {
-                if ($entry->status !== UserListStatus::Dropped && $entry->status !== UserListStatus::Planned)
-                {
-                    $skip = false;
-
-                    break;
-                }
-            }
-
-            if ($skip)
-            {
-                continue;
-            }
-
-            DataSorter::sort($franchise->allEntries, DataSorter::MediaMalId);
-            DataSorter::sort($franchise->ownEntries, DataSorter::MediaMalId);
-            $dist = RatingDistribution::fromEntries($franchise->ownEntries);
-            $franchise->meanScore = $dist->getMeanScore();
-            $franchises []= $franchise;
-        }
-
-        DataSorter::sort($franchises, DataSorter::MeanScore);
-
-        return $franchises;
+        return $titles;
     }
 
-    public function getMissingTitlesCount($franchises)
+    public function getMissingTitlesCount($titles)
     {
         $count = 0;
 
-        foreach ($franchises as $franchise) {
-            $count += count($franchise->allEntries);
+        foreach ($titles as $title)
+        {
+            $count += count($title->relations);
         }
 
         return $count;
@@ -348,8 +306,8 @@ class UserControllerRecommendationsModule extends AbstractUserControllerModule
 
         $goal = 20;
         $viewContext->newRecommendations = $recsEngine->getNewRecommendations($goal);
-        $viewContext->franchises = $recsEngine->getMissingTitles();
-        $viewContext->missingTitlesCount = $recsEngine->getMissingTitlesCount($viewContext->franchises);
+        $viewContext->missingTitles = $recsEngine->getMissingTitles();
+        $viewContext->missingTitlesCount = $recsEngine->getMissingTitlesCount($viewContext->missingTitles);
         $viewContext->private = $viewContext->user->isUserMediaPrivate($viewContext->media);
     }
 }
