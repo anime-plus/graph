@@ -251,7 +251,7 @@ class RecommendationsEngine
 
         $titles = array_filter($titles, function ($title)
         {
-            return !empty($title->relations);
+            return $title->status !== UserListStatus::Planned && $title->status !== UserListStatus::Dropped && !empty($title->relations);
         });
 
         DataSorter::sort($titles, DataSorter::Title);
