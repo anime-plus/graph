@@ -42,11 +42,11 @@
 							<td class="proposed">
 								<ul>
 									<?php foreach ($entry->relations as $entry): ?>
-										<li data-id="<?php printf('%s%d', Media::toString($entry->media), $entry->mal_id) ?>">
+										<li data-id="<?php echo Media::toString($entry->media) . $entry->mal_id ?>">
 											<a href="#" class="delete-trigger">
-												<i data-tooltip="Hide this recommendation" class="right icon-small-close"></i>
+												<i data-tooltip="Hide" class="right icon-small-close"></i>
 											</a>
-											<a target="_blank" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>" rel="noreferrer">
+											<a data-tooltip="<?php echo ucfirst(MediaRelation::toString($entry->relation_type)) ?>" href="<?php echo $entry->mal_link ?>" title="<?php echo htmlspecialchars($entry->title) ?>" target="_blank" rel="noreferrer">
 												<?php if ($entry->publishing_status == MediaStatus::NotYetPublished): ?>
 													<i data-tooltip="Not yet <?php echo $viewContext->media == Media::Anime ? 'aired' : 'published' ?>" class="left icon-not-yet-aired"></i>
 												<?php else: ?>

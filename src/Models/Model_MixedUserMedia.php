@@ -264,7 +264,7 @@ class Model_MixedUserMedia
     {
         $t = self::createTemporaryTable($titles);
 
-        $rows = R::getAll('SELECT m.*, mr.media_id FROM media m INNER JOIN mediarelation mr ON m.mal_id = mr.mal_id INNER JOIN ' . $t . ' ON mr.media_id = ' . $t . '.media_id WHERE m.media = ? AND mr.media = ?', [$media, $media]);
+        $rows = R::getAll('SELECT m.*, mr.media_id, mr.type relation_type FROM media m INNER JOIN mediarelation mr ON m.mal_id = mr.mal_id INNER JOIN ' . $t . ' ON mr.media_id = ' . $t . '.media_id WHERE m.media = ? AND mr.media = ?', [$media, $media]);
 
         self::dropTemporaryTable($t);
 
