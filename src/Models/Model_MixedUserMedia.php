@@ -262,11 +262,6 @@ class Model_MixedUserMedia
 
     public static function attachMissingRelations(array $titles, string $media)
     {
-        $titles = array_filter($titles, function ($title)
-        {
-            return $title->status !== UserListStatus::Planned && $title->status !== UserListStatus::Dropped;
-        });
-
         $t = self::createTemporaryTable($titles);
 
         $rows = R::getAll('SELECT m.*, mr.media_id FROM media m INNER JOIN mediarelation mr ON m.mal_id = mr.mal_id INNER JOIN ' . $t . ' ON mr.media_id = ' . $t . '.media_id WHERE m.media = ? AND mr.media = ?', [$media, $media]);
