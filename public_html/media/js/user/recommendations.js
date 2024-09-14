@@ -153,7 +153,6 @@ $(function()
 		target.slideUp(function()
 		{
 			var tr = target.parents('tr');
-			var td = target.parents('td');
 			var ul = target.parents('ul');
 			target.hide();
 			if (ul.find('li:not(.hidden)').length == 0)
@@ -182,7 +181,9 @@ $(function()
 		var hidden = readHidden(userName);
 		hidden.push(key);
 		writeHidden(userName, hidden);
-		hide($('[data-id=\'' + key + '\']'), false);
+		$('[data-id=\'' + key + '\']').each(function () {
+			hide($(this), false);
+		});
 		e.preventDefault();
 	});
 
@@ -219,8 +220,9 @@ $(function()
 		var key = hidden[i];
 		if (key.indexOf(media) == 0)
 		{
-			var target = $('[data-id=\'' + key + '\']');
-			hide(target, true);
+			$('[data-id=\'' + key + '\']').each(function () {
+				hide($(this), true);
+			});
 		}
 	}
 });
