@@ -13,4 +13,37 @@ class MediaRelation extends Enum
 	const AlternativeSetting = 10;
 	const Other = 11;
 	const FullStory = 12;
+
+	public static function toString($type, $media = null)
+	{
+		switch ($type)
+		{
+			case self::Sequel:
+				return 'sequel';
+			case self::Prequel:
+				return 'prequel';
+			case self::SideStory:
+				return 'side story';
+			case self::ParentStory:
+				return 'parent story';
+			case self::Adaptation:
+				return 'adaptation';
+			case self::AlternativeVersion:
+				return 'alt. version';
+            case self::Summary:
+                return 'summary';
+            case self::Character:
+                return 'character';
+            case self::SpinOff:
+                return 'spin-off';
+			case self::AlternativeSetting:
+				return 'alt. setting';
+			case self::Other:
+				return 'other';
+			case self::FullStory:
+				return 'full story';
+			default:
+				return 'unknown';
+		}
+	}
 }

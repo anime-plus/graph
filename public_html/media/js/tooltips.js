@@ -18,8 +18,9 @@ $(function()
 		{
 			var target = $(this);
 			var title = $(target).attr('data-tooltip');
-			var posMy = 'center top';
-			var posAt = 'center bottom';
+			var pos = target.prev().attr('class') === 'delete-trigger' ? 'left' : 'center'
+			var posMy = pos + ' top';
+			var posAt = pos + ' bottom';
 
 			var div = $('<div class="tooltip"/>').append($('<span>').html(title.replace(/\|/g, '<br>').replace(/'/g, '&rsquo;')));
 			$(target).data('tooltip', div);
