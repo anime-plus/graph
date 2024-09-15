@@ -261,14 +261,17 @@ class RecommendationsEngine
 
     public function getMissingTitlesCount($titles)
     {
-        $count = 0;
+        $map = [];
 
         foreach ($titles as $title)
         {
-            $count += count($title->relations);
+            foreach ($title->relations as $relation)
+            {
+                $map[$relation->id] = true;
+            }
         }
 
-        return $count;
+        return count($map);
     }
 }
 
