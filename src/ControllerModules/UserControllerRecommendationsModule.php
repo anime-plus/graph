@@ -160,6 +160,19 @@ class RecommendationsEngine
 
     private static function filterFranchises($selectedEntries)
     {
+        $skipTypes = [
+            AnimeMediaType::Special,
+            AnimeMediaType::Music,
+            AnimeMediaType::CM,
+            AnimeMediaType::PV,
+            AnimeMediaType::TV_Special,
+            AnimeMediaType::Unknown,
+            
+            MangaMediaType::Oneshot,
+            MangaMediaType::Doujinshi,
+            MangaMediaType::Unknown,
+        ];
+        
         $franchises = Model_MixedUserMedia::getFranchises($selectedEntries, true);
         $finalEntries = [];
 
@@ -171,14 +184,19 @@ class RecommendationsEngine
             $franchiseSize = 0;
 
             foreach ($franchise->allEntries as $entry) {
-                if ($entry->publishing_status == MediaStatus::NotYetPublished) {
+                if ($entry->publishing_status === MediaStatus::NotYetPublished) {
                     continue;
                 }
 
-                if ($entry->media == Media::Anime) {
+                if ($entry->media === Media::Anime) {
                     $franchiseSize += $entry->episodes;
-                } elseif ($entry->media == Media::Manga) {
+                } elseif ($entry->media === Media::Manga) {
                     $franchiseSize += $entry->chapters;
+                }
+
+                if (in_array($entry->sub_type, $skipTypes))
+                {
+                    continue;
                 }
 
                 if ($entryToAdd === null) {
