@@ -44,11 +44,6 @@
 	position: relative;
 }
 
-.missing .more {
-	display: block;
-	text-align: center;
-	color: silver;
-}
 .missing i.left {
 	margin-right: 4px;
 }
