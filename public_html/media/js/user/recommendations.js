@@ -1,34 +1,7 @@
 $(function()
 {
-	$('.missing tbody tr').each(function()
-	{
-		var tr = $(this);
-		var ul = tr.find('ul');
-		ul.each(function()
-		{
-			$('<ul class="expand"/>').hide().insertAfter($(this));
-		});
-		var newTr = $('<tr><td colspan="2"/></tr>');
-		var link = $('<a class="more" href="#">(more)</a>').click(function(e)
-		{
-			e.preventDefault();
-			tr.find('.expand').slideDown(function()
-			{
-				link.slideUp();
-			});
-		});
-		newTr.insertAfter(tr).find('td').append(link).hide();
-	});
-});
-
-
-
-$(function()
-{
 	var userName = $('#user-name').val();
 	var media = $('#media').val();
-	var num1 = 8;
-	var num2 = 5;
 
 	if (typeof(Storage) === 'undefined')
 	{
@@ -74,74 +47,6 @@ $(function()
 		localStorage.hidden = JSON.stringify(storageHidden);
 	}
 
-
-
-	var collapseUls = function()
-	{
-		$('.tooltip').fadeOut(function()
-		{
-			$(this).remove();
-		});
-		$('.missing tbody.tainted tr').each(function()
-		{
-			var tr = $(this);
-			var doExpand = false;
-			var all = Math.max.apply(Math, tr.find('td').map(function()
-			{
-				return $(this).find('li:not(.hidden)').length;
-			})) < num1;
-			$(this).find('td').each(function()
-			{
-				var td = $(this);
-				var ul1 = td.find('ul:first');
-				var ul2 = td.find('ul.expand');
-
-				var index = 0;
-				td.find('li').each(function()
-				{
-					var li = $(this);
-					if (index < num2 || all)
-					{
-						var justAppeared = li.parents('ul').hasClass('expand') && li.is(':not(:visible)');
-						ul1.append(li);
-						if (justAppeared)
-							li.hide().slideDown();
-					}
-					else
-					{
-						ul2.append(li);
-					}
-					if (!li.hasClass('hidden'))
-					{
-						index ++;
-					}
-				});
-				if (ul2.find('li').length > 0)
-				{
-					doExpand = true;
-				}
-			});
-			if (tr.find('.proposed li:not(.hidden)').length == 0)
-			{
-				doExpand = false;
-			}
-
-			if (doExpand)
-			{
-				tr.next().find('td').slideDown();
-			}
-			else
-			{
-				tr.next().find('td').slideUp();
-			}
-		});
-		$('.missing tbody.tainted').removeClass('tainted');
-	}
-	$('.missing tbody').addClass('tainted');
-	collapseUls();
-
-
-
 	var hide = function(target, fast)
 	{
 		var prevState = $.fx.off;
@@ -159,8 +64,6 @@ $(function()
 			{
 				tr.find('td').slideUp('fast');
 			}
-			tr.parents('tbody').addClass('tainted');
-			collapseUls();
 		});
 
 		var hidden = readHidden(userName);
@@ -185,14 +88,22 @@ $(function()
 		e.preventDefault();
 	});
 
-	$('.missing .delete-trigger-character, .missing .delete-trigger-other').click(function (e) {
+	$('.missing .delete-trigger-alt-setting, .missing .delete-trigger-alt-version, .missing .delete-trigger-summary, .missing .delete-trigger-spin-off, .missing .delete-trigger-character, .missing .delete-trigger-other').click(function (e) {
 		e.preventDefault();
 
 		var type = 'Other';
 
 		var c = $(this).attr('class').replace('delete-trigger-', '');
 
-		if (c === 'character') {
+		if (c === 'alt-setting') {
+			type = 'Alt. setting';
+		} else if (c === 'alt-version') {
+			type = 'Alt. version';
+		} else if (c === 'summary') {
+			type = 'Summary';
+		} else if (c === 'spin-off') {
+			type = 'Spin-off';
+		} else if (c === 'character') {
 			type = 'Character';
 		}
 
@@ -206,7 +117,7 @@ $(function()
 			writeHidden(userName, ids);
 
 			$('[data-id="' + id + '"]').each(function () {
-				hide($(this), false);
+				hide($(this), true);
 			});
 		});
 	});
@@ -224,12 +135,10 @@ $(function()
 		{
 			$('.missing li.hidden').each(function()
 			{
-				$(this).parents('tbody').addClass('tainted');
 				$(this).parents('tr').find('td').slideDown();
 				$(this).slideDown();
 			});
 			$('.missing li.hidden').removeClass('hidden');
-			collapseUls();
 		});
 		e.preventDefault();
 	});
