@@ -173,8 +173,6 @@ $(function()
 		$.fx.off = prevState;
 	}
 
-
-
 	$('.missing .delete-trigger').click(function(e)
 	{
 		var key = $(this).parents('li').attr('data-id');
@@ -187,7 +185,31 @@ $(function()
 		e.preventDefault();
 	});
 
+	$('.missing .delete-trigger-character, .missing .delete-trigger-other').click(function (e) {
+		e.preventDefault();
 
+		var type = 'Other';
+
+		var c = $(this).attr('class').replace('delete-trigger-', '');
+
+		if (c === 'character') {
+			type = 'Character';
+		}
+
+		$('[data-tooltip="' + type + '"]').each(function () {
+			var id = $(this).parents('li').attr('data-id');
+
+			var ids = readHidden(userName);
+
+			ids.push(id);
+
+			writeHidden(userName, ids);
+
+			$('[data-id="' + id + '"]').each(function () {
+				hide($(this), false);
+			});
+		});
+	});
 
 	$('.missing .undelete-trigger').click(function(e)
 	{
