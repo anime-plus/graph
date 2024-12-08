@@ -87,10 +87,22 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 				{
 					case Media::Anime:
                         $finishedEpisodes = Strings::makeInteger($root['num_watched_episodes']);
+                        
+                        if ($root['is_rewatching'])
+                        {
+                            $finishedEpisodes = Strings::makeInteger($root['anime_num_episodes']);
+                        }
+                        
 						break;
 					case Media::Manga:
 						$finishedChapters = Strings::makeInteger($root['num_read_chapters']);
 						$finishedVolumes  = Strings::makeInteger($root['num_read_volumes']);
+
+                        if ($root['is_rereading'])
+                        {
+                            $finishedChapters = Strings::makeInteger($root['manga_num_chapters']);
+                            $finishedVolumes  = Strings::makeInteger($root['manga_num_volumes']);
+                        }
 						break;
 					default:
 						throw new BadMediaException();
