@@ -1,6 +1,6 @@
 <p>
 	<a class="close"><i class="icon-close"></i></a>
-	<?php echo ucfirst(Media::toString($viewContext->media)) ?> of type &bdquo;<?php echo ucfirst(MediaType::toString($viewContext->filterParam, $viewContext->media)) ?>&rdquo;:
+	<?php echo ucfirst(Media::toString($viewContext->media)) ?> of type &ldquo;<?php echo ucfirst(MediaType::toString($viewContext->filterParam, $viewContext->media)) ?>&rdquo;:
 
 	<?php if (!empty($viewContext->entries)): ?>
 		&nbsp;(<?php echo count($viewContext->entries) ?>
