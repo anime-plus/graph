@@ -88,7 +88,7 @@ $(function()
 		e.preventDefault();
 	});
 
-	$('.missing .delete-trigger-alt-setting, .missing .delete-trigger-alt-version, .missing .delete-trigger-summary, .missing .delete-trigger-spin-off, .missing .delete-trigger-character, .missing .delete-trigger-other').click(function (e) {
+	$('.missing .delete-trigger-alt-setting, .missing .delete-trigger-alt-version, .missing .delete-trigger-spin-off, .missing .delete-trigger-character, .missing .delete-trigger-summary, .missing .delete-trigger-side-story, .missing .delete-trigger-other').click(function (e) {
 		e.preventDefault();
 
 		var type = 'Other';
@@ -99,12 +99,14 @@ $(function()
 			type = 'Alt. setting';
 		} else if (c === 'alt-version') {
 			type = 'Alt. version';
-		} else if (c === 'summary') {
-			type = 'Summary';
 		} else if (c === 'spin-off') {
 			type = 'Spin-off';
 		} else if (c === 'character') {
 			type = 'Character';
+		} else if (c === 'summary') {
+			type = 'Summary';
+		} else if (c === 'side-story') {
+			type = 'Side story';
 		}
 
 		$('[data-tooltip="' + type + '"]').each(function () {
