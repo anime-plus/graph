@@ -160,14 +160,16 @@ class RecommendationsEngine
 
     private static function filterFranchises($selectedEntries)
     {
-        $skipTypes = [
+        $skipAnimeTypes = [
             AnimeMediaType::Special,
             AnimeMediaType::Music,
             AnimeMediaType::CM,
             AnimeMediaType::PV,
             AnimeMediaType::TV_Special,
             AnimeMediaType::Unknown,
-            
+        ];
+
+        $skipMangaTypes = [
             MangaMediaType::Oneshot,
             MangaMediaType::Doujinshi,
             MangaMediaType::Unknown,
@@ -189,14 +191,19 @@ class RecommendationsEngine
                 }
 
                 if ($entry->media === Media::Anime) {
+                    if (in_array($entry->sub_type, $skipAnimeTypes))
+                    {
+                        continue;
+                    }
+
                     $franchiseSize += $entry->episodes;
                 } elseif ($entry->media === Media::Manga) {
-                    $franchiseSize += $entry->chapters;
-                }
+                    if (in_array($entry->sub_type, $skipMangaTypes))
+                    {
+                        continue;
+                    }
 
-                if (in_array($entry->sub_type, $skipTypes))
-                {
-                    continue;
+                    $franchiseSize += $entry->chapters;
                 }
 
                 if ($entryToAdd === null) {
