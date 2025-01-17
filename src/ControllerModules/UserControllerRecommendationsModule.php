@@ -191,19 +191,19 @@ class RecommendationsEngine
                 }
 
                 if ($entry->media === Media::Anime) {
+                    $franchiseSize += $entry->episodes;
+                    
                     if (in_array($entry->sub_type, $skipAnimeTypes))
                     {
                         continue;
                     }
-
-                    $franchiseSize += $entry->episodes;
                 } elseif ($entry->media === Media::Manga) {
+                    $franchiseSize += $entry->chapters;
+
                     if (in_array($entry->sub_type, $skipMangaTypes))
                     {
                         continue;
                     }
-
-                    $franchiseSize += $entry->chapters;
                 }
 
                 if ($entryToAdd === null) {
