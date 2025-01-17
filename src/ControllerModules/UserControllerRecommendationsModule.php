@@ -161,6 +161,7 @@ class RecommendationsEngine
     private static function filterFranchises($selectedEntries)
     {
         $skipAnimeTypes = [
+            AnimeMediaType::OVA,
             AnimeMediaType::Special,
             AnimeMediaType::Music,
             AnimeMediaType::CM,
