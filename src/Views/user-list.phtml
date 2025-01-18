@@ -32,8 +32,9 @@
 					<tr>
 						<th class="status" data-tooltip="Status">S</th>
 						<th class="title">Title</th>
-						<th class="score" data-tooltip="Rating">R</th>
-						<th class="diff" data-tooltip="Difference = user&rsquo;s score - average score on MAL">Diff</th>
+						<th class="score" data-tooltip="User&rsquo;s rating">R</th>
+						<th class="average-score" data-tooltip="Avg. rating on MAL">MAL</th>
+						<th class="diff" data-tooltip="Difference = User&rsquo;s rating - Avg. rating on MAL">Diff.</th>
 					</tr>
 				</thead>
 
@@ -51,6 +52,10 @@
 
 							<td class="score" data-sorter="<?php echo $mixedUserMedia->score ?>">
 								<?php echo $mixedUserMedia->score ?: '-' ?>
+							</td>
+
+							<td class="average-score" data-sorter="<?php echo $mixedUserMedia->average_score ?>">
+								<?php echo $mixedUserMedia->average_score > 0 ? number_format($mixedUserMedia->average_score, 2) : '-' ?>
 							</td>
 
 							<?php $diff = sprintf('%.02f', $mixedUserMedia->score - $mixedUserMedia->average_score) ?>
