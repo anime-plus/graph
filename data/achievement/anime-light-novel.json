@@ -1,0 +1,38 @@
+{
+    "media": "A",
+    "order": 301,
+    "achievements": [
+        {
+            "threshold": "20-39",
+            "id": "anime-light-novel-1",
+            "level": "Light Novel: level 1",
+            "title": "First Chapter",
+            "desc": "Some stories need more progress. Yours is one of those."
+        },
+        {
+            "threshold": "40-79",
+            "id": "anime-light-novel-2",
+            "level": "Light Novel: level 2",
+            "title": "Searcher",
+            "desc": "Everyone has a role. Which is yours?"
+        },
+        {
+            "threshold": "80-159",
+            "id": "anime-light-novel-3",
+            "level": "Light Novel: level 3",
+            "title": "The Realization",
+            "desc": "What matters is in the heart. You feel like you can start to see everyone's intentions just by looking at them."
+        },
+        {
+            "threshold": "160+",
+            "id": "anime-light-novel-4",
+            "level": "Light Novel: level MAX",
+            "title": "New Self",
+            "desc": "You have acquired the storytelling and character development required to move your world forward."
+        }
+    ],
+    "requirement": {
+        "type": "source-title",
+        "source": 7
+    }
+}
