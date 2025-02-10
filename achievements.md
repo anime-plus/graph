@@ -636,6 +636,54 @@ This award is a compensation for the intense, paranoid fear of relationships the
 </tbody>
 </table>&nbsp;
 
+### Light Novel
+Awarded for watching anime with Light Novel source.
+
+<table>
+<tbody>
+<tr>
+<td>
+<img src="https://anime.plus/image/achievement/anime-light-novel-1.png" alt="">
+</td>
+<td>
+<strong>First Chapter</strong>
+
+<sub>Some stories need more progress. Yours is one of those.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://anime.plus/image/achievement/anime-light-novel-2.png" alt="">
+</td>
+<td>
+<strong>Searcher</strong>
+
+<sub>Everyone has a role. Which is yours?</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://anime.plus/image/achievement/anime-light-novel-3.png" alt="">
+</td>
+<td>
+<strong>The Realization</strong>
+
+<sub>What matters is in the heart. You feel like you can start to see everyone's intentions just by looking at them.</sub>
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://anime.plus/image/achievement/anime-light-novel-4.png" alt="">
+</td>
+<td>
+<strong>New Self</strong>
+
+<sub>You have acquired the storytelling and character development required to move your world forward.</sub>
+</td>
+</tr>
+</tbody>
+</table>&nbsp;
+
 ### Original
 Awarded for watching anime with Original source.
 
