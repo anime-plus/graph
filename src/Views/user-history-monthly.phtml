@@ -23,11 +23,7 @@
 				<tbody>
 					<?php foreach ($viewContext->monthlyHistoryGroups as $year => $months): ?>
 						<tr>
-							<?php if (count($months, COUNT_RECURSIVE) - count($months)): ?>
-								<th class="entries-trigger" data-key="<?php printf('year-%04d', $year) ?>" data-tooltip="<?php printf('%s %s completed in %s', count($months, COUNT_RECURSIVE) - count($months), Media::toString($viewContext->media), $year) ?>">
-							<?php else: ?>
-								<th>
-							<?php endif ?>
+							<th class="entries-trigger" data-key="<?php printf('year-%04d', $year) ?>" data-tooltip="<?php printf('%s %s completed in %s', count($months, COUNT_RECURSIVE) - count($months), Media::toString($viewContext->media), $year) ?>">
 								<?php echo $year ?>
 							</th>
 							<?php foreach (range(1, 12) as $month): ?>
@@ -124,7 +120,6 @@
 					</div>
 				<?php endif ?>
 			</div>
-
 		<?php endif ?>
 	</div>
 </div>
