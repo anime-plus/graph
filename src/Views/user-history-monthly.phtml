@@ -21,16 +21,20 @@
 					</tr>
 				</thead>
 				<tbody>
-					<?php foreach ($viewContext->monthlyHistoryGroups as $year => $yearGroup): ?>
+					<?php foreach ($viewContext->monthlyHistoryGroups as $year => $months): ?>
 						<tr>
-							<th>
+							<?php if (count($months, COUNT_RECURSIVE) - count($months)): ?>
+								<th class="entries-trigger" data-key="<?php printf('year-%04d', $year) ?>" data-tooltip="<?php printf('%s %s completed in %s', count($months, COUNT_RECURSIVE) - count($months), Media::toString($viewContext->media), $year) ?>">
+							<?php else: ?>
+								<th>
+							<?php endif ?>
 								<?php echo $year ?>
 							</th>
 							<?php foreach (range(1, 12) as $month): ?>
-								<?php $class = ($year == date('Y') and $month == date('m')) ? 'box-cell now' : 'box-cell' ?>
-								<?php $entries = isset($yearGroup[$month]) ? $yearGroup[$month] : [] ?>
+								<?php $class = ($year == date('Y') && $month == date('m')) ? 'box-cell now' : 'box-cell' ?>
+								<?php $entries = isset($months[$month]) ? $months[$month] : [] ?>
 								<?php if (count($entries)): ?>
-									<td class="<?php echo $class ?> entries-trigger" data-key="<?php printf('month-%04d-%02d', $year, $month) ?>" data-tooltip="<?php printf('%s completed in %s %s: %d', ucfirst(Media::toString($viewContext->media)), $longMonthNames[$month - 1], $year, count($entries)) ?>">
+									<td class="<?php echo $class ?> entries-trigger" data-key="<?php printf('month-%04d-%02d', $year, $month) ?>" data-tooltip="<?php printf('%s %s completed in %s %s', count($entries), Media::toString($viewContext->media), $shortMonthNames[$month - 1], $year) ?>">
 								<?php else: ?>
 									<td class="<?php echo $class ?>">
 								<?php endif ?>
@@ -51,17 +55,40 @@
 			<div class="clear"></div>
 
 			<div class="entries-wrapper">
-				<?php foreach ($viewContext->monthlyHistoryGroups as $year => $yearGroup): ?>
-					<?php foreach ($yearGroup as $month => $entries): ?>
+				<?php foreach ($viewContext->monthlyHistoryGroups as $year => $months): ?>
+					<div class="entries-sub-wrapper" id="<?php printf('year-%04d', $year) ?>">
+						<p>
+							<a class="close"><i class="icon-close"></i></a>
+							<?php printf('%s %s completed in %s:', count($months, COUNT_RECURSIVE) - count($months), Media::toString($viewContext->media), $year) ?>
+						</p>
+						<?php if ($viewContext->isPrivate): ?>
+							<p>Can&rsquo;t show you titles from a private list.</p>
+						<?php else: ?>
+							<ul>
+								<?php foreach ($months as $month => $entries): ?>
+
+									<?php foreach ($entries as $entry): ?>
+										<li>
+											<a target="_blank" href="<?php echo $entry->mal_link ?>" rel="noreferrer">
+												<?php echo htmlspecialchars($entry->title) ?>
+											</a>
+											<span class="details">&nbsp;(<?php echo $entry->score ? 'rated with ' . $entry->score : 'unrated' ?>)</span>
+										</li>
+									<?php endforeach ?>
+
+								<?php endforeach ?>
+							</ul>
+						<?php endif ?>
+					</div>
+
+					<?php foreach ($months as $month => $entries): ?>
 						<div class="entries-sub-wrapper" id="<?php printf('month-%04d-%02d', $year, $month) ?>">
 							<p>
 								<a class="close"><i class="icon-close"></i></a>
-								<?php printf('%s completed in %s %s: (%d)', ucfirst(Media::toString($viewContext->media)), $longMonthNames[$month - 1], $year, count($entries)) ?>
+								<?php printf('%s %s completed in %s %s:', count($entries), Media::toString($viewContext->media), $longMonthNames[$month - 1], $year) ?>
 							</p>
 							<?php if ($viewContext->isPrivate): ?>
 								<p>Can&rsquo;t show you titles from a private list.</p>
-							<?php elseif (empty($entries)): ?>
-								<p>None!</p>
 							<?php else: ?>
 								<ul>
 									<?php foreach ($entries as $entry): ?>
@@ -82,7 +109,7 @@
 					<div class="entries-sub-wrapper" id="month-unknown">
 						<p>
 							<a class="close"><i class="icon-close"></i></a>
-							<?php printf('%s with unknown completion date: (%d)', ucfirst(Media::toString($viewContext->media)), count($entries)) ?>
+							<?php printf('%s %s with unknown completion date:', count($entries), Media::toString($viewContext->media)) ?>
 						</p>
 						<ul>
 							<?php foreach ($entries as $entry): ?>
