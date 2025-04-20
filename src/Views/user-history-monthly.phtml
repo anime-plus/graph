@@ -23,14 +23,14 @@
 				<tbody>
 					<?php foreach ($viewContext->monthlyHistoryGroups as $year => $months): ?>
 						<tr>
-							<th class="entries-trigger" data-key="<?php printf('year-%04d', $year) ?>" data-tooltip="<?php printf('%s %s completed in %s', count($months, COUNT_RECURSIVE) - count($months), Media::toString($viewContext->media), $year) ?>">
+							<th class="entries-trigger" data-key="<?php printf('year-%04d', $year) ?>" data-tooltip="<?php printf('%s completed in %s (%s, %s)', ucfirst(Media::toString($viewContext->media)), $year, count($months, COUNT_RECURSIVE) - count($months), $viewContext->yearlyHistoryGroupsScores[$year] ? 'mean score: ' . $viewContext->yearlyHistoryGroupsScores[$year] : 'none rated') ?>">
 								<?php echo $year ?>
 							</th>
 							<?php foreach (range(1, 12) as $month): ?>
 								<?php $class = ($year == date('Y') && $month == date('m')) ? 'box-cell now' : 'box-cell' ?>
 								<?php $entries = isset($months[$month]) ? $months[$month] : [] ?>
 								<?php if (count($entries)): ?>
-									<td class="<?php echo $class ?> entries-trigger" data-key="<?php printf('month-%04d-%02d', $year, $month) ?>" data-tooltip="<?php printf('%s %s completed in %s %s', count($entries), Media::toString($viewContext->media), $shortMonthNames[$month - 1], $year) ?>">
+									<td class="<?php echo $class ?> entries-trigger" data-key="<?php printf('month-%04d-%02d', $year, $month) ?>" data-tooltip="<?php printf('%s completed in %s %s (%s, %s)', ucfirst(Media::toString($viewContext->media)), $shortMonthNames[$month - 1], $year, count($entries), $viewContext->monthlyHistoryGroupsScores[$year][$month] ? 'mean score: ' . $viewContext->monthlyHistoryGroupsScores[$year][$month] : 'none rated') ?>">
 								<?php else: ?>
 									<td class="<?php echo $class ?>">
 								<?php endif ?>
@@ -55,7 +55,7 @@
 					<div class="entries-sub-wrapper" id="<?php printf('year-%04d', $year) ?>">
 						<p>
 							<a class="close"><i class="icon-close"></i></a>
-							<?php printf('%s %s completed in %s:', count($months, COUNT_RECURSIVE) - count($months), Media::toString($viewContext->media), $year) ?>
+							<?php printf('%s completed in %s: (%s, %s)', ucfirst(Media::toString($viewContext->media)), $year, count($months, COUNT_RECURSIVE) - count($months), $viewContext->yearlyHistoryGroupsScores[$year] ? 'mean score: ' . $viewContext->yearlyHistoryGroupsScores[$year] : 'none rated') ?>
 						</p>
 						<?php if ($viewContext->isPrivate): ?>
 							<p>Can&rsquo;t show you titles from a private list.</p>
@@ -81,7 +81,7 @@
 						<div class="entries-sub-wrapper" id="<?php printf('month-%04d-%02d', $year, $month) ?>">
 							<p>
 								<a class="close"><i class="icon-close"></i></a>
-								<?php printf('%s %s completed in %s %s:', count($entries), Media::toString($viewContext->media), $longMonthNames[$month - 1], $year) ?>
+								<?php printf('%s completed in %s %s: (%s, %s)', ucfirst(Media::toString($viewContext->media)), $longMonthNames[$month - 1], $year, count($entries), $viewContext->monthlyHistoryGroupsScores[$year][$month] ? 'mean score: ' . $viewContext->monthlyHistoryGroupsScores[$year][$month] : 'none rated') ?>
 							</p>
 							<?php if ($viewContext->isPrivate): ?>
 								<p>Can&rsquo;t show you titles from a private list.</p>
@@ -105,7 +105,7 @@
 					<div class="entries-sub-wrapper" id="month-unknown">
 						<p>
 							<a class="close"><i class="icon-close"></i></a>
-							<?php printf('%s %s with unknown completion date:', count($entries), Media::toString($viewContext->media)) ?>
+							<?php printf('%s with unknown completion date: (%s, %s)', ucfirst(Media::toString($viewContext->media)), count($entries), $viewContext->monthlyHistoryUnknownEntriesScore ? 'mean score: ' . $viewContext->monthlyHistoryUnknownEntriesScore : 'none rated') ?>
 						</p>
 						<ul>
 							<?php foreach ($entries as $entry): ?>

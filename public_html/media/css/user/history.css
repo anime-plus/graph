@@ -24,8 +24,10 @@ ul.infobox {
 	padding-bottom: 8px;
 }
 .history-monthly table th:first-child {
-	cursor: pointer;
 	text-align: center;
+}
+.history-monthly table th.entries-trigger:first-child {
+	cursor: pointer;
 }
 .history-monthly table {
 	width: 100%;
