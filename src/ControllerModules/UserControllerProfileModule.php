@@ -39,9 +39,14 @@ class UserControllerProfileModule extends AbstractUserControllerModule
 
         $viewContext->finished = [];
         $viewContext->meanUserScore = [];
-        $viewContext->meanGlobalScore = [];
         $viewContext->franchiseCount = [];
         $viewContext->mismatchedCount = [];
+
+        $globalsCache = file_exists(Config::$globalsCachePath) ? TextHelper::loadJson(Config::$globalsCachePath, true) : [];
+
+        $viewContext->meanGlobalScore = array_map(function($v) {
+            return RatingDistribution::fromArray($v)->getMeanScore();
+        }, $globalsCache['rating-dist']);
 
         foreach (Media::getConstList() as $media) {
             $list = $viewContext->user->getMixedUserMedia($media);
@@ -52,7 +57,7 @@ class UserControllerProfileModule extends AbstractUserControllerModule
 
             $listNonPlanned = UserMediaFilter::doFilter($list, UserMediaFilter::nonPlanned());
             $viewContext->meanUserScore[$media] = RatingDistribution::fromEntries($listNonPlanned)->getMeanScore();
-            $viewContext->meanGlobalScore[$media] = Model_MixedUserMedia::getRatingDistribution($media)->getMeanScore();
+            $viewContext->meanGlobalScore[$media] ??= 0;
             $franchises = Model_MixedUserMedia::getFranchises($listNonPlanned);
             $viewContext->franchiseCount[$media] = count(array_filter($franchises, function($franchise) { return count($franchise->ownEntries) > 1; }));
             unset($franchises);
