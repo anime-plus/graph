@@ -44,6 +44,8 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 	{
 		Database::delete('usermedia', ['user_id' => $context->user->id]);
 
+        $year = date('y', strtotime('+26 hour'));
+
         foreach (Media::getConstList() as $media) {
 			$data = [];
 
@@ -68,10 +70,33 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 			{
 				$mediaMalId = Strings::makeInteger($media === Media::Anime ? $root['anime_id'] : $root['manga_id']);
 				$score      = Strings::makeInteger($root['score']);
-				$startDate  = preg_match('#^[0-9]{2}-[0-9]{2}-[0-9]{2}$#', $root['start_date_string'] ?? '') ? sprintf('%3$s-%1$s-%2$s', ...explode('-', $root['start_date_string'])) : Strings::makeDate('');
-                $startDate  = substr($startDate, 0, 2) > date('y', strtotime('+26 hour')) ? '19' . $startDate : '20' . $startDate;
-				$finishDate = preg_match('#^[0-9]{2}-[0-9]{2}-[0-9]{2}$#', $root['finish_date_string'] ?? '') ? sprintf('%3$s-%1$s-%2$s', ...explode('-', $root['finish_date_string'])) : Strings::makeDate('');
-                $finishDate = substr($finishDate, 0, 2) > date('y', strtotime('+26 hour')) ? '19' . $finishDate : '20' . $finishDate;
+
+                $startDate = $root['start_date_string'] ?? '00-00-00';
+
+                if (preg_match('#^\d{2}-\d{2}-\d{2}$#', $startDate))
+                {
+                    [$m, $d, $y] = explode('-', $startDate);
+
+                    $startDate = $y === '00' ? '0000-00-00' : sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
+                }
+                else
+                {
+                    $startDate = '0000-00-00';
+                }
+
+                $finishDate = $root['finish_date_string'] ?? '00-00-00';
+
+                if (preg_match('#^\d{2}-\d{2}-\d{2}$#', $finishDate))
+                {
+                    [$m, $d, $y] = explode('-', $finishDate);
+
+                    $finishDate = $y === '00' ? '0000-00-00' : sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
+                }
+                else
+                {
+                    $finishDate = '0000-00-00';
+                }
+
 				$status     = Strings::makeEnum($root['status'], [
 					1 => UserListStatus::Completing,
 					2 => UserListStatus::Finished,

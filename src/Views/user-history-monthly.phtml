@@ -62,7 +62,6 @@
 						<?php else: ?>
 							<ul>
 								<?php foreach ($months as $month => $entries): ?>
-
 									<?php foreach ($entries as $entry): ?>
 										<li>
 											<a target="_blank" href="<?php echo $entry->mal_link ?>" rel="noreferrer">
@@ -71,33 +70,34 @@
 											<span class="details">&nbsp;(<?php echo $entry->score ? 'rated with ' . $entry->score : 'unrated' ?>)</span>
 										</li>
 									<?php endforeach ?>
-
 								<?php endforeach ?>
 							</ul>
 						<?php endif ?>
 					</div>
 
 					<?php foreach ($months as $month => $entries): ?>
-						<div class="entries-sub-wrapper" id="<?php printf('month-%04d-%02d', $year, $month) ?>">
-							<p>
-								<a class="close"><i class="icon-close"></i></a>
-								<?php printf('%s completed in %s %s: (%s, %s)', ucfirst(Media::toString($viewContext->media)), $longMonthNames[$month - 1], $year, count($entries), $viewContext->monthlyHistoryGroupsScores[$year][$month] ? 'mean score: ' . $viewContext->monthlyHistoryGroupsScores[$year][$month] : 'none rated') ?>
-							</p>
-							<?php if ($viewContext->isPrivate): ?>
-								<p>Can&rsquo;t show you titles from a private list.</p>
-							<?php else: ?>
-								<ul>
-									<?php foreach ($entries as $entry): ?>
-										<li>
-											<a target="_blank" href="<?php echo $entry->mal_link ?>" rel="noreferrer">
-												<?php echo htmlspecialchars($entry->title) ?>
-											</a>
-											<span class="details">&nbsp;(<?php echo $entry->score ? 'rated with ' . $entry->score : 'unrated' ?>)</span>
-										</li>
-									<?php endforeach ?>
-								</ul>
-							<?php endif ?>
-						</div>
+						<?php if ($month > 0): ?>
+							<div class="entries-sub-wrapper" id="<?php printf('month-%04d-%02d', $year, $month) ?>">
+								<p>
+									<a class="close"><i class="icon-close"></i></a>
+									<?php printf('%s completed in %s %s: (%s, %s)', ucfirst(Media::toString($viewContext->media)), $longMonthNames[$month - 1], $year, count($entries), $viewContext->monthlyHistoryGroupsScores[$year][$month] ? 'mean score: ' . $viewContext->monthlyHistoryGroupsScores[$year][$month] : 'none rated') ?>
+								</p>
+								<?php if ($viewContext->isPrivate): ?>
+									<p>Can&rsquo;t show you titles from a private list.</p>
+								<?php else: ?>
+									<ul>
+										<?php foreach ($entries as $entry): ?>
+											<li>
+												<a target="_blank" href="<?php echo $entry->mal_link ?>" rel="noreferrer">
+													<?php echo htmlspecialchars($entry->title) ?>
+												</a>
+												<span class="details">&nbsp;(<?php echo $entry->score ? 'rated with ' . $entry->score : 'unrated' ?>)</span>
+											</li>
+										<?php endforeach ?>
+									</ul>
+								<?php endif ?>
+							</div>
+						<?php endif ?>
 					<?php endforeach ?>
 				<?php endforeach ?>
 				<?php if (!empty($viewContext->monthlyHistoryUnknownEntries)): ?>
