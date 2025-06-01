@@ -71,7 +71,7 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 				$mediaMalId = Strings::makeInteger($media === Media::Anime ? $root['anime_id'] : $root['manga_id']);
 				$score      = Strings::makeInteger($root['score']);
 
-                $startDate = $root['start_date_string'] ?? '00-00-00';
+                $startDate = $root['start_date_string'] ?? '';
 
                 if (preg_match('#^\d{2}-\d{2}-\d{2}$#', $startDate))
                 {
@@ -84,7 +84,7 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
                     $startDate = '0000-00-00';
                 }
 
-                $finishDate = $root['finish_date_string'] ?? '00-00-00';
+                $finishDate = $root['finish_date_string'] ?? '';
 
                 if (preg_match('#^\d{2}-\d{2}-\d{2}$#', $finishDate))
                 {
