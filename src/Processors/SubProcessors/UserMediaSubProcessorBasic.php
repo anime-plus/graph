@@ -77,7 +77,7 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
                 {
                     [$m, $d, $y] = explode('-', $startDate);
 
-                    $startDate = $y === '00' ? '0000-00-00' : sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
+                    $startDate = sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
                 }
                 else
                 {
@@ -90,7 +90,7 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
                 {
                     [$m, $d, $y] = explode('-', $finishDate);
 
-                    $finishDate = $y === '00' ? '0000-00-00' : sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
+                    $finishDate = sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
                 }
                 else
                 {
