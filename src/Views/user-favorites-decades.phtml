@@ -7,7 +7,7 @@
 			<p>There is no information about any completion dates for this user.</p>
 			<p>Add a few titles and come back in <?php echo TextHelper::getTimeText($viewContext->updateWait, TextHelper::TIME_HOURS) ?>.<br>We'll be waiting for you.</p>
 		<?php else: ?>
-			<p class="toggle-decades-msg"><a href="#">Toggle decades/years visibility</a></p>
+			<p class="toggle-decades-msg"><a href="#" class="toggle-decades">Toggle decades/years visibility</a> &#8226; <a href="#" class="toggle-zoom">Toggle zoom</a></p>
 
 			<div class="target-wrapper">
 				<div class="target"></div>
@@ -24,7 +24,12 @@
 					{
 						renderTo: $('.decades .target')[0],
 						type: 'spline',
-						marginTop: 8
+						marginTop: 8,
+						events: {
+							load: function () {
+								this.yAxis[0].setExtremes(this.yAxis[0].getExtremes().dataMin, this.yAxis[0].getExtremes().dataMax);
+							},
+						},
 					},
 
 					xAxis:

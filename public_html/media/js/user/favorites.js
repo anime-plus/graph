@@ -56,7 +56,7 @@ $(function()
 
 	$('table').tablesorter(opt);
 
-	$('.toggle-decades-msg').click(function(e)
+	$('.toggle-decades').click(function(e)
 	{
 		//decadesChart.series[1].setVisible(!decadesChart.series[1].visible);
 		if (decadesChart.series[0].visible && decadesChart.series[1].visible)
@@ -78,5 +78,19 @@ $(function()
 			decadesChart.series[1].show();
 		}
 		e.preventDefault();
+	});
+
+	let zoomed = false;
+
+	$('.toggle-zoom').click(function(e) {
+		e.preventDefault();
+
+		if (zoomed) {
+			decadesChart.yAxis[0].setExtremes(decadesChart.yAxis[0].getExtremes().dataMin, decadesChart.yAxis[0].getExtremes().dataMax);
+		} else {
+			decadesChart.yAxis[0].setExtremes(0, 10);
+		}
+
+		zoomed = !zoomed;
 	});
 });
