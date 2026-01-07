@@ -42,6 +42,8 @@ class UserController extends AbstractController
 
     public static function preWork(&$controllerContext, &$viewContext)
     {
+        $viewContext->meta->noIndex = true;
+        
         $controllerContext->cache->setPrefix($controllerContext->userName);
         if (BanHelper::getUserBanState($controllerContext->userName) == BanHelper::USER_BAN_TOTAL)
         {
@@ -49,7 +51,6 @@ class UserController extends AbstractController
             $viewContext->userName = $controllerContext->userName;
             $viewContext->viewName = 'error-user-blocked';
             $viewContext->meta->title = 'User blocked - ' . Config::$title;
-            $viewContext->meta->noIndex = true;
             return;
         }
 
@@ -74,8 +75,6 @@ class UserController extends AbstractController
                 $viewContext->viewName = 'error-user-not-found';
 
                 $viewContext->meta->title = 'User not found &#8212; ' . Config::$title;
-
-                $viewContext->meta->noIndex = true;
 
                 return;
             }
