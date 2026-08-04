@@ -77,6 +77,12 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
                 {
                     [$m, $d, $y] = explode('-', $startDate);
 
+                    if ($m === '00')
+                    {
+                        $m = $d;
+                        $d = '00';
+                    }
+
                     $startDate = sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
                 }
                 else
@@ -89,6 +95,12 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
                 if (preg_match('#^\d{2}-\d{2}-\d{2}$#', $finishDate))
                 {
                     [$m, $d, $y] = explode('-', $finishDate);
+
+                    if ($m === '00')
+                    {
+                        $m = $d;
+                        $d = '00';
+                    }
 
                     $finishDate = sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
                 }
