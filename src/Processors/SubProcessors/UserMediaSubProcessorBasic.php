@@ -77,12 +77,6 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
                 {
                     [$m, $d, $y] = explode('-', $startDate);
 
-                    if ($m === '00')
-                    {
-                        $m = $d;
-                        $d = '00';
-                    }
-
                     $startDate = sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
                 }
                 else
@@ -95,12 +89,6 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
                 if (preg_match('#^\d{2}-\d{2}-\d{2}$#', $finishDate))
                 {
                     [$m, $d, $y] = explode('-', $finishDate);
-
-                    if ($m === '00')
-                    {
-                        $m = $d;
-                        $d = '00';
-                    }
 
                     $finishDate = sprintf('%4$s%3$s-%1$s-%2$s', $m, $d, $y, $y > $year ? '19' : '20');
                 }
@@ -164,31 +152,31 @@ class UserMediaSubProcessorBasic extends UserMediaSubProcessor
 
             foreach ($data as $entry)
             {
-                [, $m, $d] = explode('-', $entry['start_date']);
+                [, $m, $d] = array_map('intval', explode('-', $entry['start_date']));
 
-                if (intval($m) > 12)
+                if ($d > 12)
+                {
+                    break;
+                }
+
+                if ($m > 12 || ($m === 0 && $d !== 0))
                 {
                     $ydm = true;
 
                     break;
                 }
 
-                if (intval($d) > 12)
+                [, $m, $d] = array_map('intval', explode('-', $entry['end_date']));
+
+                if ($d > 12)
                 {
                     break;
                 }
 
-                [, $m, $d] = explode('-', $entry['end_date']);
-
-                if (intval($m) > 12)
+                if ($m > 12 || ($m === 0 && $d !== 0))
                 {
                     $ydm = true;
 
-                    break;
-                }
-
-                if (intval($d) > 12)
-                {
                     break;
                 }
             }
